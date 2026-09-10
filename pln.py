@@ -1,3 +1,8 @@
+# pip install requests
+# python -m pip install pandas
+# python -m pip install beautifulsoup4
+# python -m pip install lxml
+
 import os
 import re
 import time
@@ -25,7 +30,7 @@ BASE_FEED = "https://ge.globo.com/futebol/index/feed/pagina-{}.ghtml"
 # OBTENÇÃO DOS LINKS DAS NOTÍCIAS
 # ==========================================================
 
-def obter_links_noticias(qtd=100):
+def obter_links_noticias(qtd=500):
     """
     Percorre as páginas do feed do GE e coleta os links
     das notícias de futebol.
@@ -329,7 +334,7 @@ def main():
     """
 
     # Quantidade de notícias que serão buscadas.
-    links = obter_links_noticias(100)
+    links = obter_links_noticias(500)
 
     print(f"\n{len(links)} links encontrados.\n")
 
