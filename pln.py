@@ -206,6 +206,23 @@ def extrair_noticia(url):
 
         data_publicacao = ""
 
+        # 1 - procura nos metadados
+        meta_data = soup.find("meta", {"property": "article:published_time"})
+
+        if meta_data:
+           data_publicacao = meta_data.get("content", "")
+
+        # 2 - se não encontrou, tenta pegar do próprio link
+        if not data_publicacao:
+           match = re.search(
+            r"/(\d{4})/(\d{2})/(\d{2})/",
+            url
+           )
+
+        if match:
+           ano, mes, dia = match.groups()
+           data_publicacao = f"{dia}/{mes}/{ano}"
+        
         # Procura a informação de data dentro da meta tag
         # article:published_time.
         meta_data = soup.find(

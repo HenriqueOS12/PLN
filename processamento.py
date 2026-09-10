@@ -91,6 +91,12 @@ def processar_texto(texto):
 # Lê o CSV da mesma pasta do script
 df = pd.read_csv("noticias_ge.csv")
 
+df.insert(
+    0,
+    "id",
+    df["url"]
+)
+
 # Processa apenas a coluna texto
 colunas_processadas = (
     df["texto"]
@@ -120,6 +126,18 @@ with open(
 ) as arquivo:
 
     for indice, linha in df_final.iterrows():
+
+        arquivo.write("ID:\n")
+        arquivo.write(str(linha["id"]))
+        arquivo.write("\n\n")
+
+        arquivo.write("TITULO:\n")
+        arquivo.write(str(linha["titulo"]))
+        arquivo.write("\n\n")
+
+        arquivo.write("DATA PUBLICACAO:\n")
+        arquivo.write(str(linha["data_publicacao"]))
+        arquivo.write("\n\n")
 
         arquivo.write("TEXTO BRUTO:\n")
         arquivo.write(str(linha["texto"]))
