@@ -1,0 +1,10 @@
+Campo			Descrição
+titulo			Contém o título original da notícia.
+data_publicacao		Contém a data e o horário de publicação da notícia.
+url			Contém o endereço da página original da notícia no portal GE.
+texto			Contém o texto da notícia após a extração da página e a remoção de conteúdos considerados indesejados, como propagandas e recomendações.
+tokens			Contém o texto separado em tokens por meio da tokenização.
+tokens_normalizados	Contém os tokens após a normalização, com conversão para letras minúsculas e remoção de tokens que não são formados somente por letras.
+tokens_sem_stopwords	Contém os tokens após a remoção das stopwords da língua portuguesa.
+lemas			Contém os lemas das palavras obtidos por meio da lematização utilizando o modelo de português do spaCy.
+stems			Contém os stems das palavras obtidos por meio do algoritmo de stemming RSLP.
