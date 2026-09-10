@@ -30,7 +30,7 @@ BASE_FEED = "https://ge.globo.com/futebol/index/feed/pagina-{}.ghtml"
 # OBTENÇÃO DOS LINKS DAS NOTÍCIAS
 # ==========================================================
 
-def obter_links_noticias(qtd=500):
+def obter_links_noticias(qtd=100):
     """
     Percorre as páginas do feed do GE e coleta os links
     das notícias de futebol.
@@ -334,7 +334,7 @@ def main():
     """
 
     # Quantidade de notícias que serão buscadas.
-    links = obter_links_noticias(500)
+    links = obter_links_noticias(100)
 
     print(f"\n{len(links)} links encontrados.\n")
 
