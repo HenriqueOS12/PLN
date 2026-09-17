@@ -23,6 +23,12 @@ Arquivo gerado: noticias_ge_tfidf.csv
 SIMILARIDADE
 ==================================================
 Matriz de similaridade: 100 x 100
+
+==================================================
+HEATMAP DE SIMILARIDADE
+==================================================
+Arquivo gerado: heatmap_bow.html
+Arquivo gerado: heatmap_tfidf.html
 Arquivo gerado: noticias_ge_similaridade.csv
 
 ==================================================

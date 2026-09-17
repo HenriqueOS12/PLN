@@ -9,6 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 import plotly.express as px
+import plotly.graph_objects as go
 import numpy as np
 
 # Arquivo de relatório
@@ -160,6 +161,108 @@ df_similaridade = pd.DataFrame(
 df_similaridade.to_csv(
     "noticias_ge_similaridade.csv",
     encoding="utf-8-sig"
+)
+
+# ==========================================================
+# 4.1 HEATMAP DE SIMILARIDADE
+# ==========================================================
+
+escrever()
+escrever("=" * 50)
+escrever("HEATMAP DE SIMILARIDADE")
+escrever("=" * 50)
+
+# IDs das notícias
+ids = df["id"].tolist()
+
+# Títulos das notícias
+titulos = df["titulo"].tolist()
+
+
+def criar_heatmap(matriz, titulo, nome_arquivo):
+
+    # Dados adicionais para o tooltip
+    customdata = []
+
+    for i in range(len(df)):
+
+        linha = []
+
+        for j in range(len(df)):
+
+            linha.append([
+                ids[i],
+                ids[j],
+                titulos[i],
+                titulos[j]
+            ])
+
+        customdata.append(linha)
+
+    # Criar heatmap
+    fig = go.Figure(
+        data=go.Heatmap(
+            z=matriz,
+            x=ids,
+            y=ids,
+            colorscale="Blues",
+            zmin=0,
+            zmax=1,
+            customdata=customdata,
+
+            hovertemplate=
+                "<b>Notícia 1:</b> %{customdata[0]}<br>"
+                "%{customdata[2]}<br><br>"
+
+                "<b>Notícia 2:</b> %{customdata[1]}<br>"
+                "%{customdata[3]}<br><br>"
+
+                "<b>Similaridade:</b> %{z:.3f}"
+                "<extra></extra>"
+        )
+    )
+
+    fig.update_layout(
+        title=titulo,
+        xaxis_title="Notícia",
+        yaxis_title="Notícia",
+        width=1000,
+        height=900
+    )
+
+    # Salvar como HTML
+    fig.write_html(nome_arquivo)
+
+    escrever(f"Arquivo gerado: {nome_arquivo}")
+
+
+# ----------------------------------------------------------
+# Similaridade usando Bag of Words
+# ----------------------------------------------------------
+
+similaridade_bow = cosine_similarity(
+    bow_matrix
+)
+
+criar_heatmap(
+    similaridade_bow,
+    "Similaridade entre notícias — Bag of Words",
+    "heatmap_bow.html"
+)
+
+
+# ----------------------------------------------------------
+# Similaridade usando TF-IDF
+# ----------------------------------------------------------
+
+similaridade_tfidf = cosine_similarity(
+    tfidf_matrix
+)
+
+criar_heatmap(
+    similaridade_tfidf,
+    "Similaridade entre notícias — TF-IDF",
+    "heatmap_tfidf.html"
 )
 
 escrever("Arquivo gerado: noticias_ge_similaridade.csv")
