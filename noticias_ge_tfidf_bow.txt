@@ -33,40 +33,6 @@ Notícia 2: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/di
 Similaridade: 0.0327
 
 ==================================================
-K-MEANS
-==================================================
-Clusters gerados: 10
-Arquivo gerado: noticias_clusters.csv
-
-==================================================
-PCA 2D
-==================================================
-Arquivos gerados:
-- pca_2d.csv
-- pca_2d.html
-
-==================================================
-PCA 3D
-==================================================
-Arquivos gerados:
-- pca_3d.csv
-- pca_3d.html
-
-==================================================
-PALAVRAS REPRESENTATIVAS
-==================================================
-Cluster 0: jair, seleção, ancelotti, carsughi, brasileira, brasil, convocação, índia, austrália, nottingham
-Cluster 1: vasco, richarlison, tottenham, lescano, botafogo, jogador, rescisão, clube, argentinos, janela
-Cluster 2: corinthians, estudiantes, libertadores, conmebol, neymar, galo, tempo, final, hugo, quartas
-Cluster 3: barcelona, raphinha, liga, champions, feyenoord, temporada, united, gols, fase, league
-Cluster 4: palmeiras, abel, ldu, giay, ferreira, libertadores, medina, deyverson, clube, conmebol
-Cluster 5: paulo, avaí, casares, julio, clube, boca, guga, kuerten, rildo, luciano
-Cluster 6: cruzeiro, bragantino, convocado, seleção, danilo, coritiba, vini, athletico, pereira, matheus
-Cluster 7: brasil, copa, mané, garrincha, fase, cbf, criciúma, cascavel, cuiabá, barra
-Cluster 8: city, manchester, r, bouaddi, milhões, infantino, feminino, futebol, euros, league
-Cluster 9: flamengo, del, valle, libertadores, independiente, fluminense, gol, platense, contra, jardim
-
-==================================================
 PROCESSAMENTO CONCLUÍDO
 ==================================================
 Arquivos gerados:
@@ -74,8 +40,3 @@ Arquivos gerados:
 - noticias_ge_tfidf.csv
 - noticias_ge_similaridade.csv
 - noticias_ge_tfidf_bow.txt
-- noticias_clusters.csv
-- pca_2d.csv
-- pca_3d.csv
-- pca_2d.html
-- pca_3d.html
