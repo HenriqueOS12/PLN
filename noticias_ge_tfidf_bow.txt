@@ -1,0 +1,42 @@
+==================================================
+CARREGANDO DADOS
+==================================================
+Documentos encontrados: 100
+
+==================================================
+BAG OF WORDS
+==================================================
+Documentos: 100
+Palavras no vocabulário: 4881
+Matriz: 100 x 4881
+Arquivo gerado: noticias_ge_bow.csv
+
+==================================================
+TF-IDF
+==================================================
+Documentos: 100
+Palavras no vocabulário: 4881
+Matriz: 100 x 4881
+Arquivo gerado: noticias_ge_tfidf.csv
+
+==================================================
+SIMILARIDADE
+==================================================
+Matriz de similaridade: 100 x 100
+Arquivo gerado: noticias_ge_similaridade.csv
+
+==================================================
+EXEMPLO DE SIMILARIDADE
+==================================================
+Notícia 1: https://ge.globo.com/sc/futebol/noticia/2026/09/09/barra-elimina-o-internacional-na-primeira-fase-da-copa-do-brasil-sub-20.ghtml
+Notícia 2: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-corinthians-mas-pede-atencao-com-o-estudiantes-na-volta-sabe-jogar-fora-de-casa.ghtml
+Similaridade: 0.0327
+
+==================================================
+PROCESSAMENTO CONCLUÍDO
+==================================================
+Arquivos gerados:
+- noticias_ge_bow.csv
+- noticias_ge_tfidf.csv
+- noticias_ge_similaridade.csv
+- noticias_ge_tfidf_bow.txt
