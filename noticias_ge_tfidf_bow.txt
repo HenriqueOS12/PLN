@@ -20,17 +20,24 @@ Matriz: 100 x 4881
 Arquivo gerado: noticias_ge_tfidf.csv
 
 ==================================================
-SIMILARIDADE
+SIMILARIDADE — BAG OF WORDS
 ==================================================
-Matriz de similaridade: 100 x 100
+Matriz de similaridade BOW: 100 x 100
+
+==================================================
+SIMILARIDADE — TF-IDF
+==================================================
+Matriz de similaridade TF-IDF: 100 x 100
 Arquivo gerado: noticias_ge_similaridade.csv
+Arquivo gerado: noticias_ge_similaridade_bow.csv
 
 ==================================================
 EXEMPLO DE SIMILARIDADE
 ==================================================
 Notícia 1: https://ge.globo.com/sc/futebol/noticia/2026/09/09/barra-elimina-o-internacional-na-primeira-fase-da-copa-do-brasil-sub-20.ghtml
 Notícia 2: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-corinthians-mas-pede-atencao-com-o-estudiantes-na-volta-sabe-jogar-fora-de-casa.ghtml
-Similaridade: 0.0327
+Similaridade BOW: 0.0898
+Similaridade TF-IDF: 0.0327
 
 ==================================================
 PROCESSAMENTO CONCLUÍDO
@@ -39,4 +46,5 @@ Arquivos gerados:
 - noticias_ge_bow.csv
 - noticias_ge_tfidf.csv
 - noticias_ge_similaridade.csv
+- noticias_ge_similaridade_bow.csv
 - noticias_ge_tfidf_bow.txt
