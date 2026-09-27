@@ -62,140 +62,257 @@ df.to_csv(
     encoding="utf-8-sig"
 )
 
-pca_2d = PCA(n_components=2)
+# ==========================================================
+# PCA 2D E 3D DOS CLUSTERS
+# ==========================================================
 
-coords_2d = pca_2d.fit_transform(
+from sklearn.decomposition import PCA
+import plotly.express as px
+
+
+# ==========================================================
+# PCA EM 2 DIMENSÕES
+# ==========================================================
+
+pca_2d = PCA(
+    n_components=2
+)
+
+coordenadas_2d = pca_2d.fit_transform(
     tfidf_matrix.toarray()
 )
 
+
+# Criar DataFrame para visualização
 df_pca_2d = pd.DataFrame({
+    "id": df["id"],
     "titulo": df["titulo"],
-    "cluster": df["cluster"],
-    "PCA1": coords_2d[:, 0],
-    "PCA2": coords_2d[:, 1]
+    "texto": df["texto"],
+    "cluster": df["cluster"].astype(str),
+    "PCA1": coordenadas_2d[:, 0],
+    "PCA2": coordenadas_2d[:, 1]
 })
 
+
+# Salvar coordenadas 2D
 df_pca_2d.to_csv(
     "pca_2d.csv",
     index=False,
     encoding="utf-8-sig"
 )
 
-pca_3d = PCA(n_components=3)
 
-coords_3d = pca_3d.fit_transform(
-    tfidf_matrix.toarray()
+# ==========================================================
+# GRÁFICO 2D
+# ==========================================================
+
+fig_2d = px.scatter(
+
+    df_pca_2d,
+
+    x="PCA1",
+
+    y="PCA2",
+
+    color="cluster",
+
+    hover_name="titulo",
+
+    hover_data={
+
+        "id": True,
+
+        "texto": True,
+
+        "cluster": True,
+
+        "PCA1": False,
+
+        "PCA2": False
+
+    },
+
+    title="Clusters das notícias — PCA em 2 dimensões"
+
 )
 
+
+# Tamanho dos pontos
+fig_2d.update_traces(
+
+    marker=dict(
+        size=10
+    )
+
+)
+
+
+# Configuração dos eixos
+fig_2d.update_layout(
+
+    xaxis_title="Componente principal 1",
+
+    yaxis_title="Componente principal 2",
+
+    legend_title="Cluster",
+
+    width=1200,
+
+    height=750
+
+)
+
+
+# ==========================================================
+# SALVAR HTML INTERATIVO — PCA 2D
+# ==========================================================
+
+fig_2d.write_html(
+
+    "clusters_pca_2d.html",
+
+    auto_open=False
+
+)
+
+
+# Mostrar gráfico
+fig_2d.show()
+
+
+# ==========================================================
+# PCA EM 3 DIMENSÕES
+# ==========================================================
+
+pca_3d = PCA(
+
+    n_components=3
+
+)
+
+
+coordenadas_3d = pca_3d.fit_transform(
+
+    tfidf_matrix.toarray()
+
+)
+
+
+# Criar DataFrame para visualização
 df_pca_3d = pd.DataFrame({
+
+    "id": df["id"],
+
     "titulo": df["titulo"],
-    "cluster": df["cluster"],
-    "PCA1": coords_3d[:, 0],
-    "PCA2": coords_3d[:, 1],
-    "PCA3": coords_3d[:, 2]
+
+    "texto": df["texto"],
+
+    "cluster": df["cluster"].astype(str),
+
+    "PCA1": coordenadas_3d[:, 0],
+
+    "PCA2": coordenadas_3d[:, 1],
+
+    "PCA3": coordenadas_3d[:, 2]
+
 })
 
+
+# Salvar coordenadas 3D
 df_pca_3d.to_csv(
+
     "pca_3d.csv",
+
     index=False,
+
     encoding="utf-8-sig"
+
 )
 
-termos = tfidf_vectorizer.get_feature_names_out()
 
-resultados_clusters = []
+# ==========================================================
+# GRÁFICO 3D
+# ==========================================================
 
-for cluster_id in range(k):
+fig_3d = px.scatter_3d(
 
-    indices = np.argsort(
-        kmeans.cluster_centers_[cluster_id]
-    )[::-1]
+    df_pca_3d,
 
-    principais_termos = termos[
-        indices[:10]
-    ]
+    x="PCA1",
 
-    resultados_clusters.append({
-        "cluster": cluster_id,
-        "tokens_representativos":
-            ", ".join(principais_termos)
-    })
+    y="PCA2",
 
-df_tokens_clusters = pd.DataFrame(
-    resultados_clusters
+    z="PCA3",
+
+    color="cluster",
+
+    hover_name="titulo",
+
+    hover_data={
+
+        "id": True,
+
+        "texto": True,
+
+        "cluster": True,
+
+        "PCA1": False,
+
+        "PCA2": False,
+
+        "PCA3": False
+
+    },
+
+    title="Clusters das notícias — PCA em 3 dimensões"
+
 )
 
-df_tokens_clusters.to_csv(
-    "tokens_clusters.csv",
-    index=False,
-    encoding="utf-8-sig"
+
+# Tamanho dos pontos
+fig_3d.update_traces(
+
+    marker=dict(
+        size=6
+    )
+
 )
 
-similaridade_tfidf = cosine_similarity(
-    tfidf_matrix
+
+# Configuração dos eixos
+fig_3d.update_layout(
+
+    scene=dict(
+
+        xaxis_title="Componente principal 1",
+
+        yaxis_title="Componente principal 2",
+
+        zaxis_title="Componente principal 3"
+
+    ),
+
+    legend_title="Cluster",
+
+    width=1200,
+
+    height=800
+
 )
 
-resultados_coesao = []
 
-for cluster_id in sorted(
-    df["cluster"].unique()
-):
+# ==========================================================
+# SALVAR HTML INTERATIVO — PCA 3D
+# ==========================================================
 
-    indices = df.index[
-        df["cluster"] == cluster_id
-    ].tolist()
+fig_3d.write_html(
 
-    if len(indices) < 2:
-        continue
+    "clusters_pca_3d.html",
 
-    submatriz = similaridade_tfidf[
-        np.ix_(indices, indices)
-    ]
+    auto_open=False
 
-    valores = submatriz[
-        np.triu_indices_from(
-            submatriz,
-            k=1
-        )
-    ]
-
-    resultados_coesao.append({
-        "cluster": cluster_id,
-        "n_documentos": len(indices),
-        "coesao_media": valores.mean()
-    })
-
-df_coesao = pd.DataFrame(
-    resultados_coesao
 )
 
-df_coesao.to_csv(
-    "coesao_clusters.csv",
-    index=False,
-    encoding="utf-8-sig"
-)
 
-similaridade_centroides = cosine_similarity(
-    kmeans.cluster_centers_
-)
-
-distancia_centroides = (
-    1 - similaridade_centroides
-)
-
-df_distancia = pd.DataFrame(
-    distancia_centroides,
-    index=[
-        f"Cluster {i}"
-        for i in range(k)
-    ],
-    columns=[
-        f"Cluster {i}"
-        for i in range(k)
-    ]
-)
-
-df_distancia.to_csv(
-    "distancia_clusters.csv",
-    encoding="utf-8-sig"
-)   
+# Mostrar gráfico
+fig_3d.show()   
