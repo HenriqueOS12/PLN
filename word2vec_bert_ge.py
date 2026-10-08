@@ -1,4 +1,6 @@
-# python -m pip install gensim
+# python -m pip install gensim 
+# pip install torch torchvision torchaudio
+# pip install transformers
 
 import ast
 import re
