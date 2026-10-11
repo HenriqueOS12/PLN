@@ -1,0 +1,204 @@
+
+================================================================================
+CONSULTA: Botafogo
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/al-ahli-recusa-investidas-por-matheus-goncalves-e-frusta-botafogo.ghtml
+Similaridade: 0.656739
+
+Posicao: 2
+Titulo: Botafogo anuncia contratação de Ziyech
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/botafogo-anuncia-contratacao-de-ziyech.ghtml
+Similaridade: 0.608450
+
+Posicao: 3
+Titulo: Danilo volta a ser convocado para a Seleção em meio a críticas no Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/danilo-volta-a-ser-convocado-para-a-selecao-em-meio-a-criticas-no-botafogo.ghtml
+Similaridade: 0.581194
+
+Posicao: 4
+Titulo: Medina de 10? Entenda como Botafogo pode usar o jogador como opção a Montoro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/medina-de-10-entenda-como-botafogo-pode-usar-o-jogador-como-opcao-a-montoro.ghtml
+Similaridade: 0.563799
+
+Posicao: 5
+Titulo: Alan Lescano é regularizado no BID e pode estrear pelo Vasco contra o Grêmio
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/alan-lescano-e-regularizado-no-bid-e-pode-estrear-pelo-vasco.ghtml
+Similaridade: 0.472102
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.321612
+
+Posicao: 2
+Titulo: Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/al-ahli-recusa-investidas-por-matheus-goncalves-e-frusta-botafogo.ghtml
+Similaridade: 0.308291
+
+Posicao: 3
+Titulo: Volta Redonda chega a cinco jogadores emprestados a times da Série B
+Data: 10/09/2026
+URL: https://ge.globo.com/rj/sul-do-rio-costa-verde/futebol/times/volta-redonda/noticia/2026/09/10/volta-redonda-chega-a-cinco-jogadores-emprestados-a-times-da-serie-b.ghtml
+Similaridade: 0.291232
+
+Posicao: 4
+Titulo: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+Similaridade: 0.284094
+
+Posicao: 5
+Titulo: Avaí anuncia a contratação de Rildo, ex-Grêmio
+Data: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/10/avai-anuncia-a-contratacao-de-rildo-ex-gremio.ghtml
+Similaridade: 0.280362
+
+================================================================================
+CONSULTA: Medina
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Medina de 10? Entenda como Botafogo pode usar o jogador como opção a Montoro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/medina-de-10-entenda-como-botafogo-pode-usar-o-jogador-como-opcao-a-montoro.ghtml
+Similaridade: 0.675139
+
+Posicao: 2
+Titulo: Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/versatilidade-bola-parada-e-finalizacao-como-lescano-pode-ajudar-pedro-emanuel-no-vasco.ghtml
+Similaridade: 0.476913
+
+Posicao: 3
+Titulo: Lescano diz que já pode estrear pelo Vasco e se apresenta à torcida: "Gosto de fazer gols"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/lescano-e-apresentado-como-reforco-do-vasco-veja-respostas.ghtml
+Similaridade: 0.476167
+
+Posicao: 4
+Titulo: Danilo volta a ser convocado para a Seleção em meio a críticas no Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/danilo-volta-a-ser-convocado-para-a-selecao-em-meio-a-criticas-no-botafogo.ghtml
+Similaridade: 0.472653
+
+Posicao: 5
+Titulo: Atuações do Corinthians: Garro dá assistência, e Kaio César decide na Libertadores; dê suas notas
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/atuacoes-do-corinthians-garro-da-assistencia-e-kaio-cesar-decide-na-libertadores-de-suas-notas.ghtml
+Similaridade: 0.470987
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+Similaridade: 0.222167
+
+Posicao: 2
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.209321
+
+Posicao: 3
+Titulo: Deco nega que Barcelona tenha pedido a Julián Álvarez para forçar saída do Atlético de Madrid
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/deco-nega-que-barcelona-tenha-pedido-a-julian-alvarez-para-forcar-saida-do-atletico.ghtml
+Similaridade: 0.207017
+
+Posicao: 4
+Titulo: Medina de 10? Entenda como Botafogo pode usar o jogador como opção a Montoro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/medina-de-10-entenda-como-botafogo-pode-usar-o-jogador-como-opcao-a-montoro.ghtml
+Similaridade: 0.203504
+
+Posicao: 5
+Titulo: Meia do Atlético-MG presenteia Neymar e manda recado: "Tô bolado contigo"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/meia-do-atletico-mg-presenteia-neymar-e-manda-recado-to-bolado-contigo.ghtml
+Similaridade: 0.202957
+
+================================================================================
+CONSULTA: Corinthians
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
+Similaridade: 0.563260
+
+Posicao: 2
+Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
+Similaridade: 0.556591
+
+Posicao: 3
+Titulo: Análise: Corinthians volta vivo com empate em jogo que pareceu mais difícil do que foi
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/analise-corinthians-volta-vivo-com-empate-em-jogo-que-pareceu-mais-dificil-do-que-foi.ghtml
+Similaridade: 0.544666
+
+Posicao: 4
+Titulo: Estudiantes alega ato obsceno e pede suspensão de Memphis no jogo de volta contra o Corinthians
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/estudiantes-alega-ato-obsceno-e-pede-suspensao-de-memphis-no-jogo-de-volta-contra-o-corinthians.ghtml
+Similaridade: 0.526643
+
+Posicao: 5
+Titulo: Kaio César admite incômodo com atrasos no Corinthians, mas diz: "Não pode pensar em dinheiro"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/kaio-cesar-admite-incomodo-com-atrasos-no-corinthians-mas-diz-nao-pode-pensar-em-dinheiro.ghtml
+Similaridade: 0.518380
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.357153
+
+Posicao: 2
+Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
+Similaridade: 0.342831
+
+Posicao: 3
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.336594
+
+Posicao: 4
+Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
+Similaridade: 0.333135
+
+Posicao: 5
+Titulo: Independiente del Valle x Flamengo: onde assistir ao vivo, horário e escalações
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/independiente-del-valle-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
+Similaridade: 0.326276
