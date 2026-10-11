@@ -1,4 +1,3 @@
-
 ================================================================================
 CONSULTA: Botafogo
 ================================================================================
@@ -9,31 +8,31 @@ Posicao: 1
 Titulo: Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/al-ahli-recusa-investidas-por-matheus-goncalves-e-frusta-botafogo.ghtml
-Similaridade: 0.656739
+Similaridade: 0.695204
 
 Posicao: 2
 Titulo: Botafogo anuncia contratação de Ziyech
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/botafogo-anuncia-contratacao-de-ziyech.ghtml
-Similaridade: 0.608450
+Similaridade: 0.680285
 
 Posicao: 3
 Titulo: Danilo volta a ser convocado para a Seleção em meio a críticas no Botafogo
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/danilo-volta-a-ser-convocado-para-a-selecao-em-meio-a-criticas-no-botafogo.ghtml
-Similaridade: 0.581194
+Similaridade: 0.642472
 
 Posicao: 4
 Titulo: Medina de 10? Entenda como Botafogo pode usar o jogador como opção a Montoro
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/medina-de-10-entenda-como-botafogo-pode-usar-o-jogador-como-opcao-a-montoro.ghtml
-Similaridade: 0.563799
+Similaridade: 0.593900
 
 Posicao: 5
-Titulo: Alan Lescano é regularizado no BID e pode estrear pelo Vasco contra o Grêmio
+Titulo: Zagueiro Jair Cunha celebra primeira convocação para a Seleção: "Sonho de uma vida"
 Data: 09/09/2026
-URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/alan-lescano-e-regularizado-no-bid-e-pode-estrear-pelo-vasco.ghtml
-Similaridade: 0.472102
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/zagueiro-jair-cunha-celebra-primeira-convocacao-para-a-selecao-sonho-de-uma-vida.ghtml
+Similaridade: 0.495089
 
 ========== BERTIMBAU ==========
 
@@ -68,6 +67,181 @@ URL: https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/10/avai-anuncia-
 Similaridade: 0.280362
 
 ================================================================================
+CONSULTA: Cristiano Ronaldo
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.839257
+
+Posicao: 2
+Titulo: Com Estêvão de titular, Chelsea vence de virada e avança na Copa da Liga Inglesa
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/copa-da-liga-inglesa/noticia/2026/09/09/com-estevao-de-titular-chelsea-vence-de-virada-e-avanca-na-copa-da-liga-inglesa.ghtml
+Similaridade: 0.623572
+
+Posicao: 3
+Titulo: Raphinha tem início mais goleador no Barcelona em quase 70 anos
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/barcelona/noticia/2026/09/10/raphinha-tem-inicio-mais-goleador-no-barcelona-em-quase-70-anos.ghtml
+Similaridade: 0.586266
+
+Posicao: 4
+Titulo: Análise: Palmeiras cria mais para vencer e melhora, mas vantagem mínima no placar ainda preocupa
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/10/analise-palmeiras-cria-mais-para-vencer-e-melhora-mas-vantagem-minima-no-placar-ainda-preocupa.ghtml
+Similaridade: 0.581932
+
+Posicao: 5
+Titulo: Nonato alcança estatística rara no Fluminense com gol na Libertadores
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/nonato-alcanca-estatistica-rara-no-fluminense-com-gol-na-libertadores.ghtml
+Similaridade: 0.581571
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.419347
+
+Posicao: 2
+Titulo: Gabriel Jesus alcança Rivaldo em lista de brasileiros com mais gols na Champions League
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/09/10/gabriel-jesus-alcanca-rivaldo-em-lista-de-brasileiros-com-mais-gols-na-champions-league.ghtml
+Similaridade: 0.415085
+
+Posicao: 3
+Titulo: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+Similaridade: 0.396004
+
+Posicao: 4
+Titulo: Nem Fábio, nem Rafael: veja último goleiro do Cruzeiro convocado para Seleção antes de Otávio
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/09/nem-fabio-nem-rafael-veja-ultimo-goleiro-do-cruzeiro-convocado-para-selecao-antes-de-otavio.ghtml
+Similaridade: 0.385802
+
+Posicao: 5
+Titulo: Raphinha tem início mais goleador no Barcelona em quase 70 anos
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/barcelona/noticia/2026/09/10/raphinha-tem-inicio-mais-goleador-no-barcelona-em-quase-70-anos.ghtml
+Similaridade: 0.385305
+
+================================================================================
+CONSULTA: Corinthian
+================================================================================
+
+========== WORD2VEC ==========
+Nenhum resultado encontrado.
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Coritiba x Athletico: Athletiba já tem mais de 30 mil ingressos ocupados no Couto Pereira
+Data: 10/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/coritiba-x-athletico-athletiba-ja-tem-mais-de-30-mil-ingressos-ocupados-no-couto-pereira.ghtml
+Similaridade: 0.484421
+
+Posicao: 2
+Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
+Similaridade: 0.482175
+
+Posicao: 3
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.481986
+
+Posicao: 4
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.481486
+
+Posicao: 5
+Titulo: Athletico e Coritiba voltam a ter jogadores convocados à Seleção juntos depois de 85 anos
+Data: 10/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/athletico-e-coritiba-voltam-a-ter-jogadores-convocados-a-selecao-juntos-depois-de-85-anos.ghtml
+Similaridade: 0.473267
+
+================================================================================
+CONSULTA: Corinthians
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
+Similaridade: 0.576167
+
+Posicao: 2
+Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
+Similaridade: 0.573941
+
+Posicao: 3
+Titulo: Análise: Corinthians volta vivo com empate em jogo que pareceu mais difícil do que foi
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/analise-corinthians-volta-vivo-com-empate-em-jogo-que-pareceu-mais-dificil-do-que-foi.ghtml
+Similaridade: 0.568441
+
+Posicao: 4
+Titulo: Kaio César admite incômodo com atrasos no Corinthians, mas diz: "Não pode pensar em dinheiro"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/kaio-cesar-admite-incomodo-com-atrasos-no-corinthians-mas-diz-nao-pode-pensar-em-dinheiro.ghtml
+Similaridade: 0.557030
+
+Posicao: 5
+Titulo: Estudiantes alega ato obsceno e pede suspensão de Memphis no jogo de volta contra o Corinthians
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/estudiantes-alega-ato-obsceno-e-pede-suspensao-de-memphis-no-jogo-de-volta-contra-o-corinthians.ghtml
+Similaridade: 0.549647
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.357153
+
+Posicao: 2
+Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
+Similaridade: 0.342831
+
+Posicao: 3
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.336594
+
+Posicao: 4
+Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
+Similaridade: 0.333135
+
+Posicao: 5
+Titulo: Independiente del Valle x Flamengo: onde assistir ao vivo, horário e escalações
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/independiente-del-valle-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
+Similaridade: 0.326276
+
+================================================================================
 CONSULTA: Medina
 ================================================================================
 
@@ -77,31 +251,31 @@ Posicao: 1
 Titulo: Medina de 10? Entenda como Botafogo pode usar o jogador como opção a Montoro
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/medina-de-10-entenda-como-botafogo-pode-usar-o-jogador-como-opcao-a-montoro.ghtml
-Similaridade: 0.675139
+Similaridade: 0.777422
 
 Posicao: 2
-Titulo: Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
-Data: 10/09/2026
-URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/versatilidade-bola-parada-e-finalizacao-como-lescano-pode-ajudar-pedro-emanuel-no-vasco.ghtml
-Similaridade: 0.476913
-
-Posicao: 3
-Titulo: Lescano diz que já pode estrear pelo Vasco e se apresenta à torcida: "Gosto de fazer gols"
-Data: 10/09/2026
-URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/lescano-e-apresentado-como-reforco-do-vasco-veja-respostas.ghtml
-Similaridade: 0.476167
-
-Posicao: 4
 Titulo: Danilo volta a ser convocado para a Seleção em meio a críticas no Botafogo
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/danilo-volta-a-ser-convocado-para-a-selecao-em-meio-a-criticas-no-botafogo.ghtml
-Similaridade: 0.472653
+Similaridade: 0.535162
+
+Posicao: 3
+Titulo: Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/versatilidade-bola-parada-e-finalizacao-como-lescano-pode-ajudar-pedro-emanuel-no-vasco.ghtml
+Similaridade: 0.529063
+
+Posicao: 4
+Titulo: Diniz elogia Corinthians, mas pede atenção com o Estudiantes na volta: "Sabe jogar fora de casa"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-corinthians-mas-pede-atencao-com-o-estudiantes-na-volta-sabe-jogar-fora-de-casa.ghtml
+Similaridade: 0.527072
 
 Posicao: 5
-Titulo: Atuações do Corinthians: Garro dá assistência, e Kaio César decide na Libertadores; dê suas notas
-Data: 09/09/2026
-URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/atuacoes-do-corinthians-garro-da-assistencia-e-kaio-cesar-decide-na-libertadores-de-suas-notas.ghtml
-Similaridade: 0.470987
+Titulo: Botafogo anuncia contratação de Ziyech
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/botafogo-anuncia-contratacao-de-ziyech.ghtml
+Similaridade: 0.524267
 
 ========== BERTIMBAU ==========
 
@@ -136,7 +310,143 @@ URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/meia-do-a
 Similaridade: 0.202957
 
 ================================================================================
-CONSULTA: Corinthians
+CONSULTA: Neymar
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Meia do Atlético-MG presenteia Neymar e manda recado: "Tô bolado contigo"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/meia-do-atletico-mg-presenteia-neymar-e-manda-recado-to-bolado-contigo.ghtml
+Similaridade: 0.753605
+
+Posicao: 2
+Titulo: Em bate-boca com Neymar, torcedor do Atlético-MG avisa: "Vai ter jogo de volta"; veja discussão
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/em-bate-boca-com-neymar-torcedor-do-atletico-mg-avisa-vai-ter-jogo-de-volta-veja-discussao.ghtml
+Similaridade: 0.752870
+
+Posicao: 3
+Titulo: Leila defende Paulinho e reforça apoio a Abel no Palmeiras: "Incontestável"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/leila-defende-paulinho-e-reforca-apoio-a-abel-no-palmeiras-incontestavel.ghtml
+Similaridade: 0.575808
+
+Posicao: 4
+Titulo: Scarpa ativa modo sincero em derrota do Atlético-MG para o Santos: "Ficou barato"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/scarpa-ativa-modo-sincero-em-derrota-do-atletico-mg-para-o-santos-ficou-barato.ghtml
+Similaridade: 0.545243
+
+Posicao: 5
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.526852
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Gabriel Jesus alcança Rivaldo em lista de brasileiros com mais gols na Champions League
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/09/10/gabriel-jesus-alcanca-rivaldo-em-lista-de-brasileiros-com-mais-gols-na-champions-league.ghtml
+Similaridade: 0.424475
+
+Posicao: 2
+Titulo: Meia do Atlético-MG presenteia Neymar e manda recado: "Tô bolado contigo"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/meia-do-atletico-mg-presenteia-neymar-e-manda-recado-to-bolado-contigo.ghtml
+Similaridade: 0.423787
+
+Posicao: 3
+Titulo: Nem Fábio, nem Rafael: veja último goleiro do Cruzeiro convocado para Seleção antes de Otávio
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/09/nem-fabio-nem-rafael-veja-ultimo-goleiro-do-cruzeiro-convocado-para-selecao-antes-de-otavio.ghtml
+Similaridade: 0.413878
+
+Posicao: 4
+Titulo: Em bate-boca com Neymar, torcedor do Atlético-MG avisa: "Vai ter jogo de volta"; veja discussão
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/em-bate-boca-com-neymar-torcedor-do-atletico-mg-avisa-vai-ter-jogo-de-volta-veja-discussao.ghtml
+Similaridade: 0.404087
+
+Posicao: 5
+Titulo: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+Similaridade: 0.403835
+
+================================================================================
+CONSULTA: Lionel Messi
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: De Paul e Lewandowski batem boca e trocam empurrões na MLS; veja vídeo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/de-paul-e-lewandowski-batem-boca-e-trocam-empurroes-na-mls-veja-video.ghtml
+Similaridade: 0.827424
+
+Posicao: 2
+Titulo: Com Estêvão de titular, Chelsea vence de virada e avança na Copa da Liga Inglesa
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/copa-da-liga-inglesa/noticia/2026/09/09/com-estevao-de-titular-chelsea-vence-de-virada-e-avanca-na-copa-da-liga-inglesa.ghtml
+Similaridade: 0.703937
+
+Posicao: 3
+Titulo: Atuações do Corinthians: Garro dá assistência, e Kaio César decide na Libertadores; dê suas notas
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/atuacoes-do-corinthians-garro-da-assistencia-e-kaio-cesar-decide-na-libertadores-de-suas-notas.ghtml
+Similaridade: 0.678594
+
+Posicao: 4
+Titulo: Análise: Corinthians volta vivo com empate em jogo que pareceu mais difícil do que foi
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/analise-corinthians-volta-vivo-com-empate-em-jogo-que-pareceu-mais-dificil-do-que-foi.ghtml
+Similaridade: 0.674103
+
+Posicao: 5
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.669566
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Haaland se rende a jovem de 18 anos de R$ 600 milhões apontado como "novo Rodri": "Uma joia"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/haaland-se-rende-a-jovem-de-18-anos-apontado-como-novo-rodri-do-city-uma-joia.ghtml
+Similaridade: 0.537498
+
+Posicao: 2
+Titulo: De Paul e Lewandowski batem boca e trocam empurrões na MLS; veja vídeo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/de-paul-e-lewandowski-batem-boca-e-trocam-empurroes-na-mls-veja-video.ghtml
+Similaridade: 0.530552
+
+Posicao: 3
+Titulo: Com Estêvão de titular, Chelsea vence de virada e avança na Copa da Liga Inglesa
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/copa-da-liga-inglesa/noticia/2026/09/09/com-estevao-de-titular-chelsea-vence-de-virada-e-avanca-na-copa-da-liga-inglesa.ghtml
+Similaridade: 0.523851
+
+Posicao: 4
+Titulo: Danilo volta a ser convocado para a Seleção em meio a críticas no Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/danilo-volta-a-ser-convocado-para-a-selecao-em-meio-a-criticas-no-botafogo.ghtml
+Similaridade: 0.520652
+
+Posicao: 5
+Titulo: Gabriel Jesus alcança Rivaldo em lista de brasileiros com mais gols na Champions League
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/09/10/gabriel-jesus-alcanca-rivaldo-em-lista-de-brasileiros-com-mais-gols-na-champions-league.ghtml
+Similaridade: 0.520060
+
+================================================================================
+CONSULTA: Corinthian Corinthians
 ================================================================================
 
 ========== WORD2VEC ==========
@@ -145,31 +455,31 @@ Posicao: 1
 Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
 Data: 09/09/2026
 URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
-Similaridade: 0.563260
+Similaridade: 0.576167
 
 Posicao: 2
 Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
-Similaridade: 0.556591
+Similaridade: 0.573941
 
 Posicao: 3
 Titulo: Análise: Corinthians volta vivo com empate em jogo que pareceu mais difícil do que foi
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/analise-corinthians-volta-vivo-com-empate-em-jogo-que-pareceu-mais-dificil-do-que-foi.ghtml
-Similaridade: 0.544666
+Similaridade: 0.568441
 
 Posicao: 4
-Titulo: Estudiantes alega ato obsceno e pede suspensão de Memphis no jogo de volta contra o Corinthians
-Data: 10/09/2026
-URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/estudiantes-alega-ato-obsceno-e-pede-suspensao-de-memphis-no-jogo-de-volta-contra-o-corinthians.ghtml
-Similaridade: 0.526643
-
-Posicao: 5
 Titulo: Kaio César admite incômodo com atrasos no Corinthians, mas diz: "Não pode pensar em dinheiro"
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/kaio-cesar-admite-incomodo-com-atrasos-no-corinthians-mas-diz-nao-pode-pensar-em-dinheiro.ghtml
-Similaridade: 0.518380
+Similaridade: 0.557030
+
+Posicao: 5
+Titulo: Estudiantes alega ato obsceno e pede suspensão de Memphis no jogo de volta contra o Corinthians
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/estudiantes-alega-ato-obsceno-e-pede-suspensao-de-memphis-no-jogo-de-volta-contra-o-corinthians.ghtml
+Similaridade: 0.549647
 
 ========== BERTIMBAU ==========
 
@@ -177,28 +487,164 @@ Posicao: 1
 Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
 Data: 09/09/2026
 URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
-Similaridade: 0.357153
+Similaridade: 0.511420
 
 Posicao: 2
 Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
 Data: 09/09/2026
 URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
-Similaridade: 0.342831
+Similaridade: 0.506214
 
 Posicao: 3
-Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
-Data: 10/09/2026
-URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
-Similaridade: 0.336594
-
-Posicao: 4
 Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
-Similaridade: 0.333135
+Similaridade: 0.496713
+
+Posicao: 4
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.491836
+
+Posicao: 5
+Titulo: Meia do Atlético-MG presenteia Neymar e manda recado: "Tô bolado contigo"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/meia-do-atletico-mg-presenteia-neymar-e-manda-recado-to-bolado-contigo.ghtml
+Similaridade: 0.490418
+
+================================================================================
+CONSULTA: Flamengo
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Flamengo busca contra o Independiente del Valle sequência inédita de vitórias na altitude
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/flamengo-busca-contra-o-independiente-del-valle-sequencia-inedita-de-vitorias-na-altitude.ghtml
+Similaridade: 0.617619
+
+Posicao: 2
+Titulo: Escalação do Flamengo: Jardim avalia desgaste e prepara equipe para encarar o Del Valle na altitude
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/escalacao-do-flamengo-jardim-avalia-desgaste-e-prepara-equipe-para-encarar-o-del-valle-na-altitude.ghtml
+Similaridade: 0.601523
+
+Posicao: 3
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.583455
+
+Posicao: 4
+Titulo: Olho neles: Del Valle tem cinco remanescentes de time campeão contra o Flamengo; saiba quem são
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/olho-neles-del-valle-tem-cinco-remanescentes-de-time-campeao-contra-o-flamengo-saiba-quem-sao.ghtml
+Similaridade: 0.575006
 
 Posicao: 5
 Titulo: Independiente del Valle x Flamengo: onde assistir ao vivo, horário e escalações
 Data: 10/09/2026
 URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/independiente-del-valle-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
-Similaridade: 0.326276
+Similaridade: 0.562346
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.332011
+
+Posicao: 2
+Titulo: Independiente del Valle x Flamengo: onde assistir ao vivo, horário e escalações
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/independiente-del-valle-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
+Similaridade: 0.327814
+
+Posicao: 3
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.326521
+
+Posicao: 4
+Titulo: Olho neles: Del Valle tem cinco remanescentes de time campeão contra o Flamengo; saiba quem são
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/olho-neles-del-valle-tem-cinco-remanescentes-de-time-campeao-contra-o-flamengo-saiba-quem-sao.ghtml
+Similaridade: 0.322602
+
+Posicao: 5
+Titulo: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+Similaridade: 0.315600
+
+================================================================================
+CONSULTA: Vasco
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Admar mantém esperança na contratação de Richarlison: "Viria mudar o patamar do Vasco"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/admar-mantem-esperanca-na-contratacao-de-richarlison-viria-mudar-o-patamar-do-vasco.ghtml
+Similaridade: 0.631674
+
+Posicao: 2
+Titulo: Alan Lescano é regularizado no BID e pode estrear pelo Vasco contra o Grêmio
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/alan-lescano-e-regularizado-no-bid-e-pode-estrear-pelo-vasco.ghtml
+Similaridade: 0.604333
+
+Posicao: 3
+Titulo: Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/al-ahli-recusa-investidas-por-matheus-goncalves-e-frusta-botafogo.ghtml
+Similaridade: 0.598901
+
+Posicao: 4
+Titulo: Tottenham recusa proposta do Vasco, que insiste na contratação de Richarlison
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/tottenham-recusa-primeira-proposta-do-vasco-que-segue-negociacao-para-ter-richarlison.ghtml
+Similaridade: 0.596660
+
+Posicao: 5
+Titulo: Richarlison entrará com pedido de rescisão com Tottenham para assinar com o Vasco
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/estafe-de-richarlison-entrara-com-pedido-de-rescisao-com-tottenham-para-assinar-com-o-vasco.ghtml
+Similaridade: 0.596148
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.315100
+
+Posicao: 2
+Titulo: Avaí anuncia a contratação de Rildo, ex-Grêmio
+Data: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/10/avai-anuncia-a-contratacao-de-rildo-ex-gremio.ghtml
+Similaridade: 0.307018
+
+Posicao: 3
+Titulo: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+Similaridade: 0.305585
+
+Posicao: 4
+Titulo: Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/versatilidade-bola-parada-e-finalizacao-como-lescano-pode-ajudar-pedro-emanuel-no-vasco.ghtml
+Similaridade: 0.302162
+
+Posicao: 5
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.301042

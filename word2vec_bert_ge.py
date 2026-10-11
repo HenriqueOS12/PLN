@@ -3,7 +3,6 @@ import ast
 import os
 import re
 import unicodedata
-
 import numpy as np
 import pandas as pd
 import torch
@@ -45,7 +44,7 @@ def texto_seguro(valor):
 def normalizar_texto(texto):
     """Normaliza o texto sem remover acentos das palavras."""
     texto = texto_seguro(texto).casefold()
-    texto = re.sub(r"https?://\S+|www\.\S+", " ", texto)
+    texto = re.sub(r"https?://\S+|www\\.\S+", " ", texto)
     texto = re.sub(r"[^a-zA-ZÀ-ÿ0-9]+", " ", texto)
 
     return texto.strip()
@@ -57,9 +56,9 @@ def tokenizar(texto):
 
     return re.findall(r"[a-zA-ZÀ-ÿ0-9]+", texto)
 
-
 def ler_tokens_processados(valor):
     """Converte uma lista armazenada como texto no CSV em lista Python."""
+
     if isinstance(valor, list):
         return [str(t).casefold() for t in valor if str(t).strip()]
 
@@ -82,9 +81,9 @@ def ler_tokens_processados(valor):
     # Caso a coluna nao contenha uma lista Python valida.
     return tokenizar(valor)
 
-
 def similaridade_cosseno(vetor_a, vetor_b):
     """Calcula a similaridade de cosseno entre dois vetores."""
+
     norma_a = np.linalg.norm(vetor_a)
     norma_b = np.linalg.norm(vetor_b)
 
@@ -93,9 +92,9 @@ def similaridade_cosseno(vetor_a, vetor_b):
 
     return float(np.dot(vetor_a, vetor_b) / (norma_a * norma_b))
 
-
 def criar_texto_documento(linha):
     """Monta o texto usado na representacao de cada noticia."""
+
     titulo = texto_seguro(linha.get("titulo", ""))
     texto = texto_seguro(linha.get("texto", ""))
 
@@ -157,26 +156,16 @@ print(f"Noticias carregadas: {len(df)}")
 
 print("\nTreinando Word2Vec...")
 
-sentencas = []
-
-for _, linha in df.iterrows():
-
-    # Prioriza palavras dos textos originais.
-    tokens_originais = linha["_tokens_originais"]
-
-    if tokens_originais:
-        sentencas.append(tokens_originais)
-
-    # Tambem aproveita os tokens processados.
-    tokens_processados = linha["_tokens_processados"]
-
-    if tokens_processados:
-        sentencas.append(tokens_processados)
+sentencas = [
+    tokens
+    for tokens in df["_tokens_processados"].tolist()
+    if tokens
+]
 
 if not sentencas:
     raise ValueError(
-        "Nao foi possivel treinar Word2Vec: "
-        "nenhum token encontrado nos textos."
+        "Nao foi possivel treinar Word2Vec: a coluna "
+        "'tokens_sem_stopwords' nao possui tokens validos."
     )
 
 modelo_w2v = Word2Vec(
@@ -191,11 +180,6 @@ modelo_w2v = Word2Vec(
 )
 
 print("Vocabulario Word2Vec:", len(modelo_w2v.wv))
-print(
-    "Corinthians no vocabulario:",
-    "corinthians" in modelo_w2v.wv
-)
-
 
 # ============================================================
 # CRIAR EMBEDDINGS WORD2VEC DAS NOTICIAS
@@ -205,7 +189,7 @@ print("\nGerando embeddings Word2Vec...")
 
 embeddings_w2v = []
 
-for tokens in df["_tokens_originais"]:
+for tokens in df["_tokens_processados"]:
 
     vetores = [
         modelo_w2v.wv[token]
@@ -242,7 +226,6 @@ dados_w2v.to_csv(
 )
 
 print("Arquivo salvo:", ARQUIVO_EMBEDDINGS_W2V)
-
 
 # ============================================================
 # CARREGAR BERTIMBAU
