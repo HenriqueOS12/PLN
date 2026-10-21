@@ -1,0 +1,1826 @@
+================================================================================
+RELATORIO - CLASSIFICACAO DE NOTICIAS DO GE COM JEV
+================================================================================
+
+Arquivo de entrada: noticias_ge_processado.csv
+Total de noticias no resultado: 100
+Limiar dos temas: 0.5
+
+Noticias com erro na API: 0
+Noticias processadas sem erro: 100
+
+QUANTIDADE DE NOTICIAS POR TEMA DETECTADO
+--------------------------------------------------------------------------------
+transferencia: 16
+lesao: 20
+resultado_partida: 53
+tecnico: 11
+selecao: 16
+competicao: 49
+declaracao: 53
+bastidores: 11
+futebol_feminino: 2
+base: 17
+
+DETALHES DAS NOTICIAS
+================================================================================
+
+TITULO: Barra elimina o Internacional na primeira fase da Copa do Brasil Sub-20
+DATA: 09/09/2026
+URL: https://ge.globo.com/sc/futebol/noticia/2026/09/09/barra-elimina-o-internacional-na-primeira-fase-da-copa-do-brasil-sub-20.ghtml
+TEMAS: resultado_partida, competicao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.95)
+  declaracao: nao (probabilidade=0.03)
+  bastidores: nao (probabilidade=0.02)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: sim (probabilidade=0.99)
+--------------------------------------------------------------------------------
+
+TITULO: Diniz elogia Corinthians, mas pede atenção com o Estudiantes na volta: "Sabe jogar fora de casa"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-corinthians-mas-pede-atencao-com-o-estudiantes-na-volta-sabe-jogar-fora-de-casa.ghtml
+TEMAS: lesao, resultado_partida, tecnico, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: sim (probabilidade=0.54)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: sim (probabilidade=0.63)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.87)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.05)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Nem Fábio, nem Rafael: veja último goleiro do Cruzeiro convocado para Seleção antes de Otávio
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/09/nem-fabio-nem-rafael-veja-ultimo-goleiro-do-cruzeiro-convocado-para-selecao-antes-de-otavio.ghtml
+TEMAS: selecao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.08)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.06)
+  tecnico: nao (probabilidade=0.1)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.07)
+  declaracao: nao (probabilidade=0.09)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.53)
+--------------------------------------------------------------------------------
+
+TITULO: Nicolas passa por cirurgia e deve ficar no mínimo três meses afastado do São Paulo
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/09/nicolas-passa-por-cirurgia-e-deve-ficar-no-minimo-tres-meses-afastado-do-sao-paulo.ghtml
+TEMAS: lesao, base
+FOCO EM FUTEBOL (score): 3.74
+CONFIANCA DO SCORE: 0.79
+  transferencia: nao (probabilidade=0.03)
+  lesao: sim (probabilidade=0.99)
+  resultado_partida: nao (probabilidade=0.04)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.05)
+  declaracao: nao (probabilidade=0.32)
+  bastidores: nao (probabilidade=0.16)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.59)
+--------------------------------------------------------------------------------
+
+TITULO: Criciúma bate o Cascavel e garante classificação na Copa do Brasil Sub-20
+DATA: 09/09/2026
+URL: https://ge.globo.com/sc/futebol/noticia/2026/09/09/criciuma-bate-o-cascavel-e-garante-classificacao-na-copa-do-brasil-sub-20.ghtml
+TEMAS: resultado_partida, competicao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.95)
+  declaracao: nao (probabilidade=0.03)
+  bastidores: nao (probabilidade=0.02)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: sim (probabilidade=0.99)
+--------------------------------------------------------------------------------
+
+TITULO: Bayern de Munique x Bodo/Glimt na Champions League: onde assistir ao vivo e horário
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/bayern-de-munique-x-bodoglimt-na-champions-league-onde-assistir-ao-vivo-e-horario.ghtml
+TEMAS: competicao, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.03)
+  resultado_partida: nao (probabilidade=0.19)
+  tecnico: nao (probabilidade=0.3)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.89)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.11)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Em bate-boca com Neymar, torcedor do Atlético-MG avisa: "Vai ter jogo de volta"; veja discussão
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/em-bate-boca-com-neymar-torcedor-do-atletico-mg-avisa-vai-ter-jogo-de-volta-veja-discussao.ghtml
+TEMAS: lesao, resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 3.95
+CONFIANCA DO SCORE: 0.97
+  transferencia: nao (probabilidade=0.02)
+  lesao: sim (probabilidade=0.97)
+  resultado_partida: sim (probabilidade=0.83)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.86)
+  declaracao: sim (probabilidade=0.85)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+DATA: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+TEMAS: resultado_partida, competicao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.77)
+  tecnico: nao (probabilidade=0.07)
+  selecao: nao (probabilidade=0.03)
+  competicao: sim (probabilidade=0.88)
+  declaracao: nao (probabilidade=0.05)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.99)
+--------------------------------------------------------------------------------
+
+TITULO: Cano tem suspeita de lesão e vira dúvida no Fluminense
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/cano-tem-suspeita-de-lesao-e-vira-duvida-no-fluminense.ghtml
+TEMAS: lesao, resultado_partida
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.04)
+  lesao: sim (probabilidade=0.99)
+  resultado_partida: sim (probabilidade=0.57)
+  tecnico: nao (probabilidade=0.09)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.25)
+  declaracao: nao (probabilidade=0.29)
+  bastidores: nao (probabilidade=0.14)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Haaland se rende a jovem de 18 anos de R$ 600 milhões apontado como "novo Rodri": "Uma joia"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/haaland-se-rende-a-jovem-de-18-anos-apontado-como-novo-rodri-do-city-uma-joia.ghtml
+TEMAS: transferencia, resultado_partida, declaracao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.84)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.94)
+  tecnico: nao (probabilidade=0.35)
+  selecao: nao (probabilidade=0.3)
+  competicao: nao (probabilidade=0.25)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.22)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.69)
+--------------------------------------------------------------------------------
+
+TITULO: Capitão do Barcelona, Raphinha revela conexão especial com Lamine Yamal: "Sei quando ele sai da partida"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/09/10/capitao-do-barcelona-raphinha-revela-conexao-especial-com-lamine-yamal-sei-quando-ele-sai-da-partida.ghtml
+TEMAS: resultado_partida, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.03)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: nao (probabilidade=0.07)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.4)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.44)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.14)
+--------------------------------------------------------------------------------
+
+TITULO: Análise: Corinthians volta vivo com empate em jogo que pareceu mais difícil do que foi
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/analise-corinthians-volta-vivo-com-empate-em-jogo-que-pareceu-mais-dificil-do-que-foi.ghtml
+TEMAS: lesao, resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: sim (probabilidade=0.64)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.03)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.86)
+  declaracao: sim (probabilidade=0.96)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Operário-PR supera a Chapecoense nos pênaltis e avança na Copa do Brasil Sub-20
+DATA: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/noticia/2026/09/10/operario-pr-supera-a-chapecoense-nos-penaltis-e-avanca-na-copa-do-brasil-sub-20.ghtml
+TEMAS: resultado_partida, competicao, base
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.03)
+  competicao: sim (probabilidade=0.95)
+  declaracao: nao (probabilidade=0.04)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.99)
+--------------------------------------------------------------------------------
+
+TITULO: Raphinha tem início mais goleador no Barcelona em quase 70 anos
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/barcelona/noticia/2026/09/10/raphinha-tem-inicio-mais-goleador-no-barcelona-em-quase-70-anos.ghtml
+TEMAS: resultado_partida, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: nao (probabilidade=0.08)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.57)
+  declaracao: nao (probabilidade=0.1)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Escalação do Flamengo: Jardim avalia desgaste e prepara equipe para encarar o Del Valle na altitude
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/escalacao-do-flamengo-jardim-avalia-desgaste-e-prepara-equipe-para-encarar-o-del-valle-na-altitude.ghtml
+TEMAS: lesao, competicao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.16)
+  lesao: sim (probabilidade=0.97)
+  resultado_partida: nao (probabilidade=0.05)
+  tecnico: nao (probabilidade=0.45)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.86)
+  declaracao: nao (probabilidade=0.18)
+  bastidores: nao (probabilidade=0.17)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.5)
+--------------------------------------------------------------------------------
+
+TITULO: Portuguesa acerta a contratação do atacante Romarinho, ex-Corinthians
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/portuguesa-anuncia-a-contratacao-do-atacante-romarinho-ex-corinthians.ghtml
+TEMAS: transferencia
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.98)
+  lesao: nao (probabilidade=0.07)
+  resultado_partida: nao (probabilidade=0.08)
+  tecnico: nao (probabilidade=0.11)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.06)
+  declaracao: nao (probabilidade=0.06)
+  bastidores: nao (probabilidade=0.07)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Olho neles: Del Valle tem cinco remanescentes de time campeão contra o Flamengo; saiba quem são
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/olho-neles-del-valle-tem-cinco-remanescentes-de-time-campeao-contra-o-flamengo-saiba-quem-sao.ghtml
+TEMAS: resultado_partida, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.08)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.75)
+  tecnico: nao (probabilidade=0.03)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.79)
+  declaracao: nao (probabilidade=0.06)
+  bastidores: nao (probabilidade=0.05)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Análise: Atlético-MG desmorona no 2º tempo e se complica por vaga na semi da Sul-Americana
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/analise-atletico-mg-desmorona-no-2o-tempo-e-se-complica-por-vaga-na-semi-da-sul-americana.ghtml
+TEMAS: lesao, resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: sim (probabilidade=0.95)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.13)
+  selecao: nao (probabilidade=0.01)
+  competicao: sim (probabilidade=0.9)
+  declaracao: sim (probabilidade=0.92)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Governo multa concessionária por gestão do Maracanã; Fla-Flu recorre
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/governo-multa-concessionaria-por-gestao-do-maracana-fla-flu-recorre.ghtml
+TEMAS: 
+FOCO EM FUTEBOL (score): 0.93
+CONFIANCA DO SCORE: 0.42
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.01)
+  tecnico: nao (probabilidade=0.01)
+  selecao: nao (probabilidade=0.01)
+  competicao: nao (probabilidade=0.02)
+  declaracao: nao (probabilidade=0.07)
+  bastidores: nao (probabilidade=0.26)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Leila defende Paulinho e reforça apoio a Abel no Palmeiras: "Incontestável"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/leila-defende-paulinho-e-reforca-apoio-a-abel-no-palmeiras-incontestavel.ghtml
+TEMAS: lesao, tecnico, declaracao, bastidores
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.22)
+  lesao: sim (probabilidade=0.99)
+  resultado_partida: nao (probabilidade=0.16)
+  tecnico: sim (probabilidade=0.56)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.26)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: sim (probabilidade=0.76)
+  futebol_feminino: nao (probabilidade=0.03)
+  base: nao (probabilidade=0.06)
+--------------------------------------------------------------------------------
+
+TITULO: Abel critica regra do limite de jogos para mudar de clube no Brasileirão: "Vocês acham justo?"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/10/abel-critica-regra-do-limite-de-jogos-para-mudar-de-clube-no-brasileirao-voces-acham-justo.ghtml
+TEMAS: transferencia, tecnico, competicao, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: sim (probabilidade=0.88)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.23)
+  tecnico: sim (probabilidade=0.88)
+  selecao: nao (probabilidade=0.48)
+  competicao: sim (probabilidade=0.77)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.19)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.37)
+--------------------------------------------------------------------------------
+
+TITULO: Pai de Jair Cunha se emociona com filho na seleção brasileira: "Ficha não cai"
+DATA: 09/09/2026
+URL: https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/noticia/2026/09/09/pai-de-jair-cunha-se-emociona-com-filho-na-selecao-brasileira-ficha-nao-cai.ghtml
+TEMAS: selecao, declaracao, base
+FOCO EM FUTEBOL (score): 3.93
+CONFIANCA DO SCORE: 0.95
+  transferencia: nao (probabilidade=0.04)
+  lesao: nao (probabilidade=0.03)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.1)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.07)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.85)
+--------------------------------------------------------------------------------
+
+TITULO: Estudiantes alega ato obsceno e pede suspensão de Memphis no jogo de volta contra o Corinthians
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/estudiantes-alega-ato-obsceno-e-pede-suspensao-de-memphis-no-jogo-de-volta-contra-o-corinthians.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.03)
+  resultado_partida: sim (probabilidade=0.97)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.91)
+  declaracao: sim (probabilidade=0.65)
+  bastidores: nao (probabilidade=0.12)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Nonato alcança estatística rara no Fluminense com gol na Libertadores
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/nonato-alcanca-estatistica-rara-no-fluminense-com-gol-na-libertadores.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.08)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: nao (probabilidade=0.04)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.89)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.1)
+--------------------------------------------------------------------------------
+
+TITULO: Medina de 10? Entenda como Botafogo pode usar o jogador como opção a Montoro
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/medina-de-10-entenda-como-botafogo-pode-usar-o-jogador-como-opcao-a-montoro.ghtml
+TEMAS: resultado_partida, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.38)
+  lesao: nao (probabilidade=0.04)
+  resultado_partida: sim (probabilidade=0.67)
+  tecnico: nao (probabilidade=0.39)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.23)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.19)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.14)
+--------------------------------------------------------------------------------
+
+TITULO: Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/imprensa-internacional-repercute-revolucao-de-ancelotti-na-selecao-nova-era.ghtml
+TEMAS: tecnico, selecao, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.03)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: sim (probabilidade=0.81)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.11)
+  declaracao: sim (probabilidade=0.9)
+  bastidores: nao (probabilidade=0.05)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.27)
+--------------------------------------------------------------------------------
+
+TITULO: Abel diz ficar triste sem atletas do Palmeiras na Seleção, mas valoriza base e conversa com Ancelotti
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/10/abel-diz-ficar-triste-sem-atletas-do-palmeiras-na-selecao-mas-valoriza-base-e-conversa-com-ancelotti.ghtml
+TEMAS: tecnico, selecao, declaracao, base
+FOCO EM FUTEBOL (score): 3.98
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.21)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.19)
+  tecnico: sim (probabilidade=0.81)
+  selecao: sim (probabilidade=0.95)
+  competicao: nao (probabilidade=0.1)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.29)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.9)
+--------------------------------------------------------------------------------
+
+TITULO: Giay exalta Abel por boa fase no Palmeiras e sonha com chance na Argentina: "Todo jogador quer"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/10/giay-exalta-abel-por-boa-fase-no-palmeiras-e-sonha-com-chance-na-argentina-todo-jogador-quer.ghtml
+TEMAS: resultado_partida, selecao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.04)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.97)
+  tecnico: nao (probabilidade=0.16)
+  selecao: sim (probabilidade=0.94)
+  competicao: nao (probabilidade=0.41)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.11)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.14)
+--------------------------------------------------------------------------------
+
+TITULO: Rival do Flamengo na Libertadores é destaque em jornal espanhol: "Revoluciona a América do Sul"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/rival-do-flamengo-na-libertadores-e-destaque-em-jornal-espanhol-revoluciona-a-america-do-sul.ghtml
+TEMAS: competicao, base
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.07)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.14)
+  tecnico: nao (probabilidade=0.07)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.53)
+  declaracao: nao (probabilidade=0.1)
+  bastidores: nao (probabilidade=0.08)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.95)
+--------------------------------------------------------------------------------
+
+TITULO: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+TEMAS: resultado_partida, selecao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.05)
+  lesao: nao (probabilidade=0.24)
+  resultado_partida: sim (probabilidade=0.72)
+  tecnico: nao (probabilidade=0.1)
+  selecao: sim (probabilidade=0.94)
+  competicao: nao (probabilidade=0.3)
+  declaracao: sim (probabilidade=0.96)
+  bastidores: nao (probabilidade=0.15)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Millán cresce ao lado de Thiago Silva e acirra disputa por vaga na defesa do Fluminense
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/millan-cresce-ao-lado-de-thiago-silva-e-acirra-disputa-por-vaga-na-defesa-do-fluminense.ghtml
+TEMAS: lesao, resultado_partida, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.03)
+  lesao: sim (probabilidade=0.94)
+  resultado_partida: sim (probabilidade=0.93)
+  tecnico: nao (probabilidade=0.1)
+  selecao: nao (probabilidade=0.08)
+  competicao: nao (probabilidade=0.24)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: nao (probabilidade=0.14)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Gabriel Jesus alcança Rivaldo em lista de brasileiros com mais gols na Champions League
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/09/10/gabriel-jesus-alcanca-rivaldo-em-lista-de-brasileiros-com-mais-gols-na-champions-league.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.1)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: nao (probabilidade=0.06)
+  selecao: nao (probabilidade=0.03)
+  competicao: sim (probabilidade=0.79)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Avaí anuncia a contratação de Rildo, ex-Grêmio
+DATA: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/10/avai-anuncia-a-contratacao-de-rildo-ex-gremio.ghtml
+TEMAS: transferencia, resultado_partida
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.96)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.75)
+  tecnico: nao (probabilidade=0.14)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.28)
+  declaracao: nao (probabilidade=0.09)
+  bastidores: nao (probabilidade=0.18)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.13)
+--------------------------------------------------------------------------------
+
+TITULO: Da falência na 4ª divisão da Itália ao luxo na Champions: entenda o projeto que transformou o Como
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/09/10/da-falencia-na-4a-divisao-da-italia-ao-luxo-na-champions-entenda-o-projeto-que-transformou-o-como.ghtml
+TEMAS: declaracao
+FOCO EM FUTEBOL (score): 3.21
+CONFIANCA DO SCORE: 0.34
+  transferencia: nao (probabilidade=0.2)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.11)
+  tecnico: nao (probabilidade=0.26)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.31)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.27)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.32)
+--------------------------------------------------------------------------------
+
+TITULO: Atuações do Corinthians: Garro dá assistência, e Kaio César decide na Libertadores; dê suas notas
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/atuacoes-do-corinthians-garro-da-assistencia-e-kaio-cesar-decide-na-libertadores-de-suas-notas.ghtml
+TEMAS: resultado_partida, competicao
+FOCO EM FUTEBOL (score): 3.98
+CONFIANCA DO SCORE: 0.98
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.04)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.07)
+  selecao: nao (probabilidade=0.1)
+  competicao: sim (probabilidade=0.78)
+  declaracao: nao (probabilidade=0.06)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Investigado pela Polícia, Julio Casares é expulso do São Paulo
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/investigado-pela-policia-julio-casares-e-expulso-do-sao-paulo.ghtml
+TEMAS: bastidores
+FOCO EM FUTEBOL (score): 2.58
+CONFIANCA DO SCORE: 0.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.03)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.01)
+  competicao: nao (probabilidade=0.03)
+  declaracao: nao (probabilidade=0.13)
+  bastidores: sim (probabilidade=0.96)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.07)
+--------------------------------------------------------------------------------
+
+TITULO: Palmeiras inicia preparação para clássico contra São Paulo com desfalques e um retorno
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/10/escalacao-palmeiras-inicia-preparacao-para-classico-contra-sao-paulo-com-desfalques-e-um-retorno.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.03)
+  lesao: nao (probabilidade=0.06)
+  resultado_partida: sim (probabilidade=0.75)
+  tecnico: nao (probabilidade=0.12)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.57)
+  declaracao: sim (probabilidade=0.69)
+  bastidores: nao (probabilidade=0.14)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.16)
+--------------------------------------------------------------------------------
+
+TITULO: Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/versatilidade-bola-parada-e-finalizacao-como-lescano-pode-ajudar-pedro-emanuel-no-vasco.ghtml
+TEMAS: transferencia, tecnico
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.92)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.29)
+  tecnico: sim (probabilidade=0.7)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.06)
+  declaracao: nao (probabilidade=0.21)
+  bastidores: nao (probabilidade=0.11)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.03)
+--------------------------------------------------------------------------------
+
+TITULO: Raphinha diz que já esperava ausência na Bola de Ouro: "Não me surpreendeu nem um pouco"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/09/09/raphinha-diz-que-ja-esperava-ausencia-na-lista-de-indicados-a-bola-de-ouro-nao-me-surpreendeu-nem-um-pouco.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.97)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.63)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.07)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Gómez desfalca o Palmeiras contra a LDU no Equador pela Libertadores
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/gomez-desfalca-o-palmeiras-contra-a-ldu-no-equador-pela-libertadores.ghtml
+TEMAS: resultado_partida, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.04)
+  resultado_partida: sim (probabilidade=0.75)
+  tecnico: nao (probabilidade=0.07)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.92)
+  declaracao: nao (probabilidade=0.06)
+  bastidores: nao (probabilidade=0.08)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
+TEMAS: lesao, resultado_partida, competicao
+FOCO EM FUTEBOL (score): 3.85
+CONFIANCA DO SCORE: 0.88
+  transferencia: nao (probabilidade=0.03)
+  lesao: sim (probabilidade=0.88)
+  resultado_partida: sim (probabilidade=0.52)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.18)
+  competicao: sim (probabilidade=0.73)
+  declaracao: nao (probabilidade=0.04)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Danilo volta a ser convocado para a Seleção em meio a críticas no Botafogo
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/danilo-volta-a-ser-convocado-para-a-selecao-em-meio-a-criticas-no-botafogo.ghtml
+TEMAS: resultado_partida, selecao, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.32)
+  lesao: nao (probabilidade=0.04)
+  resultado_partida: sim (probabilidade=0.66)
+  tecnico: nao (probabilidade=0.16)
+  selecao: sim (probabilidade=0.98)
+  competicao: nao (probabilidade=0.18)
+  declaracao: sim (probabilidade=0.81)
+  bastidores: nao (probabilidade=0.47)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Morre o jornalista Claudio Carsughi
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/noticia/2026/09/10/morre-o-jornalista-claudio-carsughi.ghtml
+TEMAS: lesao
+FOCO EM FUTEBOL (score): 0.42
+CONFIANCA DO SCORE: 0.67
+  transferencia: nao (probabilidade=0.01)
+  lesao: sim (probabilidade=0.55)
+  resultado_partida: nao (probabilidade=0.02)
+  tecnico: nao (probabilidade=0.01)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.03)
+  declaracao: nao (probabilidade=0.1)
+  bastidores: nao (probabilidade=0.02)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Pedro e Samuel Lino, do Flamengo, comemoram convocação para Seleção; veja
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/pedro-e-samuel-lino-do-flamengo-comemoram-convocacao-para-a-selecao-brasileira.ghtml
+TEMAS: lesao, selecao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: sim (probabilidade=0.94)
+  resultado_partida: nao (probabilidade=0.18)
+  tecnico: nao (probabilidade=0.15)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.1)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Cuiabá volta a vencer por três gols em competição nacional após dois anos
+DATA: 10/09/2026
+URL: https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/09/10/cuiaba-volta-a-vencer-por-tres-gols-em-competicao-nacional-apos-dois-anos.ghtml
+TEMAS: resultado_partida, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.09)
+  selecao: nao (probabilidade=0.01)
+  competicao: sim (probabilidade=0.87)
+  declaracao: nao (probabilidade=0.04)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Ex-Grêmio, Kaick vive ascensão na MLS com dois gols seguidos e titularidade
+DATA: 10/09/2026
+URL: https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/10/ex-gremio-kaick-vive-ascensao-na-mls-com-dois-gols-seguidos-e-titularidade.ghtml
+TEMAS: resultado_partida, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.19)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: nao (probabilidade=0.04)
+  selecao: nao (probabilidade=0.48)
+  competicao: nao (probabilidade=0.45)
+  declaracao: nao (probabilidade=0.05)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.81)
+--------------------------------------------------------------------------------
+
+TITULO: Deyverson agradece carinho e sonha com retorno ao Palmeiras: "Terminar a carreira aqui"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/deyverson-agradece-carinho-e-sonha-com-retorno-ao-palmeiras-terminar-a-carreira-aqui.ghtml
+TEMAS: resultado_partida, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.12)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.95)
+  tecnico: nao (probabilidade=0.03)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.31)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.16)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.08)
+--------------------------------------------------------------------------------
+
+TITULO: Presidente do Avaí fala sobre últimos dias do mercado aberto e explica trâmites da SAF
+DATA: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/10/presidente-do-avai-fala-sobre-ultimos-dias-do-mercado-aberto-e-explica-tramites-da-saf.ghtml
+TEMAS: resultado_partida, competicao, declaracao, bastidores
+FOCO EM FUTEBOL (score): 3.79
+CONFIANCA DO SCORE: 0.82
+  transferencia: nao (probabilidade=0.34)
+  lesao: nao (probabilidade=0.04)
+  resultado_partida: sim (probabilidade=0.91)
+  tecnico: nao (probabilidade=0.04)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.62)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: sim (probabilidade=0.92)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Jornal: Vini Jr. recebeu aviso de que ganharia a Bola de Ouro de 2024, vencida por Rodri; entenda
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/10/jornal-vini-jr-recebeu-aviso-de-que-ganharia-a-bola-de-ouro-de-2024-vencida-por-rodri-entenda.ghtml
+TEMAS: declaracao
+FOCO EM FUTEBOL (score): 3.88
+CONFIANCA DO SCORE: 0.9
+  transferencia: nao (probabilidade=0.03)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.09)
+  tecnico: nao (probabilidade=0.08)
+  selecao: nao (probabilidade=0.04)
+  competicao: nao (probabilidade=0.2)
+  declaracao: sim (probabilidade=0.88)
+  bastidores: nao (probabilidade=0.36)
+  futebol_feminino: nao (probabilidade=0.41)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Kaio César admite incômodo com atrasos no Corinthians, mas diz: "Não pode pensar em dinheiro"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/kaio-cesar-admite-incomodo-com-atrasos-no-corinthians-mas-diz-nao-pode-pensar-em-dinheiro.ghtml
+TEMAS: resultado_partida, competicao, declaracao, bastidores
+FOCO EM FUTEBOL (score): 3.88
+CONFIANCA DO SCORE: 0.9
+  transferencia: nao (probabilidade=0.03)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.97)
+  tecnico: nao (probabilidade=0.05)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.72)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: sim (probabilidade=0.67)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Lescano diz que já pode estrear pelo Vasco e se apresenta à torcida: "Gosto de fazer gols"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/lescano-e-apresentado-como-reforco-do-vasco-veja-respostas.ghtml
+TEMAS: transferencia, tecnico, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.96)
+  lesao: nao (probabilidade=0.04)
+  resultado_partida: nao (probabilidade=0.02)
+  tecnico: sim (probabilidade=0.53)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.04)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.07)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.04)
+--------------------------------------------------------------------------------
+
+TITULO: Entenda o desgaste entre Tottenham e Richarlison, alvo do Vasco
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/entenda-o-desgaste-entre-tottenham-e-richarlison-alvo-do-vasco.ghtml
+TEMAS: transferencia, declaracao, bastidores
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.97)
+  lesao: nao (probabilidade=0.03)
+  resultado_partida: nao (probabilidade=0.04)
+  tecnico: nao (probabilidade=0.12)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.04)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: sim (probabilidade=0.78)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.06)
+--------------------------------------------------------------------------------
+
+TITULO: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+TEMAS: resultado_partida
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.95)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.27)
+  declaracao: nao (probabilidade=0.05)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Zagueiro Jair Cunha celebra primeira convocação para a Seleção: "Sonho de uma vida"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/zagueiro-jair-cunha-celebra-primeira-convocacao-para-a-selecao-sonho-de-uma-vida.ghtml
+TEMAS: selecao, declaracao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.13)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.04)
+  tecnico: nao (probabilidade=0.09)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.1)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.79)
+--------------------------------------------------------------------------------
+
+TITULO: Atacante sul-africano do Fluminense é convocado para a seleção sub-20
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/atacante-sul-africano-do-fluminense-e-convocado-para-a-selecao-sub-20.ghtml
+TEMAS: selecao, competicao, declaracao, base
+FOCO EM FUTEBOL (score): 3.88
+CONFIANCA DO SCORE: 0.9
+  transferencia: nao (probabilidade=0.08)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.21)
+  tecnico: nao (probabilidade=0.07)
+  selecao: sim (probabilidade=0.98)
+  competicao: sim (probabilidade=0.67)
+  declaracao: sim (probabilidade=0.57)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.98)
+--------------------------------------------------------------------------------
+
+TITULO: França retira apoio à reeleição de Infantino e cita "confiança quebrada"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/federacao-da-franca-retira-apoio-a-reeleicao-de-infantino.ghtml
+TEMAS: declaracao, bastidores
+FOCO EM FUTEBOL (score): 3.6
+CONFIANCA DO SCORE: 0.67
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.17)
+  tecnico: nao (probabilidade=0.03)
+  selecao: nao (probabilidade=0.21)
+  competicao: nao (probabilidade=0.07)
+  declaracao: sim (probabilidade=0.96)
+  bastidores: sim (probabilidade=0.57)
+  futebol_feminino: nao (probabilidade=0.06)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: São Paulo atrasa também salários em carteira e não dá previsão de pagamento aos jogadores
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/sao-paulo-atrasa-tambem-salarios-em-carteira-e-nao-da-previsao-de-pagamento-aos-jogadores.ghtml
+TEMAS: declaracao, bastidores
+FOCO EM FUTEBOL (score): 3.12
+CONFIANCA DO SCORE: 0.51
+  transferencia: nao (probabilidade=0.06)
+  lesao: nao (probabilidade=0.12)
+  resultado_partida: nao (probabilidade=0.02)
+  tecnico: nao (probabilidade=0.03)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.03)
+  declaracao: sim (probabilidade=0.66)
+  bastidores: sim (probabilidade=0.94)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.04)
+--------------------------------------------------------------------------------
+
+TITULO: Santos 2x0 Atlético-MG: assista aos melhores momentos
+DATA: 09/09/2026
+URL: https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/09/santos-2x0-atletico-mg-assista-aos-melhores-momentos.ghtml
+TEMAS: resultado_partida, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.93)
+  declaracao: nao (probabilidade=0.04)
+  bastidores: nao (probabilidade=0.02)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/al-ahli-recusa-investidas-por-matheus-goncalves-e-frusta-botafogo.ghtml
+TEMAS: transferencia, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.98)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.06)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.03)
+  declaracao: nao (probabilidade=0.12)
+  bastidores: nao (probabilidade=0.16)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.5)
+--------------------------------------------------------------------------------
+
+TITULO: De Paul e Lewandowski batem boca e trocam empurrões na MLS; veja vídeo
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/de-paul-e-lewandowski-batem-boca-e-trocam-empurroes-na-mls-veja-video.ghtml
+TEMAS: resultado_partida
+FOCO EM FUTEBOL (score): 3.96
+CONFIANCA DO SCORE: 0.97
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.97)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.31)
+  competicao: nao (probabilidade=0.36)
+  declaracao: nao (probabilidade=0.06)
+  bastidores: nao (probabilidade=0.1)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
+TEMAS: resultado_partida, tecnico, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: sim (probabilidade=0.81)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.9)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.11)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Athletico e Coritiba voltam a ter jogadores convocados à Seleção juntos depois de 85 anos
+DATA: 10/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/athletico-e-coritiba-voltam-a-ter-jogadores-convocados-a-selecao-juntos-depois-de-85-anos.ghtml
+TEMAS: selecao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.05)
+  tecnico: nao (probabilidade=0.1)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.14)
+  declaracao: nao (probabilidade=0.19)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.3)
+--------------------------------------------------------------------------------
+
+TITULO: Anderson Conceição ganha espaço no Figueirense e mira reação na Copa SC
+DATA: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/09/10/anderson-conceicao-ganha-espaco-no-figueirense-e-mira-reacao-na-copa-sc.ghtml
+TEMAS: lesao, resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.03)
+  lesao: sim (probabilidade=0.97)
+  resultado_partida: sim (probabilidade=0.93)
+  tecnico: nao (probabilidade=0.08)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.83)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.22)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.23)
+--------------------------------------------------------------------------------
+
+TITULO: Chuva atinge tribuna de imprensa do Camp Nou durante jogo do Barcelona na Champions; veja
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/chuva-atinge-tribuna-de-imprensa-do-camp-nou-durante-jogo-do-barcelona-na-champions-veja.ghtml
+TEMAS: resultado_partida
+FOCO EM FUTEBOL (score): 2.63
+CONFIANCA DO SCORE: 0.4
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.96)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.29)
+  declaracao: nao (probabilidade=0.03)
+  bastidores: nao (probabilidade=0.19)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Botafogo anuncia contratação de Ziyech
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/botafogo-anuncia-contratacao-de-ziyech.ghtml
+TEMAS: transferencia, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: sim (probabilidade=0.98)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.14)
+  selecao: nao (probabilidade=0.35)
+  competicao: nao (probabilidade=0.04)
+  declaracao: sim (probabilidade=0.94)
+  bastidores: nao (probabilidade=0.05)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Manchester United x Sabah na Champions League: onde assistir ao vivo e horário
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/manchester-united-x-sabah-na-champions-league-onde-assistir-ao-vivo-e-horario.ghtml
+TEMAS: lesao, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: sim (probabilidade=0.94)
+  resultado_partida: nao (probabilidade=0.07)
+  tecnico: nao (probabilidade=0.18)
+  selecao: nao (probabilidade=0.01)
+  competicao: sim (probabilidade=0.94)
+  declaracao: nao (probabilidade=0.05)
+  bastidores: nao (probabilidade=0.12)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Deco nega que Barcelona tenha pedido a Julián Álvarez para forçar saída do Atlético de Madrid
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/deco-nega-que-barcelona-tenha-pedido-a-julian-alvarez-para-forcar-saida-do-atletico.ghtml
+TEMAS: transferencia, declaracao, bastidores
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: sim (probabilidade=0.97)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.39)
+  tecnico: nao (probabilidade=0.08)
+  selecao: nao (probabilidade=0.03)
+  competicao: nao (probabilidade=0.14)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: sim (probabilidade=0.6)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Análise: Palmeiras cria mais para vencer e melhora, mas vantagem mínima no placar ainda preocupa
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/10/analise-palmeiras-cria-mais-para-vencer-e-melhora-mas-vantagem-minima-no-placar-ainda-preocupa.ghtml
+TEMAS: lesao, resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: sim (probabilidade=0.89)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.14)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.82)
+  declaracao: sim (probabilidade=0.88)
+  bastidores: nao (probabilidade=0.05)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.04)
+--------------------------------------------------------------------------------
+
+TITULO: Bragantino goleia Cruzeiro por 8 a 1 pelo Brasileirão Sub-17
+DATA: 09/09/2026
+URL: https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/09/09/bragantino-goleia-cruzeiro-por-8-a-1-pelo-brasileirao-sub-17.ghtml
+TEMAS: resultado_partida, competicao, declaracao, base
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.12)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.87)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.99)
+--------------------------------------------------------------------------------
+
+TITULO: Auxiliar do Fluminense viraliza com gesto para chamar jogadores no aquecimento; veja
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/auxiliar-do-fluminense-viraliza-com-gesto-para-chamar-jogadores-no-aquecimento-veja.ghtml
+TEMAS: resultado_partida, tecnico, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.04)
+  lesao: nao (probabilidade=0.11)
+  resultado_partida: sim (probabilidade=0.52)
+  tecnico: sim (probabilidade=0.77)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.22)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: nao (probabilidade=0.31)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Zico opina sobre convocação e elogia Pedro, do Flamengo: "Melhor centroavante do Brasil"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/zico-opina-sobre-convocacao-e-elogia-pedro-do-flamengo-melhor-do-brasil.ghtml
+TEMAS: selecao, declaracao
+FOCO EM FUTEBOL (score): 2.98
+CONFIANCA DO SCORE: 0.7
+  transferencia: nao (probabilidade=0.03)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.14)
+  tecnico: nao (probabilidade=0.13)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.07)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.13)
+--------------------------------------------------------------------------------
+
+TITULO: Volta Redonda chega a cinco jogadores emprestados a times da Série B
+DATA: 10/09/2026
+URL: https://ge.globo.com/rj/sul-do-rio-costa-verde/futebol/times/volta-redonda/noticia/2026/09/10/volta-redonda-chega-a-cinco-jogadores-emprestados-a-times-da-serie-b.ghtml
+TEMAS: transferencia, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.97)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.49)
+  tecnico: nao (probabilidade=0.06)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.57)
+  declaracao: nao (probabilidade=0.05)
+  bastidores: nao (probabilidade=0.14)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.03)
+--------------------------------------------------------------------------------
+
+TITULO: Flamengo busca contra o Independiente del Valle sequência inédita de vitórias na altitude
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/flamengo-busca-contra-o-independiente-del-valle-sequencia-inedita-de-vitorias-na-altitude.ghtml
+TEMAS: selecao, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.04)
+  resultado_partida: nao (probabilidade=0.34)
+  tecnico: nao (probabilidade=0.09)
+  selecao: sim (probabilidade=0.5)
+  competicao: sim (probabilidade=0.84)
+  declaracao: sim (probabilidade=0.96)
+  bastidores: nao (probabilidade=0.08)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Richarlison entrará com pedido de rescisão com Tottenham para assinar com o Vasco
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/estafe-de-richarlison-entrara-com-pedido-de-rescisao-com-tottenham-para-assinar-com-o-vasco.ghtml
+TEMAS: transferencia, bastidores
+FOCO EM FUTEBOL (score): 3.98
+CONFIANCA DO SCORE: 0.99
+  transferencia: sim (probabilidade=0.98)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.04)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.04)
+  declaracao: nao (probabilidade=0.43)
+  bastidores: sim (probabilidade=0.53)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.32)
+--------------------------------------------------------------------------------
+
+TITULO: Com Estêvão de titular, Chelsea vence de virada e avança na Copa da Liga Inglesa
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/copa-da-liga-inglesa/noticia/2026/09/09/com-estevao-de-titular-chelsea-vence-de-virada-e-avanca-na-copa-da-liga-inglesa.ghtml
+TEMAS: resultado_partida, selecao, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.03)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.08)
+  selecao: sim (probabilidade=0.67)
+  competicao: sim (probabilidade=0.92)
+  declaracao: nao (probabilidade=0.05)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.03)
+--------------------------------------------------------------------------------
+
+TITULO: Quem foram os destaques do São Paulo no Mundial Sub-17
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/09/quem-foram-os-destaques-do-sao-paulo-no-mundial-sub-17.ghtml
+TEMAS: resultado_partida, competicao, base
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.05)
+  lesao: nao (probabilidade=0.08)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: nao (probabilidade=0.05)
+  selecao: nao (probabilidade=0.13)
+  competicao: sim (probabilidade=0.86)
+  declaracao: nao (probabilidade=0.11)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: sim (probabilidade=0.99)
+--------------------------------------------------------------------------------
+
+TITULO: Luciano tem edema na coxa e deve desfalcar o São Paulo no Choque-Rei
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/luciano-e-diagnosticado-com-edema-na-coxa-e-deve-desfalcar-o-sao-paulo-no-choque-rei.ghtml
+TEMAS: lesao, competicao
+FOCO EM FUTEBOL (score): 3.82
+CONFIANCA DO SCORE: 0.85
+  transferencia: nao (probabilidade=0.02)
+  lesao: sim (probabilidade=0.98)
+  resultado_partida: nao (probabilidade=0.14)
+  tecnico: nao (probabilidade=0.07)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.53)
+  declaracao: nao (probabilidade=0.13)
+  bastidores: nao (probabilidade=0.17)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Scarpa ativa modo sincero em derrota do Atlético-MG para o Santos: "Ficou barato"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/scarpa-ativa-modo-sincero-em-derrota-do-atletico-mg-para-o-santos-ficou-barato.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.9)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.07)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Avaí parabeniza os 50 anos de Guga Kuerten, torcedor símbolo do clube
+DATA: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/10/avai-parabeniza-os-50-anos-de-guga-kuerten-torcedor-simbolo-do-clube.ghtml
+TEMAS: 
+FOCO EM FUTEBOL (score): 1.02
+CONFIANCA DO SCORE: 0.51
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.02)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.03)
+  competicao: nao (probabilidade=0.03)
+  declaracao: nao (probabilidade=0.38)
+  bastidores: nao (probabilidade=0.09)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Domínguez reconhece erros do Atlético-MG, mas vê vaga aberta na Sul-Americana: "Com vida"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/dominguez-reconhece-erros-do-atletico-mg-mas-ve-vaga-na-semi-em-aberto-com-vida.ghtml
+TEMAS: resultado_partida, tecnico, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.06)
+  lesao: nao (probabilidade=0.05)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: sim (probabilidade=0.7)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.92)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.1)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Tottenham recusa proposta do Vasco, que insiste na contratação de Richarlison
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/tottenham-recusa-primeira-proposta-do-vasco-que-segue-negociacao-para-ter-richarlison.ghtml
+TEMAS: transferencia, bastidores
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.99)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.07)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.03)
+  declaracao: nao (probabilidade=0.47)
+  bastidores: sim (probabilidade=0.51)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Independiente del Valle x Flamengo: onde assistir ao vivo, horário e escalações
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/independiente-del-valle-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
+TEMAS: lesao, competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.05)
+  lesao: sim (probabilidade=0.98)
+  resultado_partida: nao (probabilidade=0.45)
+  tecnico: nao (probabilidade=0.16)
+  selecao: nao (probabilidade=0.27)
+  competicao: sim (probabilidade=0.9)
+  declaracao: nao (probabilidade=0.07)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.09)
+--------------------------------------------------------------------------------
+
+TITULO: Coritiba x Athletico: Athletiba já tem mais de 30 mil ingressos ocupados no Couto Pereira
+DATA: 10/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/coritiba-x-athletico-athletiba-ja-tem-mais-de-30-mil-ingressos-ocupados-no-couto-pereira.ghtml
+TEMAS: selecao, competicao
+FOCO EM FUTEBOL (score): 3.98
+CONFIANCA DO SCORE: 0.98
+  transferencia: nao (probabilidade=0.03)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.18)
+  tecnico: nao (probabilidade=0.01)
+  selecao: sim (probabilidade=0.56)
+  competicao: sim (probabilidade=0.77)
+  declaracao: nao (probabilidade=0.18)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Alan Lescano é regularizado no BID e pode estrear pelo Vasco contra o Grêmio
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/alan-lescano-e-regularizado-no-bid-e-pode-estrear-pelo-vasco.ghtml
+TEMAS: transferencia
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: sim (probabilidade=0.97)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.3)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.28)
+  declaracao: nao (probabilidade=0.22)
+  bastidores: nao (probabilidade=0.09)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.04)
+--------------------------------------------------------------------------------
+
+TITULO: Ex-Atlético-MG, Alisson estreia na Champions pelo Shakhtar Donetsk
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/ex-atletico-mg-alisson-estreia-na-champions-pelo-shakhtar-donetsk.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.26)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.53)
+  tecnico: nao (probabilidade=0.05)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.79)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+TEMAS: resultado_partida
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.05)
+  selecao: nao (probabilidade=0.03)
+  competicao: nao (probabilidade=0.45)
+  declaracao: nao (probabilidade=0.04)
+  bastidores: nao (probabilidade=0.02)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Justiça condena Cruzeiro a indenizar jogadora após grave lesão; entenda o caso
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/09/justica-condena-cruzeiro-a-indenizar-jogadora-apos-grave-lesao-entenda-o-caso.ghtml
+TEMAS: lesao, resultado_partida, futebol_feminino
+FOCO EM FUTEBOL (score): 2.99
+CONFIANCA DO SCORE: 0.16
+  transferencia: nao (probabilidade=0.07)
+  lesao: sim (probabilidade=0.99)
+  resultado_partida: sim (probabilidade=0.52)
+  tecnico: nao (probabilidade=0.03)
+  selecao: nao (probabilidade=0.08)
+  competicao: nao (probabilidade=0.08)
+  declaracao: nao (probabilidade=0.22)
+  bastidores: nao (probabilidade=0.37)
+  futebol_feminino: sim (probabilidade=0.98)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Sorteio dos mandos da semifinal da Copa do Brasil 2026: veja onde assistir ao vivo
+DATA: 10/09/2026
+URL: https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/09/10/sorteio-dos-mandos-da-semifinal-da-copa-do-brasil-2026-veja-onde-assistir-ao-vivo.ghtml
+TEMAS: competicao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.27)
+  tecnico: nao (probabilidade=0.01)
+  selecao: nao (probabilidade=0.01)
+  competicao: sim (probabilidade=0.93)
+  declaracao: nao (probabilidade=0.06)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+TEMAS: resultado_partida, tecnico, competicao, declaracao
+FOCO EM FUTEBOL (score): 3.89
+CONFIANCA DO SCORE: 0.9
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.41)
+  resultado_partida: sim (probabilidade=0.98)
+  tecnico: sim (probabilidade=0.88)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.5)
+  declaracao: sim (probabilidade=0.99)
+  bastidores: nao (probabilidade=0.32)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: sim (probabilidade=0.91)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.5)
+  declaracao: sim (probabilidade=0.52)
+  bastidores: nao (probabilidade=0.18)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Meia do Atlético-MG presenteia Neymar e manda recado: "Tô bolado contigo"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/meia-do-atletico-mg-presenteia-neymar-e-manda-recado-to-bolado-contigo.ghtml
+TEMAS: lesao, resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 3.93
+CONFIANCA DO SCORE: 0.94
+  transferencia: nao (probabilidade=0.02)
+  lesao: sim (probabilidade=0.96)
+  resultado_partida: sim (probabilidade=0.89)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.51)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Liverpool lidera ranking de elencos mais caros do mundo; veja lista
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/liverpool-lidera-ranking-de-elencos-mais-caros-do-mundo-veja-lista.ghtml
+TEMAS: transferencia
+FOCO EM FUTEBOL (score): 3.98
+CONFIANCA DO SCORE: 0.98
+  transferencia: sim (probabilidade=0.95)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.02)
+  tecnico: nao (probabilidade=0.06)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.32)
+  declaracao: nao (probabilidade=0.04)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Admar mantém esperança na contratação de Richarlison: "Viria mudar o patamar do Vasco"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/admar-mantem-esperanca-na-contratacao-de-richarlison-viria-mudar-o-patamar-do-vasco.ghtml
+TEMAS: transferencia, declaracao
+FOCO EM FUTEBOL (score): 3.99
+CONFIANCA DO SCORE: 0.99
+  transferencia: sim (probabilidade=0.97)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.24)
+  tecnico: nao (probabilidade=0.12)
+  selecao: nao (probabilidade=0.02)
+  competicao: nao (probabilidade=0.25)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.33)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Final única da Copa do Brasil 2026 será em Brasília
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/09/final-unica-da-copa-do-brasil-2026-sera-em-brasilia.ghtml
+TEMAS: resultado_partida, competicao
+FOCO EM FUTEBOL (score): 3.98
+CONFIANCA DO SCORE: 0.98
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: sim (probabilidade=0.62)
+  tecnico: nao (probabilidade=0.02)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.91)
+  declaracao: nao (probabilidade=0.28)
+  bastidores: nao (probabilidade=0.05)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Matheuzinho, Hugo e Bidon festejam convocação para a Seleção: "Nunca imaginei"
+DATA: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/matheuzinho-hugo-e-bidon-festejam-convocacao-nunca-imaginei-que-viveria-esse-momento.ghtml
+TEMAS: selecao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.02)
+  resultado_partida: nao (probabilidade=0.05)
+  tecnico: nao (probabilidade=0.04)
+  selecao: sim (probabilidade=0.99)
+  competicao: nao (probabilidade=0.17)
+  declaracao: sim (probabilidade=0.98)
+  bastidores: nao (probabilidade=0.04)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.15)
+--------------------------------------------------------------------------------
+
+TITULO: Manchester City lança identidade visual exclusiva para o time feminino
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-feminino/noticia/2026/09/10/manchester-city-lanca-identidade-visual-exclusiva-para-o-time-feminino.ghtml
+TEMAS: futebol_feminino
+FOCO EM FUTEBOL (score): 3.76
+CONFIANCA DO SCORE: 0.82
+  transferencia: nao (probabilidade=0.08)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.14)
+  tecnico: nao (probabilidade=0.03)
+  selecao: nao (probabilidade=0.05)
+  competicao: nao (probabilidade=0.11)
+  declaracao: nao (probabilidade=0.12)
+  bastidores: nao (probabilidade=0.09)
+  futebol_feminino: sim (probabilidade=0.99)
+  base: nao (probabilidade=0.19)
+--------------------------------------------------------------------------------
+
+TITULO: Final única da Copa do Brasil: veja data e local do jogo
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/10/final-unica-da-copa-do-brasil-veja-data-e-local-do-jogo.ghtml
+TEMAS: competicao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.01)
+  resultado_partida: nao (probabilidade=0.42)
+  tecnico: nao (probabilidade=0.01)
+  selecao: nao (probabilidade=0.01)
+  competicao: sim (probabilidade=0.94)
+  declaracao: nao (probabilidade=0.05)
+  bastidores: nao (probabilidade=0.03)
+  futebol_feminino: nao (probabilidade=0.02)
+  base: nao (probabilidade=0.01)
+--------------------------------------------------------------------------------
+
+TITULO: Do impeachment à votação pela expulsão: a crise que levou Casares a novo julgamento no São Paulo
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/do-impeachment-a-votacao-pela-expulsao-a-crise-que-levou-casares-a-novo-julgamento-no-sao-paulo.ghtml
+TEMAS: bastidores
+FOCO EM FUTEBOL (score): 1.95
+CONFIANCA DO SCORE: 0.0
+  transferencia: nao (probabilidade=0.01)
+  lesao: nao (probabilidade=0.34)
+  resultado_partida: nao (probabilidade=0.03)
+  tecnico: nao (probabilidade=0.05)
+  selecao: nao (probabilidade=0.01)
+  competicao: nao (probabilidade=0.03)
+  declaracao: nao (probabilidade=0.37)
+  bastidores: sim (probabilidade=0.98)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.04)
+--------------------------------------------------------------------------------
+
+TITULO: Garro vira líder de assistências na Libertadores e ganha elogio de Diniz: "Trabalho muito positivo"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/garro-vira-lider-de-assistencias-na-libertadores-e-ganha-elogio-de-diniz-trabalho-muito-positivo.ghtml
+TEMAS: resultado_partida, competicao, declaracao
+FOCO EM FUTEBOL (score): 4.0
+CONFIANCA DO SCORE: 1.0
+  transferencia: nao (probabilidade=0.02)
+  lesao: nao (probabilidade=0.21)
+  resultado_partida: sim (probabilidade=0.99)
+  tecnico: nao (probabilidade=0.13)
+  selecao: nao (probabilidade=0.02)
+  competicao: sim (probabilidade=0.83)
+  declaracao: sim (probabilidade=0.99)
+  bastidores: nao (probabilidade=0.06)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
+
+TITULO: Ex-Holanda deixa o futebol por problemas de saúde: "Não posso mais suportar esta vida"
+DATA: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/ex-holanda-deixa-o-futebol-por-problemas-de-saude-nao-posso-mais-suportar-esta-vida.ghtml
+TEMAS: lesao, declaracao
+FOCO EM FUTEBOL (score): 3.77
+CONFIANCA DO SCORE: 0.83
+  transferencia: nao (probabilidade=0.04)
+  lesao: sim (probabilidade=0.9)
+  resultado_partida: nao (probabilidade=0.25)
+  tecnico: nao (probabilidade=0.1)
+  selecao: nao (probabilidade=0.34)
+  competicao: nao (probabilidade=0.04)
+  declaracao: sim (probabilidade=0.97)
+  bastidores: nao (probabilidade=0.2)
+  futebol_feminino: nao (probabilidade=0.01)
+  base: nao (probabilidade=0.02)
+--------------------------------------------------------------------------------
