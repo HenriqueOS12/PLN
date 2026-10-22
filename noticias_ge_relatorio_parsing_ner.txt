@@ -1,0 +1,123 @@
+================================================================================
+RELATORIO - PARSING, NER E RELACOES DAS NOTICIAS DO GE
+================================================================================
+
+Arquivo de entrada: noticias_ge_processado.csv
+Noticias processadas: 100
+Tokens analisados: 43900
+Entidades reconhecidas: 4173
+Relacoes extraidas: 2421
+Nos no grafo: 2385
+Arestas no grafo: 2421
+
+CATEGORIAS NER RECONHECIDAS
+--------------------------------------------------------------------------------
+ORG (Companies, agencies, institutions, etc.): 1253
+PER (Named person or family.): 1150
+LOC (Non-GPE locations, mountain ranges, bodies of water): 960
+MISC (Miscellaneous entities, e.g. events, nationalities, products or works of art): 810
+
+ENTIDADES MAIS FREQUENTES
+--------------------------------------------------------------------------------
+Palmeiras: 106
+São Paulo: 76
+Vasco: 69
+Corinthians: 68
+Texto: 61
+Flamengo: 53
+Libertadores: 48
+Barcelona: 41
+Richarlison: 40
+Brasil: 38
+R$: 37
+Botafogo: 37
+Copa do Brasil: 36
+Foto: 34
+Tottenham: 32
+Fluminense: 31
+Seleção: 30
+Brasília: 29
+Estudiantes: 28
+Atlético-MG: 28
+Santos: 27
+Abel: 23
+Cruzeiro: 22
+Coritiba: 21
+Conmebol Libertadores: 20
+Atlético: 20
+Athletico: 20
+CBF: 19
+Julio Casares: 19
+Campeonato Brasileiro: 18
+
+RELACOES MAIS FREQUENTES
+--------------------------------------------------------------------------------
+Jornal: Vini --receber--> aviso de que ganharia a Bola de Ouro de 2024 (ocorrencias: 4)
+Cotovelada --deixar--> Gabriel Paulista (ocorrencias: 3)
+Cotovelada --deixar_com--> galo na testa (ocorrencias: 3)
+Flamengo --enfrentar--> Independiente (ocorrencias: 3)
+que --faltar--> elenco (ocorrencias: 3)
+atacante --aceitar--> empréstimo (ocorrencias: 3)
+atacante --aceitar_em--> última terça (ocorrencias: 3)
+mas um limite imposto pela Fifa para este tipo de transferência --fazer--> negócio com o Tottenham inicialmente melar (ocorrencias: 3)
+Richarlison --tentar--> rescisão contratual (ocorrencias: 3)
+Tottenham --pedir--> mais de 20 milhões de libras (ocorrencias: 3)
+torcida --merecer--> que (ocorrencias: 3)
+Richarlison --entrar_com--> pedido de rescisão com Tottenham (ocorrencias: 3)
+fase --disputar_em--> jogo único (ocorrencias: 2)
+edição deste ano da Copa do Brasil Sub-20 --passar--> mudança importante (ocorrencias: 2)
+competição --contar--> dobro de participantes (ocorrencias: 2)
+competição --contar_de--> 32 para 64 clubes (ocorrencias: 2)
+Garro --dar--> assistência (ocorrencias: 2)
+Kaio César --decidir_em--> Libertadores (ocorrencias: 2)
+vencedor do confronto --encarar--> Independiente Del Valle (ocorrencias: 2)
+vencedor do confronto --encarar_de--> Equador (ocorrencias: 2)
+vencedor do confronto --encarar_em--> semifinal do torneio (ocorrencias: 2)
+Criciúma --vencer--> Cascavel (ocorrencias: 2)
+ele --sair_de--> partida (ocorrencias: 2)
+Raphinha --fazer--> primeiro discurso como capitão do Barcelona (ocorrencias: 2)
+Operário-PR --superar--> Chapecoense (ocorrencias: 2)
+Raphinha --somar--> oito gols (ocorrencias: 2)
+Raphinha --somar_por--> Barcelona (ocorrencias: 2)
+Raphinha --marcar--> dois gols (ocorrencias: 2)
+Jardim --ter--> novidades entre os relacionados (ocorrencias: 2)
+atacante --reapresentar--> e alguns dias em Dubai (ocorrencias: 2)
+Flamengo --chegar_em--> fase positiva (ocorrencias: 2)
+Flamengo --chegar--> jogo das quartas de final com um ambiente bem mais controlado (ocorrencias: 2)
+confronto contra o Cruzeiro --cercar_em--> fase anterior (ocorrencias: 2)
+confronto contra o Cruzeiro --cercar_de--> questionamentos (ocorrencias: 2)
+equipe --ter--> boas atuações para se classificar (ocorrencias: 2)
+equipe do CFGO (sigla da comissão fiscalizadora do contrato de concessão --advertir--> Fla-Flu Serviços SA (ocorrencias: 2)
+Jair --ter_em--> 2024 (ocorrencias: 2)
+ele --ter--> que (ocorrencias: 2)
+esse --repitar--> cada vez mais (ocorrencias: 2)
+Ancelotti --revolucionar--> Brasil (ocorrencias: 2)
+Imprensa --repercutir--> Seleção — Foto (ocorrencias: 2)
+Giay --fazer--> melhor jogo (ocorrencias: 2)
+Abel --admitir--> erro (ocorrencias: 2)
+Ele --lembrar_em--> agosto do ano passado (ocorrencias: 2)
+Mais notícias do Corinthians : + Matheuzinho, Hugo e Bidon --festejar--> convocação para a Seleção + (ocorrencias: 2)
+Julio Casares --gastar--> R$ 1 milhão (ocorrencias: 2)
+Julio Casares --gastar_em--> cartão corporativo do São Paulo (ocorrencias: 2)
+Casares --devolver--> R$ (ocorrencias: 2)
+Casares --devolver--> São Paulo (ocorrencias: 2)
+Casares --devolver_em--> novembro do ano passado (ocorrencias: 2)
+
+LIMITACOES
+--------------------------------------------------------------------------------
+O parsing e o NER sao previsoes do modelo, nao verificacoes factuais.
+As relacoes sao extraidas por regras sobre dependencias sintaticas.
+Nem todas as relacoes presentes no texto serao identificadas.
+O programa nao resolve correferencia entre nomes e pronomes.
+Os resultados precisam ser revisados antes de serem interpretados.
+
+ARQUIVOS GERADOS
+--------------------------------------------------------------------------------
+noticias_ge_parsing.csv
+noticias_ge_entidades.csv
+noticias_ge_relacoes.csv
+noticias_ge_relatorio_parsing_ner.txt
+noticias_ge_ner_visualizacao.html
+noticias_ge_dependencias_visualizacao.html
+noticias_ge_relacoes.gexf
+noticias_ge_grafo.png
