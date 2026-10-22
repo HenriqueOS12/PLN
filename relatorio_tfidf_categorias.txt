@@ -1,0 +1,152 @@
+RELATÓRIO — CLASSIFICAÇÃO DE NOTÍCIAS DO GE
+TF-IDF + Regressão Logística; categorias definidas manualmente
+========================================================================
+Notícias rotuladas manualmente: 20
+Treinamento: 15
+Teste: 5
+Tamanho máximo configurado para amostra: 20
+MÉTRICAS POR TEMA
+------------------------------------------------------------------------
+
+transferencia — Transferência/mercado da bola
+Acurácia: 0.800 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      0.800     1.000     0.889         4
+         sim      0.000     0.000     0.000         1
+
+    accuracy                          0.800         5
+   macro avg      0.400     0.500     0.444         5
+weighted avg      0.640     0.800     0.711         5
+
+lesao — Lesão/problema físico/recuperação
+Acurácia: 1.000 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      1.000     1.000     1.000         5
+         sim      0.000     0.000     0.000         0
+
+    accuracy                          1.000         5
+   macro avg      0.500     0.500     0.500         5
+weighted avg      1.000     1.000     1.000         5
+
+resultado_partida — Resultado/placar/desempenho de partida
+Acurácia: 0.400 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      0.400     1.000     0.571         2
+         sim      0.000     0.000     0.000         3
+
+    accuracy                          0.400         5
+   macro avg      0.200     0.500     0.286         5
+weighted avg      0.160     0.400     0.229         5
+
+tecnico — Técnico/treinador/comissão técnica
+Acurácia: 1.000 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      1.000     1.000     1.000         5
+         sim      0.000     0.000     0.000         0
+
+    accuracy                          1.000         5
+   macro avg      0.500     0.500     0.500         5
+weighted avg      1.000     1.000     1.000         5
+
+selecao — Seleção nacional/convocação
+Acurácia: 0.800 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      0.800     1.000     0.889         4
+         sim      0.000     0.000     0.000         1
+
+    accuracy                          0.800         5
+   macro avg      0.400     0.500     0.444         5
+weighted avg      0.640     0.800     0.711         5
+
+competicao — Competição/campeonato/classificação/título/rebaixamento
+Acurácia: 0.800 | Precision: 0.800 | Recall: 1.000 | F1: 0.889
+              precision    recall  f1-score   support
+
+         não      0.000     0.000     0.000         1
+         sim      0.800     1.000     0.889         4
+
+    accuracy                          0.800         5
+   macro avg      0.400     0.500     0.444         5
+weighted avg      0.640     0.800     0.711         5
+
+declaracao — Declarações/entrevista/opinião
+Acurácia: 0.400 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      0.400     1.000     0.571         2
+         sim      0.000     0.000     0.000         3
+
+    accuracy                          0.400         5
+   macro avg      0.200     0.500     0.286         5
+weighted avg      0.160     0.400     0.229         5
+
+bastidores — Bastidores/crise/política interna/gestão
+Acurácia: 1.000 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      1.000     1.000     1.000         5
+         sim      0.000     0.000     0.000         0
+
+    accuracy                          1.000         5
+   macro avg      0.500     0.500     0.500         5
+weighted avg      1.000     1.000     1.000         5
+
+futebol_feminino — Futebol feminino
+Acurácia: 1.000 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      1.000     1.000     1.000         5
+         sim      0.000     0.000     0.000         0
+
+    accuracy                          1.000         5
+   macro avg      0.500     0.500     0.500         5
+weighted avg      1.000     1.000     1.000         5
+
+base — Categorias de base/futebol juvenil
+Acurácia: 0.800 | Precision: 0.000 | Recall: 0.000 | F1: 0.000
+              precision    recall  f1-score   support
+
+         não      0.800     1.000     0.889         4
+         sim      0.000     0.000     0.000         1
+
+    accuracy                          0.800         5
+   macro avg      0.400     0.500     0.444         5
+weighted avg      0.640     0.800     0.711         5
+
+========================================================================
+FOCO EM FUTEBOL (score de 1 a 5)
+Acurácia: 1.000
+Erro absoluto médio: 0.000
+              precision    recall  f1-score   support
+
+           1      0.000     0.000     0.000         0
+           2      0.000     0.000     0.000         0
+           3      0.000     0.000     0.000         0
+           4      0.000     0.000     0.000         0
+           5      1.000     1.000     1.000         5
+
+    accuracy                          1.000         5
+   macro avg      0.200     0.200     0.200         5
+weighted avg      1.000     1.000     1.000         5
+
+DISTRIBUIÇÃO DOS RÓTULOS MANUAIS
+transferencia: sim=3, não=17
+lesao: sim=2, não=18
+resultado_partida: sim=9, não=11
+tecnico: sim=0, não=20
+selecao: sim=2, não=18
+competicao: sim=16, não=4
+declaracao: sim=6, não=14
+bastidores: sim=1, não=19
+futebol_feminino: sim=0, não=20
+base: sim=4, não=16
+
+LEITURA DO MODELO
+Cada tema usa classificação binária sim/não. O foco em futebol usa classes de 1 a 5.
+Se uma categoria só aparecer como sim ou só como não no conjunto de treino, é usado um classificador constante para evitar erro de treinamento.
+Com 20 notícias, os resultados não são suficientemente robustos para conclusões definitivas. Rotular mais notícias tende a melhorar a avaliação.
