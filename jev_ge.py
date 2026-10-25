@@ -346,7 +346,7 @@ def executar_classificacao():
             print("Relatorio atualizado:", ARQUIVO_RELATORIO.name)
         return
 
-    # apikey_2221421e648866cc42f080efeb27529f865b_ca0162224a4c84a857723d7c29e2975893f3b9b490c416670fd8a00d0bf6c25b
+    #
     if not os.environ.get("TYPESAFE_API_KEY"):
         os.environ["TYPESAFE_API_KEY"] = getpass(
             "Digite sua TYPESAFE_API_KEY: "
