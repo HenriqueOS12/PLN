@@ -1,6 +1,8 @@
 # pip install nltk spacy pandas
 # python -m spacy download pt_core_news_sm
 
+from pathlib import Path
+
 import pandas as pd
 import nltk
 import spacy
@@ -8,6 +10,14 @@ import spacy
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import RSLPStemmer
+
+# Caminhos do projeto (os scripts ficam em scripts/)
+PASTA_RAIZ = Path(__file__).resolve().parent.parent
+ARQUIVO_ENTRADA = PASTA_RAIZ / "dados" / "brutos" / "noticias_ge.csv"
+PASTA_SAIDA = PASTA_RAIZ / "dados" / "processados"
+PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
+ARQUIVO_CSV = PASTA_SAIDA / "noticias_ge_processado.csv"
+ARQUIVO_TXT = PASTA_SAIDA / "noticias_ge_processado.txt"
 
 # Downloads necessários
 for recurso in ["punkt", "punkt_tab", "stopwords", "rslp"]:
@@ -88,8 +98,8 @@ def processar_texto(texto):
     })
 
 
-# Lê o CSV da mesma pasta do script
-df = pd.read_csv("noticias_ge.csv")
+# Lê o CSV de dados brutos
+df = pd.read_csv(ARQUIVO_ENTRADA)
 
 df.insert(
     0,
@@ -110,7 +120,7 @@ df_final = pd.concat(
 
 # Salva resultado
 df_final.to_csv(
-    "noticias_ge_processado.csv",
+    ARQUIVO_CSV,
     index=False,
     encoding="utf-8-sig"
 )
@@ -120,7 +130,7 @@ df_final.to_csv(
 # ==========================================================
 
 with open(
-    "noticias_ge_processado.txt",
+    ARQUIVO_TXT,
     "w",
     encoding="utf-8"
 ) as arquivo:
@@ -163,5 +173,5 @@ with open(
         arquivo.write("\n\n")
 
 print("Arquivo gerado:")
-print("noticias_ge_processado.csv")
-print("noticias_ge_processado.txt")
+print(ARQUIVO_CSV)
+print(ARQUIVO_TXT)

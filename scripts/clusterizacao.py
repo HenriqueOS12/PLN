@@ -1,6 +1,8 @@
 import pandas as pd
 import ast
+import json
 import numpy as np
+from pathlib import Path
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
@@ -8,11 +10,22 @@ from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
 
 # ==========================================================
+# CAMINHOS DO PROJETO
+# ==========================================================
+
+# Os scripts ficam em scripts/; a raiz do projeto é a pasta acima.
+PASTA_RAIZ = Path(__file__).resolve().parent.parent
+ARQUIVO_ENTRADA = PASTA_RAIZ / "dados" / "processados" / "noticias_ge_processado.csv"
+PASTA_SAIDA = PASTA_RAIZ / "resultados" / "clusterizacao"
+PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
+
+
+# ==========================================================
 # CARREGAR DADOS
 # ==========================================================
 
 df = pd.read_csv(
-    "noticias_ge_processado.csv",
+    ARQUIVO_ENTRADA,
     encoding="utf-8-sig"
 )
 
@@ -57,7 +70,7 @@ df["cluster"] = kmeans.fit_predict(
 )
 
 df.to_csv(
-    "noticias_clusters.csv",
+    PASTA_SAIDA / "noticias_clusters.csv",
     index=False,
     encoding="utf-8-sig"
 )
@@ -68,6 +81,58 @@ df.to_csv(
 
 from sklearn.decomposition import PCA
 import plotly.express as px
+
+
+# ==========================================================
+# PAINEL COM O TEXTO COMPLETO DA NOTÍCIA
+# ==========================================================
+
+# O texto completo não cabe no tooltip (fica numa linha só
+# e é cortado na tela). Ele é exibido num painel abaixo do
+# gráfico quando o mouse passa sobre um ponto.
+# Cada ponto guarda em customdata a posição da notícia no df.
+
+def criar_painel_js():
+
+    noticias = [
+        {
+            "titulo": str(linha["titulo"]),
+            "id": str(linha["id"]),
+            "cluster": str(linha["cluster"]),
+            "texto": str(linha["texto"])
+        }
+        for _, linha in df.iterrows()
+    ]
+
+    # "</" é escapado para um texto não fechar a tag <script>.
+    dados_json = json.dumps(
+        noticias,
+        ensure_ascii=False
+    ).replace("</", "<\\/")
+
+    return """
+var grafico = document.getElementById('{plot_id}');
+var noticias = %s;
+
+var painel = document.createElement('div');
+painel.style.cssText = 'font-family:sans-serif;max-width:1200px;'
+    + 'white-space:pre-wrap;padding:8px;';
+painel.textContent = 'Passe o mouse sobre um ponto para ler a notícia completa.';
+grafico.parentNode.appendChild(painel);
+
+grafico.on('plotly_hover', function (dados) {
+    var n = noticias[dados.points[0].customdata[0]];
+
+    painel.textContent =
+        n.titulo + '\\n'
+        + 'Cluster: ' + n.cluster + '\\n'
+        + n.id + '\\n\\n'
+        + n.texto;
+});
+""" % dados_json
+
+
+painel_js = criar_painel_js()
 
 
 # ==========================================================
@@ -96,10 +161,13 @@ df_pca_2d = pd.DataFrame({
 
 # Salvar coordenadas 2D
 df_pca_2d.to_csv(
-    "pca_2d.csv",
+    PASTA_SAIDA / "pca_2d.csv",
     index=False,
     encoding="utf-8-sig"
 )
+
+# Posição de cada notícia, usada pelo painel do texto completo.
+df_pca_2d["n"] = range(len(df))
 
 
 # ==========================================================
@@ -122,8 +190,6 @@ fig_2d = px.scatter(
 
         "id": True,
 
-        "texto": True,
-
         "cluster": True,
 
         "PCA1": False,
@@ -131,6 +197,8 @@ fig_2d = px.scatter(
         "PCA2": False
 
     },
+
+    custom_data=["n"],
 
     title="Clusters das notícias — PCA em 2 dimensões"
 
@@ -169,9 +237,11 @@ fig_2d.update_layout(
 
 fig_2d.write_html(
 
-    "clusters_pca_2d.html",
+    PASTA_SAIDA / "clusters_pca_2d.html",
 
-    auto_open=False
+    auto_open=False,
+
+    post_script=painel_js
 
 )
 
@@ -221,13 +291,16 @@ df_pca_3d = pd.DataFrame({
 # Salvar coordenadas 3D
 df_pca_3d.to_csv(
 
-    "pca_3d.csv",
+    PASTA_SAIDA / "pca_3d.csv",
 
     index=False,
 
     encoding="utf-8-sig"
 
 )
+
+# Posição de cada notícia, usada pelo painel do texto completo.
+df_pca_3d["n"] = range(len(df))
 
 
 # ==========================================================
@@ -252,8 +325,6 @@ fig_3d = px.scatter_3d(
 
         "id": True,
 
-        "texto": True,
-
         "cluster": True,
 
         "PCA1": False,
@@ -263,6 +334,8 @@ fig_3d = px.scatter_3d(
         "PCA3": False
 
     },
+
+    custom_data=["n"],
 
     title="Clusters das notícias — PCA em 3 dimensões"
 
@@ -307,9 +380,11 @@ fig_3d.update_layout(
 
 fig_3d.write_html(
 
-    "clusters_pca_3d.html",
+    PASTA_SAIDA / "clusters_pca_3d.html",
 
-    auto_open=False
+    auto_open=False,
+
+    post_script=painel_js
 
 )
 

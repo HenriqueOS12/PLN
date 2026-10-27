@@ -1,0 +1,50 @@
+==================================================
+CARREGANDO DADOS
+==================================================
+Documentos encontrados: 500
+
+==================================================
+BAG OF WORDS
+==================================================
+Documentos: 500
+Palavras no vocabulário: 11785
+Matriz: 500 x 11785
+Arquivo gerado: noticias_ge_bow.csv
+
+==================================================
+TF-IDF
+==================================================
+Documentos: 500
+Palavras no vocabulário: 11785
+Matriz: 500 x 11785
+Arquivo gerado: noticias_ge_tfidf.csv
+
+==================================================
+SIMILARIDADE — BAG OF WORDS
+==================================================
+Matriz de similaridade BOW: 500 x 500
+
+==================================================
+SIMILARIDADE — TF-IDF
+==================================================
+Matriz de similaridade TF-IDF: 500 x 500
+Arquivo gerado: noticias_ge_similaridade.csv
+Arquivo gerado: noticias_ge_similaridade_bow.csv
+
+==================================================
+EXEMPLO DE SIMILARIDADE
+==================================================
+Notícia 1: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/05/atacante-marroquino-fratura-a-perna-em-dividida-forte-no-campeonato-grego-veja.ghtml
+Notícia 2: https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/09/08/atuacoes-do-cuiaba-fabio-gomes-lorenzo-e-jean-dias-marcam-de-suas-notas.ghtml
+Similaridade BOW: 0.1320
+Similaridade TF-IDF: 0.0337
+
+==================================================
+PROCESSAMENTO CONCLUÍDO
+==================================================
+Arquivos gerados:
+- noticias_ge_bow.csv
+- noticias_ge_tfidf.csv
+- noticias_ge_similaridade.csv
+- noticias_ge_similaridade_bow.csv
+- noticias_ge_tfidf_bow.txt

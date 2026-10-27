@@ -3,6 +3,7 @@ import ast
 import os
 import re
 import unicodedata
+from pathlib import Path
 import numpy as np
 import pandas as pd
 import torch
@@ -15,11 +16,16 @@ from transformers import AutoTokenizer, AutoModel
 # CONFIGURACOES
 # ============================================================
 
-ARQUIVO_CSV = "noticias_ge_processado.csv"
+# Os scripts ficam em scripts/; a raiz do projeto e a pasta acima.
+PASTA_RAIZ = Path(__file__).resolve().parent.parent
+PASTA_SAIDA = PASTA_RAIZ / "resultados" / "word2vec_bert"
+PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
 
-ARQUIVO_EMBEDDINGS_W2V = "embeddings_word2vec.csv"
-ARQUIVO_EMBEDDINGS_BERT = "embeddings_bert.csv"
-ARQUIVO_RELATORIO = "relatorio_word2vec_bert.txt"
+ARQUIVO_CSV = PASTA_RAIZ / "dados" / "processados" / "noticias_ge_processado.csv"
+
+ARQUIVO_EMBEDDINGS_W2V = PASTA_SAIDA / "embeddings_word2vec.csv"
+ARQUIVO_EMBEDDINGS_BERT = PASTA_SAIDA / "embeddings_bert.csv"
+ARQUIVO_RELATORIO = PASTA_SAIDA / "relatorio_word2vec_bert.txt"
 
 MODELO_BERT = "neuralmind/bert-base-portuguese-cased"
 
@@ -108,7 +114,7 @@ def criar_texto_documento(linha):
 if not os.path.exists(ARQUIVO_CSV):
     raise FileNotFoundError(
         f"Arquivo nao encontrado: {ARQUIVO_CSV}\n"
-        "Coloque o script na pasta onde esta o CSV."
+        "Gere o CSV com processamento.py (dados/processados)."
     )
 
 df = pd.read_csv(ARQUIVO_CSV, encoding="utf-8-sig")

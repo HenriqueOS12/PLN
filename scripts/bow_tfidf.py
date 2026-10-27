@@ -3,6 +3,8 @@ import plotly.graph_objects as go
 import plotly.io as pio
 import pandas as pd
 import ast
+import json
+from pathlib import Path
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -12,11 +14,22 @@ import plotly.graph_objects as go
 
 
 # ==========================================================
+# CAMINHOS DO PROJETO
+# ==========================================================
+
+# Os scripts ficam em scripts/; a raiz do projeto é a pasta acima.
+PASTA_RAIZ = Path(__file__).resolve().parent.parent
+ARQUIVO_ENTRADA = PASTA_RAIZ / "dados" / "processados" / "noticias_ge_processado.csv"
+PASTA_SAIDA = PASTA_RAIZ / "resultados" / "bow_tfidf"
+PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
+
+
+# ==========================================================
 # ARQUIVO DE RELATÓRIO
 # ==========================================================
 
 relatorio = open(
-    "noticias_ge_tfidf_bow.txt",
+    PASTA_SAIDA / "noticias_ge_tfidf_bow.txt",
     "w",
     encoding="utf-8"
 )
@@ -35,7 +48,7 @@ escrever("CARREGANDO DADOS")
 escrever("=" * 50)
 
 df = pd.read_csv(
-    "noticias_ge_processado.csv",
+    ARQUIVO_ENTRADA,
     encoding="utf-8-sig"
 )
 
@@ -87,7 +100,7 @@ df_bow.insert(
 )
 
 df_bow.to_csv(
-    "noticias_ge_bow.csv",
+    PASTA_SAIDA / "noticias_ge_bow.csv",
     index=False,
     encoding="utf-8-sig"
 )
@@ -134,7 +147,7 @@ df_tfidf.insert(
 )
 
 df_tfidf.to_csv(
-    "noticias_ge_tfidf.csv",
+    PASTA_SAIDA / "noticias_ge_tfidf.csv",
     index=False,
     encoding="utf-8-sig"
 )
@@ -193,7 +206,7 @@ df_similaridade_tfidf = pd.DataFrame(
 )
 
 df_similaridade_tfidf.to_csv(
-    "noticias_ge_similaridade.csv",
+    PASTA_SAIDA / "noticias_ge_similaridade.csv",
     encoding="utf-8-sig"
 )
 
@@ -213,7 +226,7 @@ df_similaridade_bow = pd.DataFrame(
 )
 
 df_similaridade_bow.to_csv(
-    "noticias_ge_similaridade_bow.csv",
+    PASTA_SAIDA / "noticias_ge_similaridade_bow.csv",
     encoding="utf-8-sig"
 )
 
@@ -256,24 +269,41 @@ def criar_heatmap(matriz, titulo, nome_arquivo):
     # DADOS DO TOOLTIP
     # ======================================================
 
-    customdata = []
+    # Os textos completos NÃO vão em cada célula do heatmap:
+    # com 500 notícias são 250.000 células, e repetir dois
+    # textos inteiros em cada uma gerava um HTML de ~1,4 GB.
+    # Cada texto é gravado uma única vez e exibido num painel
+    # abaixo do gráfico quando o mouse passa sobre uma célula.
 
-    for i in range(len(df)):
+    painel_js = """
+var grafico = document.getElementById('{plot_id}');
+var titulos = %s;
+var descricoes = %s;
 
-        linha = []
+var painel = document.createElement('div');
+painel.style.cssText = 'font-family:sans-serif;max-width:1000px;'
+    + 'white-space:pre-wrap;padding:8px;';
+painel.textContent = 'Passe o mouse sobre uma célula para ver as notícias.';
+grafico.parentNode.appendChild(painel);
 
-        for j in range(len(df)):
+grafico.on('plotly_hover', function (dados) {
+    var ponto = dados.points[0];
+    var i = ponto.pointIndex[0];
+    var j = ponto.pointIndex[1];
 
-            linha.append([
-                i + 1,
-                j + 1,
-                titulos[i],
-                titulos[j],
-                descricoes[i],
-                descricoes[j]
-            ])
-
-        customdata.append(linha)
+    painel.textContent =
+        'Notícia ' + (i + 1) + ': ' + titulos[i] + '\\n\\n'
+        + descricoes[i] + '\\n\\n'
+        + '----------------------------------------\\n\\n'
+        + 'Notícia ' + (j + 1) + ': ' + titulos[j] + '\\n\\n'
+        + descricoes[j] + '\\n\\n'
+        + 'Similaridade: ' + ponto.z.toFixed(3);
+});
+""" % (
+        # "</" é escapado para um texto não fechar a tag <script>.
+        json.dumps(titulos, ensure_ascii=False).replace("</", "<\\/"),
+        json.dumps(descricoes, ensure_ascii=False).replace("</", "<\\/")
+    )
 
 
     # ======================================================
@@ -284,7 +314,8 @@ def criar_heatmap(matriz, titulo, nome_arquivo):
 
         data=go.Heatmap(
 
-            z=matriz,
+            # 3 casas decimais bastam e reduzem o arquivo.
+            z=matriz.round(3),
 
             x=rotulos,
 
@@ -296,23 +327,12 @@ def criar_heatmap(matriz, titulo, nome_arquivo):
 
             zmax=1,
 
-            customdata=customdata,
-
+            # Os rótulos dos eixos já trazem número e título curto.
             hovertemplate=
 
-                "<b>Notícia %{customdata[0]}</b><br>"
-                "<b>Título:</b> "
-                "%{customdata[2]}<br><br>"
+                "<b>%{y}</b><br>"
 
-                "<b>Notícia %{customdata[1]}</b><br>"
-                "<b>Título:</b> "
-                "%{customdata[3]}<br><br>"
-
-                "<b>Descrição da notícia 1:</b><br>"
-                "%{customdata[4]}<br><br>"
-
-                "<b>Descrição da notícia 2:</b><br>"
-                "%{customdata[5]}<br><br>"
+                "<b>%{x}</b><br><br>"
 
                 "<b>Similaridade:</b> "
                 "%{z:.3f}"
@@ -356,7 +376,8 @@ def criar_heatmap(matriz, titulo, nome_arquivo):
         fig,
         file=nome_arquivo,
         auto_open=False,
-        include_plotlyjs=True
+        include_plotlyjs=True,
+        post_script=painel_js
     )
 
 
@@ -381,7 +402,7 @@ criar_heatmap(
 
     "Similaridade entre notícias — Bag of Words",
 
-    "similaridade_bow.html"
+    PASTA_SAIDA / "similaridade_bow.html"
 
 )
 
@@ -396,7 +417,7 @@ criar_heatmap(
 
     "Similaridade entre notícias — TF-IDF",
 
-    "similaridade_tfidf.html"
+    PASTA_SAIDA / "similaridade_tfidf.html"
 
 )
 

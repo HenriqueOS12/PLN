@@ -9,8 +9,12 @@ from pathlib import Path
 import pandas as pd
 from typesafe_sdk import Noul, Score, TypeSafeClient
 
-PASTA = Path(__file__).resolve().parent
-ARQUIVO_CSV = PASTA / "noticias_ge_processado.csv"
+# Os scripts ficam em scripts/; a raiz do projeto é a pasta acima.
+PASTA_RAIZ = Path(__file__).resolve().parent.parent
+PASTA_DADOS = PASTA_RAIZ / "dados" / "processados"
+PASTA = PASTA_RAIZ / "resultados" / "jev"
+PASTA.mkdir(parents=True, exist_ok=True)
+ARQUIVO_CSV = PASTA_DADOS / "noticias_ge_processado.csv"
 ARQUIVO_RESULTADOS = PASTA / "noticias_ge_jev.csv"
 ARQUIVO_RELATORIO = PASTA / "relatorio_jev_ge.txt"
 
@@ -189,7 +193,7 @@ def carregar_noticias():
     if not ARQUIVO_CSV.exists():
         raise FileNotFoundError(
             "Arquivo nao encontrado: " + str(ARQUIVO_CSV) + "\n"
-            "Deixe jev_ge.py na mesma pasta de noticias_ge_processado.csv."
+            "Gere-o com processamento.py (dados/processados)."
         )
 
     df = pd.read_csv(ARQUIVO_CSV, encoding="utf-8-sig", low_memory=False)
@@ -322,6 +326,10 @@ def executar_classificacao():
     resultados = []
 
     if not existentes.empty and "url" in existentes.columns:
+        # Descarta resultados de noticias que nao estao no CSV atual.
+        existentes = existentes[
+            existentes["url"].astype(str).isin(df["url"].astype(str))
+        ]
         resultados = existentes.to_dict("records")
         if "erro_jev" in existentes.columns:
             urls_concluidas = set(

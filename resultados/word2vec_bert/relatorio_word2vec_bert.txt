@@ -1,0 +1,1098 @@
+
+================================================================================
+CONSULTA: Corinthians
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Escalação: Corinthians treina na Argentina e terá desfalques contra o Estudiantes
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/escalacao-corinthians-treina-na-argentina-e-tera-desfalques-contra-o-estudiantes.ghtml
+Similaridade: 0.655793
+
+Posicao: 2
+Titulo: Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/corinthians-nao-perdia-quatro-seguidas-no-brasileirao-desde-2007-ano-do-rebaixamento.ghtml
+Similaridade: 0.654526
+
+Posicao: 3
+Titulo: Treino do Corinthians: Diniz faz ajustes táticos para jogo contra a Chapecoense
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/04/treino-do-corinthians-diniz-faz-ajustes-taticos-para-jogo-contra-a-chapecoense.ghtml
+Similaridade: 0.651137
+
+Posicao: 4
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.651082
+
+Posicao: 5
+Titulo: Sequência do Brasileirão e elenco curto: Diniz pode manter a base do Corinthians contra a Chapecoense
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/05/sequencia-do-brasileirao-e-elenco-curto-diniz-pode-manter-a-base-do-corinthians-contra-a-chapecoense.ghtml
+Similaridade: 0.643263
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/corinthians-aguarda-aval-da-cbf-para-estrear-novo-terceiro-uniforme.ghtml
+Similaridade: 0.379868
+
+Posicao: 2
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.357153
+
+Posicao: 3
+Titulo: Alvo do São Paulo, Jamie Vardy acerta com time da Segunda Divisão inglesa
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/alvo-do-sao-paulo-jamie-vardy-acerta-com-time-da-segunda-divisao-inglesa.ghtml
+Similaridade: 0.355823
+
+Posicao: 4
+Titulo: Fluminense lança patch colecionável de jogos e estreia contra o Platense na Libertadores; veja foto
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/fluminense-lanca-patch-colecionavel-de-jogos-e-estreia-contra-o-platense-na-libertadores-veja-foto.ghtml
+Similaridade: 0.350741
+
+Posicao: 5
+Titulo: PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/pc-de-oliveira-diz-que-marcal-deveria-ter-sido-expulso-em-botafogo-x-palmeiras-video.ghtml
+Similaridade: 0.348711
+
+================================================================================
+CONSULTA: Corinthian
+================================================================================
+
+========== WORD2VEC ==========
+Nenhum resultado encontrado.
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/corinthians-aguarda-aval-da-cbf-para-estrear-novo-terceiro-uniforme.ghtml
+Similaridade: 0.501500
+
+Posicao: 2
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.500951
+
+Posicao: 3
+Titulo: Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+Data: 08/09/2026
+URL: https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/08/meia-do-paysandu-faz-gol-digno-de-puskas-na-serie-c-e-viraliza-nas-redes-assista.ghtml
+Similaridade: 0.493192
+
+Posicao: 4
+Titulo: CBF altera árbitro do clássico entre Coritiba e Athletico; saiba o motivo
+Data: 08/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/08/cbf-altera-arbitro-do-classico-entre-coritiba-e-athletico-saiba-o-motivo.ghtml
+Similaridade: 0.492106
+
+Posicao: 5
+Titulo: Coritiba x Athletico: Athletiba já tem mais de 30 mil ingressos ocupados no Couto Pereira
+Data: 10/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/coritiba-x-athletico-athletiba-ja-tem-mais-de-30-mil-ingressos-ocupados-no-couto-pereira.ghtml
+Similaridade: 0.484421
+
+================================================================================
+CONSULTA: Botafogo
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Retirado de bandeirão de ídolos, Marlon Freitas reencontra torcida do Botafogo após saída polêmica
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/retirado-de-bandeirao-de-idolos-marlon-freitas-reencontra-torcida-do-botafogo-apos-saida-polemica.ghtml
+Similaridade: 0.628792
+
+Posicao: 2
+Titulo: Três meses depois de choro no adeus, Barboza volta ao Nilton Santos como adversário do Botafogo
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/05/tres-meses-depois-de-choro-no-adeus-barboza-volta-ao-nilton-santos-como-adversario-do-botafogo.ghtml
+Similaridade: 0.628300
+
+Posicao: 3
+Titulo: No reencontro com o Botafogo, Marlon Freitas é xingado de "judas" e tem bandeirão rasgado
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/no-reencontro-com-o-botafogo-marlon-freitas-e-xingado-de-judas-e-tem-bandeirao-rasgado.ghtml
+Similaridade: 0.616639
+
+Posicao: 4
+Titulo: Botafogo negocia contratação de Matheus Gonçalves
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/botafogo-tem-matheus-goncalves-como-alvo-nesta-reta-final-da-janela.ghtml
+Similaridade: 0.610398
+
+Posicao: 5
+Titulo: Ziyech chega ao Rio e é recebido por torcedores do Botafogo: "País número 1 do futebol"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/ziyech-chega-ao-rio-de-janeiro-e-e-recebido-por-torcedores-do-botafogo-no-aeroporto.ghtml
+Similaridade: 0.601216
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.321612
+
+Posicao: 2
+Titulo: PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/pc-de-oliveira-diz-que-marcal-deveria-ter-sido-expulso-em-botafogo-x-palmeiras-video.ghtml
+Similaridade: 0.321535
+
+Posicao: 3
+Titulo: Barra Mansa empata com Friburguense na segunda rodada da Série B2 do RJ
+Data: 07/09/2026
+URL: https://ge.globo.com/rj/sul-do-rio-costa-verde/futebol/times/barra-mansa/noticia/2026/09/07/barra-mansa-empata-com-friburguense-na-segunda-rodada-da-serie-b2-do-rj.ghtml
+Similaridade: 0.319305
+
+Posicao: 4
+Titulo: Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/al-ahli-recusa-investidas-por-matheus-goncalves-e-frusta-botafogo.ghtml
+Similaridade: 0.308291
+
+Posicao: 5
+Titulo: Alvo do São Paulo, Jamie Vardy acerta com time da Segunda Divisão inglesa
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/alvo-do-sao-paulo-jamie-vardy-acerta-com-time-da-segunda-divisao-inglesa.ghtml
+Similaridade: 0.306974
+
+================================================================================
+CONSULTA: Brasil
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Sorteio dos mandos da semifinal da Copa do Brasil 2026: veja onde assistir ao vivo
+Data: 10/09/2026
+URL: https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/09/10/sorteio-dos-mandos-da-semifinal-da-copa-do-brasil-2026-veja-onde-assistir-ao-vivo.ghtml
+Similaridade: 0.608868
+
+Posicao: 2
+Titulo: Semifinais da Copa do Brasil 2026: veja os mandos de campo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/10/semifinais-da-copa-do-brasil-2026-veja-os-mandos-de-campo.ghtml
+Similaridade: 0.606231
+
+Posicao: 3
+Titulo: Globo fecha acordo com a CBF para transmissão da Copa do Brasil de 2027 a 2030
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/10/globo-fecha-acordo-com-a-cbf-para-transmissao-da-copa-do-brasil-de-2027-a-2030.ghtml
+Similaridade: 0.602384
+
+Posicao: 4
+Titulo: Barra elimina o Internacional na primeira fase da Copa do Brasil Sub-20
+Data: 09/09/2026
+URL: https://ge.globo.com/sc/futebol/noticia/2026/09/09/barra-elimina-o-internacional-na-primeira-fase-da-copa-do-brasil-sub-20.ghtml
+Similaridade: 0.579471
+
+Posicao: 5
+Titulo: Final única da Copa do Brasil 2026 será em Brasília
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/09/final-unica-da-copa-do-brasil-2026-sera-em-brasilia.ghtml
+Similaridade: 0.557665
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.327700
+
+Posicao: 2
+Titulo: Fluminense lança patch colecionável de jogos e estreia contra o Platense na Libertadores; veja foto
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/fluminense-lanca-patch-colecionavel-de-jogos-e-estreia-contra-o-platense-na-libertadores-veja-foto.ghtml
+Similaridade: 0.324570
+
+Posicao: 3
+Titulo: Brasil x Tanzânia na Copa do Mundo Feminina sub-20: onde assistir ao vivo e horário
+Data: 04/09/2026
+URL: https://ge.globo.com/ms/futebol/futebol-feminino/noticia/2026/09/04/brasil-x-tanzania-na-copa-do-mundo-feminina-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.319182
+
+Posicao: 4
+Titulo: Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/imprensa-internacional-repercute-revolucao-de-ancelotti-na-selecao-nova-era.ghtml
+Similaridade: 0.318028
+
+Posicao: 5
+Titulo: Pedro e Samuel Lino, do Flamengo, comemoram convocação para Seleção; veja
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/pedro-e-samuel-lino-do-flamengo-comemoram-convocacao-para-a-selecao-brasileira.ghtml
+Similaridade: 0.306445
+
+================================================================================
+CONSULTA: Pedro
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.540302
+
+Posicao: 2
+Titulo: Marcelo Rangel revela brincadeira de Pedro depois de defesa incrível em Remo x Flamengo
+Data: 07/09/2026
+URL: https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/07/marcelo-rangel-revela-brincadeira-de-pedro-depois-de-defesa-incrivel-em-remo-x-flamengo.ghtml
+Similaridade: 0.537496
+
+Posicao: 3
+Titulo: Escalação do Vasco: com titulares preservados, Pedro Emanuel prepara mudanças contra o Santa Fe
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/07/escalacao-do-vasco-com-titulares-preservados-pedro-emanuel-prepara-mudancas-contra-o-santa-fe.ghtml
+Similaridade: 0.526322
+
+Posicao: 4
+Titulo: VC Escala: monte o time ideal do Vasco contra o Santa Fe na Sul-Americana
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/07/vc-escala-monte-o-time-ideal-do-vasco-contra-o-santa-fe-na-sul-americana.ghtml
+Similaridade: 0.524736
+
+Posicao: 5
+Titulo: Sequência pesa, e Pedro Emanuel tem jogadores no limite físico no Vasco: "Nem eu estou 100%"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/06/sequencia-pesa-e-pedro-emanuel-tem-jogadores-no-limite-fisico-no-vasco-nem-eu-estou-100percent.ghtml
+Similaridade: 0.504177
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Cruzeiro x Athletico-PR: veja o que Matheus Pereira teria dito a Kaio Jorge em discussão
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/cruzeiro-x-athletico-pr-veja-o-que-matheus-pereira-teria-dito-a-kaio-jorge-em-discussao.ghtml
+Similaridade: 0.278716
+
+Posicao: 2
+Titulo: Romero reage à discussão entre Matheus Pereira e Kaio Jorge sobre pênalti no Cruzeiro
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/06/romero-reage-a-discussao-entre-matheus-pereira-e-kaio-jorge-sobre-penalti-no-cruzeiro.ghtml
+Similaridade: 0.270080
+
+Posicao: 3
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.261555
+
+Posicao: 4
+Titulo: Bastidores: como ficou o clima entre Kaio Jorge e Matheus Pereira no vestiário do Cruzeiro
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/bastidores-como-ficou-o-clima-entre-kaio-jorge-e-matheus-pereira-no-vestiario-do-cruzeiro.ghtml
+Similaridade: 0.260322
+
+Posicao: 5
+Titulo: PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/pc-de-oliveira-diz-que-marcal-deveria-ter-sido-expulso-em-botafogo-x-palmeiras-video.ghtml
+Similaridade: 0.258808
+
+================================================================================
+CONSULTA: Medina
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Botafogo negocia a contratação de Fabricio Pérez, do Estudiantes
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/07/botafogo-negocia-a-contratacao-de-fabricio-perez-do-estudiantes.ghtml
+Similaridade: 0.608002
+
+Posicao: 2
+Titulo: Escalação do Botafogo: com desfalques, Bellão deve mudar esquema contra o Palmeiras
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/escalacao-do-botafogo-com-desfalques-bellao-deve-mudar-esquema-contra-o-palmeiras.ghtml
+Similaridade: 0.569617
+
+Posicao: 3
+Titulo: Botafogo reforça a zaga na janela e amplia opções para o setor
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/09/botafogo-reforca-a-zaga-na-janela-e-amplia-opcoes-para-o-setor.ghtml
+Similaridade: 0.550061
+
+Posicao: 4
+Titulo: Botafogo anuncia contratação do zagueiro Arthur Chaves
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/botafogo-anuncia-contratacao-do-zagueiro-arthur-chaves.ghtml
+Similaridade: 0.518095
+
+Posicao: 5
+Titulo: Botafogo negocia contratação de Matheus Gonçalves
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/botafogo-tem-matheus-goncalves-como-alvo-nesta-reta-final-da-janela.ghtml
+Similaridade: 0.516175
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Adrianinho passa Nenê e é o líder de assistências da Série C
+Data: 08/09/2026
+URL: https://ge.globo.com/sc/futebol/times/brusque/noticia/2026/09/08/adrianinho-passa-nene-e-e-o-lider-de-assistencias-da-serie-c.ghtml
+Similaridade: 0.231273
+
+Posicao: 2
+Titulo: Vaias para Vini Jr. revoltam comentaristas espanhóis: “Assim não”
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/09/vaias-para-vini-jr-revoltam-comentaristas-espanhois-assim-nao.ghtml
+Similaridade: 0.229354
+
+Posicao: 3
+Titulo: Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/imprensa-internacional-repercute-peitada-de-arbitro-em-canobbio-do-fluminense-sem-precedentes.ghtml
+Similaridade: 0.223380
+
+Posicao: 4
+Titulo: Pelo Cruzeiro, Matheus Pereira atinge temporada mais artilheira da carreira; veja números
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/pelo-cruzeiro-matheus-pereira-atinge-temporada-mais-artilheira-da-carreira-veja-numeros.ghtml
+Similaridade: 0.222167
+
+Posicao: 5
+Titulo: Viralizou: árbitro peita Canobbio, bate-boca no Cruzeiro e ajuda do Botafogo ao "amigo" Flamengo
+Data: 07/09/2026
+URL: https://ge.globo.com/pe/futebol/noticia/2026/09/07/viralizou-arbitro-peita-canobbio-bate-boca-no-cruzeiro-e-ajuda-do-botafogo-ao-amigo-flamengo.ghtml
+Similaridade: 0.220940
+
+================================================================================
+CONSULTA: Oi
+================================================================================
+
+========== WORD2VEC ==========
+Nenhum resultado encontrado.
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Cruzeiro x Athletico-PR: veja o que Matheus Pereira teria dito a Kaio Jorge em discussão
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/cruzeiro-x-athletico-pr-veja-o-que-matheus-pereira-teria-dito-a-kaio-jorge-em-discussao.ghtml
+Similaridade: 0.400240
+
+Posicao: 2
+Titulo: Justiça autoriza novo empréstimo e determina abertura do leilão da SAF do Vasco
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/justica-autoriza-novo-emprestimo-e-processo-de-venda-da-saf-do-vasco-avanca.ghtml
+Similaridade: 0.399660
+
+Posicao: 3
+Titulo: Nonato dedica vitória e gol do Fluminense ao diretor Paulo Angioni, que está internado
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/08/nonato-dedica-gol-e-vitoria-do-fluminense-ao-diretor-paulo-angioni-que-esta-internado.ghtml
+Similaridade: 0.398600
+
+Posicao: 4
+Titulo: Ziyech chega ao Rio e é recebido por torcedores do Botafogo: "País número 1 do futebol"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/ziyech-chega-ao-rio-de-janeiro-e-e-recebido-por-torcedores-do-botafogo-no-aeroporto.ghtml
+Similaridade: 0.398204
+
+Posicao: 5
+Titulo: Vasco x Atlético-PI: veja onde assistir ao vivo, horário e prováveis escalações
+Data: 07/09/2026
+URL: https://ge.globo.com/pi/futebol/futebol-feminino/brasileiro-feminino-serie-a2/noticia/2026/09/07/vasco-x-atletico-pi-veja-onde-assistir-ao-vivo-horario-e-provaveis-escalacoes.ghtml
+Similaridade: 0.398089
+
+================================================================================
+CONSULTA: Assistir
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+Data: 05/09/2026
+URL: https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/09/05/brasileirao-2026-veja-onde-assistir-ao-vivo-aos-jogos-da-26a-rodada.ghtml
+Similaridade: 0.495303
+
+Posicao: 2
+Titulo: Depois de vencer o Real Madrid, Athletico conhece adversário das quartas do Mundial Juvenil
+Data: 04/09/2026
+URL: https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/09/04/depois-de-vencer-o-real-madrid-athletico-conhece-adversario-das-quartas-do-mundial-juvenil.ghtml
+Similaridade: 0.480729
+
+Posicao: 3
+Titulo: São Paulo e Athletico se enfrentam pela semifinal do Mundial de Clubes Juvenil; onde assistir
+Data: 07/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/07/sao-paulo-e-athletico-se-enfrentam-pela-semifinal-do-mundial-de-clubes-juvenil-onde-assistir.ghtml
+Similaridade: 0.464192
+
+Posicao: 4
+Titulo: Profissão olheiro: como é a vida dos scouts brasileiros em busca de joias para clubes do exterior
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/noticia/2026/09/07/profissao-olheiro-como-e-a-vida-dos-scouts-brasileiros-em-busca-de-joias-para-clubes-do-exterior.ghtml
+Similaridade: 0.462555
+
+Posicao: 5
+Titulo: Semifinais da Copa do Brasil 2026: veja os mandos de campo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/10/semifinais-da-copa-do-brasil-2026-veja-os-mandos-de-campo.ghtml
+Similaridade: 0.462398
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Vini Jr. dá caneta em Alexander-Arnold no treino, e Rüdiger cai na gargalhada; vídeo
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/07/vini-jr-da-caneta-em-alexander-arnold-no-treino-e-rudiger-cai-na-gargalhada-video.ghtml
+Similaridade: 0.308272
+
+Posicao: 2
+Titulo: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/video-inedito-de-messi-fazendo-embaixadas-sentado-viraliza-veja.ghtml
+Similaridade: 0.300118
+
+Posicao: 3
+Titulo: Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+Data: 08/09/2026
+URL: https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/08/meia-do-paysandu-faz-gol-digno-de-puskas-na-serie-c-e-viraliza-nas-redes-assista.ghtml
+Similaridade: 0.297468
+
+Posicao: 4
+Titulo: Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/imprensa-internacional-repercute-peitada-de-arbitro-em-canobbio-do-fluminense-sem-precedentes.ghtml
+Similaridade: 0.293987
+
+Posicao: 5
+Titulo: PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/pc-de-oliveira-diz-que-marcal-deveria-ter-sido-expulso-em-botafogo-x-palmeiras-video.ghtml
+Similaridade: 0.290927
+
+================================================================================
+CONSULTA: assistir
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+Data: 05/09/2026
+URL: https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/09/05/brasileirao-2026-veja-onde-assistir-ao-vivo-aos-jogos-da-26a-rodada.ghtml
+Similaridade: 0.495303
+
+Posicao: 2
+Titulo: Depois de vencer o Real Madrid, Athletico conhece adversário das quartas do Mundial Juvenil
+Data: 04/09/2026
+URL: https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/09/04/depois-de-vencer-o-real-madrid-athletico-conhece-adversario-das-quartas-do-mundial-juvenil.ghtml
+Similaridade: 0.480729
+
+Posicao: 3
+Titulo: São Paulo e Athletico se enfrentam pela semifinal do Mundial de Clubes Juvenil; onde assistir
+Data: 07/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/07/sao-paulo-e-athletico-se-enfrentam-pela-semifinal-do-mundial-de-clubes-juvenil-onde-assistir.ghtml
+Similaridade: 0.464192
+
+Posicao: 4
+Titulo: Profissão olheiro: como é a vida dos scouts brasileiros em busca de joias para clubes do exterior
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/noticia/2026/09/07/profissao-olheiro-como-e-a-vida-dos-scouts-brasileiros-em-busca-de-joias-para-clubes-do-exterior.ghtml
+Similaridade: 0.462555
+
+Posicao: 5
+Titulo: Semifinais da Copa do Brasil 2026: veja os mandos de campo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/10/semifinais-da-copa-do-brasil-2026-veja-os-mandos-de-campo.ghtml
+Similaridade: 0.462398
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Vini Jr. dá caneta em Alexander-Arnold no treino, e Rüdiger cai na gargalhada; vídeo
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/07/vini-jr-da-caneta-em-alexander-arnold-no-treino-e-rudiger-cai-na-gargalhada-video.ghtml
+Similaridade: 0.251015
+
+Posicao: 2
+Titulo: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/video-inedito-de-messi-fazendo-embaixadas-sentado-viraliza-veja.ghtml
+Similaridade: 0.233958
+
+Posicao: 3
+Titulo: Vaias para Vini Jr. revoltam comentaristas espanhóis: “Assim não”
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/09/vaias-para-vini-jr-revoltam-comentaristas-espanhois-assim-nao.ghtml
+Similaridade: 0.228774
+
+Posicao: 4
+Titulo: PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/pc-de-oliveira-diz-que-marcal-deveria-ter-sido-expulso-em-botafogo-x-palmeiras-video.ghtml
+Similaridade: 0.228006
+
+Posicao: 5
+Titulo: Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+Data: 05/09/2026
+URL: https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/09/05/brasileirao-2026-veja-onde-assistir-ao-vivo-aos-jogos-da-26a-rodada.ghtml
+Similaridade: 0.227100
+
+================================================================================
+CONSULTA: ASSISTIR
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+Data: 05/09/2026
+URL: https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/09/05/brasileirao-2026-veja-onde-assistir-ao-vivo-aos-jogos-da-26a-rodada.ghtml
+Similaridade: 0.495303
+
+Posicao: 2
+Titulo: Depois de vencer o Real Madrid, Athletico conhece adversário das quartas do Mundial Juvenil
+Data: 04/09/2026
+URL: https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/09/04/depois-de-vencer-o-real-madrid-athletico-conhece-adversario-das-quartas-do-mundial-juvenil.ghtml
+Similaridade: 0.480729
+
+Posicao: 3
+Titulo: São Paulo e Athletico se enfrentam pela semifinal do Mundial de Clubes Juvenil; onde assistir
+Data: 07/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/07/sao-paulo-e-athletico-se-enfrentam-pela-semifinal-do-mundial-de-clubes-juvenil-onde-assistir.ghtml
+Similaridade: 0.464192
+
+Posicao: 4
+Titulo: Profissão olheiro: como é a vida dos scouts brasileiros em busca de joias para clubes do exterior
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/noticia/2026/09/07/profissao-olheiro-como-e-a-vida-dos-scouts-brasileiros-em-busca-de-joias-para-clubes-do-exterior.ghtml
+Similaridade: 0.462555
+
+Posicao: 5
+Titulo: Semifinais da Copa do Brasil 2026: veja os mandos de campo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/10/semifinais-da-copa-do-brasil-2026-veja-os-mandos-de-campo.ghtml
+Similaridade: 0.462398
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Em bate-boca com Neymar, torcedor do Atlético-MG avisa: "Vai ter jogo de volta"; veja discussão
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/em-bate-boca-com-neymar-torcedor-do-atletico-mg-avisa-vai-ter-jogo-de-volta-veja-discussao.ghtml
+Similaridade: 0.422247
+
+Posicao: 2
+Titulo: Lyon tenta contratar Benzema, mas esbarra em contrato que prende atacante ao futebol saudita; entenda
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-frances/noticia/2026/09/08/lyon-tenta-contratar-benzema-mas-esbarra-em-contrato-que-prende-atacante-ao-futebol-saudita-entenda.ghtml
+Similaridade: 0.421668
+
+Posicao: 3
+Titulo: Athletico e Corinthians lamentam a morte de Jackson Nascimento
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/09/athletico-e-corinthians-lamentam-a-morte-de-jackson-nascimento.ghtml
+Similaridade: 0.419244
+
+Posicao: 4
+Titulo: Entenda por que o Corinthians vai mudar posição de patrocinador no calção
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/04/entenda-por-que-o-corinthians-vai-mudar-posicao-de-patrocinador-no-calcao.ghtml
+Similaridade: 0.418696
+
+Posicao: 5
+Titulo: Pedro e Samuel Lino, do Flamengo, comemoram convocação para Seleção; veja
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/pedro-e-samuel-lino-do-flamengo-comemoram-convocacao-para-a-selecao-brasileira.ghtml
+Similaridade: 0.418057
+
+================================================================================
+CONSULTA: Vasco
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/imprensa-internacional-repercute-peitada-de-arbitro-em-canobbio-do-fluminense-sem-precedentes.ghtml
+Similaridade: 0.627702
+
+Posicao: 2
+Titulo: Vasco viaja para a Colômbia sem quatro titulares para a Sul-Americana; veja relacionados
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/06/vasco-viaja-para-a-colombia-sem-quatro-titulares-para-a-sul-americana-veja-relacionados.ghtml
+Similaridade: 0.587445
+
+Posicao: 3
+Titulo: Análise: Fluminense supera fantasma contra o Vasco e confirma boa fase antes da Libertadores
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/06/analise-fluminense-supera-fantasma-contra-o-vasco-e-confirma-boa-fase-antes-da-libertadores.ghtml
+Similaridade: 0.585602
+
+Posicao: 4
+Titulo: Admar mantém esperança na contratação de Richarlison: "Viria mudar o patamar do Vasco"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/admar-mantem-esperanca-na-contratacao-de-richarlison-viria-mudar-o-patamar-do-vasco.ghtml
+Similaridade: 0.585091
+
+Posicao: 5
+Titulo: VC Escala: monte o time ideal do Vasco contra o Santa Fe na Sul-Americana
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/07/vc-escala-monte-o-time-ideal-do-vasco-contra-o-santa-fe-na-sul-americana.ghtml
+Similaridade: 0.577517
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+Data: 08/09/2026
+URL: https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/08/meia-do-paysandu-faz-gol-digno-de-puskas-na-serie-c-e-viraliza-nas-redes-assista.ghtml
+Similaridade: 0.333225
+
+Posicao: 2
+Titulo: Adrianinho passa Nenê e é o líder de assistências da Série C
+Data: 08/09/2026
+URL: https://ge.globo.com/sc/futebol/times/brusque/noticia/2026/09/08/adrianinho-passa-nene-e-e-o-lider-de-assistencias-da-serie-c.ghtml
+Similaridade: 0.322804
+
+Posicao: 3
+Titulo: Boto comenta possível ida de Cebolinha ao Santos: "Ele se excluiu do Flamengo"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/08/boto-comenta-possivel-ida-de-cebolinha-ao-santos-se-excluiu-do-flamengo.ghtml
+Similaridade: 0.319638
+
+Posicao: 4
+Titulo: Alvo do São Paulo, Jamie Vardy acerta com time da Segunda Divisão inglesa
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/alvo-do-sao-paulo-jamie-vardy-acerta-com-time-da-segunda-divisao-inglesa.ghtml
+Similaridade: 0.319481
+
+Posicao: 5
+Titulo: Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/imprensa-internacional-repercute-peitada-de-arbitro-em-canobbio-do-fluminense-sem-precedentes.ghtml
+Similaridade: 0.316501
+
+================================================================================
+CONSULTA: Blumenau
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Figueirense terá dois desfalques da equipe titular na estreia da Copa SC
+Data: 05/09/2026
+URL: https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/09/05/figueirense-tera-dois-desfalques-da-equipe-titular-na-estreia-da-copa-sc.ghtml
+Similaridade: 0.698377
+
+Posicao: 2
+Titulo: Courtois anuncia que não vai jogar a Liga das Nações pela Bélgica
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/09/09/courtois-anuncia-que-nao-vai-jogar-a-liga-das-nacoes-pela-belgica.ghtml
+Similaridade: 0.674700
+
+Posicao: 3
+Titulo: Brasil x Tanzânia na Copa do Mundo Feminina sub-20: onde assistir ao vivo e horário
+Data: 04/09/2026
+URL: https://ge.globo.com/ms/futebol/futebol-feminino/noticia/2026/09/04/brasil-x-tanzania-na-copa-do-mundo-feminina-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.661721
+
+Posicao: 4
+Titulo: Figueirense tem retornos e preocupações para sequência na Copa SC
+Data: 09/09/2026
+URL: https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/09/09/figueirense-tem-retornos-e-preocupacoes-para-sequencia-na-copa-sc.ghtml
+Similaridade: 0.654877
+
+Posicao: 5
+Titulo: Figueirense perde artilheiro da temporada para duelo contra o Nação
+Data: 08/09/2026
+URL: https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/09/08/figueirense-perde-artilheiro-da-temporada-para-duelo-contra-o-nacao.ghtml
+Similaridade: 0.652820
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Criciúma bate o Cascavel e garante classificação na Copa do Brasil Sub-20
+Data: 09/09/2026
+URL: https://ge.globo.com/sc/futebol/noticia/2026/09/09/criciuma-bate-o-cascavel-e-garante-classificacao-na-copa-do-brasil-sub-20.ghtml
+Similaridade: 0.391983
+
+Posicao: 2
+Titulo: Operário-PR supera a Chapecoense nos pênaltis e avança na Copa do Brasil Sub-20
+Data: 10/09/2026
+URL: https://ge.globo.com/sc/futebol/noticia/2026/09/10/operario-pr-supera-a-chapecoense-nos-penaltis-e-avanca-na-copa-do-brasil-sub-20.ghtml
+Similaridade: 0.382999
+
+Posicao: 3
+Titulo: Criciúma anuncia a contratação de zagueiro do Atlético-MG por empréstimo
+Data: 04/09/2026
+URL: https://ge.globo.com/sc/futebol/times/criciuma/noticia/2026/09/04/criciuma-anuncia-a-contratacao-de-zagueiro-do-atletico-mg-por-emprestimo.ghtml
+Similaridade: 0.369172
+
+Posicao: 4
+Titulo: Figueirense perde artilheiro da temporada para duelo contra o Nação
+Data: 08/09/2026
+URL: https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/09/08/figueirense-perde-artilheiro-da-temporada-para-duelo-contra-o-nacao.ghtml
+Similaridade: 0.367727
+
+Posicao: 5
+Titulo: Confira o elenco do Figueirense inscrito para a Copa Santa Catarina
+Data: 04/09/2026
+URL: https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/09/04/confira-o-elenco-do-figueirense-inscrito-para-a-copa-santa-catarina.ghtml
+Similaridade: 0.361553
+
+================================================================================
+CONSULTA: Metropolitano
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Champions League 2026/27: quem briga pelo título e o que esperar da nova temporada
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/08/champions-league-202627-quem-briga-pelo-titulo-e-o-que-esperar-da-nova-temporada.ghtml
+Similaridade: 0.585304
+
+Posicao: 2
+Titulo: Adversário do Corinthians, Estudiantes nasceu em sapataria e fez história na Libertadores
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/adversario-do-corinthians-estudiantes-nasceu-em-sapataria-e-fez-historia-na-libertadores.ghtml
+Similaridade: 0.576225
+
+Posicao: 3
+Titulo: Manchester United x Sabah na Champions League: onde assistir ao vivo e horário
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/manchester-united-x-sabah-na-champions-league-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.573462
+
+Posicao: 4
+Titulo: Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/09/09/mbappe-entra-para-o-top-5-de-maiores-artilheiros-da-historia-da-champions-league-veja-a-lista.ghtml
+Similaridade: 0.568580
+
+Posicao: 5
+Titulo: Viking, estreante na Champions, tem dois técnicos: entenda modelo que levou clube a título após 34 anos
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/viking-estreante-na-champions-tem-dois-tecnicos-entenda-modelo-que-levou-clube-a-titulo-apos-34-anos.ghtml
+Similaridade: 0.566422
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Adrianinho passa Nenê e é o líder de assistências da Série C
+Data: 08/09/2026
+URL: https://ge.globo.com/sc/futebol/times/brusque/noticia/2026/09/08/adrianinho-passa-nene-e-e-o-lider-de-assistencias-da-serie-c.ghtml
+Similaridade: 0.273112
+
+Posicao: 2
+Titulo: Fluminense lança patch colecionável de jogos e estreia contra o Platense na Libertadores; veja foto
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/fluminense-lanca-patch-colecionavel-de-jogos-e-estreia-contra-o-platense-na-libertadores-veja-foto.ghtml
+Similaridade: 0.270334
+
+Posicao: 3
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.269251
+
+Posicao: 4
+Titulo: Alvo do São Paulo, Jamie Vardy acerta com time da Segunda Divisão inglesa
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/alvo-do-sao-paulo-jamie-vardy-acerta-com-time-da-segunda-divisao-inglesa.ghtml
+Similaridade: 0.262308
+
+Posicao: 5
+Titulo: Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/versatilidade-bola-parada-e-finalizacao-como-lescano-pode-ajudar-pedro-emanuel-no-vasco.ghtml
+Similaridade: 0.261626
+
+================================================================================
+CONSULTA: Ataque
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Atuações do Fluminense: Ganso rege vitória na Libertadores e é o melhor; dê suas notas
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/08/atuacoes-do-fluminense-ganso-rege-vitoria-na-libertadores-e-e-o-melhor-de-suas-notas.ghtml
+Similaridade: 0.562073
+
+Posicao: 2
+Titulo: Atuações do Atlético-MG: laterais falham, e ataque participa pouco; dê as notas
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/05/atuacoes-do-atletico-mg-laterais-falham-e-ataque-participa-pouco-de-as-notas.ghtml
+Similaridade: 0.561241
+
+Posicao: 3
+Titulo: Atuações do Palmeiras: Andreas é quem mais arrisca, e Barboza é expulso em empate; dê suas notas
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/atuacoes-do-palmeiras-andreas-e-quem-mais-arrisca-e-barboza-e-expulso-em-empate-de-suas-notas.ghtml
+Similaridade: 0.556389
+
+Posicao: 4
+Titulo: Atuações do Botafogo: Gabriel Batista e Ferraresi vão bem em empate; dê suas notas
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/atuacoes-do-botafogo-gabriel-batista-e-ferraresi-vao-bem-em-empate-de-suas-notas.ghtml
+Similaridade: 0.556301
+
+Posicao: 5
+Titulo: Atuações do São Paulo: Luciano é o melhor em campo na vitória sobre o Atlético-MG; dê suas notas
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/05/atuacoes-do-sao-paulo-luciano-e-o-melhor-em-campo-na-vitoria-sobre-o-atletico-mg-de-suas-notas.ghtml
+Similaridade: 0.546354
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Atuações do Botafogo: Gabriel Batista e Ferraresi vão bem em empate; dê suas notas
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/atuacoes-do-botafogo-gabriel-batista-e-ferraresi-vao-bem-em-empate-de-suas-notas.ghtml
+Similaridade: 0.387329
+
+Posicao: 2
+Titulo: Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+Data: 08/09/2026
+URL: https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/08/meia-do-paysandu-faz-gol-digno-de-puskas-na-serie-c-e-viraliza-nas-redes-assista.ghtml
+Similaridade: 0.377931
+
+Posicao: 3
+Titulo: PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/pc-de-oliveira-diz-que-marcal-deveria-ter-sido-expulso-em-botafogo-x-palmeiras-video.ghtml
+Similaridade: 0.375482
+
+Posicao: 4
+Titulo: PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/05/pc-oliveira-considera-que-houve-penalti-nao-marcado-de-adson-sobre-serna-em-fluminense-x-vasco.ghtml
+Similaridade: 0.374861
+
+Posicao: 5
+Titulo: Atuações do Vasco: Piton, Gómez, Adson e Tchê Tchê são os piores em derrota; dê suas notas
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/05/atuacoes-do-vasco-piton-gomez-adson-e-tche-tche-sao-os-piores-em-derrota-de-suas-notas.ghtml
+Similaridade: 0.373074
+
+================================================================================
+CONSULTA: Corinthian Corinthians
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Escalação: Corinthians treina na Argentina e terá desfalques contra o Estudiantes
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/escalacao-corinthians-treina-na-argentina-e-tera-desfalques-contra-o-estudiantes.ghtml
+Similaridade: 0.655793
+
+Posicao: 2
+Titulo: Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/corinthians-nao-perdia-quatro-seguidas-no-brasileirao-desde-2007-ano-do-rebaixamento.ghtml
+Similaridade: 0.654526
+
+Posicao: 3
+Titulo: Treino do Corinthians: Diniz faz ajustes táticos para jogo contra a Chapecoense
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/04/treino-do-corinthians-diniz-faz-ajustes-taticos-para-jogo-contra-a-chapecoense.ghtml
+Similaridade: 0.651137
+
+Posicao: 4
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.651082
+
+Posicao: 5
+Titulo: Sequência do Brasileirão e elenco curto: Diniz pode manter a base do Corinthians contra a Chapecoense
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/05/sequencia-do-brasileirao-e-elenco-curto-diniz-pode-manter-a-base-do-corinthians-contra-a-chapecoense.ghtml
+Similaridade: 0.643263
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/corinthians-aguarda-aval-da-cbf-para-estrear-novo-terceiro-uniforme.ghtml
+Similaridade: 0.522787
+
+Posicao: 2
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.520629
+
+Posicao: 3
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.511420
+
+Posicao: 4
+Titulo: Corinthians fecha parceria com Turma da Mônica e estampará imagens do personagem Cascão
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/05/corinthians-fecha-parceria-com-turma-da-monica-e-estampara-imagens-do-personagem-cascao.ghtml
+Similaridade: 0.510569
+
+Posicao: 5
+Titulo: Estudiantes x Corinthians: cotovelada deixa Gabriel Paulista com galo na testa; veja o vídeo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-cotovelada-deixa-gabriel-paulista-com-galo-na-testa-veja-o-video.ghtml
+Similaridade: 0.506214
+
+================================================================================
+CONSULTA: Vasco Botafogo Flamengo Fluminense
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Fluminense se apoia no retrospecto de Marcão em clássicos para reencontro com o Vasco
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/04/fluminense-se-apoia-no-retrospecto-de-marcao-em-classicos-para-reencontro-com-o-vasco.ghtml
+Similaridade: 0.701435
+
+Posicao: 2
+Titulo: Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/imprensa-internacional-repercute-peitada-de-arbitro-em-canobbio-do-fluminense-sem-precedentes.ghtml
+Similaridade: 0.686717
+
+Posicao: 3
+Titulo: Provocações e retrospecto recente esquentam clima no Fluminense para duelo contra o Vasco
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/05/provocacoes-e-retrospecto-recente-esquentam-clima-no-fluminense-para-duelo-contra-o-vasco.ghtml
+Similaridade: 0.682628
+
+Posicao: 4
+Titulo: Botafogo busca reposição para Arthur Cabral e freia transferência para o México
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/09/botafogo-busca-reposicao-para-arthur-cabral-e-freia-transferencia-para-o-mexico.ghtml
+Similaridade: 0.678853
+
+Posicao: 5
+Titulo: Flamengo faz piada com "ajuda" do Botafogo para conseguir liderança: "Obrigado, amigo"
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml
+Similaridade: 0.677159
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/imprensa-internacional-repercute-peitada-de-arbitro-em-canobbio-do-fluminense-sem-precedentes.ghtml
+Similaridade: 0.445980
+
+Posicao: 2
+Titulo: Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+Data: 05/09/2026
+URL: https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/09/05/brasileirao-2026-veja-onde-assistir-ao-vivo-aos-jogos-da-26a-rodada.ghtml
+Similaridade: 0.429540
+
+Posicao: 3
+Titulo: Brasileirão Feminino define semifinais com participante inédito; veja duelos, datas e onde assistir
+Data: 07/09/2026
+URL: https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/noticia/2026/09/07/brasileirao-feminino-define-semifinais-com-participante-inedito-veja-duelos.ghtml
+Similaridade: 0.421397
+
+Posicao: 4
+Titulo: Flamengo assume a liderança do Brasileirão 2026 pela primeira vez após empate do Palmeiras
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-assume-a-lideranca-do-brasileirao-pela-primeira-vez-apos-empate-do-palmeiras.ghtml
+Similaridade: 0.414456
+
+Posicao: 5
+Titulo: Vasco x Atlético-PI: veja onde assistir ao vivo, horário e prováveis escalações
+Data: 07/09/2026
+URL: https://ge.globo.com/pi/futebol/futebol-feminino/brasileiro-feminino-serie-a2/noticia/2026/09/07/vasco-x-atletico-pi-veja-onde-assistir-ao-vivo-horario-e-provaveis-escalacoes.ghtml
+Similaridade: 0.411705
+
+================================================================================
+CONSULTA: Real Madrid Neymar Messi Cristiano Ronaldo Vozinha
+================================================================================
+
+========== WORD2VEC ==========
+
+Posicao: 1
+Titulo: Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/09/09/mbappe-entra-para-o-top-5-de-maiores-artilheiros-da-historia-da-champions-league-veja-a-lista.ghtml
+Similaridade: 0.772343
+
+Posicao: 2
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.735217
+
+Posicao: 3
+Titulo: Mourinho corneta prêmio de craque do jogo para Valverde em vez de Courtois: "Quem decide estava dormindo"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/mourinho-corneta-premio-de-craque-do-jogo-para-valverde-em-vez-de-courtois-quem-decide-estava-dormindo.ghtml
+Similaridade: 0.715691
+
+Posicao: 4
+Titulo: Piqué provoca Real Madrid e cita gols "polêmicos" do rival em títulos da Champions
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/08/pique-provoca-real-madrid-e-cita-gols-polemicos-do-rival-em-titulos-da-champions.ghtml
+Similaridade: 0.714691
+
+Posicao: 5
+Titulo: Supercomputador aponta favorito da Champions e coloca Real Madrid longe do topo
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/08/supercomputador-aponta-favorito-da-champions-e-coloca-real-madrid-longe-do-topo.ghtml
+Similaridade: 0.713938
+
+========== BERTIMBAU ==========
+
+Posicao: 1
+Titulo: Forlán anuncia primeira pré-lista no Uruguai, com Barboza e outros oito do futebol brasileiro
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/forlan-anuncia-primeira-pre-lista-no-uruguai-com-barboza-e-outros-oito-do-futebol-brasileiro.ghtml
+Similaridade: 0.589283
+
+Posicao: 2
+Titulo: Mourinho perde a paciência com auxiliar antes de substituição no Real Madrid
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/09/mourinho-perde-a-paciencia-com-auxiliar-antes-de-substituicao-no-real-madrid.ghtml
+Similaridade: 0.588410
+
+Posicao: 3
+Titulo: Bola de Ouro 2026: Raphinha fica fora dos 30 indicados ao prêmio
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/08/bola-de-ouro-2026-raphinha-fica-fora-dos-30-indicados-ao-premio.ghtml
+Similaridade: 0.586474
+
+Posicao: 4
+Titulo: Mourinho critica Betis, que provoca o treinador do Real: "Já ganhamos na loteria há muito tempo"
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/05/mourinho-critica-betis-que-provoca-o-treinador-do-real-ja-ganhamos-na-loteria-ha-muito-tempo.ghtml
+Similaridade: 0.585623
+
+Posicao: 5
+Titulo: "Filipe conquista Paris": jornal espanhol destaca vitória do técnico brasileiro sobre o PSG de Luís Enrique
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/futebol-frances/noticia/2026/09/04/filipe-conquista-paris-jornal-espanhol-destaca-vitoria-do-tecnico-brasileiro-sobre-o-psg-de-luis-enrique.ghtml
+Similaridade: 0.584751

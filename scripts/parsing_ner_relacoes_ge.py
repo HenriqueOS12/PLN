@@ -19,11 +19,17 @@ import matplotlib.pyplot as plt
 from spacy import displacy
 
 
-PASTA = Path(__file__).resolve().parent
+# Os scripts ficam em scripts/; a raiz do projeto é a pasta acima.
+PASTA_RAIZ = Path(__file__).resolve().parent.parent
+PASTA_DADOS = PASTA_RAIZ / "dados" / "processados"
+PASTA = PASTA_RAIZ / "resultados" / "parsing_ner"
+PASTA.mkdir(parents=True, exist_ok=True)
 
-ARQUIVO_ENTRADA = PASTA / "noticias_ge_processado.csv"
+ARQUIVO_ENTRADA = PASTA_DADOS / "noticias_ge_processado.csv"
 
-ARQUIVO_PARSING = PASTA / "noticias_ge_parsing.csv"
+# Salvo compactado: com 500 noticias o CSV passa de 100 MB,
+# limite de arquivo do GitHub. O pandas le .csv.gz direto.
+ARQUIVO_PARSING = PASTA / "noticias_ge_parsing.csv.gz"
 ARQUIVO_ENTIDADES = PASTA / "noticias_ge_entidades.csv"
 ARQUIVO_RELACOES = PASTA / "noticias_ge_relacoes.csv"
 
@@ -164,8 +170,8 @@ def carregar_noticias():
     if not ARQUIVO_ENTRADA.exists():
         raise FileNotFoundError(
             f"Arquivo nao encontrado: {ARQUIVO_ENTRADA}\n"
-            "Coloque este script na mesma pasta de "
-            "noticias_ge_processado.csv."
+            "Gere-o com processamento.py "
+            "(dados/processados)."
         )
 
     original = ler_csv(ARQUIVO_ENTRADA)

@@ -1,0 +1,123 @@
+================================================================================
+RELATORIO - PARSING, NER E RELACOES DAS NOTICIAS DO GE
+================================================================================
+
+Arquivo de entrada: noticias_ge_processado.csv
+Noticias processadas: 500
+Tokens analisados: 250116
+Entidades reconhecidas: 23468
+Relacoes extraidas: 13656
+Nos no grafo: 10496
+Arestas no grafo: 13656
+
+CATEGORIAS NER RECONHECIDAS
+--------------------------------------------------------------------------------
+ORG (Companies, agencies, institutions, etc.): 7229
+PER (Named person or family.): 6579
+LOC (Non-GPE locations, mountain ranges, bodies of water): 5135
+MISC (Miscellaneous entities, e.g. events, nationalities, products or works of art): 4525
+
+ENTIDADES MAIS FREQUENTES
+--------------------------------------------------------------------------------
+Palmeiras: 478
+Vasco: 461
+Corinthians: 447
+Flamengo: 445
+Fluminense: 385
+São Paulo: 361
+Botafogo: 325
+Libertadores: 311
+Texto: 301
+Brasileirão: 214
+Cruzeiro: 189
+Foto: 188
+Brasil: 168
+Campeonato Brasileiro: 163
+R$: 163
+Copa do Brasil: 153
+Atlético-MG: 151
+Athletico: 151
+Santos: 132
+Brasília: 131
+Real Madrid: 122
+Seleção: 121
+Platense: 120
+Barcelona: 107
+Estudiantes: 106
+Brasileiro: 99
+Argentina: 93
+Maracanã: 89
+Chapecoense: 85
+Coritiba: 83
+
+RELACOES MAIS FREQUENTES
+--------------------------------------------------------------------------------
+Brasil --enfrentar--> Austrália (ocorrencias: 10)
+Brasil --enfrentar--> duas vezes (ocorrencias: 10)
+que --cumprir--> suspensão (ocorrencias: 8)
+Brasil --enfrentar_em--> dia 25 de setembro (ocorrencias: 8)
+Brasil --enfrentar_em--> Queensland Country Bank Stadium (ocorrencias: 8)
+Brasil --enfrentar_em--> Townsville (ocorrencias: 8)
+Brasil --enfrentar_em--> e no dia 29 (ocorrencias: 8)
+Brasil --enfrentar_em--> Suncorp Stadium (ocorrencias: 8)
+delegação --seguir_em--> sequência (ocorrencias: 8)
+delegação --seguir_para--> Índia (ocorrencias: 8)
+Brasil --enfrentar_em--> dia 3 de outubro (ocorrencias: 8)
+Brasil --enfrentar--> seleção indiana (ocorrencias: 8)
+Brasil --enfrentar_em--> Salt Lake (ocorrencias: 8)
+que --entrar_em--> campo (ocorrencias: 8)
+Cuiabá --vencer_por--> 3 a 0 (ocorrencias: 7)
+ge --acompanhar_em--> Tempo Real (ocorrencias: 7)
+Palmeiras --empatar_com--> Botafogo (ocorrencias: 7)
+Yuri --regrider--> recuperação (ocorrencias: 6)
+João --dizer_após--> derrota do Vasco (ocorrencias: 6)
+Lucho Acosta --comemorar_contra--> Vasco (ocorrencias: 6)
+ge --acompanhar_em--> tempo real (ocorrencias: 5)
+bom desempenho na Holanda --fazer--> Chelsea (ocorrencias: 5)
+Ziyech --repetir_por--> clube inglês (ocorrencias: 5)
+Ziyech --repetir--> ótimo desempenho de Ajax (ocorrencias: 5)
+Platense --chegar_para--> jogo contra o Fluminense na Libertadores (ocorrencias: 5)
+Felipe Melo --ver--> mudança (ocorrencias: 5)
+que --analisar--> contrato do São Paulo (ocorrencias: 5)
+Lucho Acosta --comemorar--> gol (ocorrencias: 5)
+Lucho Acosta --comemorar_por--> Campeonato Brasileiro (ocorrencias: 5)
+Cuiabá --vencer--> Athletic (ocorrencias: 4)
+ele --ter--> que (ocorrencias: 4)
+Estudiantes --nascer_em--> sapataria (ocorrencias: 4)
+São Paulo --dar--> premiação extra (ocorrencias: 4)
+Kaio César --lamentar--> derrota do Corinthians para a Chapecoense no Campeonato Brasileiro (ocorrencias: 4)
+Atuações --dê--> notas (ocorrencias: 4)
+que --abrir--> placar (ocorrencias: 4)
+Yuri Alberto --desfalcar--> Corinthians (ocorrencias: 4)
+Yuri Alberto --desfalcar_em--> Libertadores (ocorrencias: 4)
+empresários --procurar--> onde (ocorrencias: 4)
+quem --ter--> melhor elenco (ocorrencias: 4)
+Ronaldinho Gaúcho --entregar--> Bola de Ouro (ocorrencias: 4)
+tradicional premiação da revista France Football, organizada em parceria com a Uefa desde 2024 --chegar--> 70ª edição (ocorrencias: 4)
+ex-atacante inglês --receber--> troféu (ocorrencias: 4)
+cerimônia --acontecer_em--> Théâtre du Châtelet (ocorrencias: 4)
+cerimônia --acontecer_desde--> 2019 (ocorrencias: 4)
+organização --decidir_em--> 2026 (ocorrencias: 4)
+edição de 2026 --levar_em--> consideração (ocorrencias: 4)
+edição de 2026 --levar--> destaques da temporada 2025/26 (ocorrencias: 4)
+Ousmane Dembélé --vencer--> principais categorias masculina e feminina (ocorrencias: 4)
+Ousmane Dembélé --vencer_em--> respectivamente, em 2025 (ocorrencias: 4)
+
+LIMITACOES
+--------------------------------------------------------------------------------
+O parsing e o NER sao previsoes do modelo, nao verificacoes factuais.
+As relacoes sao extraidas por regras sobre dependencias sintaticas.
+Nem todas as relacoes presentes no texto serao identificadas.
+O programa nao resolve correferencia entre nomes e pronomes.
+Os resultados precisam ser revisados antes de serem interpretados.
+
+ARQUIVOS GERADOS
+--------------------------------------------------------------------------------
+noticias_ge_parsing.csv
+noticias_ge_entidades.csv
+noticias_ge_relacoes.csv
+noticias_ge_relatorio_parsing_ner.txt
+noticias_ge_ner_visualizacao.html
+noticias_ge_dependencias_visualizacao.html
+noticias_ge_relacoes.gexf
+noticias_ge_grafo.png

@@ -25,8 +25,12 @@ from sklearn.metrics import (
 from sklearn.model_selection import train_test_split
 
 
-PASTA = Path(__file__).resolve().parent
-ARQUIVO_ENTRADA = PASTA / "noticias_ge_processado.csv"
+# Os scripts ficam em scripts/; a raiz do projeto é a pasta acima.
+PASTA_RAIZ = Path(__file__).resolve().parent.parent
+PASTA_DADOS = PASTA_RAIZ / "dados" / "processados"
+PASTA = PASTA_RAIZ / "resultados" / "classificacao_tfidf"
+PASTA.mkdir(parents=True, exist_ok=True)
+ARQUIVO_ENTRADA = PASTA_DADOS / "noticias_ge_processado.csv"
 ARQUIVO_ROTULACAO = PASTA / "noticias_ge_rotulacao_tfidf.csv"
 ARQUIVO_PREVISOES = PASTA / "noticias_ge_tfidf_categorias.csv"
 ARQUIVO_RELATORIO = PASTA / "relatorio_tfidf_categorias.txt"
@@ -119,7 +123,7 @@ def carregar_noticias():
     if not ARQUIVO_ENTRADA.exists():
         raise FileNotFoundError(
             f"Não encontrei {ARQUIVO_ENTRADA.name}.\n"
-            "Coloque este script na pasta onde está noticias_ge_processado.csv."
+            "Gere-o com processamento.py (dados/processados)."
         )
 
     df = pd.read_csv(ARQUIVO_ENTRADA, encoding="utf-8-sig", low_memory=False)
@@ -147,6 +151,8 @@ def carregar_noticias():
 def criar_ou_carregar_amostra(df):
     """Cria uma amostra fixa na primeira execução e reaproveita só os rótulos manuais."""
 
+    anotacoes = pd.DataFrame()
+
     if ARQUIVO_ROTULACAO.exists():
         anotacoes = pd.read_csv(ARQUIVO_ROTULACAO, encoding="utf-8-sig").fillna("")
         # Mantém as anotações anteriores e atualiza título/texto a partir do CSV processado.
@@ -154,7 +160,9 @@ def criar_ou_carregar_amostra(df):
         base = df[colunas_base].drop_duplicates(subset=["url"])
         anotacoes = anotacoes.drop(columns=[c for c in colunas_base if c in anotacoes.columns and c != "url"], errors="ignore")
         anotacoes = base.merge(anotacoes, on="url", how="inner", suffixes=("", "_anotado"))
-    else:
+
+    # Sem arquivo de rótulos, ou nenhuma notícia rotulada está no CSV atual: cria nova amostra.
+    if anotacoes.empty:
         quantidade = min(QUANTIDADE_PARA_ROTULAR, len(df))
         amostra = df.sample(n=quantidade, random_state=RANDOM_STATE).copy()
         anotacoes = amostra[["id", "titulo", "data_publicacao", "url", "texto_modelo"]].copy()

@@ -25,12 +25,15 @@ HEADERS = {
 # O {} será substituído pelo número da página.
 BASE_FEED = "https://ge.globo.com/futebol/index/feed/pagina-{}.ghtml"
 
+# Quantidade de notícias que serão coletadas.
+QUANTIDADE_NOTICIAS = 500
+
 
 # ==========================================================
 # OBTENÇÃO DOS LINKS DAS NOTÍCIAS
 # ==========================================================
 
-def obter_links_noticias(qtd=100):
+def obter_links_noticias(qtd=QUANTIDADE_NOTICIAS):
     """
     Percorre as páginas do feed do GE e coleta os links
     das notícias de futebol.
@@ -351,7 +354,7 @@ def main():
     """
 
     # Quantidade de notícias que serão buscadas.
-    links = obter_links_noticias(100)
+    links = obter_links_noticias(QUANTIDADE_NOTICIAS)
 
     print(f"\n{len(links)} links encontrados.\n")
 
@@ -386,14 +389,18 @@ def main():
     # LOCAL ONDE O CSV SERÁ SALVO
     # --------------------------------------------------
 
-    # Obtém a pasta onde este arquivo .py está localizado.
-    pasta_script = os.path.dirname(
-        os.path.abspath(__file__)
+    # Obtém a raiz do projeto (pasta acima de scripts/).
+    pasta_raiz = os.path.dirname(
+        os.path.dirname(os.path.abspath(__file__))
     )
+
+    # Os dados brutos ficam em dados/brutos.
+    pasta_dados = os.path.join(pasta_raiz, "dados", "brutos")
+    os.makedirs(pasta_dados, exist_ok=True)
 
     # Define o nome do arquivo CSV.
     caminho_csv = os.path.join(
-        pasta_script,
+        pasta_dados,
         "noticias_ge.csv"
     )
 
