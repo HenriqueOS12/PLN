@@ -9,7 +9,6 @@ from pathlib import Path
 import pandas as pd
 from typesafe_sdk import Noul, Score, TypeSafeClient
 
-# Os scripts ficam em scripts/; a raiz do projeto é a pasta acima.
 PASTA_RAIZ = Path(__file__).resolve().parent.parent
 PASTA_DADOS = PASTA_RAIZ / "dados" / "processados"
 PASTA = PASTA_RAIZ / "resultados" / "jev"

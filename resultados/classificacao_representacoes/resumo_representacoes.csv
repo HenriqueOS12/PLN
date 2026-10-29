@@ -1,0 +1,7 @@
+﻿representacao,f1_macro_teste_jev,acuracia_media_teste_jev,acuracia_gabarito,f1_gabarito
+BoW,0.6959,0.8753,0.8737,0.7391
+TF-IDF,0.702,0.8794,0.8632,0.6977
+Word2Vec,0.707,0.867,0.8316,0.6667
+BERT,0.6664,0.8402,0.8421,0.6809
+Maioria (base),0.2167,0.766,0.8,0.6122
+Jev (LLM),,,0.8737,0.7273

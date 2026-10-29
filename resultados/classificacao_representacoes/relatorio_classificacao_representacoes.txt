@@ -1,0 +1,232 @@
+==============================================================================
+CLASSIFICAÇÃO DE TEMAS — RÓTULOS DO JEV x REPRESENTAÇÕES
+==============================================================================
+Notícias: 500
+Treino (rótulos do Jev): 384
+Teste (rótulos do Jev): 97
+Gabarito humano (fora do treino): 19 notícias x 10 temas
+Classificador: Regressão Logística (class_weight='balanced'), um por tema
+
+Positivos ('sim') por tema:
+  transferencia      treino  61 | teste  17 | gabarito  3
+  lesao              treino 101 | teste  31 | gabarito  2
+  resultado_partida  treino 219 | teste  60 | gabarito  9
+  tecnico            treino  56 | teste  11 | gabarito  0
+  selecao            treino  60 | teste  13 | gabarito  1
+  competicao         treino 214 | teste  57 | gabarito 16
+  declaracao         treino 207 | teste  48 | gabarito  5
+  bastidores         treino  46 | teste  11 | gabarito  1
+  futebol_feminino   treino  11 | teste   6 | gabarito  0
+  base               treino  55 | teste  12 | gabarito  4
+
+==============================================================================
+RESUMO
+==============================================================================
+f1_macro_teste_jev: média do F1 dos 10 temas no teste (concordância com o Jev)
+acuracia/f1_gabarito: acerto em relação aos rótulos humanos (todas as decisões)
+
+ representacao  f1_macro_teste_jev  acuracia_media_teste_jev  acuracia_gabarito  f1_gabarito
+           BoW               0.696                     0.875              0.874        0.739
+        TF-IDF               0.702                     0.879              0.863        0.698
+      Word2Vec               0.707                     0.867              0.832        0.667
+          BERT               0.666                     0.840              0.842        0.681
+Maioria (base)               0.217                     0.766              0.800        0.612
+     Jev (LLM)                 NaN                       NaN              0.874        0.727
+
+==============================================================================
+F1 NO TESTE POR TEMA (concordância com o Jev)
+==============================================================================
+representacao        BoW  TF-IDF  Word2Vec   BERT  Maioria (base)
+tema                                                             
+transferencia      0.812   0.828     0.857  0.833           0.000
+lesao              0.600   0.667     0.767  0.609           0.000
+resultado_partida  0.883   0.885     0.857  0.852           0.764
+tecnico            0.333   0.273     0.452  0.483           0.000
+selecao            0.696   0.667     0.643  0.571           0.000
+competicao         0.904   0.874     0.883  0.887           0.740
+declaracao         0.776   0.772     0.791  0.756           0.662
+bastidores         0.545   0.545     0.667  0.643           0.000
+futebol_feminino   0.800   0.909     0.800  0.706           0.000
+base               0.609   0.600     0.353  0.324           0.000
+
+==============================================================================
+ACURÁCIA NO TESTE POR TEMA (compare com a linha de base)
+==============================================================================
+representacao        BoW  TF-IDF  Word2Vec   BERT  Maioria (base)
+tema                                                             
+transferencia      0.938   0.948     0.948  0.938           0.825
+lesao              0.753   0.814     0.856  0.722           0.680
+resultado_partida  0.856   0.856     0.825  0.825           0.619
+tecnico            0.835   0.835     0.825  0.845           0.887
+selecao            0.928   0.928     0.897  0.845           0.866
+competicao         0.887   0.845     0.856  0.866           0.588
+declaracao         0.773   0.763     0.804  0.773           0.495
+bastidores         0.897   0.897     0.918  0.897           0.887
+futebol_feminino   0.979   0.990     0.969  0.948           0.938
+base               0.907   0.918     0.773  0.742           0.876
+
+==============================================================================
+GABARITO HUMANO: TEMAS MARCADOS POR NOTÍCIA
+==============================================================================
+
+Alan Lescano é regularizado no BID e pode estrear pelo Vasco contra o Grêmio
+  manual    : transferencia, competicao
+  BoW       : transferencia
+  TF-IDF    : transferencia
+  Word2Vec  : transferencia, base
+  BERT      : transferencia, lesao, base
+  Jev (LLM) : transferencia
+
+Zagueiro Jair Cunha celebra primeira convocação para a Seleção: "Sonho de uma vida"
+  manual    : selecao, declaracao
+  BoW       : selecao, declaracao, base
+  TF-IDF    : selecao, declaracao, base
+  Word2Vec  : selecao, declaracao, base
+  BERT      : transferencia, selecao, declaracao, base
+  Jev (LLM) : selecao, declaracao, base
+
+Ex-Grêmio, Kaick vive ascensão na MLS com dois gols seguidos e titularidade
+  manual    : resultado_partida, competicao
+  BoW       : resultado_partida, competicao, base
+  TF-IDF    : resultado_partida
+  Word2Vec  : resultado_partida, competicao, base
+  BERT      : resultado_partida, competicao
+  Jev (LLM) : resultado_partida, competicao, base
+
+Cuiabá volta a vencer por três gols em competição nacional após dois anos
+  manual    : resultado_partida, competicao
+  BoW       : resultado_partida, competicao
+  TF-IDF    : resultado_partida, competicao
+  Word2Vec  : resultado_partida, competicao
+  BERT      : resultado_partida, competicao
+  Jev (LLM) : resultado_partida, competicao
+
+Gómez desfalca o Palmeiras contra a LDU no Equador pela Libertadores
+  manual    : lesao, competicao
+  BoW       : lesao, resultado_partida, competicao, declaracao
+  TF-IDF    : resultado_partida, competicao, declaracao
+  Word2Vec  : lesao, resultado_partida, competicao
+  BERT      : lesao, resultado_partida, competicao
+  Jev (LLM) : resultado_partida, competicao
+
+Estudiantes alega ato obsceno e pede suspensão de Memphis no jogo de volta contra o Corinthians
+  manual    : competicao, declaracao
+  BoW       : resultado_partida, competicao, declaracao
+  TF-IDF    : resultado_partida, competicao, declaracao
+  Word2Vec  : resultado_partida, competicao
+  BERT      : resultado_partida, competicao
+  Jev (LLM) : resultado_partida, competicao, declaracao
+
+Tottenham recusa proposta do Vasco, que insiste na contratação de Richarlison
+  manual    : transferencia
+  BoW       : transferencia, declaracao, bastidores
+  TF-IDF    : transferencia, declaracao, bastidores
+  Word2Vec  : transferencia, declaracao, bastidores
+  BERT      : transferencia, declaracao, bastidores
+  Jev (LLM) : transferencia, declaracao, bastidores
+
+Capitão do Barcelona, Raphinha revela conexão especial com Lamine Yamal: "Sei quando ele sai da partida"
+  manual    : resultado_partida, competicao, declaracao
+  BoW       : resultado_partida, competicao, declaracao
+  TF-IDF    : resultado_partida, competicao, declaracao
+  Word2Vec  : resultado_partida, tecnico, competicao, declaracao
+  BERT      : resultado_partida, declaracao
+  Jev (LLM) : resultado_partida, declaracao
+
+Barra elimina o Internacional na primeira fase da Copa do Brasil Sub-20
+  manual    : competicao, base
+  BoW       : resultado_partida, competicao, base
+  TF-IDF    : resultado_partida, competicao, base
+  Word2Vec  : resultado_partida, competicao, futebol_feminino, base
+  BERT      : resultado_partida, competicao, futebol_feminino, base
+  Jev (LLM) : resultado_partida, competicao, base
+
+Governo multa concessionária por gestão do Maracanã; Fla-Flu recorre
+  manual    : bastidores
+  BoW       : bastidores
+  TF-IDF    : declaracao
+  Word2Vec  : declaracao, bastidores
+  BERT      : bastidores, futebol_feminino
+  Jev (LLM) : (nenhum)
+
+Millán cresce ao lado de Thiago Silva e acirra disputa por vaga na defesa do Fluminense
+  manual    : resultado_partida, competicao
+  BoW       : lesao, resultado_partida, competicao, declaracao
+  TF-IDF    : lesao, resultado_partida, competicao, declaracao
+  Word2Vec  : lesao, resultado_partida, competicao, declaracao
+  BERT      : lesao, resultado_partida, competicao
+  Jev (LLM) : lesao, resultado_partida, declaracao
+
+Richarlison entrará com pedido de rescisão com Tottenham para assinar com o Vasco
+  manual    : transferencia, competicao, base
+  BoW       : transferencia, declaracao, bastidores
+  TF-IDF    : transferencia, declaracao, bastidores
+  Word2Vec  : transferencia, declaracao, bastidores
+  BERT      : transferencia, declaracao, bastidores
+  Jev (LLM) : transferencia, declaracao, bastidores
+
+Da falência na 4ª divisão da Itália ao luxo na Champions: entenda o projeto que transformou o Como
+  manual    : competicao
+  BoW       : transferencia, declaracao
+  TF-IDF    : declaracao
+  Word2Vec  : transferencia, selecao, declaracao, bastidores, base
+  BERT      : selecao, base
+  Jev (LLM) : declaracao, base
+
+Meia do Atlético-MG presenteia Neymar e manda recado: "Tô bolado contigo"
+  manual    : resultado_partida, competicao, declaracao
+  BoW       : lesao, resultado_partida, competicao
+  TF-IDF    : lesao, resultado_partida, competicao
+  Word2Vec  : lesao, resultado_partida, declaracao
+  BERT      : declaracao
+  Jev (LLM) : lesao, resultado_partida, competicao, declaracao
+
+Criciúma bate o Cascavel e garante classificação na Copa do Brasil Sub-20
+  manual    : resultado_partida, competicao, base
+  BoW       : resultado_partida, competicao, base
+  TF-IDF    : resultado_partida, competicao
+  Word2Vec  : resultado_partida, competicao, base
+  BERT      : resultado_partida, competicao, base
+  Jev (LLM) : resultado_partida, competicao, base
+
+Luciano tem edema na coxa e deve desfalcar o São Paulo no Choque-Rei
+  manual    : lesao, competicao
+  BoW       : lesao, resultado_partida, competicao, base
+  TF-IDF    : lesao, competicao, base
+  Word2Vec  : lesao, base
+  BERT      : lesao, competicao
+  Jev (LLM) : lesao
+
+Scarpa ativa modo sincero em derrota do Atlético-MG para o Santos: "Ficou barato"
+  manual    : resultado_partida, competicao, declaracao
+  BoW       : resultado_partida, competicao
+  TF-IDF    : resultado_partida, competicao
+  Word2Vec  : resultado_partida, competicao
+  BERT      : lesao, resultado_partida, competicao
+  Jev (LLM) : resultado_partida, competicao, declaracao
+
+Operário-PR supera a Chapecoense nos pênaltis e avança na Copa do Brasil Sub-20
+  manual    : resultado_partida, competicao, base
+  BoW       : resultado_partida, competicao
+  TF-IDF    : resultado_partida, competicao
+  Word2Vec  : resultado_partida, competicao
+  BERT      : resultado_partida, competicao, futebol_feminino, base
+  Jev (LLM) : resultado_partida, competicao, base
+
+Gabriel Jesus alcança Rivaldo em lista de brasileiros com mais gols na Champions League
+  manual    : resultado_partida, competicao
+  BoW       : resultado_partida, competicao
+  TF-IDF    : resultado_partida, competicao
+  Word2Vec  : resultado_partida, competicao, declaracao
+  BERT      : resultado_partida, selecao, competicao, declaracao, base
+  Jev (LLM) : resultado_partida, competicao, declaracao
+
+==============================================================================
+ARQUIVOS GERADOS
+==============================================================================
+- metricas_por_tema.csv
+- resumo_representacoes.csv
+- previsoes_gabarito.csv
+- f1_por_tema.png
+- comparacao_representacoes.png
+- relatorio_classificacao_representacoes.txt

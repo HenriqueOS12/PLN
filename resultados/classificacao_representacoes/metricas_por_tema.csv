@@ -1,0 +1,51 @@
+﻿representacao,tema,positivos_treino,positivos_teste,acuracia,precisao,recall,f1
+BoW,transferencia,61,17,0.9381,0.8667,0.7647,0.8125
+BoW,lesao,101,31,0.7526,0.6207,0.5806,0.6
+BoW,resultado_partida,219,60,0.8557,0.8833,0.8833,0.8833
+BoW,tecnico,56,11,0.8351,0.3077,0.3636,0.3333
+BoW,selecao,60,13,0.9278,0.8,0.6154,0.6957
+BoW,competicao,214,57,0.8866,0.8966,0.9123,0.9043
+BoW,declaracao,207,48,0.7732,0.76,0.7917,0.7755
+BoW,bastidores,46,11,0.8969,0.5455,0.5455,0.5455
+BoW,futebol_feminino,11,6,0.9794,1.0,0.6667,0.8
+BoW,base,55,12,0.9072,0.6364,0.5833,0.6087
+TF-IDF,transferencia,61,17,0.9485,1.0,0.7059,0.8276
+TF-IDF,lesao,101,31,0.8144,0.7826,0.5806,0.6667
+TF-IDF,resultado_partida,219,60,0.8557,0.871,0.9,0.8852
+TF-IDF,tecnico,56,11,0.8351,0.2727,0.2727,0.2727
+TF-IDF,selecao,60,13,0.9278,0.875,0.5385,0.6667
+TF-IDF,competicao,214,57,0.8454,0.8387,0.9123,0.8739
+TF-IDF,declaracao,207,48,0.7629,0.7358,0.8125,0.7723
+TF-IDF,bastidores,46,11,0.8969,0.5455,0.5455,0.5455
+TF-IDF,futebol_feminino,11,6,0.9897,1.0,0.8333,0.9091
+TF-IDF,base,55,12,0.9175,0.75,0.5,0.6
+Word2Vec,transferencia,61,17,0.9485,0.8333,0.8824,0.8571
+Word2Vec,lesao,101,31,0.8557,0.7931,0.7419,0.7667
+Word2Vec,resultado_partida,219,60,0.8247,0.8644,0.85,0.8571
+Word2Vec,tecnico,56,11,0.8247,0.35,0.6364,0.4516
+Word2Vec,selecao,60,13,0.8969,0.6,0.6923,0.6429
+Word2Vec,competicao,214,57,0.8557,0.8413,0.9298,0.8833
+Word2Vec,declaracao,207,48,0.8041,0.8372,0.75,0.7912
+Word2Vec,bastidores,46,11,0.9175,0.6154,0.7273,0.6667
+Word2Vec,futebol_feminino,11,6,0.9691,0.6667,1.0,0.8
+Word2Vec,base,55,12,0.7732,0.2727,0.5,0.3529
+BERT,transferencia,61,17,0.9381,0.7895,0.8824,0.8333
+BERT,lesao,101,31,0.7216,0.5526,0.6774,0.6087
+BERT,resultado_partida,219,60,0.8247,0.8909,0.8167,0.8522
+BERT,tecnico,56,11,0.8454,0.3889,0.6364,0.4828
+BERT,selecao,60,13,0.8454,0.4545,0.7692,0.5714
+BERT,competicao,214,57,0.866,0.8793,0.8947,0.887
+BERT,declaracao,207,48,0.7732,0.8095,0.7083,0.7556
+BERT,bastidores,46,11,0.8969,0.5294,0.8182,0.6429
+BERT,futebol_feminino,11,6,0.9485,0.5455,1.0,0.7059
+BERT,base,55,12,0.7423,0.24,0.5,0.3243
+Maioria (base),transferencia,61,17,0.8247,0.0,0.0,0.0
+Maioria (base),lesao,101,31,0.6804,0.0,0.0,0.0
+Maioria (base),resultado_partida,219,60,0.6186,0.6186,1.0,0.7643
+Maioria (base),tecnico,56,11,0.8866,0.0,0.0,0.0
+Maioria (base),selecao,60,13,0.866,0.0,0.0,0.0
+Maioria (base),competicao,214,57,0.5876,0.5876,1.0,0.7403
+Maioria (base),declaracao,207,48,0.4948,0.4948,1.0,0.6621
+Maioria (base),bastidores,46,11,0.8866,0.0,0.0,0.0
+Maioria (base),futebol_feminino,11,6,0.9381,0.0,0.0,0.0
+Maioria (base),base,55,12,0.8763,0.0,0.0,0.0
