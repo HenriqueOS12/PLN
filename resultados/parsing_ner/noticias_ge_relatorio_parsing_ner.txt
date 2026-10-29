@@ -4,51 +4,51 @@ RELATORIO - PARSING, NER E RELACOES DAS NOTICIAS DO GE
 
 Arquivo de entrada: noticias_ge_processado.csv
 Noticias processadas: 500
-Tokens analisados: 250116
-Entidades reconhecidas: 23468
-Relacoes extraidas: 13656
-Nos no grafo: 10496
-Arestas no grafo: 13656
+Tokens analisados: 244096
+Entidades reconhecidas: 21928
+Relacoes extraidas: 13534
+Nos no grafo: 10346
+Arestas no grafo: 13534
 
 CATEGORIAS NER RECONHECIDAS
 --------------------------------------------------------------------------------
-ORG (Companies, agencies, institutions, etc.): 7229
-PER (Named person or family.): 6579
-LOC (Non-GPE locations, mountain ranges, bodies of water): 5135
-MISC (Miscellaneous entities, e.g. events, nationalities, products or works of art): 4525
+ORG (Companies, agencies, institutions, etc.): 7030
+PER (Named person or family.): 6097
+LOC (Non-GPE locations, mountain ranges, bodies of water): 5161
+MISC (Miscellaneous entities, e.g. events, nationalities, products or works of art): 3640
 
 ENTIDADES MAIS FREQUENTES
 --------------------------------------------------------------------------------
-Palmeiras: 478
-Vasco: 461
-Corinthians: 447
-Flamengo: 445
-Fluminense: 385
-São Paulo: 361
-Botafogo: 325
-Libertadores: 311
-Texto: 301
-Brasileirão: 214
-Cruzeiro: 189
-Foto: 188
+Corinthians: 466
+Palmeiras: 463
+Vasco: 457
+Flamengo: 437
+Fluminense: 395
+São Paulo: 356
+Botafogo: 329
+Libertadores: 313
+Brasileirão: 216
+Cruzeiro: 191
 Brasil: 168
 Campeonato Brasileiro: 163
 R$: 163
+Athletico: 160
+Atlético-MG: 157
 Copa do Brasil: 153
-Atlético-MG: 151
-Athletico: 151
-Santos: 132
+Santos: 134
 Brasília: 131
-Real Madrid: 122
-Seleção: 121
-Platense: 120
+Seleção: 131
+Estudiantes: 123
+Real Madrid: 121
+Platense: 119
 Barcelona: 107
-Estudiantes: 106
-Brasileiro: 99
+Brasileiro: 96
 Argentina: 93
 Maracanã: 89
+Copa do Mundo: 88
+Coritiba: 85
 Chapecoense: 85
-Coritiba: 83
+Remo: 83
 
 RELACOES MAIS FREQUENTES
 --------------------------------------------------------------------------------
@@ -69,6 +69,7 @@ que --entrar_em--> campo (ocorrencias: 8)
 Cuiabá --vencer_por--> 3 a 0 (ocorrencias: 7)
 ge --acompanhar_em--> Tempo Real (ocorrencias: 7)
 Palmeiras --empatar_com--> Botafogo (ocorrencias: 7)
+Cuiabá --vencer_em--> Arena Pantanal (ocorrencias: 6)
 Yuri --regrider--> recuperação (ocorrencias: 6)
 João --dizer_após--> derrota do Vasco (ocorrencias: 6)
 Lucho Acosta --comemorar_contra--> Vasco (ocorrencias: 6)
@@ -83,6 +84,7 @@ Lucho Acosta --comemorar--> gol (ocorrencias: 5)
 Lucho Acosta --comemorar_por--> Campeonato Brasileiro (ocorrencias: 5)
 Cuiabá --vencer--> Athletic (ocorrencias: 4)
 ele --ter--> que (ocorrencias: 4)
+Ancelotti --convocar--> jogadores para amistosos contra Austrália e Índia (ocorrencias: 4)
 Estudiantes --nascer_em--> sapataria (ocorrencias: 4)
 São Paulo --dar--> premiação extra (ocorrencias: 4)
 Kaio César --lamentar--> derrota do Corinthians para a Chapecoense no Campeonato Brasileiro (ocorrencias: 4)
@@ -100,8 +102,6 @@ cerimônia --acontecer_desde--> 2019 (ocorrencias: 4)
 organização --decidir_em--> 2026 (ocorrencias: 4)
 edição de 2026 --levar_em--> consideração (ocorrencias: 4)
 edição de 2026 --levar--> destaques da temporada 2025/26 (ocorrencias: 4)
-Ousmane Dembélé --vencer--> principais categorias masculina e feminina (ocorrencias: 4)
-Ousmane Dembélé --vencer_em--> respectivamente, em 2025 (ocorrencias: 4)
 
 LIMITACOES
 --------------------------------------------------------------------------------
@@ -113,7 +113,7 @@ Os resultados precisam ser revisados antes de serem interpretados.
 
 ARQUIVOS GERADOS
 --------------------------------------------------------------------------------
-noticias_ge_parsing.csv
+noticias_ge_parsing.csv.gz
 noticias_ge_entidades.csv
 noticias_ge_relacoes.csv
 noticias_ge_relatorio_parsing_ner.txt

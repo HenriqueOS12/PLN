@@ -4,6 +4,7 @@
 from collections import Counter
 from pathlib import Path
 import ast
+import re
 import unicodedata
 import textwrap
 import warnings
@@ -58,6 +59,19 @@ MAX_NOTICIAS_VISUALIZACAO = 10
 MAX_PARES_GRAFO = 35
 
 RANDOM_STATE = 42
+
+PALAVRA_CREDITO = r"[A-ZÀ-Ú][\wÀ-ÿ.&'-]+"
+
+PADRAO_LEGENDA_FOTO = re.compile(
+    r"\s*[—–-]\s*Foto:\s*"
+    r"(?:"
+    r"(?:Reprodução|Divulgação|REUTERS|Reuters|AFP|EFE|AP|Getty Images|X)\b"
+    r"|"
+    rf"{PALAVRA_CREDITO}"
+    rf"(?:\s+(?:(?:de|da|do|dos|das)\s+)?{PALAVRA_CREDITO})?"
+    r")?"
+    r"(?:\s*/\s*[\wÀ-ÿ.&-]+)?"
+)
 
 
 def texto_seguro(valor):
@@ -262,11 +276,15 @@ def carregar_noticias():
         if not titulo and not texto:
             continue
 
+        texto = PADRAO_LEGENDA_FOTO.sub(". ", texto)
+
         if titulo and texto:
-            texto_analise = (
-                f"Titulo: {titulo}\n\n"
-                f"Texto da noticia: {texto}"
-            )
+            if titulo[-1] not in ".!?":
+                titulo_sentenca = titulo + "."
+            else:
+                titulo_sentenca = titulo
+
+            texto_analise = f"{titulo_sentenca}\n\n{texto}"
         else:
             texto_analise = titulo or texto
 
