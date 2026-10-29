@@ -1,0 +1,61 @@
+﻿representacao,consulta,precisao_top3,precisao_top5
+BoW,Corinthians,1.0,1.0
+BoW,Cristiano Ronaldo,1.0,0.6
+BoW,Ancelotti convocação da seleção,1.0,1.0
+BoW,lesão de jogador,0.3333333333333333,0.2
+BoW,contratação de atacante,1.0,0.8
+BoW,árbitro polêmica pênalti,1.0,1.0
+BoW,onde assistir ao vivo,0.3333333333333333,0.2
+BoW,time perde clássico e torcida protesta,0.0,0.0
+BoW,Corinthian,0.0,0.0
+BoW,Bola de Ouro,1.0,1.0
+TF-IDF,Corinthians,1.0,1.0
+TF-IDF,Cristiano Ronaldo,0.6666666666666666,0.6
+TF-IDF,Ancelotti convocação da seleção,1.0,1.0
+TF-IDF,lesão de jogador,0.6666666666666666,0.4
+TF-IDF,contratação de atacante,0.6666666666666666,0.8
+TF-IDF,árbitro polêmica pênalti,1.0,1.0
+TF-IDF,onde assistir ao vivo,0.6666666666666666,0.6
+TF-IDF,time perde clássico e torcida protesta,0.0,0.0
+TF-IDF,Corinthian,0.0,0.0
+TF-IDF,Bola de Ouro,1.0,1.0
+Word2Vec,Corinthians,1.0,1.0
+Word2Vec,Cristiano Ronaldo,1.0,0.6
+Word2Vec,Ancelotti convocação da seleção,1.0,1.0
+Word2Vec,lesão de jogador,0.6666666666666666,0.6
+Word2Vec,contratação de atacante,0.6666666666666666,0.8
+Word2Vec,árbitro polêmica pênalti,1.0,0.8
+Word2Vec,onde assistir ao vivo,0.3333333333333333,0.4
+Word2Vec,time perde clássico e torcida protesta,0.3333333333333333,0.4
+Word2Vec,Corinthian,0.0,0.0
+Word2Vec,Bola de Ouro,1.0,1.0
+BERT,Corinthians,0.3333333333333333,0.2
+BERT,Cristiano Ronaldo,0.0,0.2
+BERT,Ancelotti convocação da seleção,1.0,1.0
+BERT,lesão de jogador,0.3333333333333333,0.4
+BERT,contratação de atacante,0.6666666666666666,0.6
+BERT,árbitro polêmica pênalti,0.6666666666666666,0.6
+BERT,onde assistir ao vivo,0.3333333333333333,0.2
+BERT,time perde clássico e torcida protesta,0.6666666666666666,0.4
+BERT,Corinthian,0.6666666666666666,0.4
+BERT,Bola de Ouro,1.0,1.0
+BERT centralizado,Corinthians,0.3333333333333333,0.2
+BERT centralizado,Cristiano Ronaldo,0.0,0.2
+BERT centralizado,Ancelotti convocação da seleção,1.0,1.0
+BERT centralizado,lesão de jogador,0.3333333333333333,0.4
+BERT centralizado,contratação de atacante,0.6666666666666666,0.6
+BERT centralizado,árbitro polêmica pênalti,0.6666666666666666,0.6
+BERT centralizado,onde assistir ao vivo,0.3333333333333333,0.2
+BERT centralizado,time perde clássico e torcida protesta,0.3333333333333333,0.4
+BERT centralizado,Corinthian,0.6666666666666666,0.4
+BERT centralizado,Bola de Ouro,1.0,1.0
+Híbrido TF-IDF+W2V,Corinthians,1.0,1.0
+Híbrido TF-IDF+W2V,Cristiano Ronaldo,1.0,0.6
+Híbrido TF-IDF+W2V,Ancelotti convocação da seleção,1.0,1.0
+Híbrido TF-IDF+W2V,lesão de jogador,0.6666666666666666,0.6
+Híbrido TF-IDF+W2V,contratação de atacante,0.6666666666666666,0.8
+Híbrido TF-IDF+W2V,árbitro polêmica pênalti,1.0,1.0
+Híbrido TF-IDF+W2V,onde assistir ao vivo,0.6666666666666666,0.8
+Híbrido TF-IDF+W2V,time perde clássico e torcida protesta,0.0,0.0
+Híbrido TF-IDF+W2V,Corinthian,0.0,0.0
+Híbrido TF-IDF+W2V,Bola de Ouro,1.0,1.0

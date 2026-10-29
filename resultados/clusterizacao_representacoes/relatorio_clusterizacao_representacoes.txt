@@ -1,0 +1,368 @@
+======================================================================
+CLUSTERIZAÇÃO POR REPRESENTAÇÃO TEXTUAL
+======================================================================
+Notícias: 500
+Valores de k testados: 2 a 20
+Embeddings densos centralizados: True
+
+BoW: 500 x 11785
+TF-IDF: 500 x 11785
+Word2Vec: 500 x 100
+BERT: 500 x 768
+
+======================================================================
+MELHOR k POR REPRESENTAÇÃO (maior silhueta)
+======================================================================
+Silhueta: -1 a 1, maior é melhor | Davies-Bouldin: menor é melhor
+Calinski-Harabasz: maior é melhor | Coesão (intra): maior é melhor
+Separação (inter): maior é melhor
+
+BoW       k=17 | silhueta=0.1070 | DB=3.645 | CH=6.75 | coesão=0.530 | separação=0.644 | tamanhos 9-48
+TF-IDF    k=18 | silhueta=0.0828 | DB=4.146 | CH=4.61 | coesão=0.451 | separação=0.794 | tamanhos 7-68
+Word2Vec  k=15 | silhueta=0.1897 | DB=2.392 | CH=18.30 | coesão=0.589 | separação=1.058 | tamanhos 20-58
+BERT      k= 8 | silhueta=0.1279 | DB=2.917 | CH=20.16 | coesão=0.477 | separação=1.136 | tamanhos 35-98
+
+======================================================================
+MÉTRICAS PARA TODOS OS k
+======================================================================
+representacao  k  coesao_media  separacao_media  silhueta  davies_bouldin  calinski_harabasz  menor_cluster  maior_cluster
+          BoW  2        0.3634           0.2786    0.0387          6.6439            11.2533            244            256
+          BoW  3        0.4196           0.3711    0.0326          5.3638             9.6941             75            322
+          BoW  4        0.4765           0.4555    0.0375          4.6682            10.0427             42            314
+          BoW  5        0.4576           0.4972    0.0576          4.9532             9.5798             42            220
+          BoW  6        0.4839           0.5258    0.0593          4.7914             9.4414             35            172
+          BoW  7        0.4789           0.5182    0.0695          4.6470             9.1059             42            153
+          BoW  8        0.5021           0.5664    0.0727          4.5294             8.7633             29            162
+          BoW  9        0.4872           0.5554    0.0867          4.1624             8.4926             36            117
+          BoW 10        0.4908           0.5634    0.0781          4.1877             8.0572             34            101
+          BoW 11        0.5082           0.5951    0.0964          4.0808             8.2765             28            100
+          BoW 12        0.5081           0.5858    0.0946          3.9767             7.9509             26             64
+          BoW 13        0.5265           0.6162    0.0956          3.8557             7.6071             12            106
+          BoW 14        0.5151           0.6169    0.1040          3.7872             7.4627             19             55
+          BoW 15        0.5415           0.6368    0.0919          3.8892             7.1998             12            100
+          BoW 16        0.5468           0.6380    0.0859          3.8288             6.8916             15            110
+          BoW 17        0.5304           0.6436    0.1070          3.6448             6.7533              9             48
+          BoW 18        0.5323           0.6388    0.1001          3.7160             6.6292             11             38
+          BoW 19        0.5586           0.6587    0.0873          3.5578             6.2493              6             62
+          BoW 20        0.5715           0.6702    0.0843          3.6960             6.1625              7             68
+       TF-IDF  2        0.2939           0.4385    0.0133          6.2537             6.4153             77            423
+       TF-IDF  3        0.3195           0.5520    0.0249          7.2527             6.8214             43            243
+       TF-IDF  4        0.3471           0.6454    0.0323          5.8388             6.5468             43            311
+       TF-IDF  5        0.3415           0.6090    0.0416          6.4008             6.5711             44            180
+       TF-IDF  6        0.3700           0.6429    0.0448          5.9627             6.2871             33            154
+       TF-IDF  7        0.3647           0.6593    0.0492          5.7490             6.0388             41            154
+       TF-IDF  8        0.3878           0.6727    0.0490          5.5602             5.7028             28            169
+       TF-IDF  9        0.3797           0.6853    0.0561          5.1108             5.6433             33            116
+       TF-IDF 10        0.4058           0.7222    0.0596          5.0020             5.5222             22            150
+       TF-IDF 11        0.4110           0.7339    0.0665          4.8923             5.5998             17            121
+       TF-IDF 12        0.4149           0.7299    0.0645          5.0247             5.3196             19            110
+       TF-IDF 13        0.4431           0.7473    0.0672          4.5071             5.2030              8             75
+       TF-IDF 14        0.4443           0.7748    0.0786          4.5223             5.2067              8             92
+       TF-IDF 15        0.4172           0.7618    0.0744          4.3493             4.8702              9             50
+       TF-IDF 16        0.4386           0.7671    0.0760          4.4282             4.9014             12             59
+       TF-IDF 17        0.4592           0.7835    0.0679          4.3376             4.7939             12            103
+       TF-IDF 18        0.4508           0.7938    0.0828          4.1460             4.6145              7             68
+       TF-IDF 19        0.4520           0.7826    0.0693          4.2255             4.5144              9             47
+       TF-IDF 20        0.4577           0.7864    0.0718          4.2734             4.4402              8             41
+     Word2Vec  2        0.2753           1.9805    0.1341          3.5052            40.4535            246            254
+     Word2Vec  3        0.3412           1.4873    0.1266          3.3135            32.5277            135            202
+     Word2Vec  4        0.4027           1.3236    0.1310          3.1148            29.8683             73            149
+     Word2Vec  5        0.4333           1.2361    0.1315          3.1240            27.2798             69            129
+     Word2Vec  6        0.4803           1.1883    0.1427          2.9127            25.8008             31            102
+     Word2Vec  7        0.4929           1.1529    0.1445          2.7978            23.9891             31             90
+     Word2Vec  8        0.5233           1.1286    0.1645          2.6633            23.7632             37             87
+     Word2Vec  9        0.5358           1.1155    0.1709          2.6586            22.8222             31             77
+     Word2Vec 10        0.5497           1.1002    0.1719          2.5398            21.9679             30             71
+     Word2Vec 11        0.5606           1.0827    0.1765          2.4957            21.0433             29             74
+     Word2Vec 12        0.5750           1.0783    0.1840          2.4102            20.5138             21             68
+     Word2Vec 13        0.5816           1.0676    0.1831          2.3797            19.6165             14             64
+     Word2Vec 14        0.5820           1.0716    0.1841          2.4564            19.0452             24             48
+     Word2Vec 15        0.5892           1.0584    0.1897          2.3921            18.2962             20             58
+     Word2Vec 16        0.6004           1.0489    0.1742          2.3655            17.3790             17             63
+     Word2Vec 17        0.6081           1.0558    0.1830          2.3913            17.1625             13             49
+     Word2Vec 18        0.6160           1.0511    0.1749          2.3534            16.8041             12             42
+     Word2Vec 19        0.6175           1.0518    0.1817          2.3679            16.2740             17             41
+     Word2Vec 20        0.6290           1.0479    0.1871          2.3085            15.9850             10             47
+         BERT  2        0.2587           1.9910    0.1192          3.7388            35.5519            245            255
+         BERT  3        0.3321           1.4906    0.1195          3.3563            30.3834            143            198
+         BERT  4        0.3991           1.3078    0.1214          3.0583            27.7354             61            184
+         BERT  5        0.4286           1.2391    0.1193          3.2311            25.1680             61            160
+         BERT  6        0.4379           1.1934    0.1256          3.0811            22.9671             59            103
+         BERT  7        0.4615           1.1576    0.1269          3.0068            21.3518             42            105
+         BERT  8        0.4768           1.1358    0.1279          2.9171            20.1643             35             98
+         BERT  9        0.4846           1.1225    0.1196          3.0230            18.6869             39             74
+         BERT 10        0.4974           1.1083    0.1234          2.9028            17.8140             37             70
+         BERT 11        0.5085           1.0951    0.1257          2.8464            16.8949             27             65
+         BERT 12        0.5154           1.0872    0.1271          2.8394            16.1840             29             53
+         BERT 13        0.5138           1.0766    0.1198          2.9363            14.9494             22             54
+         BERT 14        0.5231           1.0710    0.1111          2.9793            14.0492             13             53
+         BERT 15        0.5335           1.0652    0.1153          2.8907            13.8383             16             48
+         BERT 16        0.5338           1.0634    0.1152          3.0114            13.2599             20             46
+         BERT 17        0.5502           1.0571    0.0956          2.9593            12.5704             11             52
+         BERT 18        0.5376           1.0510    0.1179          2.9899            12.1101             15             45
+         BERT 19        0.5530           1.0488    0.1048          2.9579            11.7335             12             46
+         BERT 20        0.5541           1.0450    0.1018          3.0652            11.2886             10             42
+
+======================================================================
+CONCORDÂNCIA ENTRE REPRESENTAÇÕES (Adjusted Rand Index, melhor k)
+======================================================================
+            BoW  TF-IDF  Word2Vec   BERT
+BoW       1.000   0.564     0.456  0.080
+TF-IDF    0.564   1.000     0.383  0.053
+Word2Vec  0.456   0.383     1.000  0.209
+BERT      0.080   0.053     0.209  1.000
+
+======================================================================
+CLUSTERS DO MELHOR k DE CADA REPRESENTAÇÃO
+======================================================================
+
+----- BoW (k=17) -----
+Cluster 0 (9 notícias, coesão 0.633): athletico, coritiba, couto, athletiba, jackson, leia, pereira, notícias
+    - Athletiba: o que mudou para Coritiba e Athletico desde o clássico do primeiro turno da Série A
+    - Coritiba x Athletico: saiba como comprar ingressos para o clássico
+    - Coritiba x Athletico: Athletiba já tem mais de 30 mil ingressos ocupados no Couto Pereira
+Cluster 1 (29 notícias, coesão 0.563): paulo, boca, dorival, luciano, juniors, morumbis, contra, júnior
+    - Dorival descarta poupar titulares no Choque-Rei, mas São Paulo pode perder Luciano
+    - São Paulo está otimista em ter Luciano contra o Boca, mas deve poupá-lo de jogo com o Palmeiras
+    - Quem foram os destaques do São Paulo no Mundial Sub-17
+Cluster 2 (33 notícias, coesão 0.449): barcelona, liga, raphinha, arsenal, champions, temporada, jesus, chelsea
+    - Gabriel Jesus alcança Rivaldo em lista de brasileiros com mais gols na Champions League
+    - Raphinha tem início mais goleador no Barcelona em quase 70 anos
+    - Champions League 2026/27: quem briga pelo título e o que esperar da nova temporada
+Cluster 3 (40 notícias, coesão 0.580): palmeiras, abel, botafogo, ferreira, ldu, barboza, marlon, flamengo
+    - Análise: Palmeiras desanda, perde vantagem e sai da liderança do Brasileiro depois de cinco meses
+    - Escalação: Palmeiras se prepara para enfrentar a LDU com quatro desfalques
+    - Por que o Palmeiras vive má fase e sofre com queda de rendimento na reta final da temporada
+Cluster 4 (48 notícias, coesão 0.415): vasco, pedro, copa, domínguez, galo, atlético, emanuel, jogo
+    - Como Pedro Emanuel administra desgaste do elenco e mantém Vasco vivo em três competições
+    - Sequência pesa, e Pedro Emanuel tem jogadores no limite físico no Vasco: "Nem eu estou 100%"
+    - VC Escala: monte o time ideal do Vasco contra o Santa Fe na Sul-Americana
+Cluster 5 (32 notícias, coesão 0.516): tempo, gol, bola, vasco, jogo, primeiro, segundo, ataque
+    - Atuações do Corinthians: só Bidu se salva em péssimo jogo; dê suas notas
+    - Atuações do Fluminense: Lucho, Martinelli e Canobbio são os melhores em vitória no clássico; dê suas notas
+    - Atuações do Vasco: Piton, Gómez, Adson e Tchê Tchê são os piores em derrota; dê suas notas
+Cluster 6 (30 notícias, coesão 0.537): seleção, ancelotti, convocação, brasileira, carlo, stadium, índia, ciclo
+    - Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+    - Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+    - Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+Cluster 7 (43 notícias, coesão 0.571): corinthians, estudiantes, diniz, chapecoense, libertadores, memphis, jogo, fernando
+    - Estudiantes x Corinthians: confronto começou há 90 anos e já teve apresentação de Ronaldo
+    - Escalação: Corinthians treina na Argentina e terá desfalques contra o Estudiantes
+    - Sequência do Brasileirão e elenco curto: Diniz pode manter a base do Corinthians contra a Chapecoense
+Cluster 8 (26 notícias, coesão 0.554): cruzeiro, jorge, artur, kaio, matheus, pereira, athletico, pênalti
+    - Análise: Cruzeiro responde bem à mudança e dosa pressão em primeiro ato após quedas traumáticas
+    - Artur Jorge explica quem bate pênalti no Cruzeiro e responde sobre discussão com torcedor
+    - Vai ficar? Veja termômetro de Artur Jorge no Cruzeiro após eliminações na Libertadores e Copa do Brasil
+Cluster 9 (35 notícias, coesão 0.590): fluminense, platense, marcão, vasco, libertadores, contra, jogo, lucho
+    - Análise: Fluminense supera fantasma contra o Vasco e confirma boa fase antes da Libertadores
+    - Escalação do Fluminense: Marcão tem desfalque no ataque em decisão na Libertadores
+    - Thiago Silva e Hércules treinam e reforçam o Fluminense na Libertadores
+Cluster 10 (34 notícias, coesão 0.459): série, figueirense, c, b, barra, londrina, rodada, cuiabá
+    - Londrina anuncia quatro reforços para a sequência da Série B; veja os nomes
+    - Série C: veja há quanto tempo os candidatos ao acesso estão longe da Série B
+    - Série C: confira o raio-X dos oito times que iniciam o quadrangular neste fim de semana
+Cluster 11 (41 notícias, coesão 0.500): flamengo, del, valle, remo, plata, independiente, cebolinha, clube
+    - Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal
+    - Flamengo desembarca em Quito para jogo das quartas de final da Libertadores
+    - Rota das campanhas de título de Libertadores, Equador volta ao caminho do Flamengo com desafios
+Cluster 12 (11 notícias, coesão 0.539): avaí, rildo, b, série, novorizontino, goiás, catarinense, clube
+    - Avaí está com dois meses de salários atrasados
+    - Avaí anuncia a contratação de Rildo, ex-Grêmio
+    - Presidente do Avaí fala sobre últimos dias do mercado aberto e explica trâmites da SAF
+Cluster 13 (22 notícias, coesão 0.498): copa, brasil, cbf, fase, fifa, mundo, santo, mané
+    - Semifinais da Copa do Brasil 2026: veja os mandos de campo
+    - Sorteio dos mandos da semifinal da Copa do Brasil 2026: veja onde assistir ao vivo
+    - Final única da Copa do Brasil 2026 será em Brasília
+Cluster 14 (22 notícias, coesão 0.546): madrid, real, champions, mourinho, inter, milão, mbappé, league
+    - Endrick é relacionado pelo Real Madrid para enfrentar a Inter de Milão após lesão
+    - Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+    - Vaias para Vini Jr. revoltam comentaristas espanhóis: “Assim não”
+Cluster 15 (19 notícias, coesão 0.611): botafogo, ziyech, ponta, casablanca, clube, wydad, milhões, chaves
+    - Botafogo não desiste de Ziyech e mantém confiança na contratação na reta final de janela
+    - Wydad Casablanca se despede de Ziyech; marroquino negocia transferência para o Botafogo
+    - Botafogo chega a acordo verbal com Ziyech e aguarda o jogador no Brasil para fechar contratação
+Cluster 16 (26 notícias, coesão 0.457): richarlison, tottenham, vasco, clube, jogador, futebol, atacante, rescisão
+    - Entenda o desgaste entre Tottenham e Richarlison, alvo do Vasco
+    - Companheiro de Richarlison no Tottenham, Savinho diz: "Ele quer ir para o Vasco"
+    - Richarlison aceita jogar no Vasco, mas Tottenham não pode mais emprestar jogadores
+
+----- TF-IDF (k=18) -----
+Cluster 0 (16 notícias, coesão 0.388): copa, fifa, brasil, mundo, infantino, cbf, mané, feminina
+    - Sorteio dos mandos da semifinal da Copa do Brasil 2026: veja onde assistir ao vivo
+    - Semifinais da Copa do Brasil 2026: veja os mandos de campo
+    - Final única da Copa do Brasil 2026 será em Brasília
+Cluster 1 (46 notícias, coesão 0.440): fluminense, platense, vasco, marcão, jogo, libertadores, contra, thiago
+    - Análise: Fluminense supera fantasma contra o Vasco e confirma boa fase antes da Libertadores
+    - Escalação do Fluminense: Marcão tem desfalque no ataque em decisão na Libertadores
+    - Banco de reservas do Fluminense mostra estrela e decide últimos jogos
+Cluster 2 (43 notícias, coesão 0.466): corinthians, estudiantes, diniz, chapecoense, libertadores, jogo, memphis, fernando
+    - Escalação: Corinthians treina na Argentina e terá desfalques contra o Estudiantes
+    - Sequência do Brasileirão e elenco curto: Diniz pode manter a base do Corinthians contra a Chapecoense
+    - Estudiantes x Corinthians: confronto começou há 90 anos e já teve apresentação de Ronaldo
+Cluster 3 (25 notícias, coesão 0.393): domínguez, atlético, galo, santos, lyanco, cassierra, tempo, belmiro
+    - Análise: Atlético-MG desmorona no 2º tempo e se complica por vaga na semi da Sul-Americana
+    - Domínguez reconhece erros do Atlético-MG, mas vê vaga aberta na Sul-Americana: "Com vida"
+    - Do caos à estabilidade: Atlético-MG desafia a Sul-Americana um ano depois de turbulência
+Cluster 4 (68 notícias, coesão 0.251): série, avaí, figueirense, b, c, barra, londrina, clube
+    - Série C: veja há quanto tempo os candidatos ao acesso estão longe da Série B
+    - Londrina anuncia quatro reforços para a sequência da Série B; veja os nomes
+    - Série C: confira o raio-X dos oito times que iniciam o quadrangular neste fim de semana
+Cluster 5 (32 notícias, coesão 0.423): paulo, boca, dorival, juniors, luciano, júnior, jogo, contra
+    - Dorival descarta poupar titulares no Choque-Rei, mas São Paulo pode perder Luciano
+    - São Paulo está otimista em ter Luciano contra o Boca, mas deve poupá-lo de jogo com o Palmeiras
+    - Análise: São Paulo perde chances, cai no segundo tempo e sai atrás contra o Boca
+Cluster 6 (16 notícias, coesão 0.566): ziyech, botafogo, ponta, casablanca, wydad, clube, hakim, ajax
+    - Botafogo chega a acordo verbal com Ziyech e aguarda o jogador no Brasil para fechar contratação
+    - Botafogo não desiste de Ziyech e mantém confiança na contratação na reta final de janela
+    - Wydad Casablanca se despede de Ziyech; marroquino negocia transferência para o Botafogo
+Cluster 7 (45 notícias, coesão 0.454): palmeiras, botafogo, abel, ferreira, ldu, barboza, marlon, flamengo
+    - Análise: Palmeiras desanda, perde vantagem e sai da liderança do Brasileiro depois de cinco meses
+    - Escalação: Palmeiras se prepara para enfrentar a LDU com quatro desfalques
+    - Por que o Palmeiras vive má fase e sofre com queda de rendimento na reta final da temporada
+Cluster 8 (15 notícias, coesão 0.412): milhões, cuello, r, galo, euros, clube, cska, brasil
+    - Cuello balança por proposta da Rússia, e Atlético-MG estuda negociar o atacante
+    - Atlético-MG recebe proposta de clube russo por Cuello; veja detalhes
+    - Negociação entre Atlético-MG e CSKA por Cuello trava; entenda o impasse
+Cluster 9 (34 notícias, coesão 0.408): vasco, richarlison, tottenham, fe, emanuel, santa, lescano, clube
+    - Admar mantém esperança na contratação de Richarlison: "Viria mudar o patamar do Vasco"
+    - Richarlison entrará com pedido de rescisão com Tottenham para assinar com o Vasco
+    - Tottenham recusa proposta do Vasco, que insiste na contratação de Richarlison
+Cluster 10 (33 notícias, coesão 0.421): cruzeiro, jorge, athletico, pereira, artur, matheus, coritiba, kaio
+    - Artur Jorge explica quem bate pênalti no Cruzeiro e responde sobre discussão com torcedor
+    - Análise: Cruzeiro responde bem à mudança e dosa pressão em primeiro ato após quedas traumáticas
+    - Análise: Athletico tem pouca inspiração e é dominado em derrota antes do clássico
+Cluster 11 (23 notícias, coesão 0.440): madrid, real, champions, inter, milão, mourinho, league, mbappé
+    - Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+    - Endrick é relacionado pelo Real Madrid para enfrentar a Inter de Milão após lesão
+    - Real Madrid x Inter de Milão na Champions League: onde assistir ao vivo e horário
+Cluster 12 (14 notícias, coesão 0.506): barcelona, raphinha, jesus, liga, feyenoord, gabriel, espanhol, valencia
+    - Gabriel Jesus alcança Rivaldo em lista de brasileiros com mais gols na Champions League
+    - Raphinha tem início mais goleador no Barcelona em quase 70 anos
+    - Técnico do Barcelona elogia Gabriel Jesus: "Calmo na frente do gol"
+Cluster 13 (7 notícias, coesão 0.679): ouro, bola, cerimônia, dembélé, prêmio, premiação, paris, vencedor
+    - Bola de Ouro 2026: veja todos os indicados e data da premiação
+    - Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+    - Bola de Ouro 2026: Raphinha fica fora dos 30 indicados ao prêmio
+Cluster 14 (11 notícias, coesão 0.461): city, chelsea, manchester, arsenal, xabi, inglês, estêvão, haaland
+    - Arsenal e Chelsea fazem clássico após gastarem mais de R$ 3,7 bilhões em reforços na janela
+    - Arsenal x Chelsea na Premier League: onde assistir ao vivo e horário
+    - Porto x Manchester City na Champions League 2026/27: onde assistir ao vivo e horário
+Cluster 15 (10 notícias, coesão 0.497): cuiabá, athletic, b, série, criciúma, pantanal, carlinhos, vila
+    - Análise: Cuiabá corrige problemas e constrói vitória com autoridade
+    - Cuiabá volta a vencer por três gols em competição nacional após dois anos
+    - Atuações do Cuiabá: Fábio Gomes, Lorenzo e Jean Dias marcam; dê suas notas
+Cluster 16 (38 notícias, coesão 0.396): flamengo, del, valle, remo, plata, independiente, cebolinha, clube
+    - Flamengo desembarca em Quito para jogo das quartas de final da Libertadores
+    - Escalação do Flamengo: Jardim avalia desgaste e prepara equipe para encarar o Del Valle na altitude
+    - Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal
+Cluster 17 (24 notícias, coesão 0.514): seleção, ancelotti, convocação, stadium, carlo, índia, brasileira, austrália
+    - Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+    - Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+    - Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+
+----- Word2Vec (k=15) -----
+Cluster 0 (31 notícias, coesão 0.555): copa, brasil, paulo, feminino, fase, semifinais, cbf, athletico
+    - Operário-PR supera a Chapecoense nos pênaltis e avança na Copa do Brasil Sub-20
+    - Athletico bate Sporting, mantém 100% e garante vaga na semifinal do Mundial Juvenil
+    - Semifinais da Copa do Brasil 2026: veja os mandos de campo
+Cluster 1 (28 notícias, coesão 0.598): gente, fluminense, jogo, vasco, platense, palmeiras, libertadores, equipe
+    - Marcão comemora vitória do Fluminense e projeta Libertadores: "Confiança muito grande"
+    - Matheuzinho sai em defesa de Diniz no Corinthians: "Estamos fechados com ele"
+    - Pedro Emanuel lamenta chances desperdiçadas pelo Vasco e indica Brasileirão como prioridade
+Cluster 2 (45 notícias, coesão 0.500): richarlison, tottenham, avaí, clube, vasco, futebol, fifa, saf
+    - Proposta por SAF do Fluminense completa um ano em compasso de espera
+    - Justiça autoriza novo empréstimo e determina abertura do leilão da SAF do Vasco
+    - Quando a GDA vai assumir o controle da SAF Botafogo? Entenda
+Cluster 3 (28 notícias, coesão 0.490): kaio, jorge, cruzeiro, pênalti, pereira, árbitro, matheus, gol
+    - Viralizou: árbitro peita Canobbio, bate-boca no Cruzeiro e ajuda do Botafogo ao "amigo" Flamengo
+    - Romero reage à discussão entre Matheus Pereira e Kaio Jorge sobre pênalti no Cruzeiro
+    - PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+Cluster 4 (58 notícias, coesão 0.559): barcelona, madrid, champions, real, league, liga, inter, ouro
+    - Champions League 2026/27: quem briga pelo título e o que esperar da nova temporada
+    - Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+    - Mourinho corneta prêmio de craque do jogo para Valverde em vez de Courtois: "Quem decide estava dormindo"
+Cluster 5 (20 notícias, coesão 0.556): cruzeiro, athletico, artur, coritiba, jorge, pontos, couto, athletiba
+    - Papo de setoristas: o que esperar de Cruzeiro x Athletico, pelo Brasileirão; assista
+    - Athletiba: o que mudou para Coritiba e Athletico desde o clássico do primeiro turno da Série A
+    - Escalação: Athletico tem o retorno de Benavídez e dúvida na defesa para o Athletiba
+Cluster 6 (33 notícias, coesão 0.664): corinthians, estudiantes, diniz, chapecoense, libertadores, memphis, fernando, yuri
+    - Sequência do Brasileirão e elenco curto: Diniz pode manter a base do Corinthians contra a Chapecoense
+    - Escalação: Corinthians treina na Argentina e terá desfalques contra o Estudiantes
+    - Treino do Corinthians: Diniz faz ajustes táticos para jogo contra a Chapecoense
+Cluster 7 (30 notícias, coesão 0.693): seleção, ancelotti, convocação, brasileira, carlo, índia, stadium, austrália
+    - Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+    - Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+    - Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+Cluster 8 (38 notícias, coesão 0.550): botafogo, ziyech, milhões, clube, janela, cuello, r, jogador
+    - Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+    - Botafogo negocia contratação de Matheus Gonçalves
+    - Ziyech chega ao Rio e é recebido por torcedores do Botafogo: "País número 1 do futebol"
+Cluster 9 (22 notícias, coesão 0.596): paulo, boca, dorival, juniors, luciano, contra, morumbis, júnior
+    - Recuperado, Victor Sá reforça o São Paulo para enfrentar o Boca Juniors na Sul-Americana
+    - São Paulo está otimista em ter Luciano contra o Boca, mas deve poupá-lo de jogo com o Palmeiras
+    - Dorival descarta poupar titulares no Choque-Rei, mas São Paulo pode perder Luciano
+Cluster 10 (26 notícias, coesão 0.593): flamengo, del, valle, plata, independiente, pulgar, clube, cebolinha
+    - Plata volta após saída frustrada do Flamengo e reencontra ex-clube: "Sempre foi inquieto", diz gerente do Del Valle
+    - Flamengo espera a volta de Plata neste domingo e se irrita com atraso na reapresentação
+    - Plata chega a Belém em meio a "climão" com o Flamengo, que relaciona atacante na Libertadores
+Cluster 11 (33 notícias, coesão 0.632): palmeiras, abel, botafogo, ferreira, ldu, marlon, barboza, flamengo
+    - Botafogo x Palmeiras: onde assistir ao vivo, horário e escalações
+    - Análise: Palmeiras desanda, perde vantagem e sai da liderança do Brasileiro depois de cinco meses
+    - Escalação: Palmeiras se prepara para enfrentar a LDU com quatro desfalques
+Cluster 12 (35 notícias, coesão 0.579): série, b, figueirense, c, barra, londrina, redonda, rodada
+    - Londrina anuncia quatro reforços para a sequência da Série B; veja os nomes
+    - Londrina x Operário-PR: onde assistir ao vivo, horário e escalações
+    - Barra Mansa empata com Friburguense na segunda rodada da Série B2 do RJ
+Cluster 13 (41 notícias, coesão 0.546): fluminense, vasco, platense, contra, marcão, jogo, libertadores, thiago
+    - Thiago Silva e Hércules treinam e reforçam o Fluminense na Libertadores
+    - Escalação do Fluminense: Marcão tem desfalque no ataque em decisão na Libertadores
+    - Com dores na coxa, Ignácio desfalca o Fluminense em jogo da Libertadores
+Cluster 14 (32 notícias, coesão 0.727): tempo, bola, gol, área, ataque, jogo, time, primeiro
+    - Atuações do Corinthians: só Bidu se salva em péssimo jogo; dê suas notas
+    - Atuações do Vasco: Léo Jardim salva em outra noite infeliz de Spinelli; dê suas notas
+    - Atuações do Fluminense: Ganso rege vitória na Libertadores e é o melhor; dê suas notas
+
+----- BERT (k=8) -----
+Cluster 0 (98 notícias, coesão 0.469): palmeiras, paulo, corinthians, série, time, flamengo, jogo, copa
+    - Ferroviária x Flamengo no Brasileiro Feminino: onde assistir ao vivo e horário
+    - Coritiba x Mirassol: onde assistir ao vivo, horário e escalações
+    - Como o Cruzeiro pode virar líder do returno do Brasileiro em duelo direto com o Athletico-PR
+Cluster 1 (54 notícias, coesão 0.416): corinthians, clube, r, avaí, milhões, estádio, copa, futebol
+    - Oito credores acionam Justiça e pedem suspensão do processo de venda da SAF do Vasco
+    - Governo multa concessionária por gestão do Maracanã; Fla-Flu recorre
+    - Justiça autoriza novo empréstimo e determina abertura do leilão da SAF do Vasco
+Cluster 2 (63 notícias, coesão 0.407): seleção, ancelotti, mundo, ouro, champions, convocação, copa, liga
+    - Bola de Ouro 2026: Raphinha fica fora dos 30 indicados ao prêmio
+    - Jorginho, do Flamengo, está na pré-lista da seleção italiana
+    - Aos 40 anos, Modric será convocado pela Croácia para jogos contra Espanha e Inglaterra
+Cluster 3 (72 notícias, coesão 0.497): clube, ziyech, jogador, richarlison, botafogo, vasco, milhões, atacante
+    - Botafogo busca reposição para Arthur Cabral e freia transferência para o México
+    - Botafogo negocia contratação de Matheus Gonçalves
+    - Vasco encaminha contratação do zagueiro Gabriel Pereira
+Cluster 4 (57 notícias, coesão 0.401): corinthians, cruzeiro, gol, torcedores, pênalti, kaio, madrid, inter
+    - Romero reage à discussão entre Matheus Pereira e Kaio Jorge sobre pênalti no Cruzeiro
+    - Jogador segura torcedor rival pelo pescoço e leva tapa na cara de volta na segunda divisão inglesa
+    - De Paul e Lewandowski batem boca e trocam empurrões na MLS; veja vídeo
+Cluster 5 (35 notícias, coesão 0.660): gol, tempo, bola, fluminense, jogo, área, vasco, ataque
+    - Atuações do Corinthians: Garro dá assistência, e Kaio César decide na Libertadores; dê suas notas
+    - Atuações do Fluminense: Lucho, Martinelli e Canobbio são os melhores em vitória no clássico; dê suas notas
+    - Atuações do Botafogo: Gabriel Batista e Ferraresi vão bem em empate; dê suas notas
+Cluster 6 (57 notícias, coesão 0.527): contra, fluminense, palmeiras, paulo, treino, corinthians, jogo, vasco
+    - Escalação: Corinthians detalha lesão de Yuri Alberto e fecha preparação para enfrentar a Chape
+    - Escalação do Vasco: com titulares preservados, Pedro Emanuel prepara mudanças contra o Santa Fe
+    - Trio se recupera de lesão, e Atlético-MG terá reforços para enfrentar o Santos pela Sula
+Cluster 7 (64 notícias, coesão 0.438): gente, palmeiras, jogo, fluminense, libertadores, corinthians, vasco, jogadores
+    - Dorival diz que São Paulo fez o melhor jogo sob seu comando e exalta torcida: "Impressionante"
+    - Memphis critica o Corinthians e cobra melhora coletiva: "Aprender a jogar como time grande"
+    - Jardim comenta retorno de Plata ao Flamengo e disputa com Palmeiras: "Estamos motivados"
+
+======================================================================
+ARQUIVOS GERADOS
+======================================================================
+- metricas_por_k.csv
+- clusters_por_representacao.csv
+- resumo_clusters.csv
+- metricas_por_k.png
+- pca_clusters_representacoes.png
+- tamanho_clusters.png
+- relatorio_clusterizacao_representacoes.txt

@@ -1,0 +1,505 @@
+==============================================================================
+BUSCA POR REPRESENTAÇÃO TEXTUAL
+==============================================================================
+Notícias: 500
+Consultas: 10
+Word2Vec idêntico ao de word2vec_bert_ge.py: True
+[R] = relevante pela heurística (padrão da consulta aparece no título)
+
+==============================================================================
+CONSULTA: Corinthians
+Tokens BoW/TF-IDF: ['corinthians']
+Tokens Word2Vec conhecidos: ['corinthians']
+==============================================================================
+
+--- BoW ---
+1. [R] 0.546 | Entenda por que o Corinthians vai mudar posição de patrocinador no calção
+2. [R] 0.538 | Estudiantes x Corinthians: confronto começou há 90 anos e já teve apresentação de Ronaldo
+3. [R] 0.513 | Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+4. [R] 0.509 | Corinthians atrasa pagamento de salários de agosto de atletas e comissão técnica
+5. [R] 0.509 | Torcedores do Corinthians que xingaram criança são identificados e proibidos de entrar na arena
+
+--- TF-IDF ---
+1. [R] 0.458 | Estudiantes x Corinthians: confronto começou há 90 anos e já teve apresentação de Ronaldo
+2. [R] 0.455 | Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+3. [R] 0.420 | Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento
+4. [R] 0.403 | Olha o Romarinho... Corinthians não faz gol fora de casa em mata-mata de Libertadores desde 2012
+5. [R] 0.400 | Mosaico de comemoração de 116 anos do Corinthians despenca
+
+--- Word2Vec ---
+1. [R] 0.656 | Escalação: Corinthians treina na Argentina e terá desfalques contra o Estudiantes
+2. [R] 0.655 | Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento
+3. [R] 0.651 | Treino do Corinthians: Diniz faz ajustes táticos para jogo contra a Chapecoense
+4. [R] 0.651 | Mosaico de comemoração de 116 anos do Corinthians despenca
+5. [R] 0.643 | Sequência do Brasileirão e elenco curto: Diniz pode manter a base do Corinthians contra a Chapecoense
+
+--- BERT ---
+1. [R] 0.380 | Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+2. [ ] 0.357 | São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+3. [ ] 0.356 | Alvo do São Paulo, Jamie Vardy acerta com time da Segunda Divisão inglesa
+4. [ ] 0.351 | Fluminense lança patch colecionável de jogos e estreia contra o Platense na Libertadores; veja foto
+5. [ ] 0.349 | PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+
+--- BERT centralizado ---
+1. [R] 0.253 | Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+2. [ ] 0.211 | Alvo do São Paulo, Jamie Vardy acerta com time da Segunda Divisão inglesa
+3. [ ] 0.208 | São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+4. [ ] 0.199 | Fluminense lança patch colecionável de jogos e estreia contra o Platense na Libertadores; veja foto
+5. [ ] 0.194 | PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 0.957 | Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento
+2. [R] 0.954 | Estudiantes x Corinthians: confronto começou há 90 anos e já teve apresentação de Ronaldo
+3. [R] 0.943 | Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+4. [R] 0.930 | Mosaico de comemoração de 116 anos do Corinthians despenca
+5. [R] 0.910 | Escalação: Corinthians treina na Argentina e terá desfalques contra o Estudiantes
+
+==============================================================================
+CONSULTA: Cristiano Ronaldo
+Tokens BoW/TF-IDF: ['cristiano', 'ronaldo']
+Tokens Word2Vec conhecidos: ['cristiano', 'ronaldo']
+==============================================================================
+
+--- BoW ---
+1. [R] 0.471 | Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+2. [R] 0.204 | Thiago Silva brinca com chapéu em Fluminense x Platense: "O último foi no Cristiano Ronaldo"; compare
+3. [R] 0.102 | Conheça árbitro sírio que já atuou em jogo de Cristiano Ronaldo e hoje apita no Paraná
+4. [ ] 0.084 | Tevez fará jogo de despedida do futebol em dezembro em La Bombonera
+5. [ ] 0.077 | Thiago Silva, do Fluminense, relata dores no joelho: "Estou à base de anti-inflamatórios"
+
+--- TF-IDF ---
+1. [R] 0.631 | Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+2. [R] 0.264 | Thiago Silva brinca com chapéu em Fluminense x Platense: "O último foi no Cristiano Ronaldo"; compare
+3. [ ] 0.119 | Thiago Silva, do Fluminense, relata dores no joelho: "Estou à base de anti-inflamatórios"
+4. [R] 0.115 | Conheça árbitro sírio que já atuou em jogo de Cristiano Ronaldo e hoje apita no Paraná
+5. [ ] 0.100 | Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+
+--- Word2Vec ---
+1. [R] 0.697 | Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+2. [R] 0.525 | Thiago Silva brinca com chapéu em Fluminense x Platense: "O último foi no Cristiano Ronaldo"; compare
+3. [R] 0.478 | Conheça árbitro sírio que já atuou em jogo de Cristiano Ronaldo e hoje apita no Paraná
+4. [ ] 0.471 | Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+5. [ ] 0.452 | Bola parada pesa: veja como o Figueirense sofreu os 22 gols na Série C
+
+--- BERT ---
+1. [ ] 0.427 | "Filipe conquista Paris": jornal espanhol destaca vitória do técnico brasileiro sobre o PSG de Luís Enrique
+2. [ ] 0.423 | Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+3. [ ] 0.419 | Vini Jr. dá caneta em Alexander-Arnold no treino, e Rüdiger cai na gargalhada; vídeo
+4. [R] 0.419 | Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+5. [ ] 0.418 | Mourinho perde a paciência com auxiliar antes de substituição no Real Madrid
+
+--- BERT centralizado ---
+1. [ ] 0.275 | Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+2. [ ] 0.272 | Vini Jr. dá caneta em Alexander-Arnold no treino, e Rüdiger cai na gargalhada; vídeo
+3. [ ] 0.257 | "Filipe conquista Paris": jornal espanhol destaca vitória do técnico brasileiro sobre o PSG de Luís Enrique
+4. [ ] 0.245 | Aos 40 anos, Modric será convocado pela Croácia para jogos contra Espanha e Inglaterra
+5. [R] 0.245 | Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 1.000 | Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+2. [R] 0.531 | Thiago Silva brinca com chapéu em Fluminense x Platense: "O último foi no Cristiano Ronaldo"; compare
+3. [R] 0.365 | Conheça árbitro sírio que já atuou em jogo de Cristiano Ronaldo e hoje apita no Paraná
+4. [ ] 0.346 | Mbappé entra para o top 5 de maiores artilheiros da história da Champions League; veja a lista
+5. [ ] 0.318 | Tevez fará jogo de despedida do futebol em dezembro em La Bombonera
+
+==============================================================================
+CONSULTA: Ancelotti convocação da seleção
+Tokens BoW/TF-IDF: ['ancelotti', 'convocação', 'seleção']
+Tokens Word2Vec conhecidos: ['ancelotti', 'convocação', 'seleção']
+==============================================================================
+
+--- BoW ---
+1. [R] 0.557 | Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+2. [R] 0.537 | Ancelotti responde à crítica de Thiago Silva: "É momento de priorizar os jovens"
+3. [R] 0.521 | Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+4. [R] 0.517 | Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+5. [R] 0.453 | Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+
+--- TF-IDF ---
+1. [R] 0.505 | Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+2. [R] 0.481 | Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+3. [R] 0.481 | Ancelotti responde à crítica de Thiago Silva: "É momento de priorizar os jovens"
+4. [R] 0.447 | Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+5. [R] 0.412 | Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+
+--- Word2Vec ---
+1. [R] 0.774 | Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+2. [R] 0.762 | Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+3. [R] 0.761 | Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+4. [R] 0.752 | Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+5. [R] 0.738 | Ancelotti responde à crítica de Thiago Silva: "É momento de priorizar os jovens"
+
+--- BERT ---
+1. [R] 0.556 | Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+2. [R] 0.549 | Nem Fábio, nem Rafael: veja último goleiro do Cruzeiro convocado para Seleção antes de Otávio
+3. [R] 0.545 | Corinthians tem quatro jogadores na pré-lista de convocados da Seleção para amistosos
+4. [R] 0.542 | Lodi explica episódio da vacina na Seleção, rebate Tite e mira novo ciclo para Copa
+5. [R] 0.540 | Pedro e Samuel Lino, do Flamengo, comemoram convocação para Seleção; veja
+
+--- BERT centralizado ---
+1. [R] 0.278 | Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+2. [R] 0.251 | Nem Fábio, nem Rafael: veja último goleiro do Cruzeiro convocado para Seleção antes de Otávio
+3. [R] 0.240 | Corinthians tem quatro jogadores na pré-lista de convocados da Seleção para amistosos
+4. [R] 0.236 | Lodi explica episódio da vacina na Seleção, rebate Tite e mira novo ciclo para Copa
+5. [R] 0.234 | Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 0.988 | Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+2. [R] 0.976 | Veja quem são os oito estreantes na seleção brasileira na convocação de Ancelotti
+3. [R] 0.939 | Ancelotti responde à crítica de Thiago Silva: "É momento de priorizar os jovens"
+4. [R] 0.929 | Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+5. [R] 0.885 | Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+
+==============================================================================
+CONSULTA: lesão de jogador
+Tokens BoW/TF-IDF: ['lesão', 'jogador']
+Tokens Word2Vec conhecidos: ['lesão', 'jogador']
+==============================================================================
+
+--- BoW ---
+1. [ ] 0.266 | Promessa da base e carrasco do Atlético-MG se despede do Cruzeiro
+2. [ ] 0.257 | Vasco inicia contatos para tentar contratar atacante Richarlison
+3. [R] 0.251 | Zagueiro que não estreou pelo Atlético-MG se recupera de lesão e fica disponível
+4. [ ] 0.251 | Richarlison entrará com pedido de rescisão com Tottenham para assinar com o Vasco
+5. [ ] 0.227 | Companheiro de Richarlison no Tottenham, Savinho diz: "Ele quer ir para o Vasco"
+
+--- TF-IDF ---
+1. [R] 0.169 | Zagueiro que não estreou pelo Atlético-MG se recupera de lesão e fica disponível
+2. [R] 0.159 | Atlético-MG diminui casos no DM e aguarda retorno de dupla titular contra o Santos
+3. [ ] 0.136 | Escalação do Atlético-MG: volante é cortado, e Domínguez prepara mudanças no time
+4. [ ] 0.136 | Promessa da base e carrasco do Atlético-MG se despede do Cruzeiro
+5. [ ] 0.110 | Mais desfalques e menos opções? Como Palmeiras chega às quartas de final da Libertadores
+
+--- Word2Vec ---
+1. [R] 0.662 | Atlético-MG diminui casos no DM e aguarda retorno de dupla titular contra o Santos
+2. [R] 0.646 | Cano e Ignácio têm lesões e desfalcam o Fluminense nas próximas semanas
+3. [ ] 0.642 | Escalação do Atlético-MG: volante é cortado, e Domínguez prepara mudanças no time
+4. [R] 0.638 | Gabriel Pec mostra bastidores da recuperação de lesão grave no Cruzeiro; veja
+5. [ ] 0.629 | Promessa da base e carrasco do Atlético-MG se despede do Cruzeiro
+
+--- BERT ---
+1. [ ] 0.514 | Escalação do Atlético-MG: volante é cortado, e Domínguez prepara mudanças no time
+2. [R] 0.506 | Escalação: Corinthians detalha lesão de Yuri Alberto e fecha preparação para enfrentar a Chape
+3. [ ] 0.501 | Figueirense tem retornos e preocupações para sequência na Copa SC
+4. [ ] 0.501 | PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+5. [R] 0.495 | Quem é o jovem zagueiro ex-Flamengo que virou opção com titulares do Atlético-MG no DM
+
+--- BERT centralizado ---
+1. [ ] 0.285 | Escalação do Atlético-MG: volante é cortado, e Domínguez prepara mudanças no time
+2. [R] 0.260 | Escalação: Corinthians detalha lesão de Yuri Alberto e fecha preparação para enfrentar a Chape
+3. [ ] 0.259 | PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+4. [ ] 0.246 | Figueirense tem retornos e preocupações para sequência na Copa SC
+5. [R] 0.221 | Quem é o jovem zagueiro ex-Flamengo que virou opção com titulares do Atlético-MG no DM
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 0.972 | Atlético-MG diminui casos no DM e aguarda retorno de dupla titular contra o Santos
+2. [R] 0.929 | Zagueiro que não estreou pelo Atlético-MG se recupera de lesão e fica disponível
+3. [ ] 0.875 | Escalação do Atlético-MG: volante é cortado, e Domínguez prepara mudanças no time
+4. [ ] 0.857 | Promessa da base e carrasco do Atlético-MG se despede do Cruzeiro
+5. [R] 0.726 | Quem é o jovem zagueiro ex-Flamengo que virou opção com titulares do Atlético-MG no DM
+
+==============================================================================
+CONSULTA: contratação de atacante
+Tokens BoW/TF-IDF: ['contratação', 'atacante']
+Tokens Word2Vec conhecidos: ['contratação', 'atacante']
+==============================================================================
+
+--- BoW ---
+1. [R] 0.203 | Avaí encaminha a contratação do atacante Rildo, ex-Grêmio
+2. [R] 0.199 | Londrina anuncia dois atacantes para a sequência da Série B
+3. [R] 0.197 | Avaí anuncia a contratação de Rildo, ex-Grêmio
+4. [R] 0.193 | Portuguesa acerta a contratação do atacante Romarinho, ex-Corinthians
+5. [ ] 0.192 | Em bate-boca com Neymar, torcedor do Atlético-MG avisa: "Vai ter jogo de volta"; veja discussão
+
+--- TF-IDF ---
+1. [R] 0.142 | Saiba o que esperar do Vasco na última semana da janela de transferências
+2. [ ] 0.135 | Richarlison aceita jogar no Vasco, mas Tottenham não pode mais emprestar jogadores
+3. [R] 0.104 | Vasco encaminha contratação do zagueiro Gabriel Pereira
+4. [R] 0.102 | Portuguesa acerta a contratação do atacante Romarinho, ex-Corinthians
+5. [R] 0.100 | Botafogo anuncia contratação do zagueiro Arthur Chaves
+
+--- Word2Vec ---
+1. [R] 0.606 | Vasco encaminha contratação do zagueiro Gabriel Pereira
+2. [ ] 0.596 | Richarlison aceita jogar no Vasco, mas Tottenham não pode mais emprestar jogadores
+3. [R] 0.591 | Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+4. [R] 0.585 | Botafogo chega a acordo verbal com Ziyech e aguarda o jogador no Brasil para fechar contratação
+5. [R] 0.585 | Saiba o que esperar do Vasco na última semana da janela de transferências
+
+--- BERT ---
+1. [R] 0.547 | Botafogo reforça a zaga na janela e amplia opções para o setor
+2. [ ] 0.537 | Após Pulgar, Flamengo tem Pedro e Léo Pereira como prioridades para próximas renovações de contrato
+3. [R] 0.536 | Santos avança pela contratação de Everton Cebolinha, do Flamengo
+4. [ ] 0.527 | Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
+5. [R] 0.520 | Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+
+--- BERT centralizado ---
+1. [R] 0.350 | Botafogo reforça a zaga na janela e amplia opções para o setor
+2. [ ] 0.319 | Após Pulgar, Flamengo tem Pedro e Léo Pereira como prioridades para próximas renovações de contrato
+3. [R] 0.316 | Santos avança pela contratação de Everton Cebolinha, do Flamengo
+4. [ ] 0.288 | Versatilidade, bola parada e finalização: como Lescano pode ajudar Pedro Emanuel no Vasco
+5. [R] 0.273 | Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 0.969 | Saiba o que esperar do Vasco na última semana da janela de transferências
+2. [ ] 0.958 | Richarlison aceita jogar no Vasco, mas Tottenham não pode mais emprestar jogadores
+3. [R] 0.865 | Vasco encaminha contratação do zagueiro Gabriel Pereira
+4. [R] 0.784 | Botafogo anuncia contratação do zagueiro Arthur Chaves
+5. [R] 0.772 | Portuguesa acerta a contratação do atacante Romarinho, ex-Corinthians
+
+==============================================================================
+CONSULTA: árbitro polêmica pênalti
+Tokens BoW/TF-IDF: ['árbitro', 'polêmica', 'pênalti']
+Tokens Word2Vec conhecidos: ['árbitro', 'polêmica', 'pênalti']
+==============================================================================
+
+--- BoW ---
+1. [R] 0.316 | Fluminense critica árbitro por peitada em Canobbio: "Postura de confronto físico incompatível"
+2. [R] 0.266 | PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+3. [R] 0.189 | Árbitro peita Canobbio e é criticado por Hulk em Fluminense x Vasco; veja o lance
+4. [R] 0.187 | De Neymar a Balotelli: lista relembra tretas na hora de bater pênalti
+5. [R] 0.184 | Romero reage à discussão entre Matheus Pereira e Kaio Jorge sobre pênalti no Cruzeiro
+
+--- TF-IDF ---
+1. [R] 0.267 | Fluminense critica árbitro por peitada em Canobbio: "Postura de confronto físico incompatível"
+2. [R] 0.218 | PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+3. [R] 0.197 | Romero reage à discussão entre Matheus Pereira e Kaio Jorge sobre pênalti no Cruzeiro
+4. [R] 0.190 | Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+5. [R] 0.176 | Árbitro peita Canobbio e é criticado por Hulk em Fluminense x Vasco; veja o lance
+
+--- Word2Vec ---
+1. [R] 0.734 | PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+2. [R] 0.718 | Fluminense critica árbitro por peitada em Canobbio: "Postura de confronto físico incompatível"
+3. [R] 0.689 | Romero reage à discussão entre Matheus Pereira e Kaio Jorge sobre pênalti no Cruzeiro
+4. [ ] 0.677 | Cruzeiro x Athletico-PR: veja o que Matheus Pereira teria dito a Kaio Jorge em discussão
+5. [R] 0.676 | Viralizou: árbitro peita Canobbio, bate-boca no Cruzeiro e ajuda do Botafogo ao "amigo" Flamengo
+
+--- BERT ---
+1. [R] 0.456 | PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+2. [R] 0.436 | PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+3. [ ] 0.427 | Atuações do Palmeiras: Giay faz seu melhor jogo e decide vitória na Libertadores; dê suas notas
+4. [ ] 0.424 | Atuações do Vasco: Léo Jardim salva em outra noite infeliz de Spinelli; dê suas notas
+5. [R] 0.424 | Fluminense critica árbitro por peitada em Canobbio: "Postura de confronto físico incompatível"
+
+--- BERT centralizado ---
+1. [R] 0.417 | PC Oliveira diz que Marçal deveria ter sido expulso em Botafogo x Palmeiras; vídeo
+2. [R] 0.372 | PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+3. [ ] 0.356 | Atuações do Vasco: Léo Jardim salva em outra noite infeliz de Spinelli; dê suas notas
+4. [ ] 0.353 | Atuações do Palmeiras: Giay faz seu melhor jogo e decide vitória na Libertadores; dê suas notas
+5. [R] 0.345 | Fluminense critica árbitro por peitada em Canobbio: "Postura de confronto físico incompatível"
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 0.981 | Fluminense critica árbitro por peitada em Canobbio: "Postura de confronto físico incompatível"
+2. [R] 0.907 | PC Oliveira considera que houve pênalti não marcado de Adson sobre Serna, em Fluminense x Vasco
+3. [R] 0.817 | Romero reage à discussão entre Matheus Pereira e Kaio Jorge sobre pênalti no Cruzeiro
+4. [R] 0.747 | Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+5. [R] 0.745 | Árbitro peita Canobbio e é criticado por Hulk em Fluminense x Vasco; veja o lance
+
+==============================================================================
+CONSULTA: onde assistir ao vivo
+Tokens BoW/TF-IDF: ['onde', 'assistir', 'vivo']
+Tokens Word2Vec conhecidos: ['onde', 'assistir', 'vivo']
+==============================================================================
+
+--- BoW ---
+1. [R] 0.092 | Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+2. [ ] 0.090 | Plata chega a Belém em meio a "climão" com o Flamengo, que relaciona atacante na Libertadores
+3. [ ] 0.086 | Abel joga responsabilidade para o Flamengo em briga com Palmeiras: "Obrigação de fazer muito mais"
+4. [ ] 0.072 | Flamengo desembarca em Quito para jogo das quartas de final da Libertadores
+5. [ ] 0.071 | Avaí faz campanha com torcedores para arrecadar R$ 500 mil até o fim da Série B
+
+--- TF-IDF ---
+1. [R] 0.127 | Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+2. [R] 0.064 | Athletico x Racing pela final do Mundial de Clubes Juvenil: onde assistir e os detalhes do jogo
+3. [ ] 0.059 | Abel joga responsabilidade para o Flamengo em briga com Palmeiras: "Obrigação de fazer muito mais"
+4. [ ] 0.053 | Plata chega a Belém em meio a "climão" com o Flamengo, que relaciona atacante na Libertadores
+5. [R] 0.047 | São Paulo e Athletico se enfrentam pela semifinal do Mundial de Clubes Juvenil; onde assistir
+
+--- Word2Vec ---
+1. [ ] 0.614 | Semifinais da Copa do Brasil 2026: veja os mandos de campo
+2. [ ] 0.610 | Palmeiras é único no Brasil na briga por título em três competições, e Abel diz: "Vamos arriscar tudo"
+3. [R] 0.609 | Sorteio dos mandos da semifinal da Copa do Brasil 2026: veja onde assistir ao vivo
+4. [R] 0.600 | Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+5. [ ] 0.591 | Nonato dedica vitória e gol do Fluminense ao diretor Paulo Angioni, que está internado
+
+--- BERT ---
+1. [R] 0.445 | Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+2. [ ] 0.441 | Globo fecha acordo com a CBF para transmissão da Copa do Brasil de 2027 a 2030
+3. [ ] 0.416 | Câmeras flagram Rodri surpreso com adversário do Barcelona: "São muito ruins"
+4. [ ] 0.414 | Flamengo espera a volta de Plata neste domingo e se irrita com atraso na reapresentação
+5. [ ] 0.413 | Abel critica árbitro e reclama de microfones em empate do Palmeiras: "É o Big Brother?"
+
+--- BERT centralizado ---
+1. [ ] 0.227 | Globo fecha acordo com a CBF para transmissão da Copa do Brasil de 2027 a 2030
+2. [R] 0.208 | Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+3. [ ] 0.132 | Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+4. [ ] 0.128 | Vini Jr. dá caneta em Alexander-Arnold no treino, e Rüdiger cai na gargalhada; vídeo
+5. [ ] 0.128 | Morre o jornalista Claudio Carsughi
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 0.975 | Brasileirão 2026: veja onde assistir ao vivo aos jogos da 26ª rodada
+2. [R] 0.673 | Athletico x Racing pela final do Mundial de Clubes Juvenil: onde assistir e os detalhes do jogo
+3. [ ] 0.648 | Abel joga responsabilidade para o Flamengo em briga com Palmeiras: "Obrigação de fazer muito mais"
+4. [R] 0.633 | Sorteio dos mandos da semifinal da Copa do Brasil 2026: veja onde assistir ao vivo
+5. [R] 0.616 | São Paulo e Athletico se enfrentam pela semifinal do Mundial de Clubes Juvenil; onde assistir
+
+==============================================================================
+CONSULTA: time perde clássico e torcida protesta
+Tokens BoW/TF-IDF: ['time', 'perde', 'clássico', 'torcida', 'protesta']
+Tokens Word2Vec conhecidos: ['time', 'perde', 'clássico', 'torcida', 'protesta']
+==============================================================================
+
+--- BoW ---
+1. [ ] 0.224 | Boca Juniors x São Paulo: onde assistir ao vivo, horário e escalações
+2. [ ] 0.219 | Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+3. [ ] 0.211 | Fluminense x Vasco: onde assistir ao vivo, horário e escalações
+4. [ ] 0.168 | Análise: Atlético-MG cai em enxurrada de finalizações, mas derrota na "hora certa" tem efeito mínimo
+5. [ ] 0.157 | Fluminense se apoia no retrospecto de Marcão em clássicos para reencontro com o Vasco
+
+--- TF-IDF ---
+1. [ ] 0.113 | Fluminense x Vasco: onde assistir ao vivo, horário e escalações
+2. [ ] 0.101 | Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+3. [ ] 0.099 | Fluminense se apoia no retrospecto de Marcão em clássicos para reencontro com o Vasco
+4. [ ] 0.097 | Athletiba: o que mudou para Coritiba e Athletico desde o clássico do primeiro turno da Série A
+5. [ ] 0.084 | Boca Juniors x São Paulo: onde assistir ao vivo, horário e escalações
+
+--- Word2Vec ---
+1. [R] 0.764 | Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+2. [ ] 0.761 | Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento
+3. [ ] 0.759 | Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+4. [R] 0.747 | Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+5. [ ] 0.741 | Mosaico de comemoração de 116 anos do Corinthians despenca
+
+--- BERT ---
+1. [ ] 0.604 | Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+2. [R] 0.599 | Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+3. [R] 0.592 | Torcedores do Cruzeiro protestam contra elenco e diretoria: "Resort do Pedrinho"; veja reação do dono
+4. [ ] 0.588 | Mosaico de comemoração de 116 anos do Corinthians despenca
+5. [ ] 0.582 | Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+
+--- BERT centralizado ---
+1. [ ] 0.254 | Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+2. [R] 0.227 | Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+3. [ ] 0.223 | Mosaico de comemoração de 116 anos do Corinthians despenca
+4. [R] 0.220 | Torcedores do Cruzeiro protestam contra elenco e diretoria: "Resort do Pedrinho"; veja reação do dono
+5. [ ] 0.199 | Imprensa internacional repercute peitada de árbitro em Canobbio, do Fluminense: "Nunca visto"
+
+--- Híbrido TF-IDF+W2V ---
+1. [ ] 0.940 | Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+2. [ ] 0.924 | Fluminense x Vasco: onde assistir ao vivo, horário e escalações
+3. [ ] 0.879 | Athletiba: o que mudou para Coritiba e Athletico desde o clássico do primeiro turno da Série A
+4. [ ] 0.871 | Fluminense se apoia no retrospecto de Marcão em clássicos para reencontro com o Vasco
+5. [ ] 0.774 | Boca Juniors x São Paulo: onde assistir ao vivo, horário e escalações
+
+==============================================================================
+CONSULTA: Corinthian
+Tokens BoW/TF-IDF: ['corinthian']
+Tokens Word2Vec conhecidos: []
+==============================================================================
+
+--- BoW ---
+Nenhum resultado: nenhum termo da consulta é conhecido.
+
+--- TF-IDF ---
+Nenhum resultado: nenhum termo da consulta é conhecido.
+
+--- Word2Vec ---
+Nenhum resultado: nenhum termo da consulta é conhecido.
+
+--- BERT ---
+1. [R] 0.501 | Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+2. [R] 0.501 | Mosaico de comemoração de 116 anos do Corinthians despenca
+3. [ ] 0.493 | Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+4. [ ] 0.492 | CBF altera árbitro do clássico entre Coritiba e Athletico; saiba o motivo
+5. [ ] 0.484 | Coritiba x Athletico: Athletiba já tem mais de 30 mil ingressos ocupados no Couto Pereira
+
+--- BERT centralizado ---
+1. [R] 0.238 | Mosaico de comemoração de 116 anos do Corinthians despenca
+2. [R] 0.210 | Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+3. [ ] 0.204 | Que curva é essa? Meia do Paysandu faz golaço na Série C e viraliza nas redes; assista
+4. [ ] 0.191 | CBF altera árbitro do clássico entre Coritiba e Athletico; saiba o motivo
+5. [ ] 0.190 | Coritiba x Athletico: Athletiba já tem mais de 30 mil ingressos ocupados no Couto Pereira
+
+--- Híbrido TF-IDF+W2V ---
+Nenhum resultado: nenhum termo da consulta é conhecido.
+
+==============================================================================
+CONSULTA: Bola de Ouro
+Tokens BoW/TF-IDF: ['bola', 'ouro']
+Tokens Word2Vec conhecidos: ['bola', 'ouro']
+==============================================================================
+
+--- BoW ---
+1. [R] 0.531 | Bola de Ouro 2026: veja todos os indicados e data da premiação
+2. [R] 0.481 | Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+3. [R] 0.448 | Jornal: Vini Jr. recebeu aviso de que ganharia a Bola de Ouro de 2024, vencida por Rodri; entenda
+4. [R] 0.423 | Bola de Ouro 2026: Raphinha fica fora dos 30 indicados ao prêmio
+5. [R] 0.369 | Vozinha, destaque de Cabo Verde na Copa, é indicado a melhor goleiro da Bola de Ouro 2026
+
+--- TF-IDF ---
+1. [R] 0.483 | Bola de Ouro 2026: veja todos os indicados e data da premiação
+2. [R] 0.424 | Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+3. [R] 0.390 | Bola de Ouro 2026: Raphinha fica fora dos 30 indicados ao prêmio
+4. [R] 0.347 | Jornal: Vini Jr. recebeu aviso de que ganharia a Bola de Ouro de 2024, vencida por Rodri; entenda
+5. [R] 0.317 | Vozinha, destaque de Cabo Verde na Copa, é indicado a melhor goleiro da Bola de Ouro 2026
+
+--- Word2Vec ---
+1. [R] 0.745 | Bola de Ouro 2026: veja todos os indicados e data da premiação
+2. [R] 0.735 | Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+3. [R] 0.714 | Vozinha, destaque de Cabo Verde na Copa, é indicado a melhor goleiro da Bola de Ouro 2026
+4. [R] 0.713 | Bola de Ouro 2026: Raphinha fica fora dos 30 indicados ao prêmio
+5. [R] 0.710 | Jornal: Vini Jr. recebeu aviso de que ganharia a Bola de Ouro de 2024, vencida por Rodri; entenda
+
+--- BERT ---
+1. [R] 0.481 | Flamengo festeja indicação ao prêmio de clube do ano na Bola de Ouro: "Reconhecimento mundial", diz Arrascaeta
+2. [R] 0.474 | Vozinha, destaque de Cabo Verde na Copa, é indicado a melhor goleiro da Bola de Ouro 2026
+3. [R] 0.470 | Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+4. [R] 0.461 | Bola de Ouro 2026: veja todos os indicados e data da premiação
+5. [R] 0.459 | Atual vencedor, Dembélé aponta três favoritos à Bola de Ouro de 2026
+
+--- BERT centralizado ---
+1. [R] 0.315 | Flamengo festeja indicação ao prêmio de clube do ano na Bola de Ouro: "Reconhecimento mundial", diz Arrascaeta
+2. [R] 0.296 | Vozinha, destaque de Cabo Verde na Copa, é indicado a melhor goleiro da Bola de Ouro 2026
+3. [R] 0.290 | Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+4. [R] 0.273 | Bola de Ouro 2026: veja todos os indicados e data da premiação
+5. [R] 0.268 | Atual vencedor, Dembélé aponta três favoritos à Bola de Ouro de 2026
+
+--- Híbrido TF-IDF+W2V ---
+1. [R] 1.000 | Bola de Ouro 2026: veja todos os indicados e data da premiação
+2. [R] 0.928 | Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+3. [R] 0.868 | Bola de Ouro 2026: Raphinha fica fora dos 30 indicados ao prêmio
+4. [R] 0.821 | Jornal: Vini Jr. recebeu aviso de que ganharia a Bola de Ouro de 2024, vencida por Rodri; entenda
+5. [R] 0.794 | Vozinha, destaque de Cabo Verde na Copa, é indicado a melhor goleiro da Bola de Ouro 2026
+
+==============================================================================
+PRECISÃO MÉDIA (heurística pelo título)
+==============================================================================
+                    precisao_top3  precisao_top5
+representacao                                   
+BoW                         0.667           0.58
+TF-IDF                      0.667           0.64
+Word2Vec                    0.700           0.66
+BERT                        0.567           0.50
+BERT centralizado           0.533           0.50
+Híbrido TF-IDF+W2V          0.700           0.68
+
+PRECISÃO NO TOP-5 POR CONSULTA
+representacao                           BoW  TF-IDF  Word2Vec  BERT  BERT centralizado  Híbrido TF-IDF+W2V
+consulta                                                                                                  
+Ancelotti convocação da seleção         1.0     1.0       1.0   1.0                1.0                 1.0
+Bola de Ouro                            1.0     1.0       1.0   1.0                1.0                 1.0
+Corinthian                              0.0     0.0       0.0   0.4                0.4                 0.0
+Corinthians                             1.0     1.0       1.0   0.2                0.2                 1.0
+Cristiano Ronaldo                       0.6     0.6       0.6   0.2                0.2                 0.6
+contratação de atacante                 0.8     0.8       0.8   0.6                0.6                 0.8
+lesão de jogador                        0.2     0.4       0.6   0.4                0.4                 0.6
+onde assistir ao vivo                   0.2     0.6       0.4   0.2                0.2                 0.8
+time perde clássico e torcida protesta  0.0     0.0       0.4   0.4                0.4                 0.0
+árbitro polêmica pênalti                1.0     1.0       0.8   0.6                0.6                 1.0
+
+==============================================================================
+ARQUIVOS GERADOS
+==============================================================================
+- resultados_busca.csv
+- precisao_por_representacao.csv
+- precisao_busca.png
+- relatorio_busca_representacoes.txt
