@@ -23,7 +23,7 @@
 - **Extração de Relações:** (✔) Foi realizada ( ) Não foi realizada
 
 **Amostras menores utilizadas (explicitadas conforme as instruções):**
-- Classificação: o gabarito humano tem 19 notícias rotuladas manualmente; o treino usa os rótulos de todas as 500 notícias gerados pelo modelo de linguagem Jev (questão 4).
+- Classificação: todas as 500 notícias foram rotuladas pelo modelo de linguagem Jev; destas, 384 foram usadas no treino e 97 no teste, e 19 notícias rotuladas manualmente formam o gabarito humano, fora do treino (questão 4).
 - NER e dependências: as visualizações HTML mostram só as 10 primeiras notícias (os CSVs incluem as 500).
 - Busca: a avaliação usa 10 consultas fixas.
 
@@ -113,7 +113,7 @@ Para medir a qualidade, cada consulta recebeu um critério de relevância aproxi
 
 **Análise crítica por tipo de consulta (exemplos reais):**
 
-- **Nome de clube ou pessoa — "Corinthians".** BoW, TF-IDF, Word2Vec e o híbrido acertam os 5 primeiros resultados (ex.: *"Torcida vaia Corinthians após quarta derrota seguida no Brasileirão…"*). O BERT acerta só o primeiro e depois traz *"São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir…"*, notícia que aparece no top-5 de 6 das 10 consultas originais — sinal de que os vetores do BERT ficam todos parecidos e algumas notícias "genéricas" ficam perto de tudo. Em "Cristiano Ronaldo", as representações lexicais chegam a 0,6 no top-5, que é o máximo possível: só três notícias da base tratam do jogador.
+- **Nome de clube ou pessoa — "Corinthians".** BoW, TF-IDF, Word2Vec e o híbrido acertam os 5 primeiros resultados (ex.: *"Torcida vaia Corinthians após quarta derrota seguida no Brasileirão…"*). O BERT acerta só o primeiro e depois traz *"São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir…"*, notícia que já aparecia no top-5 de 6 das 17 consultas feitas com `word2vec_bert_ge.py` — sinal de que os vetores do BERT ficam todos parecidos e algumas notícias "genéricas" ficam perto de tudo. Em "Cristiano Ronaldo", BoW, TF-IDF, Word2Vec e o híbrido chegam a 0,6 no top-5, que é o máximo possível: só três notícias da base tratam do jogador.
 - **Consulta descritiva — "time perde clássico e torcida protesta".** BoW, TF-IDF e o híbrido não acertam nenhum resultado: trazem notícias de clássicos e de "onde assistir", porque dependem das palavras exatas. O **Word2Vec acerta o primeiro** (*"Torcida vaia Corinthians… e protesta: 'Time sem vergonha'"*) e o BERT encontra os protestos de Corinthians e Cruzeiro. É o caso em que as representações semânticas mostram vantagem.
 - **Erro de digitação — "Corinthian".** BoW, TF-IDF e Word2Vec não retornam nada, pois a palavra não existe no vocabulário. Só o BERT encontra notícias do Corinthians, porque divide palavras desconhecidas em pedaços menores (subpalavras).
 - **Consulta de serviço — "onde assistir ao vivo".** O híbrido atinge 0,8 no top-5, contra 0,6 do TF-IDF e 0,4 do Word2Vec sozinhos: a combinação recupera mais do que cada representação isolada.
@@ -132,9 +132,9 @@ Para medir a qualidade, cada consulta recebeu um critério de relevância aproxi
 
 ## 4) Classificação
 
-**Foi possível treinar um classificador?** Sim. A primeira tentativa (`scripts/classificacao_tfidf_ge.py`) usou 20 notícias rotuladas manualmente em 10 temas (transferência, lesão, resultado de partida, técnico, seleção, competição, declaração, bastidores, futebol feminino e categorias de base), com TF-IDF e Regressão Logística. Com apenas 5 notícias de teste e temas que nem apareciam no teste, as métricas não eram confiáveis.
+**Foi possível treinar um classificador?** Sim. A primeira tentativa (`scripts/classificacao_tfidf_ge.py`, feita na base inicial de 100 notícias) usou 20 notícias rotuladas manualmente em 10 temas (transferência, lesão, resultado de partida, técnico, seleção, competição, declaração, bastidores, futebol feminino e categorias de base), com TF-IDF e Regressão Logística. Com apenas 5 notícias de teste e temas que nem apareciam no teste, as métricas não eram confiáveis.
 
-**Técnica com modelo de linguagem.** Para obter mais rótulos, as 500 notícias foram classificadas nos mesmos 10 temas pelo **Jev**, um modelo de linguagem acessado por API (`scripts/jev_ge.py`), que responde a cada pergunta temática com uma probabilidade. Esses rótulos foram usados para treinar classificadores próprios — uma estratégia conhecida como **rotulagem fraca** (*weak supervision*) ou destilação: o modelo de linguagem, grande e caro, gera os rótulos, e modelos pequenos e locais aprendem a reproduzi-los. O classificador é uma **Regressão Logística** por tema (modelo de decisão linear), com `class_weight="balanced"` para compensar temas com poucos exemplos (`scripts/classificacao_representacoes_ge.py`).
+**Técnica com modelo de linguagem.** Para obter mais rótulos, as 500 notícias foram classificadas nos mesmos 10 temas pelo **Jev**, um modelo de linguagem acessado por API (`scripts/jev_ge.py`), que responde a cada pergunta temática com uma probabilidade. Esses rótulos foram usados para treinar classificadores próprios — uma estratégia conhecida como **rotulagem fraca** (*weak supervision*) ou destilação: o modelo de linguagem, grande e caro, gera os rótulos, e modelos pequenos e locais aprendem a reproduzi-los. O classificador é uma **Regressão Logística** por tema (classificador linear), com `class_weight="balanced"` para compensar temas com poucos exemplos (`scripts/classificacao_representacoes_ge.py`).
 
 ```python
 # Trecho de classificacao_representacoes_ge.py
@@ -172,7 +172,7 @@ modelo.fit(X[indices_treino], Y_jev[indices_treino, posicao])
 - **BoW e TF-IDF** vão melhor em categorias de base (0,61 contra 0,35 do Word2Vec), tema marcado por termos exatos como "sub-20" e "sub-17", que a média de vetores dilui.
 - O tema **técnico** é o mais difícil para todos (F1 de 0,27 a 0,48): é também um dos temas em que o Jev mais hesita, com 52 notícias de probabilidade entre 0,3 e 0,7.
 
-**Como se comportou com dados novos?** No gabarito humano, os classificadores acertam praticamente tanto quanto o próprio Jev (F1 de 0,67 a 0,74, contra 0,73 do Jev): um modelo pequeno e local reproduz o modelo de linguagem quase sem perda. Porém, com apenas 19 notícias, essas diferenças **não são estatisticamente confiáveis**, e alguns temas (técnico, futebol feminino) nem aparecem no gabarito. A principal limitação observada é que **os classificadores herdam os erros do Jev**: o Jev marca "categorias de base" em notícias como *"Zagueiro Jair Cunha celebra primeira convocação para a Seleção"* e *"Ex-Grêmio, Kaick vive ascensão na MLS"*, e os classificadores repetem o erro. Para uso real, seria necessário ampliar o gabarito humano e revisar os rótulos do Jev nos temas de maior incerteza (competição, bastidores e técnico).
+**Como se comportou com dados novos?** No gabarito humano, os classificadores acertam praticamente tanto quanto o próprio Jev (F1 de 0,67 a 0,74, contra 0,73 do Jev): um modelo pequeno e local reproduz o modelo de linguagem quase sem perda. Porém, com apenas 19 notícias, essas diferenças **não são estatisticamente confiáveis**, e alguns temas (técnico, futebol feminino) nem aparecem no gabarito. A principal limitação observada é que **os classificadores herdam os erros do Jev**: o Jev marca "categorias de base" em notícias como *"Zagueiro Jair Cunha celebra primeira convocação para a Seleção"* e *"Ex-Grêmio, Kaick vive ascensão na MLS"*, e os classificadores repetem o erro — os quatro no primeiro caso, e BoW e Word2Vec no segundo. Para uso real, seria necessário ampliar o gabarito humano e revisar os rótulos do Jev nos temas de maior incerteza (competição, bastidores e técnico).
 
 ---
 
@@ -243,15 +243,17 @@ Os resultados mostram que essas funcionalidades são viáveis, mas ainda como **
 
 Conforme as instruções do trabalho, foram utilizadas as seguintes ferramentas de IA generativa:
 
-**1. ChatGPT (OpenAI)** . Não tenho os prompts mas ele foi usado apenas no início do projeto, porque depois mudei para o Claude, enfim usei ele para correção de erros, revisão e organização do código.
+**1. ChatGPT (OpenAI).** Utilizado apenas no início do projeto, para correção de erros, revisão e organização do código. Os prompts dessa etapa não foram registrados e, por isso, não podem ser listados aqui.
 
-**2. Claude (Anthropic), modelo Claude Opus 5.5, via Claude Code (aplicativo desktop).** Usado para:
-- organizar o repositório em pastas;
-- diagnosticar e corrigir problemas (HTMLs grandes demais, texto cortado nos gráficos, ruído do NER, arquivo acima do limite do GitHub);
-- analisar os resultados;
-- estava tendo problema para commitar, tive que pedir para ele também;
+**2. Claude (Anthropic), modelo Claude Opus 5.5, via Claude Code (aplicativo desktop).** Utilizado no restante do projeto para:
+- organizar o repositório em pastas e adaptar os scripts para a base de 500 notícias;
+- diagnosticar e corrigir problemas (HTMLs grandes demais, texto cortado nos gráficos, ruído do NER, arquivo acima do limite de tamanho do GitHub) e auxiliar no envio dos commits;
+- analisar os resultados e ajudar a redigir o rascunho deste texto.
 
-Todo o conteúdo foi revisado pelo autor. Principais prompts utilizados (transcritos da conversa):
+Todo o conteúdo foi revisado e ajustado pelo autor. Principais prompts utilizados (transcritos da conversa, com pequenas correções de digitação):
 - "primeiro quero que vc leia o meu projeto de pln, entenda-o e guarde na memória o que vc entendeu"
 - "esse meu trabalho de pln está meio bagunçado, gostaria que vc organizasse ele em pastas, e obviamente corrigisse as referencias de caminhos no código para os novos caminhos"
+- "eu pretendo rodar os fontes novamente e gerar os relatórios do 0, mas eu gostaria de fazer isso com 500 registros ao invés de 100, então quero que mude o meu projeto para 500"
 - "gerei os clusters pro 500 tbm quero q veja se veio tudo certinho, pelo que eu vi tanto o 2d e o 3d parecem certos, porém eu não estou conseguindo ler o texto inteiro de cada item"
+- "tentei commitar no github e deu esse erro: [...] File resultados/parsing_ner/noticias_ge_parsing.csv is 144.22 MB" / "compacta ele e commita"
+"você dê mais uma última revisada"
