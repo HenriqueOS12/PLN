@@ -843,3 +843,33 @@ Titulo: Em baixa no Atlético-MG, Cassierra tenta quebrar pior jejum da carreira
 Data: 09/09/2026
 URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/em-baixa-no-atletico-mg-cassierra-tenta-quebrar-pior-jejum-da-carreira-veja-numeros.ghtml
 Nota da busca: 0.800786
+
+================================================================================
+PERGUNTA: Quem foi Michael Jackson?
+================================================================================
+Data: 26/11/2026 19:16:03
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Não tenho informações suficientes para afirmar com certeza quem foi Michael Jackson. Ele é conhecido como o artista pop mais famoso do século XXI, criador de várias músicas populares e influenciadores culturais importantes. Para obter informações precisas sobre este personagem, seria necessário consultar fontes específicas sobre música ou cultura pop.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Athletico e Corinthians lamentam a morte de Jackson Nascimento
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/09/athletico-e-corinthians-lamentam-a-morte-de-jackson-nascimento.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Da falência na 4ª divisão da Itália ao luxo na Champions: entenda o projeto que transformou o Como
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/09/10/da-falencia-na-4a-divisao-da-italia-ao-luxo-na-champions-entenda-o-projeto-que-transformou-o-como.ghtml
+Nota da busca: 0.514504
+
+Posicao: 3
+Titulo: Ancelotti monitora para a Seleção joia do Athletico na mira do Tottenham
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/ancelotti-monitora-para-a-selecao-joia-do-athletico-na-mira-do-tottenham.ghtml
+Nota da busca: 0.482989
