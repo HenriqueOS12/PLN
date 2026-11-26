@@ -2564,3 +2564,45 @@ URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/lescano-e-apres
 Similaridade: 0.366514
 Nota hibrida: 0.732727
 Trecho: Desde que cheguei, todos me receberam da melhor maneira. Sei que sair da Argentina é um passo importante para mim, mas tinha muita vontade de vir para cá". Conversa com Pedro Emanuel e o que pode oferecer: "Sim, pude conversar com o treinador. Minhas características são contribuir com bom jogo, bola parada e chegada à área. Ele me explicou o que quer de mim, e vou tentar fazer o que ele pedir".
+
+================================================================================
+PERGUNTA: Quem é amigo do Flamengo?
+================================================================================
+Data: 26/11/2026 19:34:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.742
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Botafogo
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N86-C2
+Titulo: Flamengo faz piada com "ajuda" do Botafogo para conseguir liderança: "Obrigado, amigo"
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml
+Similaridade: 0.699513
+Nota hibrida: 0.956908
+Trecho: O clube carioca compartilhou uma série de imagens, sendo a principal delas um aperto de mão entre dois personagens do desenho "Pica-pau", com escudos dos dois clubes sob os rostos dos personagens e a legenda: "Obrigado, amigo".
+
+Posicao: 2
+Chunk: N86-C1
+Titulo: Flamengo faz piada com "ajuda" do Botafogo para conseguir liderança: "Obrigado, amigo"
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml
+Similaridade: 0.720028
+Nota hibrida: 0.925733
+Trecho: Remo 0 x 1 Flamengo | Melhores momentos | 26ª rodada | Brasileirão 2026 Uma publicação do Flamengo fez sucesso nas redes sociais pelo fato de o clube agradecer a "ajuda" do Botafogo para conseguir a liderança do Brasileirão. Com a combinação de resultados desse domingo que envolveu o rival, a equipe rubro-negra ultrapassou o Palmeiras.
+
+Posicao: 3
+Chunk: N278-C5
+Titulo: Viralizou: árbitro peita Canobbio, bate-boca no Cruzeiro e ajuda do Botafogo ao "amigo" Flamengo
+Data: 07/09/2026
+URL: https://ge.globo.com/pe/futebol/noticia/2026/09/07/viralizou-arbitro-peita-canobbio-bate-boca-no-cruzeiro-e-ajuda-do-botafogo-ao-amigo-flamengo.ghtml
+Similaridade: 0.679800
+Nota hibrida: 0.919718
+Trecho: Aos 10 min do 2º tempo - defesa difícil de Marcelo Rangel do Remo contra o Flamengo Marcelo Rangel faz defesa milagrosa em Remo x Flamengo — Foto: Reprodução/ge tv No estádio Nilton Santos, Botafogo e Palmeiras empataram sem gols , resultado que fez o time paulista perder a liderança para o Flamengo.

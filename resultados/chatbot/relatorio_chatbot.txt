@@ -873,3 +873,33 @@ Titulo: Ancelotti monitora para a Seleção joia do Athletico na mira do Tottenh
 Data: 09/09/2026
 URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/ancelotti-monitora-para-a-selecao-joia-do-athletico-na-mira-do-tottenham.ghtml
 Nota da busca: 0.482989
+
+================================================================================
+PERGUNTA: Quem é amigo do Flamengo?
+================================================================================
+Data: 26/11/2026 19:35:50
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O Flamengo recebeu uma piada com o Botafogo durante a partida contra o Remo.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Flamengo chega a Belém com festa, e jogadores vão ao encontro da torcida; veja vídeo
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/05/flamengo-chega-a-belem-com-festa-e-jogadores-vao-ao-encontro-com-a-torcida.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Flamengo faz piada com "ajuda" do Botafogo para conseguir liderança: "Obrigado, amigo"
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml
+Nota da busca: 0.874857
+
+Posicao: 3
+Titulo: Flamengo assume a liderança do Brasileirão 2026 pela primeira vez após empate do Palmeiras
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-assume-a-lideranca-do-brasileirao-pela-primeira-vez-apos-empate-do-palmeiras.ghtml
+Nota da busca: 0.761640
