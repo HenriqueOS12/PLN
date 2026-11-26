@@ -1,0 +1,453 @@
+
+################################################################################
+CALIBRACAO DO LIMIAR (25/11/2026 22:41:54)
+################################################################################
+0.694 | esperado=True  | Por que a torcida do Corinthians protestou?
+0.806 | esperado=True  | Quais jogadores do Flamengo foram convocados para a Seleção?
+0.717 | esperado=True  | Qual foi o resultado de Palmeiras x Botafogo?
+0.628 | esperado=True  | Quem é o técnico do Corinthians?
+0.402 | esperado=False | Qual é a capital do Canadá?
+0.378 | esperado=False | Como preparar uma lasanha?
+0.564 | esperado=False | Quem ganhou a Copa do Mundo de 1994?
+0.237 | esperado=False | Qual é a fórmula química da água?
+Limiar: 0.596
+
+================================================================================
+PERGUNTA: Quantos gols o Samuel Lino tem no ano?
+================================================================================
+Data: 25/11/2026 22:42:29
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Limiar: 0.596
+Decisao: GERAR
+
+========== RESPOSTA ==========
+O Samuel Lino tem 43 gols no ano.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N324-C1 (aceito)
+Titulo: Samuel Lino amplia repertório com gol de biquinho ao estilo Romário e volta a dar liga com Arrascaeta
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/samuel-lino-amplia-repertorio-com-biquinho-do-romario-e-volta-a-dar-liga-com-arrascaeta-no-flamengo.ghtml
+Similaridade: 0.772376
+Trecho: "Flamengo hoje foi guerreiro", Samuel Lino após a vitória rubro-negra fora de casa São cinco gols nos últimos seis jogos. Na temporada, 14 bolas na rede e 15 assistências. No Flamengo , as 29 participações diretas em gols em 2026 só ficam atrás das 33 de Pedro, mas Samuel Lino é "o cara" desse time no segundo semestre.
+
+Posicao: 2
+Chunk: N99-C4 (aceito)
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.671072
+Trecho: Agora, a tendência é que Jardim utilize o atacante, que marcou seis gols nos últimos 10 jogos. Samuel Lino esteve na lista larga para a Copa do Mundo de 2026, mas não foi convocado. Ele foi lembrado pelo treinador italiano em agosto do ano passado, quando foi chamado para substituir Matheus Cunha, lesionado, durante uma Data-Fifa.
+
+Posicao: 3
+Chunk: N99-C9 (aceito)
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.659572
+Trecho: Na atual temporada, Samuel Lino tem 43 jogos, 12 gols marcados e 10 assistências. Nesta quinta-feira, no Estádio Olímpico Atahualpa, em Quito, terá a possibilidade de novamente puxar os holofotes para ajudar o Flamengo a buscar uma vaga na semifinal da Libertadores.
+
+================================================================================
+PERGUNTA: Quem marcou o gol da vitória do Flamengo sobre o Remo?
+================================================================================
+Data: 25/11/2026 22:42:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Limiar: 0.596
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Leonardo Jardim marcou o gol da vitória do Flamengo sobre o Remo.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N405-C2 (aceito)
+Titulo: Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/analise-flamengo-vira-lider-do-brasileirao-com-futebol-vistoso-ate-debaixo-de-temporal.ghtml
+Similaridade: 0.823250
+Trecho: A vitória por 1 a 0 sobre o Remo, no último domingo, no Mangueirão, pela 26ª rodada, foi até pouco pelo volume de jogo. Com a chance real de assumir a liderança, Leonardo Jardim foi com força máxima mesmo tendo as quartas de final da Libertadores quatro dias depois. Dos titulares, só Pulgar não começou a partida porque levou uma pancada contra o Mirassol, na rodada anterior.
+
+Posicao: 2
+Chunk: N220-C8 (aceito)
+Titulo: Emprestado pelo Flamengo, Carlinhos faz golaço na Série B e ganha elogio de Alex: “Espetacular”
+Data: 07/09/2026
+URL: https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/noticia/2026/09/07/emprestado-pelo-flamengo-carlinhos-faz-golaco-na-serie-b-e-ganha-elogio-de-alex-espetacular.ghtml
+Similaridade: 0.806323
+Trecho: Já em 2026, o Flamengo cedeu o atacante ao Remo. No Leão, no entanto, o jogador foi pouco utilizado e entrou em campo em apenas seis jogos - todos, pelo Campeonato Paraense. Atacante está emrpestado pelo Flamengo — Foto: Paula Reis/Flamengo O Athletic de Carlinhos soma 37 pontos e é 11º colocado na Série B do Brasileiro.
+
+Posicao: 3
+Chunk: N86-C4 (aceito)
+Titulo: Flamengo faz piada com "ajuda" do Botafogo para conseguir liderança: "Obrigado, amigo"
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml
+Similaridade: 0.804684
+Trecho: O Flamengo é o novo líder do Brasileirão. A equipe assumiu a ponta pela primeira vez nesta edição do campeonato ao vencer o Remo, neste domingo, fora de casa, e alcançar os 54 pontos. O Palmeiras somou 53 após o empate com o Botafogo. Flamengo agradece "ajuda" do Botafogo após alcançar liderança — Foto: Reprodução Flamengo agradece "ajuda" do Botafogo após alcançar liderança — Foto: Reprodução
+
+================================================================================
+PERGUNTA: O que aconteceu com o mosaico do Corinthians?
+================================================================================
+Data: 25/11/2026 22:43:24
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Limiar: 0.596
+Decisao: GERAR
+
+========== RESPOSTA ==========
+O mosaico do Corinthians despediu-se e despencou ao ser erguido antes do jogo contra a Chapecoense, pela 26ª rodada do Campeonato Brasileiro, neste domingo. Quando o mosaico chegou ao topo, no setor Leste da Neo Química Arena, parte da imagem se soltou do restante e caiu sobre os torcedores.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N349-C2 (aceito)
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.688025
+Trecho: Chovia e ventava naquele momento em Itaquera. O mosaico tinha 990 metros quadrados.
+
+Posicao: 2
+Chunk: N349-C1 (aceito)
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.670800
+Trecho: Torcedores do Corinthians protestam em derrota: "Time sem vergonha" O mosaico em comemoração aos 116 anos do Corinthians se despedaçou e despencou ao ser erguido antes do jogo contra a Chapecoense, pela 26ª rodada do Campeonato Brasileiro, neste domingo. Quando o mosaico chegou ao topo, no setor Leste da Neo Química Arena, parte da imagem se soltou do restante e caiu sobre os torcedores.
+
+Posicao: 3
+Chunk: N248-C1 (aceito)
+Titulo: Corinthians fecha parceria com Turma da Mônica e estampará imagens do personagem Cascão
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/05/corinthians-fecha-parceria-com-turma-da-monica-e-estampara-imagens-do-personagem-cascao.ghtml
+Similaridade: 0.604133
+Trecho: Corinthians x Chapecoense: informações e palpite para o jogo Para celebrar os 90 anos do cartunista Mauricio de Sousa, o Corinthians e a Turma da Mônica fecharam parceria para utilização do personagem Cascão em produtos licenciados do clube.
+
+================================================================================
+PERGUNTA: Qual é a capital da Austrália?
+================================================================================
+Data: 25/11/2026 22:43:25
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Limiar: 0.596
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N35-C8 (rejeitado)
+Titulo: Falta de garantias de segurança impediu jogo inédito da Seleção em Bangladesh na Data Fifa
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/falta-de-garantias-de-seguranca-impediu-jogo-inedito-da-selecao-a-bangladesh-na-data-fifa.ghtml
+Similaridade: 0.457667
+Trecho: O Brasil enfrentará a Austrália duas vezes: no dia 25 de setembro, no Queensland Country Bank Stadium, em Townsville, e no dia 29, no Suncorp Stadium, em Brisbane. Na sequência, a delegação seguirá para a Índia. No dia 3 de outubro, o Brasil enfrentará a seleção indiana no Salt Lake Stadium, em Calcutá. Será o primeiro confronto da história entre as seleções principais dos dois países.
+
+Posicao: 2
+Chunk: N339-C4 (rejeitado)
+Titulo: Cruzeiro tem cinco jogadores na pré-lista da Seleção para amistosos; veja nomes
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/cruzeiro-tem-cinco-jogadores-na-pre-lista-da-selecao-para-amistosos-veja-nomes.ghtml
+Similaridade: 0.422530
+Trecho: O Brasil enfrentará a Austrália duas vezes: no dia 25 de setembro, no Queensland Country Bank Stadium, em Townsville, e no dia 29, no Suncorp Stadium, em Brisbane. Zé Lucas, volante do Cruzeiro — Foto: Gilson Lobo/AGIF Na sequência, a delegação seguirá para a Índia. No dia 3 de outubro, o Brasil enfrentará a seleção indiana no Salt Lake Stadium, em Calcutá.
+
+Posicao: 3
+Chunk: N121-C9 (rejeitado)
+Titulo: Athletico e Coritiba voltam a ter jogadores convocados à Seleção juntos depois de 85 anos
+Data: 10/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/athletico-e-coritiba-voltam-a-ter-jogadores-convocados-a-selecao-juntos-depois-de-85-anos.ghtml
+Similaridade: 0.409090
+Trecho: O Brasil enfrentará a Austrália duas vezes: no dia 25 de setembro, no Queensland Country Bank Stadium, em Townsville, e no dia 29, no Suncorp Stadium, em Brisbane. Na sequência, a delegação seguirá para a Índia. No dia 3 de outubro, o Brasil enfrentará a seleção indiana no Salt Lake Stadium, em Calcutá. Será o primeiro confronto da história entre as seleções principais dos dois países.
+
+################################################################################
+CALIBRACAO DO LIMIAR (25/11/2026 22:45:39)
+################################################################################
+0.694 | esperado=True  | Por que a torcida do Corinthians protestou?
+0.806 | esperado=True  | Quais jogadores do Flamengo foram convocados para a Seleção?
+0.717 | esperado=True  | Qual foi o resultado de Palmeiras x Botafogo?
+0.628 | esperado=True  | Quem é o técnico do Corinthians?
+0.402 | esperado=False | Qual é a capital do Canadá?
+0.378 | esperado=False | Como preparar uma lasanha?
+0.564 | esperado=False | Quem ganhou a Copa do Mundo de 1994?
+0.237 | esperado=False | Qual é a fórmula química da água?
+Limiar: 0.596
+
+================================================================================
+PERGUNTA: Qual foi o resultado de Palmeiras x Botafogo?
+================================================================================
+Data: 25/11/2026 22:45:51
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Limiar: 0.596
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Palmeiras venceu Botafogo.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N361-C1 (aceito)
+Titulo: Análise: Botafogo de Bellão segura Palmeiras e ensaia evolução, mas precisa voltar a vencer
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/07/analise-botafogo-de-bellao-segura-palmeiras-e-ensaia-evolucao-mas-precisa-voltar-a-vencer.ghtml
+Similaridade: 0.717151
+Trecho: Bellão rebate críticas a atacantes do Botafogo: "Acho que é muito injusto" O empate do Botafogo com o Palmeiras, por 0 a 0, no último domingo, não encerrou o jejum de vitórias, mas deixou uma impressão diferente dos últimos jogos. O time que jogou a 26ª rodada do Brasileirão foi mais organizado e conseguiu equilibrar o duelo com o até então líder do campeonato.
+
+Posicao: 2
+Chunk: N361-C3 (aceito)
+Titulo: Análise: Botafogo de Bellão segura Palmeiras e ensaia evolução, mas precisa voltar a vencer
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/07/analise-botafogo-de-bellao-segura-palmeiras-e-ensaia-evolucao-mas-precisa-voltar-a-vencer.ghtml
+Similaridade: 0.712092
+Trecho: Botafogo 0 x 0 Palmeiras | Melhores Momentos | 26ª rodada | Campeonato Brasileiro 2026 Sem Telles, Marçal foi a opção na lateral esquerda, enquanto Lucas Monzón assumiu a vaga ao lado de Ferraresi na zaga.
+
+Posicao: 3
+Chunk: N41-C7 (aceito)
+Titulo: Análise: Palmeiras desanda, perde vantagem e sai da liderança do Brasileiro depois de cinco meses
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/analise-palmeiras-desanda-perde-vantagem-e-sai-da-lideranca-do-brasileiro-depois-de-cinco-meses.ghtml
+Similaridade: 0.711670
+Trecho: Piquerez, Andreas Pereira e Gustavo Gómez em Botafogo x Palmeiras — Foto: Cesar Greco / Palmeiras Sem mudanças, os times voltaram do intervalo com a mesma intensidade. O Palmeiras até leva pressão no início, e aos quatro minutos conseguiu encaixar duas chances: contra-ataque de Felipe Anderson com finalização de Mauricio fraca, e chute de Flaco para fora.
+
+================================================================================
+PERGUNTA: Quem é o técnico do Flamengo?
+================================================================================
+Data: 25/11/2026 22:45:59
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Limiar: 0.596
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Flamengo
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N86-C4 (aceito)
+Titulo: Flamengo faz piada com "ajuda" do Botafogo para conseguir liderança: "Obrigado, amigo"
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml
+Similaridade: 0.767394
+Trecho: O Flamengo é o novo líder do Brasileirão. A equipe assumiu a ponta pela primeira vez nesta edição do campeonato ao vencer o Remo, neste domingo, fora de casa, e alcançar os 54 pontos. O Palmeiras somou 53 após o empate com o Botafogo. Flamengo agradece "ajuda" do Botafogo após alcançar liderança — Foto: Reprodução Flamengo agradece "ajuda" do Botafogo após alcançar liderança — Foto: Reprodução
+
+Posicao: 2
+Chunk: N405-C9 (aceito)
+Titulo: Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/analise-flamengo-vira-lider-do-brasileirao-com-futebol-vistoso-ate-debaixo-de-temporal.ghtml
+Similaridade: 0.764887
+Trecho: Flamengo segurou abafa do Remo no fim com goleiro na área e tudo — Foto: Gilvan de Souza / Flamengo Agora novo líder, com 54 pontos, um a mais do que o Palmeiras, o Flamengo vira a chave para a Libertadores.
+
+Posicao: 3
+Chunk: N220-C8 (aceito)
+Titulo: Emprestado pelo Flamengo, Carlinhos faz golaço na Série B e ganha elogio de Alex: “Espetacular”
+Data: 07/09/2026
+URL: https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/noticia/2026/09/07/emprestado-pelo-flamengo-carlinhos-faz-golaco-na-serie-b-e-ganha-elogio-de-alex-espetacular.ghtml
+Similaridade: 0.759473
+Trecho: Já em 2026, o Flamengo cedeu o atacante ao Remo. No Leão, no entanto, o jogador foi pouco utilizado e entrou em campo em apenas seis jogos - todos, pelo Campeonato Paraense. Atacante está emrpestado pelo Flamengo — Foto: Paula Reis/Flamengo O Athletic de Carlinhos soma 37 pontos e é 11º colocado na Série B do Brasileiro.
+
+################################################################################
+AVALIACAO DA BUSCA (25/11/2026 22:56:02, peso denso 0.7)
+################################################################################
+                                                    pergunta  trechos_relevantes  posicao_densa  posicao_hibrida
+                      Quantos gols o Samuel Lino tem no ano?                   2              3                3
+      Quem marcou o gol da vitória do Flamengo sobre o Remo?                   3             13                1
+               O que aconteceu com o mosaico do Corinthians?                   7              1                1
+               Qual foi o resultado de Palmeiras x Botafogo?                  12              1                3
+                               Quem é o técnico do Flamengo?                  19              4               12
+                 Por que a torcida do Corinthians protestou?                  23             27                9
+Quais jogadores do Flamengo foram convocados para a Seleção?                   4              2                1
+                            Quem é o técnico do Corinthians?                  80              3                2
+       Quantos ingressos já foram ocupados para o Athletiba?                   1              1                1
+                Onde será a final da Copa do Brasil de 2026?                 127              1                1
+
+densa: top-3 7/10 | top-5 8/10 | posicao media 5.6
+hibrida: top-3 8/10 | top-5 8/10 | posicao media 3.4
+
+################################################################################
+CALIBRACAO DO LIMIAR (25/11/2026 23:01:27)
+################################################################################
+0.694 | esperado=True  | Por que a torcida do Corinthians protestou?
+0.806 | esperado=True  | Quais jogadores do Flamengo foram convocados para a Seleção?
+0.717 | esperado=True  | Qual foi o resultado de Palmeiras x Botafogo?
+0.628 | esperado=True  | Quem é o técnico do Corinthians?
+0.402 | esperado=False | Qual é a capital do Canadá?
+0.378 | esperado=False | Como preparar uma lasanha?
+0.564 | esperado=False | Quem ganhou a Copa do Mundo de 1994?
+0.237 | esperado=False | Qual é a fórmula química da água?
+Limiar: 0.596
+
+================================================================================
+PERGUNTA: Quantos gols o Samuel Lino tem no ano?
+================================================================================
+Data: 25/11/2026 23:01:37
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.772
+Decisao: GERAR
+
+========== RESPOSTA ==========
+O Samuel Lino tem 43 gols no ano.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N324-C1
+Titulo: Samuel Lino amplia repertório com gol de biquinho ao estilo Romário e volta a dar liga com Arrascaeta
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/samuel-lino-amplia-repertorio-com-biquinho-do-romario-e-volta-a-dar-liga-com-arrascaeta-no-flamengo.ghtml
+Similaridade: 0.772376
+Nota hibrida: 0.976503
+Trecho: "Flamengo hoje foi guerreiro", Samuel Lino após a vitória rubro-negra fora de casa São cinco gols nos últimos seis jogos. Na temporada, 14 bolas na rede e 15 assistências. No Flamengo , as 29 participações diretas em gols em 2026 só ficam atrás das 33 de Pedro, mas Samuel Lino é "o cara" desse time no segundo semestre.
+
+Posicao: 2
+Chunk: N99-C4
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.671072
+Nota hibrida: 0.880494
+Trecho: Agora, a tendência é que Jardim utilize o atacante, que marcou seis gols nos últimos 10 jogos. Samuel Lino esteve na lista larga para a Copa do Mundo de 2026, mas não foi convocado. Ele foi lembrado pelo treinador italiano em agosto do ano passado, quando foi chamado para substituir Matheus Cunha, lesionado, durante uma Data-Fifa.
+
+Posicao: 3
+Chunk: N99-C9
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.659572
+Nota hibrida: 0.864361
+Trecho: Na atual temporada, Samuel Lino tem 43 jogos, 12 gols marcados e 10 assistências. Nesta quinta-feira, no Estádio Olímpico Atahualpa, em Quito, terá a possibilidade de novamente puxar os holofotes para ajudar o Flamengo a buscar uma vaga na semifinal da Libertadores.
+
+================================================================================
+PERGUNTA: Quem marcou o gol da vitória do Flamengo sobre o Remo?
+================================================================================
+Data: 25/11/2026 23:01:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.823
+Decisao: GERAR
+
+========== RESPOSTA ==========
+O gol marcado pelo jogador do Flamengo foi por 1 a 0.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N65-C5
+Titulo: Dois jogadores do Flamengo estão na pré-lista da Seleção para amistosos; Paquetá fica fora
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-tem-dois-jogadores-na-pre-lista-da-selecao-para-amistosos-veja-nomes.ghtml
+Similaridade: 0.771166
+Nota hibrida: 0.956355
+Trecho: Será o primeiro confronto da história entre as seleções principais dos dois países. Samuel Lino comemora o gol da vitória do Flamengo sobre o Remo — Foto: Gilvan de Souza / Flamengo
+
+Posicao: 2
+Chunk: N405-C3
+Titulo: Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/analise-flamengo-vira-lider-do-brasileirao-com-futebol-vistoso-ate-debaixo-de-temporal.ghtml
+Similaridade: 0.799633
+Nota hibrida: 0.941640
+Trecho: O Flamengo pegou o seu favoritismo, colocou debaixo do braço e não sentiu a pressão de um estaádio abarrotado por 40 mil pessoas. Jogadores do Flamengo comemoram vitória por 1 a 0 sobre o Remo — Foto: Gilvan de Souza / Flamengo O Flamengo ocupou o campo de ataque, teve 65% de posse de bola e três vezes mais finalizações que o Remo (9 x 3) no primeiro tempo.
+
+Posicao: 3
+Chunk: N281-C3
+Titulo: Análise: Remo estaciona ônibus contra Flamengo e vê limitação técnica manter time parado
+Data: 07/09/2026
+URL: https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/07/analise-remo-estaciona-onibus-contra-flamengo-e-ve-limitacao-tecnica-manter-time-parado.ghtml
+Similaridade: 0.696949
+Nota hibrida: 0.878654
+Trecho: Veja mais + Atuações: Marcelo Rangel se destaca em derrota do Remo para o Flamengo; dê suas notas + Remo e Flamengo é jogo de maior público do Mangueirão em 2026 e um dos maiores após reforma Não é a primeira vez que o Flamengo encara um time tão fechado.
+
+================================================================================
+PERGUNTA: O que aconteceu com o mosaico do Corinthians?
+================================================================================
+Data: 25/11/2026 23:01:59
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.688
+Decisao: GERAR
+
+========== RESPOSTA ==========
+O mosaico do Corinthians começou a cair antes do jogo contra a Chapecoense.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N349-C2
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.688025
+Nota hibrida: 0.949775
+Trecho: Chovia e ventava naquele momento em Itaquera. O mosaico tinha 990 metros quadrados.
+
+Posicao: 2
+Chunk: N349-C1
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.670800
+Nota hibrida: 0.948457
+Trecho: Torcedores do Corinthians protestam em derrota: "Time sem vergonha" O mosaico em comemoração aos 116 anos do Corinthians se despedaçou e despencou ao ser erguido antes do jogo contra a Chapecoense, pela 26ª rodada do Campeonato Brasileiro, neste domingo. Quando o mosaico chegou ao topo, no setor Leste da Neo Química Arena, parte da imagem se soltou do restante e caiu sobre os torcedores.
+
+Posicao: 3
+Chunk: N349-C3
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Similaridade: 0.586731
+Nota hibrida: 0.912931
+Trecho: Mais notícias do Corinthians : + Atuações: só Bidu se salva em péssimo jogo; dê suas notas + Torcida proteste na Arena após derrota: "Time sem vergonha" Mosaico do Corinthians erguido antes do jogo contra a Chapecoense — Foto: Gabriel Oliveira Mosaico do Corinthians começa a cair antes do jogo contra a Chapecoense — Foto: Gabriel Oliveira Mosaico do Corinthians se desfaz antes de jogo contra a Chapecoense — Foto: Gabriel Oliveira Mosaico do Corinthians despenca antes de jogo contra a Chapecoense — Foto: Gabriel Oliveira Dentro de campo, as coisas também não deram certo.
+
+================================================================================
+PERGUNTA: Qual é a capital da Austrália?
+================================================================================
+Data: 25/11/2026 23:01:59
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.458
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N35-C8
+Titulo: Falta de garantias de segurança impediu jogo inédito da Seleção em Bangladesh na Data Fifa
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/falta-de-garantias-de-seguranca-impediu-jogo-inedito-da-selecao-a-bangladesh-na-data-fifa.ghtml
+Similaridade: 0.457667
+Nota hibrida: 0.790604
+Trecho: O Brasil enfrentará a Austrália duas vezes: no dia 25 de setembro, no Queensland Country Bank Stadium, em Townsville, e no dia 29, no Suncorp Stadium, em Brisbane. Na sequência, a delegação seguirá para a Índia. No dia 3 de outubro, o Brasil enfrentará a seleção indiana no Salt Lake Stadium, em Calcutá. Será o primeiro confronto da história entre as seleções principais dos dois países.
+
+Posicao: 2
+Chunk: N342-C10
+Titulo: Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/convocacao-da-selecao-veja-a-lista-de-carlo-ancelotti-para-os-amistosos-contra-australia-e-india.ghtml
+Similaridade: 0.354741
+Nota hibrida: 0.768138
+Trecho: Carlo Ancelotti sobre renovação da Seleção: "Priorizar jovens para a próxima Copa" O Brasil enfrentará a Austrália duas vezes. A primeira no dia 25 de setembro, no Queensland Country Bank Stadium, em Townsville, e a segunda no dia 29, no Suncorp Stadium, em Brisbane. A Seleção jogará contra a Índia no dia 3 de outubro, no Salt Lake Stadium, em Calcutá.
+
+Posicao: 3
+Chunk: N339-C4
+Titulo: Cruzeiro tem cinco jogadores na pré-lista da Seleção para amistosos; veja nomes
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/cruzeiro-tem-cinco-jogadores-na-pre-lista-da-selecao-para-amistosos-veja-nomes.ghtml
+Similaridade: 0.422530
+Nota hibrida: 0.752835
+Trecho: O Brasil enfrentará a Austrália duas vezes: no dia 25 de setembro, no Queensland Country Bank Stadium, em Townsville, e no dia 29, no Suncorp Stadium, em Brisbane. Zé Lucas, volante do Cruzeiro — Foto: Gilson Lobo/AGIF Na sequência, a delegação seguirá para a Índia. No dia 3 de outubro, o Brasil enfrentará a seleção indiana no Salt Lake Stadium, em Calcutá.
