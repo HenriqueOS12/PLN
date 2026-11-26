@@ -136,3 +136,470 @@ Titulo: Retirado de bandeirão de ídolos, Marlon Freitas reencontra torcida do 
 Data: 06/09/2026
 URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/retirado-de-bandeirao-de-idolos-marlon-freitas-reencontra-torcida-do-botafogo-apos-saida-polemica.ghtml
 Nota da busca: 0.896138
+
+================================================================================
+PERGUNTA: Oi
+================================================================================
+Data: 26/11/2026 18:45:54
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Olá! Como posso ajudar você hoje?
+
+========== NOTICIAS USADAS ==========
+Nenhuma noticia encontrada.
+
+================================================================================
+PERGUNTA: Gere um algoritmo simples da sua escolha
+================================================================================
+Data: 26/11/2026 18:46:54
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Claro, aqui está um algoritmo simples que pode ser usado para gerar uma lista de indicados para a Bola de Ouro 2026:
+
+```python
+def indicacao_bola_de_ouro():
+    # Lista de nomes dos atletas indicados
+    nomes = ["Gabriel Magalhães", "Marquinhos", "Vini Jr."]
+    
+    # Lista de indicações para cada atleta
+    indicações = {
+        "Gabriel Magalhães": 1,
+        "Marquinhos": 2,
+        "Vini Jr." : 3
+    }
+    
+    # Lista de atletas indicados
+    atletas_indicados = set(nomes)
+    
+    # Lista de atletas que foram indicados
+    atletas_indicados_indice = []
+    
+    for nome in nomes:
+        if nome in atletas_indicados:
+            atletas_indicados_indice.append(indicações.get(nome))
+            
+    return atletas_indicados_indice
+
+indicadores = indicacao_bola_de_ouro()
+print("Lista de Indicados:", indicadores)
+```
+
+Este algoritmo funciona da seguinte maneira:
+
+1. Definimos uma lista de nomes dos atletas indicados.
+2. Cria uma lista de indicações para cada atleta.
+3. Para cada
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Arthur Chaves diz que priorizou o Botafogo e define foco em campo: "Imposição para roubar bolas"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/botafogo-apresenta-arthur-chaves-como-novo-reforco.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Bellão é bem avaliado pelo Botafogo após sequência difícil e ganha mais tempo no comando
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/07/bellao-e-bem-avaliado-pelo-botafogo-apos-sequencia-dificil-e-ganha-mais-tempo-no-comando.ghtml
+Nota da busca: 0.798575
+
+Posicao: 3
+Titulo: Bola de Ouro 2026: Gabriel Magalhães, Marquinhos e Vini Jr. são indicados; veja lista
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/08/bola-de-ouro-2026-veja-indicados.ghtml
+Nota da busca: 0.784581
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+================================================================================
+PERGUNTA: O Palmeiras tem mundial?
+================================================================================
+Data: 26/11/2026 18:51:29
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Não, o Palmeiras ainda não tem mundial. A equipe está disputando a Copa do Brasil 2026, mas ainda não conseguiu vencer a competição.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Não foi só Felipe Melo! Por que frase de Abel irritou também parte da torcida do Palmeiras
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/nao-foi-so-felipe-melo-por-que-frase-de-abel-irritou-tambem-parte-da-torcida-do-palmeiras.ghtml
+Nota da busca: 0.945176
+
+Posicao: 2
+Titulo: Base do Palmeiras: quem deve ganhar chance no profissional depois do vice no Brasileiro Sub-20
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/05/base-do-palmeiras-quem-deve-ganhar-chance-no-profissional-depois-do-vice-no-brasileiro-sub-20.ghtml
+Nota da busca: 0.872570
+
+Posicao: 3
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Nota da busca: 0.841252
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+================================================================================
+PERGUNTA: Quanto é 20 + 20 + 20 + 7?
+================================================================================
+Data: 26/11/2026 18:55:01
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+59
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Alan Lescano é regularizado no BID e pode estrear pelo Vasco contra o Grêmio
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/alan-lescano-e-regularizado-no-bid-e-pode-estrear-pelo-vasco.ghtml
+Nota da busca: 0.971191
+
+Posicao: 2
+Titulo: Bellão desconversa sobre efetivação e elogia Botafogo em empate: "Tivemos chances claras"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/bellao-analisa-empate-do-botafogo-com-o-palmeiras.ghtml
+Nota da busca: 0.923094
+
+Posicao: 3
+Titulo: Al-Ahli recusa investidas por Matheus Gonçalves e frustra Botafogo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/10/al-ahli-recusa-investidas-por-matheus-goncalves-e-frusta-botafogo.ghtml
+Nota da busca: 0.893828
+
+================================================================================
+PERGUNTA: acertou, parabéns
+================================================================================
+Data: 26/11/2026 18:55:20
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Acertou!
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Alan Lescano é regularizado no BID e pode estrear pelo Vasco contra o Grêmio
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/alan-lescano-e-regularizado-no-bid-e-pode-estrear-pelo-vasco.ghtml
+Nota da busca: 0.755986
+
+Posicao: 2
+Titulo: Mourinho critica Betis, que provoca o treinador do Real: "Já ganhamos na loteria há muito tempo"
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/05/mourinho-critica-betis-que-provoca-o-treinador-do-real-ja-ganhamos-na-loteria-ha-muito-tempo.ghtml
+Nota da busca: 0.743724
+
+Posicao: 3
+Titulo: Atuações do Botafogo: Gabriel Batista e Ferraresi vão bem em empate; dê suas notas
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/atuacoes-do-botafogo-gabriel-batista-e-ferraresi-vao-bem-em-empate-de-suas-notas.ghtml
+Nota da busca: 0.734071
+
+================================================================================
+PERGUNTA: Qual o presidente da Sómalia?
+================================================================================
+Data: 26/11/2026 18:55:48
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O presidente da Sómalia é João Pedro de Souza.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Nota da busca: 0.886379
+
+Posicao: 2
+Titulo: Mourinho critica Betis, que provoca o treinador do Real: "Já ganhamos na loteria há muito tempo"
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/05/mourinho-critica-betis-que-provoca-o-treinador-do-real-ja-ganhamos-na-loteria-ha-muito-tempo.ghtml
+Nota da busca: 0.861350
+
+Posicao: 3
+Titulo: Presidente do Platense projeta duelo contra o Fluminense na Libertadores: "Não entramos para empatar"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/08/presidente-do-platense-projeta-duelo-contra-o-fluminense-na-libertadores-nao-entramos-para-empatar.ghtml
+Nota da busca: 0.838854
+
+================================================================================
+PERGUNTA: Quem é o técnico do Palmeiras?
+================================================================================
+Data: 26/11/2026 18:56:14
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O técnico do Palmeiras é Abel Ferreira.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Nota da busca: 0.928112
+
+Posicao: 2
+Titulo: Não foi só Felipe Melo! Por que frase de Abel irritou também parte da torcida do Palmeiras
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/nao-foi-so-felipe-melo-por-que-frase-de-abel-irritou-tambem-parte-da-torcida-do-palmeiras.ghtml
+Nota da busca: 0.924880
+
+Posicao: 3
+Titulo: Por que o Palmeiras vive má fase e sofre com queda de rendimento na reta final da temporada
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/08/por-que-o-palmeiras-vive-ma-fase-e-sofre-com-queda-de-rendimento-na-reta-final-da-temporada.ghtml
+Nota da busca: 0.846535
+
+================================================================================
+PERGUNTA: Quem é o lanterna?
+================================================================================
+Data: 26/11/2026 18:56:44
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Aqui estão algumas informações relevantes sobre o torcedor do Palmeiras:
+
+1. Abel Ferreira, técnico do Palmeiras, criticou Abel Melo durante uma entrevista.
+2. Abel Melo afirmou que a torcida do Palmeiras estava sendo tratada como se fossem todos os outros times do campeonato.
+3. Abel Melo disse que não era verdade que o Palmeiras sempre festejou mais do que os outros times.
+4. Abel Melo pediu desculpas ao público, especialmente aos torcedores da LDU.
+5. Abel Melo defendeu o trabalho duro dos jogadores e a importância de cada jogador contribuir para o sucesso do time.
+6. Abel Melo enfatizou que o Palmeiras é muito maior do que ele, pois não é um equilibrado como alguns acham.
+7. Abel Melo disse que o Palmeiras precisa crescer e melhorar para manter a liderança no Campeonato Brasileiro.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Não foi só Felipe Melo! Por que frase de Abel irritou também parte da torcida do Palmeiras
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/nao-foi-so-felipe-melo-por-que-frase-de-abel-irritou-tambem-parte-da-torcida-do-palmeiras.ghtml
+Nota da busca: 0.922633
+
+Posicao: 2
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Nota da busca: 0.857350
+
+Posicao: 3
+Titulo: Análise: Palmeiras desanda, perde vantagem e sai da liderança do Brasileiro depois de cinco meses
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/analise-palmeiras-desanda-perde-vantagem-e-sai-da-lideranca-do-brasileiro-depois-de-cinco-meses.ghtml
+Nota da busca: 0.844902
+
+================================================================================
+PERGUNTA: Cite um time qualquer da NBA
+================================================================================
+Data: 26/11/2026 18:59:43
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Não encontrei nenhuma nota ou notificação relacionada à NBA neste intervalo. Por favor, tente novamente com outra data ou categoria.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: LDU descarta revanche e aposta em ídolo do Palmeiras no reencontro pela Libertadores
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/ldu-descarta-revanche-e-aposta-em-idolo-do-palmeiras-no-reencontro-pela-libertadores.ghtml
+Nota da busca: 0.945970
+
+Posicao: 2
+Titulo: Matheuzinho sai em defesa de Diniz no Corinthians: "Estamos fechados com ele"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/matheuzinho-sai-em-defesa-de-diniz-no-corinthians-estamos-fechados-com-ele.ghtml
+Nota da busca: 0.914711
+
+Posicao: 3
+Titulo: Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/analise-corinthians-sem-brio-e-senso-de-urgencia-perde-da-chape-e-aprofunda-crise-no-brasileirao.ghtml
+Nota da busca: 0.867924
+
+================================================================================
+PERGUNTA: Cite um time qualquer
+================================================================================
+Data: 26/11/2026 19:02:49
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Aqui estão alguns exemplos de times que podem ser considerados diferentes ou semelhantes aos corintianos:
+
+1. Flamengo - Série B do Campeonato Brasileiro
+
+2. Atlético Mineiro - Série C do Campeonato Brasileiro
+
+3. Fluminense - Série A do Campeonato Brasileiro
+
+4. Botafogo-RS - Série B do Campeonato Brasileiro
+
+5. Vasco da Gama - Série B do Campeonato Brasileiro
+
+6. Sport Recife - Série B do Campeonato Brasileiro
+
+7. Ponte Preta - Série B do Campeonato Brasileiro
+
+8. Bahia - Série B do Campeonato Brasileiro
+
+9. Cruzeiro - Série B do Campeonato Brasileiro
+
+10. Santos - Série B do Campeonato Brasileiro
+
+Lembre-se de verificar as datas específicas para cada time mencionado para garantir sua identidade.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: LDU descarta revanche e aposta em ídolo do Palmeiras no reencontro pela Libertadores
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/ldu-descarta-revanche-e-aposta-em-idolo-do-palmeiras-no-reencontro-pela-libertadores.ghtml
+Nota da busca: 0.945970
+
+Posicao: 2
+Titulo: Matheuzinho sai em defesa de Diniz no Corinthians: "Estamos fechados com ele"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/matheuzinho-sai-em-defesa-de-diniz-no-corinthians-estamos-fechados-com-ele.ghtml
+Nota da busca: 0.914711
+
+Posicao: 3
+Titulo: Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/analise-corinthians-sem-brio-e-senso-de-urgencia-perde-da-chape-e-aprofunda-crise-no-brasileirao.ghtml
+Nota da busca: 0.867924
+
+================================================================================
+PERGUNTA: Quem é o lanterna?
+================================================================================
+Data: 26/11/2026 19:02:57
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O lanterno é o Cruzeiro.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Satisfeito? Artur Jorge avalia trabalho no Cruzeiro após arrancada no Brasileiro e quedas nas Copas
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/08/satisfeito-artur-jorge-avalia-trabalho-no-cruzeiro-apos-arrancada-no-brasileiro-e-quedas-nas-copas.ghtml
+Nota da busca: 0.891494
+
+Posicao: 2
+Titulo: Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/analise-corinthians-sem-brio-e-senso-de-urgencia-perde-da-chape-e-aprofunda-crise-no-brasileirao.ghtml
+Nota da busca: 0.832651
+
+Posicao: 3
+Titulo: Presidente do Cruzeiro defende trabalho de Artur Jorge: "Plano de cinco anos, não de um jogo"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/presidente-do-cruzeiro-defende-trabalho-de-artur-jorge-plano-de-cinco-anos-nao-de-um-jogo.ghtml
+Nota da busca: 0.815687
+
+================================================================================
+PERGUNTA: Que dia é hoje?
+================================================================================
+Data: 26/11/2026 19:03:25
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O dia atual é hoje, 04 de setembro de 2026.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Satisfeito? Artur Jorge avalia trabalho no Cruzeiro após arrancada no Brasileiro e quedas nas Copas
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/08/satisfeito-artur-jorge-avalia-trabalho-no-cruzeiro-apos-arrancada-no-brasileiro-e-quedas-nas-copas.ghtml
+Nota da busca: 0.951702
+
+Posicao: 2
+Titulo: Renan Lodi conta como desabafo impactou mudança no Atlético-MG até alcançar fase invicta
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/04/renan-lodi-conta-como-desabafo-impactou-mudanca-no-atletico-mg-ate-alcancar-fase-invicta.ghtml
+Nota da busca: 0.753723
+
+Posicao: 3
+Titulo: Matheuzinho sai em defesa de Diniz no Corinthians: "Estamos fechados com ele"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/matheuzinho-sai-em-defesa-de-diniz-no-corinthians-estamos-fechados-com-ele.ghtml
+Nota da busca: 0.684590
+
+================================================================================
+PERGUNTA: Voce sabe voar?
+================================================================================
+Data: 26/11/2026 19:03:45
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Não, eu não sou um avião nem tenho capacidades aerotécnicas. Sou um assistente de inteligência artificial criado para responder perguntas e fornecer informações baseadas nas notícias disponíveis.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Matheuzinho sai em defesa de Diniz no Corinthians: "Estamos fechados com ele"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/matheuzinho-sai-em-defesa-de-diniz-no-corinthians-estamos-fechados-com-ele.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Renan Lodi conta como desabafo impactou mudança no Atlético-MG até alcançar fase invicta
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/04/renan-lodi-conta-como-desabafo-impactou-mudanca-no-atletico-mg-ate-alcancar-fase-invicta.ghtml
+Nota da busca: 0.827427
+
+Posicao: 3
+Titulo: Bellão desconversa sobre efetivação e elogia Botafogo em empate: "Tivemos chances claras"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/bellao-analisa-empate-do-botafogo-com-o-palmeiras.ghtml
+Nota da busca: 0.761705
+
+================================================================================
+PERGUNTA: Quem é Samuel Lino?
+================================================================================
+Data: 26/11/2026 19:06:54
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Samuel Lino é um atleta brasileiro de futebol que atua como meio-campo do Flamengo. Ele é conhecido por sua habilidade técnica e sua contribuição significativa para o time rubro-negro. Além disso, ele também é um dos principais jogadores do Flamengo em 2026, tendo marcado 12 gols e 10 assistências na temporada.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Samuel Lino amplia repertório com gol de biquinho ao estilo Romário e volta a dar liga com Arrascaeta
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/samuel-lino-amplia-repertorio-com-biquinho-do-romario-e-volta-a-dar-liga-com-arrascaeta-no-flamengo.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Nota da busca: 0.909263
+
+Posicao: 3
+Titulo: Pedro e Samuel Lino, do Flamengo, comemoram convocação para Seleção; veja
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/pedro-e-samuel-lino-do-flamengo-comemoram-convocacao-para-a-selecao-brasileira.ghtml
+Nota da busca: 0.711587
