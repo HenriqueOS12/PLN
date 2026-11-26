@@ -451,3 +451,2116 @@ URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/cruzeiro-tem
 Similaridade: 0.422530
 Nota hibrida: 0.752835
 Trecho: O Brasil enfrentará a Austrália duas vezes: no dia 25 de setembro, no Queensland Country Bank Stadium, em Townsville, e no dia 29, no Suncorp Stadium, em Brisbane. Zé Lucas, volante do Cruzeiro — Foto: Gilson Lobo/AGIF Na sequência, a delegação seguirá para a Índia. No dia 3 de outubro, o Brasil enfrentará a seleção indiana no Salt Lake Stadium, em Calcutá.
+
+################################################################################
+CALIBRACAO DO LIMIAR (26/11/2026 19:19:00)
+################################################################################
+0.694 | esperado=True  | Por que a torcida do Corinthians protestou?
+0.806 | esperado=True  | Quais jogadores do Flamengo foram convocados para a Seleção?
+0.717 | esperado=True  | Qual foi o resultado de Palmeiras x Botafogo?
+0.628 | esperado=True  | Quem é o técnico do Corinthians?
+0.402 | esperado=False | Qual é a capital do Canadá?
+0.378 | esperado=False | Como preparar uma lasanha?
+0.564 | esperado=False | Quem ganhou a Copa do Mundo de 1994?
+0.237 | esperado=False | Qual é a fórmula química da água?
+Limiar: 0.596
+
+================================================================================
+PERGUNTA: Quanto é 20 + 20 + 20 + 7?
+================================================================================
+Data: 26/11/2026 19:20:17
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.417
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N430-C1
+Titulo: São Paulo x Santo Antônio-MS na Copa do Brasil Sub-20: onde assistir ao vivo e horário
+Data: 09/09/2026
+URL: https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/noticia/2026/09/09/sao-paulo-x-santo-antonio-ms-na-copa-do-brasil-sub-20-onde-assistir-ao-vivo-e-horario.ghtml
+Similaridade: 0.264706
+Nota hibrida: 0.798746
+Trecho: América-MG 1 x 2 São Paulo | Melhores Momentos | Final | Copa do Brasil Sub-20 O São Paulo foi vice-campeão da Copa SP de Futebol Júnior em 2026. No Brasileirão Sub-20, o time foi eliminado na primeira fase e ficou fora do mata-mata. No Paulistão Sub-20.
+
+Posicao: 2
+Chunk: N187-C5
+Titulo: Destaque do Vasco no título brasileiro sub-20, Andrey espera chance de Pedro Emanuel: "Estou pronto"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/04/destaque-do-vasco-no-titulo-brasileiro-sub-20-andrey-espera-chance-de-pedro-emanuel-estou-pronto.ghtml
+Similaridade: 0.329126
+Nota hibrida: 0.775210
+Trecho: Desde o começo do ano, a gente estava meio desacreditado, fez uma tabela meio abaixo, mas todo mundo sabe o quanto a gente passou, o quanto o time lutou. Isso aqui é só o fruto do que a gente trabalhou muito esse ano.
+
+Posicao: 3
+Chunk: N307-C4
+Titulo: Com eliminações, veja contas do Cruzeiro por vaga direta na Libertadores de 2027
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/05/com-eliminacoes-veja-contas-do-cruzeiro-por-vaga-direta-na-libertadores-de-2027.ghtml
+Similaridade: 0.417244
+Nota hibrida: 0.767144
+Trecho: A história da Série A com 20 equipes aponta que um time precisa fazer, em média, 64 pontos para terminar no quarto lugar da tabela. Ou seja: o Cruzeiro precisa somar 25 de 39 pontos possíveis para atingir essa pontuação de corte. O aproveitamento necessário, neste caso, é de 64,1%. Recorte abaixo dos 68,6% dos pontos conquistados pelo time desde que Artur Jorge assumiu.
+
+================================================================================
+PERGUNTA: O Palmeiras tem mundial?
+================================================================================
+Data: 26/11/2026 19:20:29
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.589
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N424-C13
+Titulo: Atuações do Palmeiras: Andreas é quem mais arrisca, e Barboza é expulso em empate; dê suas notas
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/atuacoes-do-palmeiras-andreas-e-quem-mais-arrisca-e-barboza-e-expulso-em-empate-de-suas-notas.ghtml
+Similaridade: 0.505670
+Nota hibrida: 0.819261
+Trecho: Palmeiras X Botafogo - Campeonato Brasileiro 2026 - 26ª Rodada Avalie os atletas para aparecer no compartilhamento Botafogo 0 x 0 Palmeiras | Melhores Momentos | 26ª rodada | Campeonato Brasileiro 2026 Felipe Melo critica Abel: "O Palmeiras é muito maior do que você" Time do Palmeiras antes do jogo contra o Botafogo — Foto: Cesar Greco / Palmeiras
+
+Posicao: 2
+Chunk: N156-C6
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.553054
+Nota hibrida: 0.816925
+Trecho: O relógio ou a pilha? Os dois. Respeito muito a história do Palmeiras . Venceu, está a vencer e continuará a vencer quando eu sair do clube. Para mim é um orgulho muito grande poder fazer parte do livro de história do Palmeiras e fazer de um capítulo de um clube que é centenário. Falar do que é o Palmeiras a um palmeirense é desnecessário, já repeti 500 vezes. – O Palmeiras é um estilo de vida.
+
+Posicao: 3
+Chunk: N301-C5
+Titulo: Não foi só Felipe Melo! Por que frase de Abel irritou também parte da torcida do Palmeiras
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/nao-foi-so-felipe-melo-por-que-frase-de-abel-irritou-tambem-parte-da-torcida-do-palmeiras.ghtml
+Similaridade: 0.562255
+Nota hibrida: 0.806636
+Trecho: – Bem antes de você chegar o Palmeiras luta por títulos e ganha, bom deixar isso bem claro. Você faz parte da história do Palmeiras , é um dos maiores da história, é top treinador, mas o Palmeiras é muito maior do que você, vem vencendo antes de você chegar – completou Felipe Melo, em declaração que repercutiu nas últimas horas.
+
+================================================================================
+PERGUNTA: Quem é o técnico do Palmeiras?
+================================================================================
+Data: 26/11/2026 19:20:38
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.596
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N436-C4
+Titulo: Escalação: Palmeiras se prepara para enfrentar a LDU com quatro desfalques
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/escalacao-palmeiras-se-prepara-para-enfrentar-ldu-com-quatro-desfalques.ghtml
+Similaridade: 0.578666
+Nota hibrida: 0.981102
+Trecho: Andreas Pereira em preparação para enfrentar o Botafogo — Foto: Cesar Greco / Palmeiras Mais notícias do Palmeiras : + Os números que explicam queda de rendimento do Palmeiras + Por que frase de Abel irritou também parte da torcida do Palmeiras Na Academia, os atletas que foram titulares no último jogo fizeram trabalho regenerativo, enquanto os demais foram ao campo para um treino técnico em dimensões reduzidas com atletas do sub-20.
+
+Posicao: 2
+Chunk: N142-C3
+Titulo: Por que o Palmeiras vive má fase e sofre com queda de rendimento na reta final da temporada
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/08/por-que-o-palmeiras-vive-ma-fase-e-sofre-com-queda-de-rendimento-na-reta-final-da-temporada.ghtml
+Similaridade: 0.596091
+Nota hibrida: 0.947776
+Trecho: Piquerez, Andreas Pereira e Gustavo Gómez em Botafogo x Palmeiras — Foto: Cesar Greco / Palmeiras Mais notícias do Palmeiras : + Por que frase de Abel irritou também parte da torcida + Escalação: Palmeiras se prepara para enfrentar a LDU Em 2025, o Palmeiras passava por reformulação, fez 12 contratações e, na visão do clube, sofreu por desgaste físico, falta de experiência no elenco e certa permissividade defensiva, quando passou a sofrer gols evitáveis no fim.
+
+Posicao: 3
+Chunk: N156-C6
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.588935
+Nota hibrida: 0.904096
+Trecho: O relógio ou a pilha? Os dois. Respeito muito a história do Palmeiras . Venceu, está a vencer e continuará a vencer quando eu sair do clube. Para mim é um orgulho muito grande poder fazer parte do livro de história do Palmeiras e fazer de um capítulo de um clube que é centenário. Falar do que é o Palmeiras a um palmeirense é desnecessário, já repeti 500 vezes. – O Palmeiras é um estilo de vida.
+
+================================================================================
+PERGUNTA: Me diga um time
+================================================================================
+Data: 26/11/2026 19:20:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.451
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N30-C13
+Titulo: Análise: Corinthians sem brio e senso de urgência perde da Chape e aprofunda crise no Brasileirão
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/analise-corinthians-sem-brio-e-senso-de-urgencia-perde-da-chape-e-aprofunda-crise-no-brasileirao.ghtml
+Similaridade: 0.249609
+Nota hibrida: 0.719193
+Trecho: Assumo a principal responsabilidade do time. O time teve até desempenho, mas não pode perder quatro jogos seguidos no Brasileiro e três jogos em casa. O momento é fazer o time voltar a vencer.
+
+Posicao: 2
+Chunk: N390-C1
+Titulo: Escalação do Cruzeiro: Gerson é relacionado, mas vira dúvida entre titulares; veja time
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/05/escalacao-do-cruzeiro-artur-jorge-nao-conta-com-gerson-contra-o-athletico-pr-veja-time.ghtml
+Similaridade: 0.356666
+Nota hibrida: 0.717165
+Trecho: Brasileirão: único caminho para o Cruzeiro ir à Libertadores 2027 O Cruzeiro encerrou a preparação para o jogo contra o Athletico-PR, no domingo, às 16h (de Brasília), no Mineirão. Artur Jorge tem dúvida sobre a escalação do meia Gerson no time tiutlar. Sem Jonathan Jesus, tem o retorno de Fabrício Bruno.
+
+Posicao: 3
+Chunk: N318-C2
+Titulo: Martinelli, do Fluminense, nutre expectativa por Seleção: "Trabalhando por esse sonho"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/09/martinelli-do-fluminense-nutre-expectativa-por-selecao-trabalhando-por-esse-sonho.ghtml
+Similaridade: 0.451167
+Nota hibrida: 0.700000
+Trecho: — Muito tranquilo isso na minha cabeça. Se for a hora, vai ser a hora certa, a hora de Deus. Vai dar tudo certo. Tenho muita convicção do meu trabalho aqui no clube, estou feliz e se for a hora, que seja a hora certa, a hora de Deus. Estou trabalhando pra que um dia esse sonho possa ser concluído.
+
+================================================================================
+PERGUNTA: Quantos gol Samuel Lino tem no ano?
+================================================================================
+Data: 26/11/2026 19:21:04
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.765
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Samuel Lino tem 14 gols no Flamengo.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N324-C1
+Titulo: Samuel Lino amplia repertório com gol de biquinho ao estilo Romário e volta a dar liga com Arrascaeta
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/samuel-lino-amplia-repertorio-com-biquinho-do-romario-e-volta-a-dar-liga-com-arrascaeta-no-flamengo.ghtml
+Similaridade: 0.764856
+Nota hibrida: 0.975499
+Trecho: "Flamengo hoje foi guerreiro", Samuel Lino após a vitória rubro-negra fora de casa São cinco gols nos últimos seis jogos. Na temporada, 14 bolas na rede e 15 assistências. No Flamengo , as 29 participações diretas em gols em 2026 só ficam atrás das 33 de Pedro, mas Samuel Lino é "o cara" desse time no segundo semestre.
+
+Posicao: 2
+Chunk: N324-C3
+Titulo: Samuel Lino amplia repertório com gol de biquinho ao estilo Romário e volta a dar liga com Arrascaeta
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/samuel-lino-amplia-repertorio-com-biquinho-do-romario-e-volta-a-dar-liga-com-arrascaeta-no-flamengo.ghtml
+Similaridade: 0.657497
+Nota hibrida: 0.880291
+Trecho: Com direito a um "biquinho do Romário", Lino mostrou categoria para vencer o goleiro Marcelo Rangel em tarde inspirada e aumentou ainda mais seu repertório: Samuel Lino comemora o gol da vitória do Flamengo sobre o Remo — Foto: Gilvan de Souza / Flamengo — O Lino tem mostrado nesta temporada que tem versatilidade. Consegue fazer mais de uma função.
+
+Posicao: 3
+Chunk: N99-C4
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.670305
+Nota hibrida: 0.862331
+Trecho: Agora, a tendência é que Jardim utilize o atacante, que marcou seis gols nos últimos 10 jogos. Samuel Lino esteve na lista larga para a Copa do Mundo de 2026, mas não foi convocado. Ele foi lembrado pelo treinador italiano em agosto do ano passado, quando foi chamado para substituir Matheus Cunha, lesionado, durante uma Data-Fifa.
+
+================================================================================
+PERGUNTA: e se ele fazer mais 1?
+================================================================================
+Data: 26/11/2026 19:21:21
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.433
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N494-C6
+Titulo: Marcão chega invicto e com melhor começo pelo Fluminense antes de decisão na Libertadores
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/marcao-chega-invicto-e-com-melhor-comeco-pelo-fluminense-antes-de-decisao-na-libertadores.ghtml
+Similaridade: 0.365311
+Nota hibrida: 0.740567
+Trecho: Se ele se transforma no treinador que vai ser o treinador profissional, sem ser o permanente, a gente vai ter que tirar o Marcão. Onde ele atua? Ele atua nos momentos em que a gente entende que precisamos fazer uma mexida no comando e que essa mexida, com a entrada do Marcão, vai fazer com que a gente chegue aos mesmos objetivos que se trouxermos outro. É uma decisão da gestão.
+
+Posicao: 2
+Chunk: N265-C8
+Titulo: Abel joga responsabilidade para o Flamengo em briga com Palmeiras: "Obrigação de fazer muito mais"
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/abel-joga-responsabilidade-para-o-flamengo-em-briga-com-palmeiras-obrigacao-de-fazer-muito-mais.ghtml
+Similaridade: 0.213901
+Nota hibrida: 0.717697
+Trecho: – Vamos continuar a fazer o que fizemos até agora. Não vamos abrir mão de nenhuma competição, nem do Brasileirão, nem de Libertadores, nem da Copa. E vamos fazer tudo que pudermos para tentar disputar as três e para tentar ganhar as três. É isso que nós vamos fazer.
+
+Posicao: 3
+Chunk: N216-C8
+Titulo: Bellão desconversa sobre efetivação e elogia Botafogo em empate: "Tivemos chances claras"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/bellao-analisa-empate-do-botafogo-com-o-palmeiras.ghtml
+Similaridade: 0.373040
+Nota hibrida: 0.708158
+Trecho: Justino é um menino mais jovem, então as coisas aconteceram rapidamente para ele. Merecido pelo o que ele faz, mas em alguns momentos precisamos de um pouco mais de experiência e minha opção foi por isso. — Ele, por ser canhoto (Monzón), também conseguia acelerar o jogo pela esquerda, e acho que ele conseguiu fazer isso bem.
+
+================================================================================
+PERGUNTA: Quem é Samuel Lino?
+================================================================================
+Data: 26/11/2026 19:21:48
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.612
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Samuel Lino é um atleta brasileiro que atuava no futebol americano.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N324-C3
+Titulo: Samuel Lino amplia repertório com gol de biquinho ao estilo Romário e volta a dar liga com Arrascaeta
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/samuel-lino-amplia-repertorio-com-biquinho-do-romario-e-volta-a-dar-liga-com-arrascaeta-no-flamengo.ghtml
+Similaridade: 0.612356
+Nota hibrida: 0.957364
+Trecho: Com direito a um "biquinho do Romário", Lino mostrou categoria para vencer o goleiro Marcelo Rangel em tarde inspirada e aumentou ainda mais seu repertório: Samuel Lino comemora o gol da vitória do Flamengo sobre o Remo — Foto: Gilvan de Souza / Flamengo — O Lino tem mostrado nesta temporada que tem versatilidade. Consegue fazer mais de uma função.
+
+Posicao: 2
+Chunk: N99-C1
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.491979
+Nota hibrida: 0.888125
+Trecho: Pedro e Samuel Lino, do Flamengo, comemoram convocação à Seleção Brasileira É quase impossível olhar para a temporada do Flamengo sem lembrar de Samuel Lino. Principal jogador da Era Leonardo Jardim, o atacante se destacou tanto que foi convocado por Carlo Ancelotti para a Seleção e vive o melhor momento desde que voltou ao Brasil.
+
+Posicao: 3
+Chunk: N99-C4
+Titulo: Samuel Lino coroa auge pelo Flamengo com convocação e está a dois gols de ano mais artilheiro
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml
+Similaridade: 0.564399
+Nota hibrida: 0.871416
+Trecho: Agora, a tendência é que Jardim utilize o atacante, que marcou seis gols nos últimos 10 jogos. Samuel Lino esteve na lista larga para a Copa do Mundo de 2026, mas não foi convocado. Ele foi lembrado pelo treinador italiano em agosto do ano passado, quando foi chamado para substituir Matheus Cunha, lesionado, durante uma Data-Fifa.
+
+================================================================================
+PERGUNTA: Quem é Michael Jackson?
+================================================================================
+Data: 26/11/2026 19:22:11
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.588
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N160-C3
+Titulo: Athletico e Corinthians lamentam a morte de Jackson Nascimento
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/09/athletico-e-corinthians-lamentam-a-morte-de-jackson-nascimento.ghtml
+Similaridade: 0.562990
+Nota hibrida: 0.980301
+Trecho: Jackson era o último remanescente do histórico time de 1949, que deu origem ao apelido Furacão. - Nascido em 1924, mesmo ano em que o Athletico foi fundado, Jackson construiu uma trajetória que se confunde com a história do clube. (...) Obrigado por tudo, Jackson! Lendas nunca são esquecidas - diz trecho do texto.
+
+Posicao: 2
+Chunk: N160-C18
+Titulo: Athletico e Corinthians lamentam a morte de Jackson Nascimento
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/09/athletico-e-corinthians-lamentam-a-morte-de-jackson-nascimento.ghtml
+Similaridade: 0.561702
+Nota hibrida: 0.951859
+Trecho: Depois de balançar as redes, voltou-se para a torcida adversária e avisou: “O Jackson está aqui”. E estará para sempre. Na memória dos torcedores, nos livros da história rubro-negra e em cada geração de athleticanos. Obrigado por tudo, Jackson! Lendas nunca são esquecidas. O Sport Club Corinthians Paulista informa, com imenso pesar, o falecimento de Jackson Nascimento, ex-meia do Corinthians.
+
+Posicao: 3
+Chunk: N160-C17
+Titulo: Athletico e Corinthians lamentam a morte de Jackson Nascimento
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/09/athletico-e-corinthians-lamentam-a-morte-de-jackson-nascimento.ghtml
+Similaridade: 0.562937
+Nota hibrida: 0.916783
+Trecho: Em 2024, ao completar 100 anos, Jackson voltou ao gramado da Arena da Baixada para receber uma das muitas homenagens que teve do clube e da torcida athleticana. Na trave da Rua Buenos Aires, que tanto conhecia, marcou um gol emocionante e simbólico. Décadas antes, em um Athletiba, Jackson já havia deixado uma de suas marcas mais emblemáticas.
+
+================================================================================
+PERGUNTA: Quem morreu?
+================================================================================
+Data: 26/11/2026 19:22:23
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.580
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N148-C1
+Titulo: Morre o jornalista Claudio Carsughi
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/noticia/2026/09/10/morre-o-jornalista-claudio-carsughi.ghtml
+Similaridade: 0.528745
+Nota hibrida: 0.877304
+Trecho: Morre o jornalista Claudio Carsughi, aos 93 anos, em decorrência de infecção respiratória Morreu nesta quinta-feira, em São Paulo, o jornalista Claudio Carsughi. Aos 93 anos, ele lutava contra complicações de uma infeccão respitarória. O velório e sepultamento serão neste sábado, no Memorial Jardim da Vida, em Alphaville.
+
+Posicao: 2
+Chunk: N160-C1
+Titulo: Athletico e Corinthians lamentam a morte de Jackson Nascimento
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/09/athletico-e-corinthians-lamentam-a-morte-de-jackson-nascimento.ghtml
+Similaridade: 0.474050
+Nota hibrida: 0.866841
+Trecho: Ex-Athletico e Corinthians, Jackson revive história com o Furacão aos 101 anos Athletico e Corinthians lamentaram a morte do ex-meia Jackson Nascimento, que morreu na madrugada desta quarta-feira aos 102 anos, em Camboriú, no litoral de Santa Catarina. Os clubes publicaram notas de pesar nas redes sociais.
+
+Posicao: 3
+Chunk: N136-C7
+Titulo: Joia do Vasco que viralizou acalmando bebê em São Januário volta a campo para decisão do Brasileirão Sub-20
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/04/joia-do-vasco-que-viralizou-acalmando-bebe-em-sao-januario-volta-a-campo-para-decisao-do-brasileirao-sub-20.ghtml
+Similaridade: 0.332570
+Nota hibrida: 0.748411
+Trecho: Meme Messi Yamal banho — Foto: Reprodução Samuel já nasceu cercado pelo sentimento vascaíno da família. Pedro conta que herdou a paixão pelo clube do pai, que morreu quando ele tinha apenas um ano, e que o filho não poderia seguir outro caminho. Antes mesmo de os pais saberem se seria menino ou menina, Samuel já tinha roupinha do Vasco em casa.
+
+================================================================================
+PERGUNTA: Quem é o lanterna?
+================================================================================
+Data: 26/11/2026 19:22:37
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.502
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N394-C1
+Titulo: Sequência do Brasileirão e elenco curto: Diniz pode manter a base do Corinthians contra a Chapecoense
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/05/sequencia-do-brasileirao-e-elenco-curto-diniz-pode-manter-a-base-do-corinthians-contra-a-chapecoense.ghtml
+Similaridade: 0.336483
+Nota hibrida: 0.745420
+Trecho: Voz do Setorista: Yuri Alberto desfalca o Corinthians na Libertadores O Corinthians enfrenta a lanterna Chapecoense neste domingo, às 19h30 (de Brasília), na Neo Química Arena, pela 26ª rodada do Campeonato Brasileiro, pressionado pela sequência recente na competição. A equipe de Fernando Diniz não vence há três jogos, sendo duas derrotas em Itaquera, e ocupa a décima colocação, com 32 pontos.
+
+Posicao: 2
+Chunk: N278-C11
+Titulo: Viralizou: árbitro peita Canobbio, bate-boca no Cruzeiro e ajuda do Botafogo ao "amigo" Flamengo
+Data: 07/09/2026
+URL: https://ge.globo.com/pe/futebol/noticia/2026/09/07/viralizou-arbitro-peita-canobbio-bate-boca-no-cruzeiro-e-ajuda-do-botafogo-ao-amigo-flamengo.ghtml
+Similaridade: 0.351038
+Nota hibrida: 0.744654
+Trecho: Torcida do Inter tenta invadir área do Beira-Rio e entra em confronto com a polícia Torcedores do Inter pedem renúncia de presidente Alessandro Barcellos Outro clube que sofreu protestos da torcida foi o Corinthians. A derrota por 2 a 1 para a lanterna Chapecoense, na Neo Química Arena, foi a quarta seguida do Timão. A torcida, revoltada, puxou o canto de "time sem vergonha" nas arquibancadas.
+
+Posicao: 3
+Chunk: N198-C5
+Titulo: Presidente do Cruzeiro defende trabalho de Artur Jorge: "Plano de cinco anos, não de um jogo"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/presidente-do-cruzeiro-defende-trabalho-de-artur-jorge-plano-de-cinco-anos-nao-de-um-jogo.ghtml
+Similaridade: 0.298481
+Nota hibrida: 0.701295
+Trecho: O contexto não foi colocado, mas eu jamais vou fazer isso com o nosso torcedor, ele tem o direito. , Pedro Lourenço, presidente do Cruzeiro, e Artur Jorge acertaram a permanência do treinador no clube até o fim de 2030 — Foto: Reprodução/Cruzeiro Artur Jorge assumiu o Cruzeiro na lanterna do Campeonato Brasileiro.
+
+================================================================================
+PERGUNTA: Quem é o lider?
+================================================================================
+Data: 26/11/2026 19:22:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.606
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Presidente do Platense
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N452-C12
+Titulo: Presidente do Platense projeta duelo contra o Fluminense na Libertadores: "Não entramos para empatar"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/08/presidente-do-platense-projeta-duelo-contra-o-fluminense-na-libertadores-nao-entramos-para-empatar.ghtml
+Similaridade: 0.605947
+Nota hibrida: 0.700000
+Trecho: Qual foi o principal fator para a conquista do título em 2025? — Acho que a forma como trabalhamos mudou, principalmente por termos alcançado a unidade em tudo relacionado ao Platense, tanto politicamente quanto em termos de gestão.
+
+Posicao: 2
+Chunk: N452-C10
+Titulo: Presidente do Platense projeta duelo contra o Fluminense na Libertadores: "Não entramos para empatar"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/08/presidente-do-platense-projeta-duelo-contra-o-fluminense-na-libertadores-nao-entramos-para-empatar.ghtml
+Similaridade: 0.580981
+Nota hibrida: 0.671513
+Trecho: Como eu disse, vencemos o Apertura ganhando de Racing, River e San Lorenzo fora de casa. E superamos o Huracán em campo neutro. A pressão não pesa muito sobre nós. Presidente do Platense explica por que não pretende transformar o clube em SAD O que motivou a se tornar presidente do Platense? — Platense é uma história de família para a maioria de nós. Porque é algo que passa de geração em geração.
+
+Posicao: 3
+Chunk: N359-C6
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Similaridade: 0.548150
+Nota hibrida: 0.634051
+Trecho: É uma pessoa que eu confio extremamente e que a responsabilidade, nesse momento, transitória está conosco e ele é o meu cara de confiança. Chiem o que quiser - continuou.
+
+================================================================================
+PERGUNTA: Quem o presidente do Botafogo?
+================================================================================
+Data: 26/11/2026 19:23:01
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.772
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Presidente do Botafogo
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N359-C9
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Similaridade: 0.771792
+Nota hibrida: 1.000000
+Trecho: Tenho certeza. João Paulo Magalhães, presidente do Botafogo — Foto: Reprodução
+
+Posicao: 2
+Chunk: N359-C2
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Similaridade: 0.733921
+Nota hibrida: 0.865730
+Trecho: Thiago Alves e João Paulo Magalhães, do Botafogo, com Gianni Infantino, presidente da Fifa — Foto: Reprodução Thiago Alves é mais um ex-Boavista contratado por JP Magalhães na transição da venda da SAF para a GDA. Além dele, chegaram ao Botafogo o auxiliar Marcelo "Fera" e o preparador físico Ronaldo Torres.
+
+Posicao: 3
+Chunk: N359-C1
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Similaridade: 0.725881
+Nota hibrida: 0.864332
+Trecho: Presidente do Botafogo defende dirigente: "Chiem o que quiser" João Paulo Magalhães defendeu a contratação de Thiago Alves. Em áudio vazado, o ele comentou a contratação do dirigente, que chega ao Botafogo para ser gerente de futebol. Na mensagem, o presidente do clube carioca fala "chiem o que quiser" em relação aos que reclamaram do novo contratado.
+
+================================================================================
+PERGUNTA: O que o presidente do Botafogo falou?
+================================================================================
+Data: 26/11/2026 19:23:19
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.701
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Presidente do Botafogo defende contratação de Thiago Alves.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N359-C9
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Similaridade: 0.701396
+Nota hibrida: 1.000000
+Trecho: Tenho certeza. João Paulo Magalhães, presidente do Botafogo — Foto: Reprodução
+
+Posicao: 2
+Chunk: N359-C1
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Similaridade: 0.698783
+Nota hibrida: 0.900645
+Trecho: Presidente do Botafogo defende dirigente: "Chiem o que quiser" João Paulo Magalhães defendeu a contratação de Thiago Alves. Em áudio vazado, o ele comentou a contratação do dirigente, que chega ao Botafogo para ser gerente de futebol. Na mensagem, o presidente do clube carioca fala "chiem o que quiser" em relação aos que reclamaram do novo contratado.
+
+Posicao: 3
+Chunk: N359-C2
+Titulo: Presidente do Botafogo defende contratação de dirigente em áudio vazado: "Chiem o que quiser"
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/04/presidente-do-botafogo-defende-contratacao-de-dirigente-em-audio-vazado-chiem-o-que-quiser.ghtml
+Similaridade: 0.644435
+Nota hibrida: 0.850417
+Trecho: Thiago Alves e João Paulo Magalhães, do Botafogo, com Gianni Infantino, presidente da Fifa — Foto: Reprodução Thiago Alves é mais um ex-Boavista contratado por JP Magalhães na transição da venda da SAF para a GDA. Além dele, chegaram ao Botafogo o auxiliar Marcelo "Fera" e o preparador físico Ronaldo Torres.
+
+================================================================================
+PERGUNTA: Como faz macarrão com queijo?
+================================================================================
+Data: 26/11/2026 19:23:35
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.315
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N73-C9
+Titulo: Atuações do Palmeiras: Giay faz seu melhor jogo e decide vitória na Libertadores; dê suas notas
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/atuacoes-do-palmeiras-giay-faz-seu-melhor-jogo-e-decide-vitoria-na-libertadores-de-suas-notas.ghtml
+Similaridade: 0.238720
+Nota hibrida: 0.849512
+Trecho: Arriscou quatro finalizações, sendo quem mais tentou, e participou do lance do gol: rouba a bola no ataque, chuta e no rebote do goleiro é Giay quem marca. Saiu aplaudido pela torcida. Entrou no lugar de Vitor Roque aos 33 do 2º tempo e teve boa chance aos 38. Ele recebe cruzamento de Giay na medida, faz o cabeceia buscando o canto, e a bola passa muito perto da trave.
+
+Posicao: 2
+Chunk: N300-C6
+Titulo: Sem promessa, mas em bom momento: Boca enfrenta o São Paulo com "estilo brasileiro"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/08/sem-promessa-mas-em-bom-momento-boca-enfrenta-o-sao-paulo-com-estilo-brasileiro.ghtml
+Similaridade: 0.200388
+Nota hibrida: 0.831421
+Trecho: – É volante que pisa na área e faz gol de várias formas, até de cabeça, apesar de não ser alto. Ele teve participação em sete gols nos últimos nove jogos. O São Paulo vai ter que prestar atenção nesse jogador e neste setor, porque é ali que o Boca faz tudo e controla o jogo com Paredes e Ascacíbar – alertou Sibilla.
+
+Posicao: 3
+Chunk: N163-C8
+Titulo: Marcão prega cautela ao Fluminense em jogo na Argentina e elogia atuação de Ganso: "Decisivo"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/08/marcao-analisa-vitoria-do-fluminense-sobre-o-platense.ghtml
+Similaridade: 0.236864
+Nota hibrida: 0.730880
+Trecho: Temos que saber qual jogo acelerar, quando controlar. Quando entrou o Lucho e o Savarino a gente pediu um pouco desse controle. A gente tem que achar esse equilíbrio para a partida de volta. — A gente simula em treinamento variações. O Paulo faz muito bem isso, tira o jogador de centro, cria espaço e aproveita. Eles mudaram a marcação, virou um 4-1-3-2.
+
+================================================================================
+PERGUNTA: que dia é hoje ?
+================================================================================
+Data: 26/11/2026 19:23:43
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.424
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N310-C19
+Titulo: Matheuzinho sai em defesa de Diniz no Corinthians: "Estamos fechados com ele"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/matheuzinho-sai-em-defesa-de-diniz-no-corinthians-estamos-fechados-com-ele.ghtml
+Similaridade: 0.421809
+Nota hibrida: 0.973661
+Trecho: Mentalidade para a Libertadores — Desde o primeiro dia, ele vem com essa frase, que a nossa final é 28 de novembro, pode ser o dia mais importante das nossas vidas. Estamos trabalhando todos os dias para chegar no dia 28. Claro que tem as outras competições, que não podemos deixar de lado, mas a Libertadores é uma competição diferente.
+
+Posicao: 2
+Chunk: N183-C8
+Titulo: Cuiabá apresenta Ramon e Gustavo Busatto para sequência da Série B
+Data: 10/09/2026
+URL: https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/09/10/cuiaba-apresenta-ramon-e-gustavo-busatto-para-sequencia-da-serie-b.ghtml
+Similaridade: 0.372488
+Nota hibrida: 0.818811
+Trecho: - Eu trabalho sempre forte. O dia a dia é muito importante, porque a gente nunca sabe o que vai acontecer. Tem que estar preparado para o que vier. E pode ter certeza que é uma oportunidade muito boa para mim. Encaro todos os dias como se fosse o último, quando receber a oportunidade de ser preparado.
+
+Posicao: 3
+Chunk: N136-C13
+Titulo: Joia do Vasco que viralizou acalmando bebê em São Januário volta a campo para decisão do Brasileirão Sub-20
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/04/joia-do-vasco-que-viralizou-acalmando-bebe-em-sao-januario-volta-a-campo-para-decisao-do-brasileirao-sub-20.ghtml
+Similaridade: 0.423687
+Nota hibrida: 0.775375
+Trecho: Estamos trabalhando muito desde o início do ano, essa conquista é o nosso sonho. Amanhã vai ser um dia especial para todos, se Deus quiser — reforçou o artilheiro do Vasco. Pais de Samuel deixam recardo para garoto e também Andrey, jogador do Vasco Enquanto a imagem com Samuel repercute, Andrey volta as atenções para o que pretende construir dentro de campo.
+
+================================================================================
+PERGUNTA: Quem joga na série B?
+================================================================================
+Data: 26/11/2026 19:23:59
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.510
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N174-C3
+Titulo: Série C: veja há quanto tempo os candidatos ao acesso estão longe da Série B
+Data: 06/09/2026
+URL: https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-c/noticia/2026/09/06/serie-c-veja-ha-quanto-tempo-os-candidatos-ao-acesso-estao-longe-da-serie-b.ghtml
+Similaridade: 0.357540
+Nota hibrida: 0.815862
+Trecho: Oito times disputam o acesso para o Brasileiro Série B de 2027 — Foto: Reprodução/Gemini O Botafogo-PB não joga a Série B desde 1989, quando fez uma campanha que não o qualificou para a próxima fase, nem deu índice a outras competições nacionais. À época, a Série B era disputada em formato de grupos. O time está na Série C de forma consecutiva desde 2014.
+
+Posicao: 2
+Chunk: N174-C6
+Titulo: Série C: veja há quanto tempo os candidatos ao acesso estão longe da Série B
+Data: 06/09/2026
+URL: https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-c/noticia/2026/09/06/serie-c-veja-ha-quanto-tempo-os-candidatos-ao-acesso-estao-longe-da-serie-b.ghtml
+Similaridade: 0.422009
+Nota hibrida: 0.809829
+Trecho: Ferroviária busca voltar para a Série B — Foto: Guilherme Morro/Ferroviária SAF Maringá está na segunda fase da Série C — Foto: Iago Ferreira / MFC Campeã da Série B em 1988, a Inter de Limeira jogou a Série B pela última vez em 1991. A competição era disputada por grupos e, ao término do campeonato, a equipe não conseguiu índice para seguir na segundona.
+
+Posicao: 3
+Chunk: N174-C5
+Titulo: Série C: veja há quanto tempo os candidatos ao acesso estão longe da Série B
+Data: 06/09/2026
+URL: https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-c/noticia/2026/09/06/serie-c-veja-ha-quanto-tempo-os-candidatos-ao-acesso-estao-longe-da-serie-b.ghtml
+Similaridade: 0.418878
+Nota hibrida: 0.786637
+Trecho: Brusque busca voltar para a Série B — Foto: Lucas Gabriel Cardoso/Brusque FC A Ferroviária subiu da Série C de 2024 para a Série B de 2025, mas foi rebaixada ao terminar a competição com 40 pontos, na 17ª posição. O time passou apenas seis rodadas no Z-4: as três últimas do primeiro turno e as três últimas do campeonato.
+
+================================================================================
+PERGUNTA: Quem marcou gol do Santos?
+================================================================================
+Data: 26/11/2026 19:24:14
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.747
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Willian Arão
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N159-C1
+Titulo: Santos 2x0 Atlético-MG: assista aos melhores momentos
+Data: 09/09/2026
+URL: https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/09/santos-2x0-atletico-mg-assista-aos-melhores-momentos.ghtml
+Similaridade: 0.720939
+Nota hibrida: 0.946479
+Trecho: O Santos venceu o Atlético-MG por 2 a 0 na noite desta quarta-feira, na Vila Belmiro, no jogo de ida das quartas de final da Copa Sul-Americana. Willian Arão e Oliva fizeram os gols da vitória. Os times voltam a se enfrentar na quarta-feira, dia 16, na Arena MRV, em Belo Horizonte. O Santos pode até perder por um gol de diferença para avançar à semifinal do torneio.
+
+Posicao: 2
+Chunk: N159-C2
+Titulo: Santos 2x0 Atlético-MG: assista aos melhores momentos
+Data: 09/09/2026
+URL: https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/09/santos-2x0-atletico-mg-assista-aos-melhores-momentos.ghtml
+Similaridade: 0.672896
+Nota hibrida: 0.872810
+Trecho: O Atlético-MG, por sua vez, precisa vencer por três gols de diferença ou pelo menos por dois para levar a disputa da vaga para os pênaltis. Willian Arão comemora gol do Santos contra o Atlético-MG — Foto: Mauricio De Souza/AGIF
+
+Posicao: 3
+Chunk: N476-C1
+Titulo: Atuações do Atlético-MG: Fred erra em gol, e Delfim se salva em derrota contra o Santos
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/atuacoes-do-atletico-mg-fred-erra-em-gol-e-delfim-se-salva-em-derrota-contra-o-santos.ghtml
+Similaridade: 0.616335
+Nota hibrida: 0.869397
+Trecho: O Atlético-MG não jogou bem e acabou derrotado pelo Santos por 2 a 0, na Vila Belmiro, nesta noite de quarta-feira, pelo duelo de ida das quartas de final da Conmebol Sul-Americana. Arão e Oliva marcaram os gols da partida. O segundo tempo marcou uma queda técnica da equipe de Domínguez, que desmoronou. O goleiro Delfim foi um dos poucos que se salvou.
+
+================================================================================
+PERGUNTA: Quanto ficou Santos contra Atlético-MG?
+================================================================================
+Data: 26/11/2026 19:24:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.816
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Santos venceu o Atlético-MG por 2 a 0.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N159-C2
+Titulo: Santos 2x0 Atlético-MG: assista aos melhores momentos
+Data: 09/09/2026
+URL: https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/09/santos-2x0-atletico-mg-assista-aos-melhores-momentos.ghtml
+Similaridade: 0.792366
+Nota hibrida: 0.981214
+Trecho: O Atlético-MG, por sua vez, precisa vencer por três gols de diferença ou pelo menos por dois para levar a disputa da vaga para os pênaltis. Willian Arão comemora gol do Santos contra o Atlético-MG — Foto: Mauricio De Souza/AGIF
+
+Posicao: 2
+Chunk: N159-C1
+Titulo: Santos 2x0 Atlético-MG: assista aos melhores momentos
+Data: 09/09/2026
+URL: https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/09/santos-2x0-atletico-mg-assista-aos-melhores-momentos.ghtml
+Similaridade: 0.815676
+Nota hibrida: 0.913314
+Trecho: O Santos venceu o Atlético-MG por 2 a 0 na noite desta quarta-feira, na Vila Belmiro, no jogo de ida das quartas de final da Copa Sul-Americana. Willian Arão e Oliva fizeram os gols da vitória. Os times voltam a se enfrentar na quarta-feira, dia 16, na Arena MRV, em Belo Horizonte. O Santos pode até perder por um gol de diferença para avançar à semifinal do torneio.
+
+Posicao: 3
+Chunk: N476-C7
+Titulo: Atuações do Atlético-MG: Fred erra em gol, e Delfim se salva em derrota contra o Santos
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/atuacoes-do-atletico-mg-fred-erra-em-gol-e-delfim-se-salva-em-derrota-contra-o-santos.ghtml
+Similaridade: 0.682225
+Nota hibrida: 0.891276
+Trecho: Atlético-MG X Santos - Copa Sul-Americana 2026 - Quartas de final Avalie os atletas para aparecer no compartilhamento Gabriel Delfim Atlético-MG — Foto: Pedro Souza
+
+================================================================================
+PERGUNTA: É verdade que o Santos venceu o Atlético Mineiro?
+================================================================================
+Data: 26/11/2026 19:25:06
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.825
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Não sei.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N159-C1
+Titulo: Santos 2x0 Atlético-MG: assista aos melhores momentos
+Data: 09/09/2026
+URL: https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/09/santos-2x0-atletico-mg-assista-aos-melhores-momentos.ghtml
+Similaridade: 0.825495
+Nota hibrida: 1.000000
+Trecho: O Santos venceu o Atlético-MG por 2 a 0 na noite desta quarta-feira, na Vila Belmiro, no jogo de ida das quartas de final da Copa Sul-Americana. Willian Arão e Oliva fizeram os gols da vitória. Os times voltam a se enfrentar na quarta-feira, dia 16, na Arena MRV, em Belo Horizonte. O Santos pode até perder por um gol de diferença para avançar à semifinal do torneio.
+
+Posicao: 2
+Chunk: N159-C2
+Titulo: Santos 2x0 Atlético-MG: assista aos melhores momentos
+Data: 09/09/2026
+URL: https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/09/santos-2x0-atletico-mg-assista-aos-melhores-momentos.ghtml
+Similaridade: 0.753970
+Nota hibrida: 0.911982
+Trecho: O Atlético-MG, por sua vez, precisa vencer por três gols de diferença ou pelo menos por dois para levar a disputa da vaga para os pênaltis. Willian Arão comemora gol do Santos contra o Atlético-MG — Foto: Mauricio De Souza/AGIF
+
+Posicao: 3
+Chunk: N207-C1
+Titulo: Escalação do Atlético-MG: Domínguez fica sem atacante e tem novidades; veja provável time
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/08/escalacao-do-atletico-mg-dominguez-fica-sem-atacante-e-tem-novidades-veja-provavel-time.ghtml
+Similaridade: 0.683779
+Nota hibrida: 0.827639
+Trecho: Qual será o time contra o Santos? ge Atlético opina O Atlético-MG fechou a preparação para o jogo contra o Santos, na quarta-feira, às 19h (de Brasília), na Vila Belmiro, pelo duelo de ida das quartas de final da Sul-Americana. Domínguez precisa lidar com baixa importante entre os titulares, mas terá reforços no grupo.
+
+================================================================================
+PERGUNTA: Quem é Atlético-MG?
+================================================================================
+Data: 26/11/2026 19:25:21
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.698
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Atlético-MG é o time da partida entre Atlético-MG e Santos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N352-C14
+Titulo: Atuações do São Paulo: Luciano é o melhor em campo na vitória sobre o Atlético-MG; dê suas notas
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/05/atuacoes-do-sao-paulo-luciano-e-o-melhor-em-campo-na-vitoria-sobre-o-atletico-mg-de-suas-notas.ghtml
+Similaridade: 0.629357
+Nota hibrida: 0.934313
+Trecho: São Paulo X Atlético-MG - Campeonato Brasileiro 2026 - 26ª Rodada Avalie os atletas para aparecer no compartilhamento São Paulo 2 x 0 Atlético-MG | Melhores momentos | 26ª rodada | Brasileirão 2026 Time do São Paulo antes do jogo contra o Atlético-MG — Foto: Marcos Ribolli
+
+Posicao: 2
+Chunk: N476-C7
+Titulo: Atuações do Atlético-MG: Fred erra em gol, e Delfim se salva em derrota contra o Santos
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/atuacoes-do-atletico-mg-fred-erra-em-gol-e-delfim-se-salva-em-derrota-contra-o-santos.ghtml
+Similaridade: 0.663430
+Nota hibrida: 0.921801
+Trecho: Atlético-MG X Santos - Copa Sul-Americana 2026 - Quartas de final Avalie os atletas para aparecer no compartilhamento Gabriel Delfim Atlético-MG — Foto: Pedro Souza
+
+Posicao: 3
+Chunk: N333-C4
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.652591
+Nota hibrida: 0.906235
+Trecho: Alexsander; Atlético-MG — Foto: Pedro Souza / Atlético-MG Também foram julgados nesta quinta-feira o Atlético, o Cruzeiro, o zagueiro Villalba e o presidente do Galo, Sérgio Coelho. O Atlético foi absolvido por objetos arremessados no gramado e punido em 10 mil pelo sumiço de bolas no fim do jogo.
+
+================================================================================
+PERGUNTA: Quem é o Atlético Mineiro?
+================================================================================
+Data: 26/11/2026 19:25:33
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.659
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N116-C5
+Titulo: Quem é o jovem zagueiro ex-Flamengo que virou opção com titulares do Atlético-MG no DM
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/05/quem-e-o-jovem-zagueiro-ex-flamengo-que-virou-opcao-com-titulares-do-atletico-mg-no-dm.ghtml
+Similaridade: 0.658545
+Nota hibrida: 0.934632
+Trecho: Em 2024, foi para o Sub-20, mas não ganhou espaço na equipe. O Atlético entrou na jogada ano passado, visando dar mais minutagem ao jogador. O clube mineiro firmou uma parceria na divisão dos direitos econômicos com o Flamengo para trazer o zagueiro a Belo Horizonte. O defensor tem contrato até dezembro de 2027. Natural de Palmas, no Tocantins, Lemos tem 1,90m.
+
+Posicao: 2
+Chunk: N333-C4
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.618211
+Nota hibrida: 0.874486
+Trecho: Alexsander; Atlético-MG — Foto: Pedro Souza / Atlético-MG Também foram julgados nesta quinta-feira o Atlético, o Cruzeiro, o zagueiro Villalba e o presidente do Galo, Sérgio Coelho. O Atlético foi absolvido por objetos arremessados no gramado e punido em 10 mil pelo sumiço de bolas no fim do jogo.
+
+Posicao: 3
+Chunk: N27-C4
+Titulo: Trio se recupera de lesão, e Atlético-MG terá reforços para enfrentar o Santos pela Sula
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/08/trio-se-recupera-de-lesao-e-atletico-mg-tera-reforcos-para-enfrentar-o-santos-pela-sula.ghtml
+Similaridade: 0.614721
+Nota hibrida: 0.864446
+Trecho: O Atlético é o atual finalista da Sul-Americana. No ano passado, perdeu o título para o Lanús, na disputa de pênaltis. Na fase anterior, neste ano, o time deixou para trás o RB Bragantino. Lyanco em conversa com Domínguez no Atlético-MG — Foto: Pedro Souza / Atlético
+
+================================================================================
+PERGUNTA: Kaio Jorge é de que time?
+================================================================================
+Data: 26/11/2026 19:25:54
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.646
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Kaio Jorge é do Atlético-MG.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N305-C2
+Titulo: Cruzeiro x Athletico-PR: veja o que Matheus Pereira teria dito a Kaio Jorge em discussão
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/cruzeiro-x-athletico-pr-veja-o-que-matheus-pereira-teria-dito-a-kaio-jorge-em-discussao.ghtml
+Similaridade: 0.615723
+Nota hibrida: 0.970667
+Trecho: Matheus Pereira e Kaio Jorge discutem após pênalti marcado por atacante do Cruzeiro Matheus Pereira pede para bater pênalti, mas Kaio Jorge nega Diálogo na hora da cobrança do pênalti, segundo o especialista em leitura labial: Matheus Pereira: Dá, me dá... Kaio, Kaio, vai ficar feio. Kaio Jorge: Pois é, vai. Melhor sair Matheus Pereira: Não, não vou deixar. Kaio, Kaio... Kaio Jorge: Eu vou bater.
+
+Posicao: 2
+Chunk: N333-C3
+Titulo: Atlético-MG x Cruzeiro: Alexsander é suspenso por ofensas a Kaio Jorge em sala antidoping
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/atletico-mg-x-cruzeiro-alexsander-e-suspenso-por-ofensas-a-kaio-jorge-em-sala-antidoping.ghtml
+Similaridade: 0.645903
+Nota hibrida: 0.905343
+Trecho: Veja a comemoração de Kaio Jorge que levou à reação do atleticano Na defesa, o Atlético alegou que Kaio Jorge está envolvido em várias polêmicas com atletas do Alvinegro e que o volante respondeu ao que o atacante fez quando marcou o gol no clássico, ao dizer “seu pai está aqui”. Diante do histórico, Alexsander “optou por fazer a provocação”. O jurídico do clube vai recorrer.
+
+Posicao: 3
+Chunk: N208-C1
+Titulo: Bastidores: como ficou o clima entre Kaio Jorge e Matheus Pereira no vestiário do Cruzeiro
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/bastidores-como-ficou-o-clima-entre-kaio-jorge-e-matheus-pereira-no-vestiario-do-cruzeiro.ghtml
+Similaridade: 0.563563
+Nota hibrida: 0.826575
+Trecho: Matheus Pereira pede para bater pênalti, mas Kaio Jorge nega Matheus Pereira e Kaio Jorge chamaram atenção na vitória do Cruzeiro sobre o Athletico-PR por uma discussão para definir o batedor de pênalti que acabou convertido pelo centroavante. Os atletas conversaram no vestiário, após a partida, segundo o relato de jogadores.
+
+================================================================================
+PERGUNTA: Vasco?
+================================================================================
+Data: 26/11/2026 19:26:04
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.592
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N260-C3
+Titulo: Vasco inicia contatos para tentar contratar atacante Richarlison
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/08/vasco-tem-interesse-em-richarlison-e-inicia-contatos-para-contratar-atacante.ghtml
+Similaridade: 0.591761
+Nota hibrida: 0.972432
+Trecho: "São 13 finais daqui pra frente", diz João após derrota do Vasco | A Voz da Torcida A informação do interesse do Vasco foi publicada inicialmente pelo jornalista Lucas Pedrosa e confirmada pelo ge .
+
+Posicao: 2
+Chunk: N389-C5
+Titulo: Escalação do Vasco: com titulares preservados, Pedro Emanuel prepara mudanças contra o Santa Fe
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/07/escalacao-do-vasco-com-titulares-preservados-pedro-emanuel-prepara-mudancas-contra-o-santa-fe.ghtml
+Similaridade: 0.534377
+Nota hibrida: 0.930743
+Trecho: Marino Hinestroza em ação pelo Vasco — Foto: Matheus Lima/Vasco Santa Fe e Vasco abrem o confronto das quartas de final da Copa Sul-Americana às 19h (de Brasília) desta terça-feira, no estádio El Campín, em Bogotá. O jogo de volta acontece na próxima terça-feira (15), em São Januário.
+
+Posicao: 3
+Chunk: N139-C9
+Titulo: Como Pedro Emanuel administra desgaste do elenco e mantém Vasco vivo em três competições
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/05/como-pedro-emanuel-administra-desgaste-do-elenco-e-mantem-vasco-vivo-em-tres-competicoes.ghtml
+Similaridade: 0.566146
+Nota hibrida: 0.913889
+Trecho: Contra o Fluminense, o Vasco ganhará o reforço de Bruno Duarte. O centroavante deve fazer sua estreia neste sábado com a camisa vascaína depois de uma semana livre de treinamentos. Para a sequência da temporada, o clube também contará com o meia Alan Lescano, que desembarcou nesta sexta-feira para realizar exames e assinar o contrato com o Vasco.
+
+================================================================================
+PERGUNTA: Vasco
+================================================================================
+Data: 26/11/2026 19:26:09
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.599
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Vasco
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N260-C3
+Titulo: Vasco inicia contatos para tentar contratar atacante Richarlison
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/08/vasco-tem-interesse-em-richarlison-e-inicia-contatos-para-contratar-atacante.ghtml
+Similaridade: 0.598981
+Nota hibrida: 0.972432
+Trecho: "São 13 finais daqui pra frente", diz João após derrota do Vasco | A Voz da Torcida A informação do interesse do Vasco foi publicada inicialmente pelo jornalista Lucas Pedrosa e confirmada pelo ge .
+
+Posicao: 2
+Chunk: N389-C5
+Titulo: Escalação do Vasco: com titulares preservados, Pedro Emanuel prepara mudanças contra o Santa Fe
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/07/escalacao-do-vasco-com-titulares-preservados-pedro-emanuel-prepara-mudancas-contra-o-santa-fe.ghtml
+Similaridade: 0.569424
+Nota hibrida: 0.957474
+Trecho: Marino Hinestroza em ação pelo Vasco — Foto: Matheus Lima/Vasco Santa Fe e Vasco abrem o confronto das quartas de final da Copa Sul-Americana às 19h (de Brasília) desta terça-feira, no estádio El Campín, em Bogotá. O jogo de volta acontece na próxima terça-feira (15), em São Januário.
+
+Posicao: 3
+Chunk: N139-C9
+Titulo: Como Pedro Emanuel administra desgaste do elenco e mantém Vasco vivo em três competições
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/05/como-pedro-emanuel-administra-desgaste-do-elenco-e-mantem-vasco-vivo-em-tres-competicoes.ghtml
+Similaridade: 0.560176
+Nota hibrida: 0.897679
+Trecho: Contra o Fluminense, o Vasco ganhará o reforço de Bruno Duarte. O centroavante deve fazer sua estreia neste sábado com a camisa vascaína depois de uma semana livre de treinamentos. Para a sequência da temporada, o clube também contará com o meia Alan Lescano, que desembarcou nesta sexta-feira para realizar exames e assinar o contrato com o Vasco.
+
+================================================================================
+PERGUNTA: Vasco
+================================================================================
+Data: 26/11/2026 19:26:17
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.599
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Vasco
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N260-C3
+Titulo: Vasco inicia contatos para tentar contratar atacante Richarlison
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/08/vasco-tem-interesse-em-richarlison-e-inicia-contatos-para-contratar-atacante.ghtml
+Similaridade: 0.598981
+Nota hibrida: 0.972432
+Trecho: "São 13 finais daqui pra frente", diz João após derrota do Vasco | A Voz da Torcida A informação do interesse do Vasco foi publicada inicialmente pelo jornalista Lucas Pedrosa e confirmada pelo ge .
+
+Posicao: 2
+Chunk: N389-C5
+Titulo: Escalação do Vasco: com titulares preservados, Pedro Emanuel prepara mudanças contra o Santa Fe
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/07/escalacao-do-vasco-com-titulares-preservados-pedro-emanuel-prepara-mudancas-contra-o-santa-fe.ghtml
+Similaridade: 0.569424
+Nota hibrida: 0.957474
+Trecho: Marino Hinestroza em ação pelo Vasco — Foto: Matheus Lima/Vasco Santa Fe e Vasco abrem o confronto das quartas de final da Copa Sul-Americana às 19h (de Brasília) desta terça-feira, no estádio El Campín, em Bogotá. O jogo de volta acontece na próxima terça-feira (15), em São Januário.
+
+Posicao: 3
+Chunk: N139-C9
+Titulo: Como Pedro Emanuel administra desgaste do elenco e mantém Vasco vivo em três competições
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/05/como-pedro-emanuel-administra-desgaste-do-elenco-e-mantem-vasco-vivo-em-tres-competicoes.ghtml
+Similaridade: 0.560176
+Nota hibrida: 0.897679
+Trecho: Contra o Fluminense, o Vasco ganhará o reforço de Bruno Duarte. O centroavante deve fazer sua estreia neste sábado com a camisa vascaína depois de uma semana livre de treinamentos. Para a sequência da temporada, o clube também contará com o meia Alan Lescano, que desembarcou nesta sexta-feira para realizar exames e assinar o contrato com o Vasco.
+
+================================================================================
+PERGUNTA: BOTAFOGO
+================================================================================
+Data: 26/11/2026 19:26:25
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.604
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Botafogo
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N216-C13
+Titulo: Bellão desconversa sobre efetivação e elogia Botafogo em empate: "Tivemos chances claras"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/bellao-analisa-empate-do-botafogo-com-o-palmeiras.ghtml
+Similaridade: 0.603902
+Nota hibrida: 0.861002
+Trecho: Bellão, do Botafogo, contra o Palmeiras — Foto: Letícia Marques/ge Bellão em Botafogo x Palmeiras — Foto: André Durão Atuação de Huguinho — Huguinho é um pequenino gigante. Ele tem muita atitude. Não é questão de altura. Sei que a função que eu colocar, ele vai desempenhar o melhor dele. Utilização do Montoro — O Montoro é um jogador de muita qualidade, isso é uma obviedade.
+
+Posicao: 2
+Chunk: N178-C1
+Titulo: Botafogo x Palmeiras: onde assistir ao vivo, horário e escalações
+Data: 06/09/2026
+URL: https://ge.globo.com/rj/futebol/brasileirao-serie-a/noticia/2026/09/06/botafogo-x-palmeiras-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
+Similaridade: 0.464707
+Nota hibrida: 0.851276
+Trecho: Botafogo x Palmeiras: informações e palpite para o jogo Botafogo e Palmeiras se enfrentam neste domingo, às 18h30 (de Brasília) no Nilton Santos, pela 26ª rodada do Campeonato Brasileiro. A partida terá transmissão do Premiere, e o ge acompanha em tempo real . O Botafogo encara uma sequência de mais de um mês sem vencer no Brasileirão.
+
+Posicao: 3
+Chunk: N457-C6
+Titulo: Atuações do Botafogo: Gabriel Batista e Ferraresi vão bem em empate; dê suas notas
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/atuacoes-do-botafogo-gabriel-batista-e-ferraresi-vao-bem-em-empate-de-suas-notas.ghtml
+Similaridade: 0.518797
+Nota hibrida: 0.815408
+Trecho: Acertou ao escalar Ponte no lado direito para neutralizar Arias, mas mexeu mal quando tirou Montoro e Danilo. Botafogo X Palmeiras - Campeonato Brasileiro 2026 - 26ª Rodada Avalie os atletas para aparecer no compartilhamento Jogadores do Botafogo contra o Palmeiras — Foto: André Durão
+
+================================================================================
+PERGUNTA: Guarani de Palhoça
+================================================================================
+Data: 26/11/2026 19:26:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.574
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N164-C10
+Titulo: Dia do Irmão: o legado do campeão Netinho que inspirou Allan Aal a comandar o Avaí
+Data: 05/09/2026
+URL: https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/05/dia-do-irmao-o-legado-do-campeao-netinho-que-inspirou-allan-aal-a-comandar-o-avai.ghtml
+Similaridade: 0.505950
+Nota hibrida: 0.921261
+Trecho: Antes do Leão da Ilha, o profissional comandou profissionalmente o Rio Branco-PR, Foz do Iguaçu, Portuguesa, Nacional-SP, Cascavel, Paraná, Cuiabá, Guarani, CRB, Novorizontino, Vila Nova, ABC, Náutico, Guarani, Noroeste, Botafogo-SP e Londrina.
+
+Posicao: 2
+Chunk: N34-C9
+Titulo: Londrina anuncia quatro reforços para a sequência da Série B; veja os nomes
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/times/londrina/noticia/2026/09/09/londrina-anuncia-quatro-reforcos-para-a-sequencia-da-serie-b-veja-os-nomes.ghtml
+Similaridade: 0.505910
+Nota hibrida: 0.919610
+Trecho: Teve destaque no CSA, no ano passado, com oito gols e sete assistências em 44 jogos, defendeu também o Athletic, e nesta temporada fez 22 partidas pelo Guarani, com cinco gols e três assistências. Guilherme Cachoeira, atacante do Guarani — Foto: Raphael Silvestre Fechando a lista, o atacante Igor Bahia tem 33 anos e estava no ABC disputando a Série D, conquistando o acesso à Série C.
+
+Posicao: 3
+Chunk: N497-C5
+Titulo: Londrina anuncia dois atacantes para a sequência da Série B
+Data: 05/09/2026
+URL: https://ge.globo.com/pr/futebol/times/londrina/noticia/2026/09/05/londrina-anuncia-dois-atacantes-para-a-sequencia-da-serie-b.ghtml
+Similaridade: 0.446258
+Nota hibrida: 0.710719
+Trecho: A carreira profissional foi construída em diferentes estados do país. O jogador acumula passagens por clubes de Santa Catarina, São Paulo, Goiás, Pernambuco e Paraíba. Em 2024, defendeu o Maranhão e ganhou destaque pelo Iguatu-CE. Na temporada seguinte, Hebert atuou pelo América-RN. Em 2026, chegou ao Guarani e participou de 22 partidas, com seis gols marcados.
+
+================================================================================
+PERGUNTA: Quem é o técnico do Palmeiras?
+================================================================================
+Data: 26/11/2026 19:27:01
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.596
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N436-C4
+Titulo: Escalação: Palmeiras se prepara para enfrentar a LDU com quatro desfalques
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/escalacao-palmeiras-se-prepara-para-enfrentar-ldu-com-quatro-desfalques.ghtml
+Similaridade: 0.578666
+Nota hibrida: 0.981102
+Trecho: Andreas Pereira em preparação para enfrentar o Botafogo — Foto: Cesar Greco / Palmeiras Mais notícias do Palmeiras : + Os números que explicam queda de rendimento do Palmeiras + Por que frase de Abel irritou também parte da torcida do Palmeiras Na Academia, os atletas que foram titulares no último jogo fizeram trabalho regenerativo, enquanto os demais foram ao campo para um treino técnico em dimensões reduzidas com atletas do sub-20.
+
+Posicao: 2
+Chunk: N142-C3
+Titulo: Por que o Palmeiras vive má fase e sofre com queda de rendimento na reta final da temporada
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/08/por-que-o-palmeiras-vive-ma-fase-e-sofre-com-queda-de-rendimento-na-reta-final-da-temporada.ghtml
+Similaridade: 0.596091
+Nota hibrida: 0.947776
+Trecho: Piquerez, Andreas Pereira e Gustavo Gómez em Botafogo x Palmeiras — Foto: Cesar Greco / Palmeiras Mais notícias do Palmeiras : + Por que frase de Abel irritou também parte da torcida + Escalação: Palmeiras se prepara para enfrentar a LDU Em 2025, o Palmeiras passava por reformulação, fez 12 contratações e, na visão do clube, sofreu por desgaste físico, falta de experiência no elenco e certa permissividade defensiva, quando passou a sofrer gols evitáveis no fim.
+
+Posicao: 3
+Chunk: N156-C6
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.588935
+Nota hibrida: 0.904096
+Trecho: O relógio ou a pilha? Os dois. Respeito muito a história do Palmeiras . Venceu, está a vencer e continuará a vencer quando eu sair do clube. Para mim é um orgulho muito grande poder fazer parte do livro de história do Palmeiras e fazer de um capítulo de um clube que é centenário. Falar do que é o Palmeiras a um palmeirense é desnecessário, já repeti 500 vezes. – O Palmeiras é um estilo de vida.
+
+================================================================================
+PERGUNTA: Palmeiras ganhou?
+================================================================================
+Data: 26/11/2026 19:27:12
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.757
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Palmeiras ganhou.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N146-C4
+Titulo: Palmeiras teve uma vitória e metade do aproveitamento do Flamengo nos últimos cinco jogos
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/palmeiras-teve-uma-vitoria-e-metade-do-aproveitamento-do-flamengo-nos-ultimos-cinco-jogos.ghtml
+Similaridade: 0.680264
+Nota hibrida: 0.882452
+Trecho: Piquerez, Andreas Pereira e Gustavo Gómez em Botafogo x Palmeiras — Foto: Cesar Greco / Palmeiras Mais notícias do Palmeiras : + Abel sobre o Flamengo: "Obrigação de fazer muito mais" + Análise: Palmeiras desanda, perde vantagem e liderança depois de cinco meses Enquanto isso, o Flamengo, que já mantinha uma perseguição constante na disputa pela liderança do Brasileiro, venceu quatro de seus últimos cinco jogos no torneio, com 80% de aproveitamento (o dobro do Palmeiras ) entre a 22ª e a 26ª rodada.
+
+Posicao: 2
+Chunk: N156-C6
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.699752
+Nota hibrida: 0.873723
+Trecho: O relógio ou a pilha? Os dois. Respeito muito a história do Palmeiras . Venceu, está a vencer e continuará a vencer quando eu sair do clube. Para mim é um orgulho muito grande poder fazer parte do livro de história do Palmeiras e fazer de um capítulo de um clube que é centenário. Falar do que é o Palmeiras a um palmeirense é desnecessário, já repeti 500 vezes. – O Palmeiras é um estilo de vida.
+
+Posicao: 3
+Chunk: N424-C13
+Titulo: Atuações do Palmeiras: Andreas é quem mais arrisca, e Barboza é expulso em empate; dê suas notas
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/atuacoes-do-palmeiras-andreas-e-quem-mais-arrisca-e-barboza-e-expulso-em-empate-de-suas-notas.ghtml
+Similaridade: 0.603504
+Nota hibrida: 0.868582
+Trecho: Palmeiras X Botafogo - Campeonato Brasileiro 2026 - 26ª Rodada Avalie os atletas para aparecer no compartilhamento Botafogo 0 x 0 Palmeiras | Melhores Momentos | 26ª rodada | Campeonato Brasileiro 2026 Felipe Melo critica Abel: "O Palmeiras é muito maior do que você" Time do Palmeiras antes do jogo contra o Botafogo — Foto: Cesar Greco / Palmeiras
+
+================================================================================
+PERGUNTA: Corinthians vai ser rebaixado? Abel admitiu erro em entrevista?
+================================================================================
+Data: 26/11/2026 19:27:41
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.777
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Não sei.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N156-C1
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.688623
+Nota hibrida: 0.926059
+Trecho: Veja a coletiva de Abel Ferreira após vitória do Palmeiras sobre a LDU Abel Ferreira admitiu que errou em sua última entrevista, quando disse que a torcida do Palmeiras tinha que desfrutar porque nunca festejou como nos últimos cinco anos .
+
+Posicao: 2
+Chunk: N156-C4
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.776822
+Nota hibrida: 0.876082
+Trecho: Mais notícias do Palmeiras : + Deyverson sonha com retorno: "Terminar a carreira aqui" + Quem foi bem no jogo? Quem foi mal?
+
+Posicao: 3
+Chunk: N156-C9
+Titulo: Abel admite erro em entrevista e manda recado à torcida: "Ninguém é maior do que o Palmeiras"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/09/abel-admite-erro-em-entrevista-e-manda-recado-a-torcida-ninguem-e-maior-que-o-palmeiras.ghtml
+Similaridade: 0.670805
+Nota hibrida: 0.763901
+Trecho: – Fiquei contente pelo volume e quantidade de oportunidade que criamos. A pergunta que respondi meio torto no último jogo, a nós tem faltado sobretudo em casa, a forma como as equipes se fecham aqui e esperam um erro nosso. Temos que aprimorar esse tipo de jogo, seja em combinação, arremate, acho que conseguimos ver isso contra uma equipe que veio no 5-3-2.
+
+================================================================================
+PERGUNTA: Qual sua opinião sobre o Corinthians?
+================================================================================
+Data: 26/11/2026 19:28:16
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.690
+Decisao: GERAR
+
+========== RESPOSTA ==========
+O Corinthians está entre os oito melhores clubes da América do Sul em 2026, mas enfrenta um momento difícil. A equipe está atrasando o pagamento dos salários dos jogadores e da comissão técnica, além de ter sido atrasada novamente pelo Corinthians. Os atletas do Corinthians estão fora das quartas de final da Conmebol Libertadores.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N310-C5
+Titulo: Matheuzinho sai em defesa de Diniz no Corinthians: "Estamos fechados com ele"
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/08/matheuzinho-sai-em-defesa-de-diniz-no-corinthians-estamos-fechados-com-ele.ghtml
+Similaridade: 0.681757
+Nota hibrida: 0.946872
+Trecho: Mais notícias do Corinthians : + Estudiantes nasceu em sapataria e fez história na Libertadores + Memphis ainda busca ritmo no Corinthians Embora esteja entre os oito melhores clubes da América do Sul em 2026, o Corinthians não atravessa um bom momento .
+
+Posicao: 2
+Chunk: N381-C4
+Titulo: Kaio César admite incômodo com atrasos no Corinthians, mas diz: "Não pode pensar em dinheiro"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/kaio-cesar-admite-incomodo-com-atrasos-no-corinthians-mas-diz-nao-pode-pensar-em-dinheiro.ghtml
+Similaridade: 0.621361
+Nota hibrida: 0.892101
+Trecho: Kaio César em Estudiantes x Corinthians pela Conmebol Libertadores — Foto: Rodrigo Coca / Corinthians Mais notícias do Corinthians : + Diniz elogia mudança de postura do Corinthians na Libertadores + Garro vira líder de assistências na Libertadores e ganha elogio de Diniz O Corinthians atrasou mais uma vez o pagamento dos salários dos jogadores e da comissão técnica, previsto para o quinto dia útil de setembro.
+
+Posicao: 3
+Chunk: N167-C8
+Titulo: Atuações do Corinthians: Garro dá assistência, e Kaio César decide na Libertadores; dê suas notas
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/atuacoes-do-corinthians-garro-da-assistencia-e-kaio-cesar-decide-na-libertadores-de-suas-notas.ghtml
+Similaridade: 0.623572
+Nota hibrida: 0.877732
+Trecho: Corinthians X Estudiantes - Taça Conmebol Libertadores 2026 - Quartas de final Avalie os atletas para aparecer no compartilhamento Estudiantes 1 x 1 Corinthians | Melhores momentos | Quartas de final | CONMEBOL Libertadores 2026 Mais notícias do Corinthians : + Matheuzinho, Hugo e Bidon festejam convocação para a Seleção + Dívida do Corinthians com empresário se aproxima de R$ 100 milhões Jogadores do Corinthians antes de jogo contra o Estudiantes, pelas quartas de final da Conmebol Libertadores — Foto: Gabriel Oliveira
+
+================================================================================
+PERGUNTA: Quais atletas?
+================================================================================
+Data: 26/11/2026 19:28:33
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.575
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N208-C4
+Titulo: Bastidores: como ficou o clima entre Kaio Jorge e Matheus Pereira no vestiário do Cruzeiro
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/07/bastidores-como-ficou-o-clima-entre-kaio-jorge-e-matheus-pereira-no-vestiario-do-cruzeiro.ghtml
+Similaridade: 0.472534
+Nota hibrida: 0.902468
+Trecho: Matheus Pereira e Kaio Jorge Cruzeiro — Foto: Gilson Lobo Os dois jogadores não concederam entrevista após a partida. O Cruzeiro, em todo jogo, define quais atletas atenderão à imprensa. Nas redes sociais, os dois atletas se manifestaram. O camisa 10 postou imagens da partida, inclusive uma abraçando Kaio Jorge, com a frase "pelo Cruzeiro sempre".
+
+Posicao: 2
+Chunk: N112-C6
+Titulo: Convocados da Seleção: o que sabemos da pré-lista para amistosos contra Austrália e Índia
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/07/convocados-da-selecao-o-que-sabemos-da-pre-lista-para-amistosos-contra-australia-e-india.ghtml
+Similaridade: 0.574701
+Nota hibrida: 0.824273
+Trecho: A comissão técnica acompanha atletas das seleções sub-17 e sub-20 e também nomes que poderão fazer parte do próximo ciclo olímpico.
+
+Posicao: 3
+Chunk: N131-C7
+Titulo: Corinthians tem quatro jogadores na pré-lista de convocados da Seleção para amistosos
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/corinthians-tem-quatro-jogadores-na-pre-lista-de-convocados-da-selecao-para-amistosos.ghtml
+Similaridade: 0.530413
+Nota hibrida: 0.788133
+Trecho: A comissão técnica acompanha atletas das seleções sub-17 e sub-20 e também nomes que poderão fazer parte do próximo ciclo olímpico.
+
+================================================================================
+PERGUNTA: Qual o apelido do Fluminense?
+================================================================================
+Data: 26/11/2026 19:28:48
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.610
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Fluminense
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N287-C8
+Titulo: Auxiliar do Fluminense viraliza com gesto para chamar jogadores no aquecimento; veja
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/auxiliar-do-fluminense-viraliza-com-gesto-para-chamar-jogadores-no-aquecimento-veja.ghtml
+Similaridade: 0.497389
+Nota hibrida: 0.883497
+Trecho: Fluminense troca 28 passes em 1 minuto e meio até o gol de Hulk O "Baixola", apelido carinhoso de Lucho Acosta entre os companheiros, deve ganhar nova oportunidade neste sábado, desta vez como titular. O Fluminense enfrenta o Atlético-MG às 16h (de Brasília), na Arena MRV, pela 27ª rodada do Campeonato Brasileiro, partida em que alguns titulares serão preservados.
+
+Posicao: 2
+Chunk: N295-C8
+Titulo: Fluminense se apoia no retrospecto de Marcão em clássicos para reencontro com o Vasco
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/04/fluminense-se-apoia-no-retrospecto-de-marcao-em-classicos-para-reencontro-com-o-vasco.ghtml
+Similaridade: 0.609740
+Nota hibrida: 0.859701
+Trecho: Marcão dá instruções para o time do Fluminense contra o Independiente Rivadavia — Foto: Marcelo Gonçalves / Fluminense FC
+
+Posicao: 3
+Chunk: N373-C15
+Titulo: Rival do Fluminense, Platense chega em má fase às quartas de final da Libertadores
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/rival-do-fluminense-platense-chega-em-ma-fase-as-quartas-de-final-da-libertadores.ghtml
+Similaridade: 0.553662
+Nota hibrida: 0.805480
+Trecho: Rivadavia? Veja a análise do ge Fluminense
+
+================================================================================
+PERGUNTA: Flu é apelido de que time?
+================================================================================
+Data: 26/11/2026 19:29:00
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.523
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N287-C8
+Titulo: Auxiliar do Fluminense viraliza com gesto para chamar jogadores no aquecimento; veja
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/auxiliar-do-fluminense-viraliza-com-gesto-para-chamar-jogadores-no-aquecimento-veja.ghtml
+Similaridade: 0.430547
+Nota hibrida: 0.854695
+Trecho: Fluminense troca 28 passes em 1 minuto e meio até o gol de Hulk O "Baixola", apelido carinhoso de Lucho Acosta entre os companheiros, deve ganhar nova oportunidade neste sábado, desta vez como titular. O Fluminense enfrenta o Atlético-MG às 16h (de Brasília), na Arena MRV, pela 27ª rodada do Campeonato Brasileiro, partida em que alguns titulares serão preservados.
+
+Posicao: 2
+Chunk: N373-C2
+Titulo: Rival do Fluminense, Platense chega em má fase às quartas de final da Libertadores
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/rival-do-fluminense-platense-chega-em-ma-fase-as-quartas-de-final-da-libertadores.ghtml
+Similaridade: 0.471714
+Nota hibrida: 0.854029
+Trecho: Esse será o primeiro encontro do Flu com o time argentino, que conquistou no ano passado o primeiro título em mais de 100 anos de história. Além da Libertadores, o Platense disputa atualmente o Torneio Clausura (espécie de segundo turno do campeonato nacional) e repete desempenho ruim do Apertura. A equipe ocupa a 12ª colocação, com apenas nove pontos em oito jogos.
+
+Posicao: 3
+Chunk: N494-C7
+Titulo: Marcão chega invicto e com melhor começo pelo Fluminense antes de decisão na Libertadores
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/marcao-chega-invicto-e-com-melhor-comeco-pelo-fluminense-antes-de-decisao-na-libertadores.ghtml
+Similaridade: 0.409109
+Nota hibrida: 0.849305
+Trecho: Flu vence clássico, entra no G4 e mantém Vasco no Z4
+
+================================================================================
+PERGUNTA: Galo é apelido de que time?
+================================================================================
+Data: 26/11/2026 19:29:08
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.603
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Galáctico
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N116-C4
+Titulo: Quem é o jovem zagueiro ex-Flamengo que virou opção com titulares do Atlético-MG no DM
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/05/quem-e-o-jovem-zagueiro-ex-flamengo-que-virou-opcao-com-titulares-do-atletico-mg-no-dm.ghtml
+Similaridade: 0.518145
+Nota hibrida: 0.828642
+Trecho: O atleta tem participado de treinos com a equipe principal na Cidade do Galo. O jovem zagueiro foi captado por Luiz Carlos Azevedo, gerente da base do Galo, quando o profissional ainda trabalhava no Flamengo. Ao ge , o dirigente contou que conheceu Lemos em 2021, quando o defensor atuava na Ferroviária, ainda no Sub-16. No ano seguinte, Lemos foi para o Flamengo, onde jogou pelo Sub-17.
+
+Posicao: 2
+Chunk: N116-C1
+Titulo: Quem é o jovem zagueiro ex-Flamengo que virou opção com titulares do Atlético-MG no DM
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/05/quem-e-o-jovem-zagueiro-ex-flamengo-que-virou-opcao-com-titulares-do-atletico-mg-no-dm.ghtml
+Similaridade: 0.602870
+Nota hibrida: 0.816069
+Trecho: Com DM cheio, Galo enfrenta o São Paulo pelo Brasileirão O Atlético-MG vive um período de azar no departamento médico. Com três zagueiros lesionados, o técnico Eduardo Domínguez recorreu aos jovens talentos do setor. Pedro Lemos, de 20 anos, foi quem virou opção e pode ganhar chance diante do São Paulo, neste sábado, às 18h30 (de Brasília), no Morumis, pelo Brasileirão.
+
+Posicao: 3
+Chunk: N360-C3
+Titulo: Zagueiro que não estreou pelo Atlético-MG se recupera de lesão e fica disponível
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/zagueiro-que-nao-estreou-pelo-atletico-mg-se-recupera-de-lesao-e-fica-disponivel.ghtml
+Similaridade: 0.477872
+Nota hibrida: 0.807452
+Trecho: O jogador, contudo, não estreou com a camisa do Galo. Ele se lesionou durante a Copa do Mundo. Léo Duarte chegou no Galo como substituto de Júnior Alonso, que rescindiu com o Alvinegro e fechou com o Atlanta United, dos Estados Unidos. Embora seja destro e não tenha as mesmas características do paraguaio, ele disputará posição na zaga atleticana.
+
+================================================================================
+PERGUNTA: Internacional empatou com o Cruzeiro?
+================================================================================
+Data: 26/11/2026 19:29:22
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.592
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N127-C1
+Titulo: Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/imprensa-internacional-repercute-revolucao-de-ancelotti-na-selecao-nova-era.ghtml
+Similaridade: 0.500461
+Nota hibrida: 0.868620
+Trecho: Seleção Brasileira: Ancelotti abre ciclo para Copa de 2030 com oito estreantes A primeira convocação da Seleção após a Copa do Mundo de 2026 repercutiu na imprensa internacional.
+
+Posicao: 2
+Chunk: N127-C3
+Titulo: Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/imprensa-internacional-repercute-revolucao-de-ancelotti-na-selecao-nova-era.ghtml
+Similaridade: 0.560252
+Nota hibrida: 0.845498
+Trecho: Imprensa internacional repercute "revolução" de Ancelotti na Seleção — Foto: Reprodução Na Espanha, o jornal "As" foi direto na manchete: "Ancelotti revoluciona o Brasil: 16 novidades!". O jornal considera que a convocação representa o verdadeiro ponto de partida do trabalho do italiano pensando na Copa do Mundo de 2030. - A verdadeira era de “Carletto” na Seleção começa agora - escreveu o jornal.
+
+Posicao: 3
+Chunk: N142-C20
+Titulo: Por que o Palmeiras vive má fase e sofre com queda de rendimento na reta final da temporada
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/08/por-que-o-palmeiras-vive-ma-fase-e-sofre-com-queda-de-rendimento-na-reta-final-da-temporada.ghtml
+Similaridade: 0.481051
+Nota hibrida: 0.844109
+Trecho: Seleção Sportv: Palmeiras perde pontos em casa para o Internacional Esse mesmo problema apareceu já na reta final do Brasileiro do ano passado, quando precisava vencer para recuperar a liderança e só empatou com Vitória e Fluminense. Jogos que na visão de Abel Ferreira foram definitivos para determinar o líder da competição.
+
+================================================================================
+PERGUNTA: Ancelotti é o técnico do Remo?
+================================================================================
+Data: 26/11/2026 19:29:39
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.588
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N253-C1
+Titulo: Ancelotti rasga elogios a Endrick em novo ciclo da Seleção: "Será importante no futuro"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/09/09/ancelotti-rasga-elogios-a-endrick-em-novo-ciclo-da-selecao-sera-importante-no-futuro.ghtml
+Similaridade: 0.587984
+Nota hibrida: 0.965617
+Trecho: Ancelotti, sobre convocação da Seleção: "É uma lista equilibrada" O técnico Carlo Ancelotti fez muitos elogios a Endrick durante a primeira convocação da seleção brasileira no ciclo da Copa do Mundo de 2030 . O atacante do Real Madrid foi um dos 23 jogadores chamados para os amistosos contra Austrália e Índia, entre o fim de setembro e o início de outubro.
+
+Posicao: 2
+Chunk: N388-C5
+Titulo: Marcelo Rangel revela brincadeira de Pedro depois de defesa incrível em Remo x Flamengo
+Data: 07/09/2026
+URL: https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/07/marcelo-rangel-revela-brincadeira-de-pedro-depois-de-defesa-incrivel-em-remo-x-flamengo.ghtml
+Similaridade: 0.528230
+Nota hibrida: 0.908666
+Trecho: Marcelo foi considerado o melhor em campo pelo bom desempenho. Aos 38 anos, o goleiro está em sua terceira temporada no Remo, é um dos pilares do elenco e foi um dos remanescentes da equipe que subiu da Série B para a elite do Brasileirão. O Remo tem 23 pontos, na penúltima posição, e volta a campo somente na próxima segunda-feira, dia 14, contra o Bahia, na Fonte Nova.
+
+Posicao: 3
+Chunk: N253-C6
+Titulo: Ancelotti rasga elogios a Endrick em novo ciclo da Seleção: "Será importante no futuro"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/09/09/ancelotti-rasga-elogios-a-endrick-em-novo-ciclo-da-selecao-sera-importante-no-futuro.ghtml
+Similaridade: 0.556961
+Nota hibrida: 0.893378
+Trecho: Matheus Cunha conquistou a titularidade durante o torneio, mas não foi convocado nesta primeira lista de Ancelotti. Carlo Ancelotti conversa com Endrick antes de colocá-lo em campo em Brasil x Japão — Foto: Michael Regan - FIFA/FIFA via Getty Images
+
+================================================================================
+PERGUNTA: Ancelotti é técnico do que?
+================================================================================
+Data: 26/11/2026 19:29:47
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.597
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Ancelotti é técnico do Real Madrid.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N253-C1
+Titulo: Ancelotti rasga elogios a Endrick em novo ciclo da Seleção: "Será importante no futuro"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/09/09/ancelotti-rasga-elogios-a-endrick-em-novo-ciclo-da-selecao-sera-importante-no-futuro.ghtml
+Similaridade: 0.587901
+Nota hibrida: 0.975574
+Trecho: Ancelotti, sobre convocação da Seleção: "É uma lista equilibrada" O técnico Carlo Ancelotti fez muitos elogios a Endrick durante a primeira convocação da seleção brasileira no ciclo da Copa do Mundo de 2030 . O atacante do Real Madrid foi um dos 23 jogadores chamados para os amistosos contra Austrália e Índia, entre o fim de setembro e o início de outubro.
+
+Posicao: 2
+Chunk: N127-C7
+Titulo: Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/imprensa-internacional-repercute-revolucao-de-ancelotti-na-selecao-nova-era.ghtml
+Similaridade: 0.596929
+Nota hibrida: 0.917530
+Trecho: Também destacou a intenção declarada de Ancelotti de lançar uma nova geração e aproveitar o período de quatro anos para construir a equipe com mais tempo do que teve na preparação para a Copa de 2026.
+
+Posicao: 3
+Chunk: N127-C8
+Titulo: Imprensa internacional repercute "revolução" de Ancelotti na Seleção
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/imprensa-internacional-repercute-revolucao-de-ancelotti-na-selecao-nova-era.ghtml
+Similaridade: 0.567999
+Nota hibrida: 0.896422
+Trecho: Imprensa internacional repercute revolução de Ancelotti na Seleção — Foto: Reprodução Em Portugal, "A Bola" também utilizou o termo "revolução" para definir as mudanças de Ancelotti, mas escolheu um personagem específico para destacar a convocação. Com passagem pelo Gil Vicente, Samuel Lino ganhou a manchete: "Ex-Gil Vicente é surpresa na revolução de Ancelotti".
+
+================================================================================
+PERGUNTA: Quem o técnico da Seleção?
+================================================================================
+Data: 26/11/2026 19:29:59
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.526
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N342-C6
+Titulo: Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/convocacao-da-selecao-veja-a-lista-de-carlo-ancelotti-para-os-amistosos-contra-australia-e-india.ghtml
+Similaridade: 0.503571
+Nota hibrida: 0.858647
+Trecho: O técnico aproveitou a entrevista coletiva para mandar um recado positivo para nomes mais experientes ou já com histórico na Seleção. Ancelotti sobre carência no meio-campo: "Colocar uma nova geração de jogadores" — Para todos os outros não há porta fechada, a porta está aberta a todos. Lógico que agora eu prefiro focar meu trabalho com os jovens e acompanhar o progresso deles.
+
+Posicao: 2
+Chunk: N329-C10
+Titulo: Lodi explica episódio da vacina na Seleção, rebate Tite e mira novo ciclo para Copa
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/08/lodi-explica-episodio-da-vacina-na-selecao-rebate-tite-e-mira-novo-ciclo-para-copa.ghtml
+Similaridade: 0.326869
+Nota hibrida: 0.781046
+Trecho: Um dos meus objetivos ao vir para cá foi a seleção brasileira. Primeiro, fazer meu nome aqui, conquistar títulos aqui. A seleção vai ser consequência. — Não é que não estava preparado quando ia para a Seleção. Mas, hoje, sou mais maduro ao entender o lado técnico e tático do jogo, saber ler o jogo. Estou mais preparado.
+
+Posicao: 3
+Chunk: N318-C5
+Titulo: Martinelli, do Fluminense, nutre expectativa por Seleção: "Trabalhando por esse sonho"
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/09/martinelli-do-fluminense-nutre-expectativa-por-selecao-trabalhando-por-esse-sonho.ghtml
+Similaridade: 0.385562
+Nota hibrida: 0.738855
+Trecho: Vamos esperar amanhã, o professor sabe quem chamar. A gente está aí trabalhando pra que um dia possa realizar esse sonho - disse ele, medindo as palavras ao ser perguntado sobre a possibilidade. O técnico Carlo Ancelotti anuncia nesta quarta-feira, a primeira convocação da seleção brasileira após a Copa do Mundo.
+
+================================================================================
+PERGUNTA: Quem o técnico do Brasil?
+================================================================================
+Data: 26/11/2026 19:30:08
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.760
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Luiz Henrique
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N450-C3
+Titulo: Semifinais da Copa do Brasil 2026: veja os mandos de campo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/copa-do-brasil/noticia/2026/09/10/semifinais-da-copa-do-brasil-2026-veja-os-mandos-de-campo.ghtml
+Similaridade: 0.630011
+Nota hibrida: 0.886450
+Trecho: Esporte Espetacular acompanha clássicos das quartas de final da Copa do Brasil Troféu da Copa do Brasil: quatro times continuam na disputa — Foto: Rafael Ribeiro/CBF Todos os envolvidos na disputa já conquistaram títulos da Copa do Brasil: A Copa do Brasil 2026 começou em fevereiro, com 126 clubes. Sete fases eliminatórias depois, apenas quatro times continuam na disputa.
+
+Posicao: 2
+Chunk: N176-C7
+Titulo: Luiz Henrique fica no Zenit, completa dois anos de Seleção e mira nova chance com Ancelotti
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/luiz-henrique-fica-no-zenti-completa-dois-anos-de-selecao-e-mira-nova-chance-com-ancelotti.ghtml
+Similaridade: 0.688243
+Nota hibrida: 0.872214
+Trecho: Luiz Henrique em ensaio do Brasil para a Copa do Mundo — Foto: Sam Robles/CBF O técnico da Seleção, Carlo Ancelotti, anunciará na quarta-feira a convocação para os amistosos contra Austrália e Índia. Serão os primeiros jogos do Brasil depois da Copa do Mundo, quando foi eliminado nas oitavas de final.
+
+Posicao: 3
+Chunk: N181-C3
+Titulo: VC Escala: monte o time ideal do Vasco contra o Santa Fe na Sul-Americana
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/07/vc-escala-monte-o-time-ideal-do-vasco-contra-o-santa-fe-na-sul-americana.ghtml
+Similaridade: 0.684155
+Nota hibrida: 0.853322
+Trecho: As escolhas fazem parte do planejamento para administrar o desgaste do elenco, que disputa simultaneamente o Brasileirão, a Copa do Brasil e a Sul-Americana. Pedro Emanuel, técnico do Vasco, em jogo contra o Vitória, pela Copa do Brasil — Foto: André Durão Pedro Emanuel relacionou um time com alguns titulares, reservas e jogadores da base que irão compor o elenco.
+
+================================================================================
+PERGUNTA: São Paulo é de que cidade?
+================================================================================
+Data: 26/11/2026 19:30:40
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.697
+Decisao: GERAR
+
+========== RESPOSTA ==========
+São Paulo é de São Paulo.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N454-C3
+Titulo: Recuperado, Victor Sá reforça o São Paulo para enfrentar o Boca Juniors na Sul-Americana
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/07/recuperado-victor-sa-reforca-o-sao-paulo-para-enfrentar-o-boca-juniors-na-sul-americana.ghtml
+Similaridade: 0.686286
+Nota hibrida: 0.929371
+Trecho: Victor Sá em treino do São Paulo — Foto: Rubens Chiri/SPFC Mais do São Paulo : + São Paulo dá premiação extra e adota "bicho molhado!; entenda + São Paulo empresta lateral Maik ao Dukla, da Eslováquia Após os trabalhos, o time viajou em voo fretado para Buenos Aires na tarde desta segunda-feira.
+
+Posicao: 2
+Chunk: N319-C6
+Titulo: São Paulo dá premiação extra e adota "bicho molhado" por vitórias sobre Bragantino e Atlético-MG
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/07/sao-paulo-da-premiacao-extra-e-adota-bicho-molhado-por-vitorias-sobre-bragantino-e-atletico-mg.ghtml
+Similaridade: 0.697226
+Nota hibrida: 0.912064
+Trecho: Depois das duas vitórias consecutivas no Brasileirão, o São Paulo volta suas atenções para a Copa Sul-Americana e enfrenta o Boca Juniors nesta terça-feira, às 21h30, ns Bombonera, pelas quartas de final. O duelo de volta ocorre no Morumbis na terça-feira seguinte. Rafinha é o novo executivo de futebol do São Paulo — Foto: Divulgação / São Paulo
+
+Posicao: 3
+Chunk: N250-C5
+Titulo: "Vai lá de coração": como amizade com Chacarita embala São Paulo antes de duelo com o Boca
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/08/vai-la-de-coracao-como-amizade-com-chacarita-embala-sao-paulo-antes-de-duelo-com-o-boca.ghtml
+Similaridade: 0.658660
+Nota hibrida: 0.908894
+Trecho: Mais do São Paulo : + Comissão que analisa contrato do São Paulo com a Ticketmaster troca dois integrantes Desde então, se tornou cada vez mais comum ver camisas do São Paulo no estádio do Chacarita, em Villa Maipú.
+
+================================================================================
+PERGUNTA: São Paulo tem que jogador?
+================================================================================
+Data: 26/11/2026 19:30:48
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.842
+Decisao: GERAR
+
+========== RESPOSTA ==========
+São Paulo precisa de um jogador.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N309-C7
+Titulo: Dorival descarta poupar titulares no Choque-Rei, mas São Paulo pode perder Luciano
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/09/dorival-descarta-poupar-titulares-no-choque-rei-mas-sao-paulo-pode-perder-luciano.ghtml
+Similaridade: 0.775065
+Nota hibrida: 0.929909
+Trecho: Mais do São Paulo : + São Paulo é derrotado pelo Boca Juniors e sai atrás nas quartas da Sul-Americana + Atuações: Arboleda é o melhor em derrota do São Paulo para o Boca; dê suas notas Luciano vive uma boa fase com a camisa do São Paulo e marcou duas vezes nas vitórias sobre Bragantino e Atlético-MG. O atacante se consolidou como artilheiro do clube na temporada com 14 gols.
+
+Posicao: 2
+Chunk: N347-C1
+Titulo: E o Pedro Ferreira? Entenda por que joia da base não engrenou no time profissional do São Paulo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/e-o-pedro-ferreira-entenda-por-que-joia-da-base-nao-engrenou-no-time-profissional-do-sao-paulo.ghtml
+Similaridade: 0.841755
+Nota hibrida: 0.927906
+Trecho: São Paulo está otimista em ter Luciano contra o Boca | Voz do Setorista SPFC Pedro Ferreira, de 19 anos, ainda aguarda mais oportunidades no time profissional do São Paulo . Destaque do time na Copinha, ele integra o elenco de Dorival Júnior, mas entrou em campo apenas nove vezes na temporada. A comissão técnica acredita que falta ao jogador "competir" mais.
+
+Posicao: 3
+Chunk: N347-C5
+Titulo: E o Pedro Ferreira? Entenda por que joia da base não engrenou no time profissional do São Paulo
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/e-o-pedro-ferreira-entenda-por-que-joia-da-base-nao-engrenou-no-time-profissional-do-sao-paulo.ghtml
+Similaridade: 0.809209
+Nota hibrida: 0.922691
+Trecho: Mais do São Paulo : + São Paulo está otimista em ter Luciano contra o Boca, mas deve poupá-lo de jogo com o Palmeiras + Dorival descarta poupar titulares no Choque-Rei, mas São Paulo pode perder Luciano Promete! Pedro Ferreira é o camisa 10 da base do São Paulo Pedro Ferreira foi relacionado 28 vezes e entrou em campo em nove partidas, somando apenas 125 minutos. Ele ainda não foi titular no ano.
+
+================================================================================
+PERGUNTA: Quem é Lionel Messi?
+================================================================================
+Data: 26/11/2026 19:31:03
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.704
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Lionel Messi é o astro argentino que chegou a um princípio de acordo para comprar o Eldense, clube da segunda divisão espanhola. Ele é considerado o maior vencedor da Bola de Ouro masculina com oito conquistas.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N185-C1
+Titulo: Messi chega a princípio de acordo para comprar clube da segunda divisão espanhola
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/08/messi-chega-a-principio-de-acordo-para-comprar-clube-da-segunda-divisao-espanhola.ghtml
+Similaridade: 0.646155
+Nota hibrida: 0.948373
+Trecho: O astro Lionel Messi chegou a um princípio de acordo para comprar o Eldense, clube da segunda divisão espanhola. De acordo com diversos veículos da imprensa local, Messi tem um acerto inicial para virar o acionista majoritário da equipe. O jornal "Marca" diz que o argentino comprará 100% das ações, sem a participação de terceiros.
+
+Posicao: 2
+Chunk: N85-C7
+Titulo: Vozinha, destaque de Cabo Verde na Copa, é indicado a melhor goleiro da Bola de Ouro 2026
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/08/vozinha-destaque-de-cabo-verde-na-copa-e-indicado-a-melhor-goleiro-da-bola-de-ouro-2026.ghtml
+Similaridade: 0.625531
+Nota hibrida: 0.931125
+Trecho: O argentino Lionel Messi é o maior vencedor da história da Bola de Ouro masculina, com oito conquistas.
+
+Posicao: 3
+Chunk: N15-C1
+Titulo: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/video-inedito-de-messi-fazendo-embaixadas-sentado-viraliza-veja.ghtml
+Similaridade: 0.611577
+Nota hibrida: 0.920691
+Trecho: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja Um vídeo inédito que mostra a magia de Lionel Messi há mais de 15 anos veio à tona e viralizou nas redes sociais. O ex-jogador Jonás Gutiérrez compartilhou em seu perfil imagens nas quais Messi aparece fazendo embaixadinhas sentado, por mais de dois minutos, em 2010.
+
+================================================================================
+PERGUNTA: Quem é Messi?
+================================================================================
+Data: 26/11/2026 19:31:14
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.678
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Messi é um jogador de futebol argentino.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N15-C2
+Titulo: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/video-inedito-de-messi-fazendo-embaixadas-sentado-viraliza-veja.ghtml
+Similaridade: 0.677862
+Nota hibrida: 0.954365
+Trecho: O registro foi feito por Gutiérrez na concentração da Argentina durante a Copa do Mundo de 2010, a segunda disputada por Messi. Os dois estão no quarto junto a Martín Demichelis e Maxi Rodríguez. Messi recebe a bola - a famosa Jabulani - e, sentado, a controla fazendo embaixadinhas por dois minutos. - Mundial de 2010. Um vídeo que nunca foi compartilhado.
+
+Posicao: 2
+Chunk: N15-C1
+Titulo: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/video-inedito-de-messi-fazendo-embaixadas-sentado-viraliza-veja.ghtml
+Similaridade: 0.607377
+Nota hibrida: 0.921221
+Trecho: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja Um vídeo inédito que mostra a magia de Lionel Messi há mais de 15 anos veio à tona e viralizou nas redes sociais. O ex-jogador Jonás Gutiérrez compartilhou em seu perfil imagens nas quais Messi aparece fazendo embaixadinhas sentado, por mais de dois minutos, em 2010.
+
+Posicao: 3
+Chunk: N15-C4
+Titulo: Vídeo inédito de Messi fazendo embaixadas sentado viraliza; veja
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/video-inedito-de-messi-fazendo-embaixadas-sentado-viraliza-veja.ghtml
+Similaridade: 0.586806
+Nota hibrida: 0.916669
+Trecho: Messi em vídeo de 2010, fazendo embaixadinhas sentado — Foto: Reprodução/Instagram Messi anunciou nesta semana sua aposentadoria da seleção argentina. Ele divulgou uma carta que disse ter escrito dias depois da final da Copa do Mundo, na qual a Argentina perdeu para a Espanha.
+
+================================================================================
+PERGUNTA: Quem é Cristiano Ronaldo?
+================================================================================
+Data: 26/11/2026 19:31:31
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.683
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Cristiano Ronaldo é um jogador de futebol português.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N444-C2
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.605955
+Nota hibrida: 0.929272
+Trecho: Cristiano Ronaldo celebra gol em vitória do Al-Nassr — Foto: Reuters O gol saiu em uma das especialidades do astro, mesmo aos 41 anos. Após cobrança de escanteio pela direita, Cristiano Ronaldo subiu bem entre os marcadores e testou firme, no canto e sem chances para o goleiro adversário, aos 21 do primeiro tempo.
+
+Posicao: 2
+Chunk: N444-C3
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.682636
+Nota hibrida: 0.898129
+Trecho: Foi o terceiro gol de Cristiano Ronaldo em cinco partidas na temporada 2026/27, iniciada após a última Copa do Mundo da carreira do craque de 41 anos. O camisa 7 também marcou diante do Al-Riyadh e do Al-Taawoun - passou em branco contra Al-Ettifaq e Al-Ittihad.
+
+Posicao: 3
+Chunk: N399-C5
+Titulo: Conheça árbitro sírio que já atuou em jogo de Cristiano Ronaldo e hoje apita no Paraná
+Data: 06/09/2026
+URL: https://ge.globo.com/pr/futebol/noticia/2026/09/06/conheca-arbitro-sirio-que-ja-atuou-em-jogo-de-cristiano-ronaldo-e-hoje-apita-no-parana.ghtml
+Similaridade: 0.613210
+Nota hibrida: 0.850046
+Trecho: Hanna Hattab como quarto árbitro em jogo com Cristiano Ronaldo — Foto: Divulgação/AFC Em 2011, ele ingressou no Project Future Referees , da Confederação Asiática de Futebol (AFC), programa voltado à formação de árbitros, e conquistou o escudo da Fifa apenas quatro anos mais tarde.
+
+================================================================================
+PERGUNTA: Quem é o CR7?
+================================================================================
+Data: 26/11/2026 19:31:36
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.498
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N348-C2
+Titulo: Operário-PR x CRB: onde assistir ao vivo, horário e escalações
+Data: 09/09/2026
+URL: https://ge.globo.com/pr/futebol/brasileirao-serie-b/noticia/2026/09/09/operario-pr-x-crb-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
+Similaridade: 0.498440
+Nota hibrida: 0.700000
+Trecho: O CRB é o sexto, com 42 poontos, vem de vitória no último jogo, contra o América-MG, por 3 a 1, e embalado com o desempenho no returno. Desde a chegada do técnico Fábio Matias, são 10 jogos, com sete vitórias, dois empates e apenas uma derrota, um aproveitamento de 76,7% com o novo treinador. Além disso, o desempenho fora de casa é muito positivo.
+
+Posicao: 2
+Chunk: N458-C1
+Titulo: Cuiabá x Athletic: onde assistir ao vivo, horário e escalações
+Data: 07/09/2026
+URL: https://ge.globo.com/mt/futebol/brasileirao-serie-b/noticia/2026/09/07/cuiaba-x-athletic-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml
+Similaridade: 0.495941
+Nota hibrida: 0.697125
+Trecho: Criciúma vence o Cuiabá e volta a liderança da Série B O Cuiabá chega para a partida depois de perder por 2 a 0 para o Criciúma, resultado que encerrou uma sequência de seis jogos de invencibilidade e impediu o time de se aproximar do G-6. Com 36 pontos, na 13ª posição, o Dourado busca se recuperar em confronto direto diante do Athletic-MG. O Athletic vem de um grande resultado no torneio.
+
+Posicao: 3
+Chunk: N66-C8
+Titulo: Pelo Corinthians, jogador de Cuiabá é artilheiro e campeão da Liga Nacional de Futebol 7
+Data: 09/09/2026
+URL: https://ge.globo.com/mt/futebol/noticia/2026/09/09/pelo-corinthians-jogador-de-cuiaba-e-artilheiro-e-campeao-da-liga-nacional-de-futebol-7.ghtml
+Similaridade: 0.476616
+Nota hibrida: 0.674890
+Trecho: A participação na Liga Nacional de Futebol 7 representou uma nova oportunidade em uma competição de alcance nacional e terminou com dois feitos: o título pelo Corinthians e a artilharia. Corinthians campeão da Liga Nacional Fut7 2026 — Foto: Liga Nacional Fut7
+
+================================================================================
+PERGUNTA: Quem é Cristiano?
+================================================================================
+Data: 26/11/2026 19:31:42
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.360
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N341-C3
+Titulo: Gabriel Jesus treina com o grupo e pode fazer estreia no Barcelona no domingo
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/gabriel-jesus-treina-com-o-grupo-e-pode-fazer-estreia-no-barcelona-no-domingo.ghtml
+Similaridade: 0.360333
+Nota hibrida: 0.700000
+Trecho: Gabriel Jesus em treinamento do Barcelona nesta sexta-feira — Foto: Divulgação/Barcelona Gabriel Jesus foi anunciado como reforço do Barça nesta semana, na reta final da janela de transferências do verão europeu. O brasileiro de 29 anos chegou para reforçar o ataque após a saída de Ferrán Torres para o PSG.
+
+Posicao: 2
+Chunk: N341-C1
+Titulo: Gabriel Jesus treina com o grupo e pode fazer estreia no Barcelona no domingo
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/gabriel-jesus-treina-com-o-grupo-e-pode-fazer-estreia-no-barcelona-no-domingo.ghtml
+Similaridade: 0.339265
+Nota hibrida: 0.672775
+Trecho: Barcelona anuncia a contratação de Gabriel Jesus Gabriel Jesus pode fazer sua estreia pelo Barcelona já no domingo, diante do Valencia, por LaLiga. O atacante brasileiro treinou normalmente com o grupo nesta sexta-feira, de acordo com a imprensa catalã, e estará disponível para o técnico Hansi Flick dias depois de ser contratado pelo clube.
+
+Posicao: 3
+Chunk: N341-C4
+Titulo: Gabriel Jesus treina com o grupo e pode fazer estreia no Barcelona no domingo
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/04/gabriel-jesus-treina-com-o-grupo-e-pode-fazer-estreia-no-barcelona-no-domingo.ghtml
+Similaridade: 0.338307
+Nota hibrida: 0.671538
+Trecho: É o quarto clube da carreira de Gabriel, que antes defendeu Palmeiras, Manchester City e Arsenal. A semana foi corrida para o brasileiro. Gabriel Jesus chegou à Espanha na segunda-feira e foi ao Camp Nou para acompanhar a vitória do Barcelona por 5 a 2 sobre o Rayo Vallecano . O vínculo de Gabriel Jesus com o Barcelona será até 30 de junho de 2029.
+
+================================================================================
+PERGUNTA: Quem é Ronaldo?
+================================================================================
+Data: 26/11/2026 19:31:49
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.712
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Cristiano Ronaldo
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N444-C3
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.712440
+Nota hibrida: 0.867020
+Trecho: Foi o terceiro gol de Cristiano Ronaldo em cinco partidas na temporada 2026/27, iniciada após a última Copa do Mundo da carreira do craque de 41 anos. O camisa 7 também marcou diante do Al-Riyadh e do Al-Taawoun - passou em branco contra Al-Ettifaq e Al-Ittihad.
+
+Posicao: 2
+Chunk: N444-C2
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.611682
+Nota hibrida: 0.865236
+Trecho: Cristiano Ronaldo celebra gol em vitória do Al-Nassr — Foto: Reuters O gol saiu em uma das especialidades do astro, mesmo aos 41 anos. Após cobrança de escanteio pela direita, Cristiano Ronaldo subiu bem entre os marcadores e testou firme, no canto e sem chances para o goleiro adversário, aos 21 do primeiro tempo.
+
+Posicao: 3
+Chunk: N140-C12
+Titulo: Estudiantes x Corinthians: confronto começou há 90 anos e já teve apresentação de Ronaldo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/estudiantes-x-corinthians-confronto-comecou-ha-90-anos-e-ja-teve-apresentacao-de-ronaldo.ghtml
+Similaridade: 0.505626
+Nota hibrida: 0.820071
+Trecho: Morais e Ronaldo no Corinthians, em 2009 — Foto: Daniel Augusto Jr./Agência Corinthians
+
+================================================================================
+PERGUNTA: Quem fez o milésimo gol?
+================================================================================
+Data: 26/11/2026 19:32:08
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.644
+Decisao: GERAR
+
+========== RESPOSTA ==========
+Cristiano Ronaldo
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N444-C1
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.504218
+Nota hibrida: 0.860944
+Trecho: A distância entre Cristiano Ronaldo e o milésimo gol segue diminuindo. O craque português balançou as redes mais uma vez nesta quarta-feira, na vitória do Al-Nassr sobre o Abha, por 2 a 1, em casa, pelo Campeonato Saudita. CR7 abriu o placar e chegou a 979 gols na carreira, ficando a 21 do gol 1.000. Al-Hamdan também marcou para os donos da casa, e Fékir diminuiu para os visitantes.
+
+Posicao: 2
+Chunk: N444-C2
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Similaridade: 0.590315
+Nota hibrida: 0.841378
+Trecho: Cristiano Ronaldo celebra gol em vitória do Al-Nassr — Foto: Reuters O gol saiu em uma das especialidades do astro, mesmo aos 41 anos. Após cobrança de escanteio pela direita, Cristiano Ronaldo subiu bem entre os marcadores e testou firme, no canto e sem chances para o goleiro adversário, aos 21 do primeiro tempo.
+
+Posicao: 3
+Chunk: N63-C5
+Titulo: Nonato alcança estatística rara no Fluminense com gol na Libertadores
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/nonato-alcanca-estatistica-rara-no-fluminense-com-gol-na-libertadores.ghtml
+Similaridade: 0.644485
+Nota hibrida: 0.767988
+Trecho: — Marcar um gol é sempre especial, mas esse teve um gostinho diferente. Por ser um mata-mata de Libertadores e por ter sido o primeiro para dedicar ao meu filho. Estava ansioso por esse momento, e ele veio na melhor hora possível. Foi um resultado importante para a gente, abrir vantagem foi fundamental, mas não tem nada decidido e vamos buscar essa classificação fora de casa — disse o jogador.
+
+================================================================================
+PERGUNTA: Voce vai sair ?
+================================================================================
+Data: 26/11/2026 19:32:34
+Modelo de geracao: Qwen/Qwen2.5-0.5B-Instruct (cpu)
+Modelo de embeddings: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Busca: hibrida (peso denso 0.7)
+Limiar: 0.596 | similaridade maxima: 0.402
+Decisao: ABSTER-SE
+
+========== RESPOSTA ==========
+Não sei com base nos documentos.
+
+========== TRECHOS CANDIDATOS ==========
+
+Posicao: 1
+Chunk: N261-C5
+Titulo: Santi Rodríguez diz que problemas extracampo atrapalharam e revela por que pediu para sair do Botafogo
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/santi-rodriguez-diz-que-problemas-extracampo-atrapalharam-e-revela-por-que-pediu-para-sair-do-botafogo.ghtml
+Similaridade: 0.370454
+Nota hibrida: 0.900470
+Trecho: Conversei com ele para sair, me disse que não queria que eu saísse, mas que não iria me garantir minutos no time. Então, eu falei que aquilo não fazia sentido. E pedi para sair. A negociação foi muito complicada, Botafogo devia muito dinheiro à MLS da minha contratação e da do Almada. Bom, levou tempo. Desde antes da Copa até os últimos dias agora. Foi difícil.
+
+Posicao: 2
+Chunk: N261-C3
+Titulo: Santi Rodríguez diz que problemas extracampo atrapalharam e revela por que pediu para sair do Botafogo
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/santi-rodriguez-diz-que-problemas-extracampo-atrapalharam-e-revela-por-que-pediu-para-sair-do-botafogo.ghtml
+Similaridade: 0.307372
+Nota hibrida: 0.737286
+Trecho: É um pouco diferente do NY, que tinha como objetivo comprar jogadores jovens e revender. Estou feliz, foi uma grande mudança sair do Brasil e voltar para os EUA. Sinceramente, a verdade é que a negociação foi difícil. Eu queria mudar. No Brasil, quando joguei não fui mal. Sinto que desempenhei bem. O Ancelotti me deu toda a confiança.
+
+Posicao: 3
+Chunk: N200-C12
+Titulo: Lescano diz que já pode estrear pelo Vasco e se apresenta à torcida: "Gosto de fazer gols"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/lescano-e-apresentado-como-reforco-do-vasco-veja-respostas.ghtml
+Similaridade: 0.366514
+Nota hibrida: 0.732727
+Trecho: Desde que cheguei, todos me receberam da melhor maneira. Sei que sair da Argentina é um passo importante para mim, mas tinha muita vontade de vir para cá". Conversa com Pedro Emanuel e o que pode oferecer: "Sim, pude conversar com o treinador. Minhas características são contribuir com bom jogo, bola parada e chegada à área. Ele me explicou o que quer de mim, e vou tentar fazer o que ele pedir".
