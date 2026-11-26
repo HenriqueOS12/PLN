@@ -603,3 +603,243 @@ Titulo: Pedro e Samuel Lino, do Flamengo, comemoram convocação para Seleção;
 Data: 09/09/2026
 URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/pedro-e-samuel-lino-do-flamengo-comemoram-convocacao-para-a-selecao-brasileira.ghtml
 Nota da busca: 0.711587
+
+================================================================================
+PERGUNTA: Voce sabia que o Napoleão tem um cavalo branco?
+================================================================================
+Data: 26/11/2026 19:11:35
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Sim, eu conheço isso. O Napoleão tem um cavalo branco. Ele era conhecido por seu estilo de combate e sua habilidade em campo.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Em baixa no Atlético-MG, Cassierra tenta quebrar pior jejum da carreira; veja números
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/em-baixa-no-atletico-mg-cassierra-tenta-quebrar-pior-jejum-da-carreira-veja-numeros.ghtml
+Nota da busca: 0.908320
+
+Posicao: 2
+Titulo: Cristiano Ronaldo marca em vitória do Al-Nassr e fica a 21 gols do milésimo
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/09/cristiano-ronaldo-marca-em-vitoria-do-al-nassr-e-fica-a-21-gols-do-milesimo.ghtml
+Nota da busca: 0.798057
+
+Posicao: 3
+Titulo: AeroZiyech: Botafogo prepara mais uma chegada badalada em aeroporto; veja outras
+Data: 08/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/aeroziyech-botafogo-prepara-mais-uma-chegada-badalada-em-aeroporto-veja-outras.ghtml
+Nota da busca: 0.766685
+
+================================================================================
+PERGUNTA: Qual a cor do cavalo do Napoleão?
+================================================================================
+Data: 26/11/2026 19:11:48
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O cavalo branco do Napoleão.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/corinthians-aguarda-aval-da-cbf-para-estrear-novo-terceiro-uniforme.ghtml
+Nota da busca: 0.934708
+
+Posicao: 2
+Titulo: Em baixa no Atlético-MG, Cassierra tenta quebrar pior jejum da carreira; veja números
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/em-baixa-no-atletico-mg-cassierra-tenta-quebrar-pior-jejum-da-carreira-veja-numeros.ghtml
+Nota da busca: 0.791087
+
+Posicao: 3
+Titulo: Ex-Botafogo e São Paulo faz seu primeiro gol após troca de clube no Japão
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/noticia/2026/09/09/ex-botafogo-e-sao-paulo-faz-seu-primeiro-gol-apos-troca-de-clube-no-japao.ghtml
+Nota da busca: 0.753764
+
+================================================================================
+PERGUNTA: Qual a cidade do Flamengo? Qual o rival do Flamengo? Qual a cidade do Vitoria?
+================================================================================
+Data: 26/11/2026 19:12:22
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O Flamengo está em Belém, Brasil. O rival do Flamengo é o Remo. O Vitoria está em Londres, Reino Unido.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Flamengo chega a Belém com festa, e jogadores vão ao encontro da torcida; veja vídeo
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/05/flamengo-chega-a-belem-com-festa-e-jogadores-vao-ao-encontro-com-a-torcida.ghtml
+Nota da busca: 0.981587
+
+Posicao: 2
+Titulo: Flamengo assume a liderança do Brasileirão 2026 pela primeira vez após empate do Palmeiras
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-assume-a-lideranca-do-brasileirao-pela-primeira-vez-apos-empate-do-palmeiras.ghtml
+Nota da busca: 0.866173
+
+Posicao: 3
+Titulo: Flamengo desembarca em Quito para jogo das quartas de final da Libertadores
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-desembarca-em-quito-para-jogo-das-quartas-de-final-da-libertadores.ghtml
+Nota da busca: 0.821655
+
+================================================================================
+PERGUNTA: Me diga um time de Belém
+================================================================================
+Data: 26/11/2026 19:12:57
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+A equipe que você mencionou é o Flamengo. É um time de Belém, Brasil.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Flamengo chega a Belém com festa, e jogadores vão ao encontro da torcida; veja vídeo
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/05/flamengo-chega-a-belem-com-festa-e-jogadores-vao-ao-encontro-com-a-torcida.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Flamengo assume a liderança do Brasileirão 2026 pela primeira vez após empate do Palmeiras
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-assume-a-lideranca-do-brasileirao-pela-primeira-vez-apos-empate-do-palmeiras.ghtml
+Nota da busca: 0.677920
+
+Posicao: 3
+Titulo: Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/analise-flamengo-vira-lider-do-brasileirao-com-futebol-vistoso-ate-debaixo-de-temporal.ghtml
+Nota da busca: 0.675756
+
+================================================================================
+PERGUNTA: Flamengo não fica no Rio de Janeiro?
+================================================================================
+Data: 26/11/2026 19:13:16
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Sim, o Flamengo não fica no Rio de Janeiro. Ele está em Belém, no Parque Olímpico do Rio de Janeiro.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Flamengo chega a Belém com festa, e jogadores vão ao encontro da torcida; veja vídeo
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/05/flamengo-chega-a-belem-com-festa-e-jogadores-vao-ao-encontro-com-a-torcida.ghtml
+Nota da busca: 0.999200
+
+Posicao: 2
+Titulo: Plata chega a Belém em meio a "climão" com o Flamengo, que relaciona atacante na Libertadores
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/plata-chega-a-belem-em-meio-a-climao-com-o-flamengo-que-relaciona-atacante-na-libertadores.ghtml
+Nota da busca: 0.754530
+
+Posicao: 3
+Titulo: Flamengo espera a volta de Plata neste domingo e se irrita com atraso na reapresentação
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-espera-volta-de-plata-neste-domingo-e-se-irrita-com-demora-em-reapresentacao.ghtml
+Nota da busca: 0.669114
+
+================================================================================
+PERGUNTA: Me diga um ex-jogador do Flamengo
+================================================================================
+Data: 26/11/2026 19:13:39
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Samuel Lino.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Flamengo chega a Belém com festa, e jogadores vão ao encontro da torcida; veja vídeo
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/05/flamengo-chega-a-belem-com-festa-e-jogadores-vao-ao-encontro-com-a-torcida.ghtml
+Nota da busca: 0.926385
+
+Posicao: 2
+Titulo: Flamengo assume a liderança do Brasileirão 2026 pela primeira vez após empate do Palmeiras
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-assume-a-lideranca-do-brasileirao-pela-primeira-vez-apos-empate-do-palmeiras.ghtml
+Nota da busca: 0.867864
+
+Posicao: 3
+Titulo: Flamengo libera Cebolinha, que avalia transferência e não enfrenta o Del Valle na Libertadores
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/cebolinha-e-liberado-pelo-flamengo-para-tratar-de-transferencia-e-nao-enfrenta-o-del-valle-na-libertadores.ghtml
+Nota da busca: 0.858947
+
+================================================================================
+PERGUNTA: Qual a cor do cavalo branco do João?
+================================================================================
+Data: 26/11/2026 19:14:11
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O cavalo branco do João é preto.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Flamengo chega a Belém com festa, e jogadores vão ao encontro da torcida; veja vídeo
+Data: 05/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/05/flamengo-chega-a-belem-com-festa-e-jogadores-vao-ao-encontro-com-a-torcida.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Samuel Lino amplia repertório com gol de biquinho ao estilo Romário e volta a dar liga com Arrascaeta
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/samuel-lino-amplia-repertorio-com-biquinho-do-romario-e-volta-a-dar-liga-com-arrascaeta-no-flamengo.ghtml
+Nota da busca: 0.875316
+
+Posicao: 3
+Titulo: Flamengo assume a liderança do Brasileirão 2026 pela primeira vez após empate do Palmeiras
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-assume-a-lideranca-do-brasileirao-pela-primeira-vez-apos-empate-do-palmeiras.ghtml
+Nota da busca: 0.865550
+
+================================================================================
+PERGUNTA: E qual a cor do cavalor BRANCO do Napoleão?
+================================================================================
+Data: 26/11/2026 19:14:27
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O cavalor BRANCO do Napoleão é preto.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Corinthians aguarda aval da CBF para estrear novo terceiro uniforme
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/corinthians-aguarda-aval-da-cbf-para-estrear-novo-terceiro-uniforme.ghtml
+Nota da busca: 0.899978
+
+Posicao: 2
+Titulo: Abel Ferreira é punido com dois jogos de suspensão por chutar microfone e desfalca Palmeiras
+Data: 04/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/04/abel-ferreira-e-punido-com-dois-jogos-de-suspensao-por-chutar-microfone-e-desfalca-palmeiras.ghtml
+Nota da busca: 0.843541
+
+Posicao: 3
+Titulo: Em baixa no Atlético-MG, Cassierra tenta quebrar pior jejum da carreira; veja números
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/09/em-baixa-no-atletico-mg-cassierra-tenta-quebrar-pior-jejum-da-carreira-veja-numeros.ghtml
+Nota da busca: 0.800786
