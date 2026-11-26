@@ -1,0 +1,138 @@
+
+================================================================================
+PERGUNTA: Por que a torcida do Corinthians protestou?
+================================================================================
+Data: 25/11/2026 22:17:29
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+A torcida do Corinthians protestou porque o time não conseguiu empatar contra a Chapecoense, o campeão da Copa Libertadores. A torcida cantou "time sem vergonha" em protesto à atuação ofensiva do time que resultou na quarta derrota consecutiva no Brasileirão.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
+Nota da busca: 0.992953
+
+Posicao: 2
+Titulo: Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/torcida-vaia-corinthians-apos-quarta-derrota-seguida-no-brasileirao-e-protesta-time-sem-vergonha.ghtml
+Nota da busca: 0.961429
+
+Posicao: 3
+Titulo: Mosaico de comemoração de 116 anos do Corinthians despenca
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml
+Nota da busca: 0.906328
+
+================================================================================
+PERGUNTA: E o que o técnico disse sobre isso?
+================================================================================
+Data: 25/11/2026 22:18:41
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+O técnico Fernando Diniz, do Corinthians, disse que o time não perdia quatro seguidas no Brasileirão desde 2007, quando foi rebaixado para a Série B. Ele explicou que isso ocorreu porque o clube estava sendo superado por outros times naquele período. Diniz enfatizou que o Corinthians não tinha sentido de urgência para voltar a vencer no Campeonato Brasileiro. Ele também comentou sobre a presença de torcedores em apoio ao time durante os jogos, destacando que três desses jogos foram realizados na Neo Química Arena, em São Paulo, onde a arquibancada tinha cerca de 37 mil pessoas.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Diniz elogia mudança de postura do Corinthians na Libertadores: "É o que a torcida merece"
+Data: 10/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/diniz-elogia-mudanca-de-postura-do-corinthians-na-libertadores-e-o-que-a-torcida-merece.ghtml
+Nota da busca: 1.000000
+
+Posicao: 2
+Titulo: Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: "Time sem vergonha"
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/torcida-vaia-corinthians-apos-quarta-derrota-seguida-no-brasileirao-e-protesta-time-sem-vergonha.ghtml
+Nota da busca: 0.829824
+
+Posicao: 3
+Titulo: Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/corinthians-nao-perdia-quatro-seguidas-no-brasileirao-desde-2007-ano-do-rebaixamento.ghtml
+Nota da busca: 0.806273
+
+================================================================================
+PERGUNTA: Corinthian
+================================================================================
+Data: 25/11/2026 22:18:46
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: manual
+
+========== RESPOSTA ==========
+Não há notícias disponíveis sobre o Corinthians nesta data.
+
+========== NOTICIAS USADAS ==========
+Nenhuma noticia encontrada.
+
+================================================================================
+PERGUNTA: Quais jogadores do Flamengo foram convocados para a Seleção?
+================================================================================
+Data: 25/11/2026 22:20:54
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: LangGraph (sessao 24ee4c4a-2fcc-4150-8d92-f81c08f2bc23)
+
+========== RESPOSTA ==========
+Os seguintes jogadores do Flamengo foram convocados para a Seleção:
+
+1. Pedro
+2. Samuel Lino
+
+Ambos são jogadores convocados para o Mundial de 2026 pela seleção brasileira.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Convocação da Seleção: veja a lista de Carlo Ancelotti para os amistosos contra Austrália e Índia
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/09/convocacao-da-selecao-veja-a-lista-de-carlo-ancelotti-para-os-amistosos-contra-australia-e-india.ghtml
+Nota da busca: 0.991466
+
+Posicao: 2
+Titulo: Pedro e Samuel Lino, do Flamengo, comemoram convocação para Seleção; veja
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/pedro-e-samuel-lino-do-flamengo-comemoram-convocacao-para-a-selecao-brasileira.ghtml
+Nota da busca: 0.963258
+
+Posicao: 3
+Titulo: Jorginho, do Flamengo, está na pré-lista da seleção italiana
+Data: 09/09/2026
+URL: https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/jorginho-do-flamengo-esta-na-pre-lista-da-selecao-italiana.ghtml
+Nota da busca: 0.962988
+
+================================================================================
+PERGUNTA: Qual foi o resultado de Palmeiras x Botafogo?
+================================================================================
+Data: 25/11/2026 22:21:25
+Modelo: Qwen/Qwen2.5-0.5B-Instruct (CPU)
+Memoria: LangGraph (sessao e7581013-b256-45c1-ba04-3f2e6be17d6d)
+
+========== RESPOSTA ==========
+Palmeiras venceu Botafogo por 1 a 0.
+
+========== NOTICIAS USADAS ==========
+
+Posicao: 1
+Titulo: Análise: Palmeiras desanda, perde vantagem e sai da liderança do Brasileiro depois de cinco meses
+Data: 07/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/analise-palmeiras-desanda-perde-vantagem-e-sai-da-lideranca-do-brasileiro-depois-de-cinco-meses.ghtml
+Nota da busca: 0.993334
+
+Posicao: 2
+Titulo: Palmeiras perde Marlon Freitas e Barboza para o clássico contra o São Paulo
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/palmeiras-perde-marlon-freitas-e-barboza-para-o-classico-contra-o-sao-paulo.ghtml
+Nota da busca: 0.917426
+
+Posicao: 3
+Titulo: Retirado de bandeirão de ídolos, Marlon Freitas reencontra torcida do Botafogo após saída polêmica
+Data: 06/09/2026
+URL: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/retirado-de-bandeirao-de-idolos-marlon-freitas-reencontra-torcida-do-botafogo-apos-saida-polemica.ghtml
+Nota da busca: 0.896138
